@@ -55,6 +55,11 @@
           "title": "draft",
           "name": "draft",
           "type": "boolean"
+        },
+        {
+            "title": "font",
+            "name": "font",
+            "type": "string"
         }
       ]
     }
