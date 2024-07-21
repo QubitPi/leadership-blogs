@@ -87,6 +87,62 @@ draft: false
     ├── cover.png
     └── index.md
 &lt;/code&gt;&lt;/pre&gt;
+</content:encoded></item><item><title>History of Management</title><link>https://leadership.qubitpi.org/posts/history-of-management/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/history-of-management/</guid><description>History of Management</description><pubDate>Sun, 21 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;My background of Physics told me to truly master a concept, one cannot ignore its origin. If I teach you Maxwell
+equations now you would end up with a blank mind. You need to start with &quot;what is an electric charge&quot;, &quot;what is a
+field&quot;, and &quot;how a moving charge could produce magnetic field&quot; so on and so forth. At the end of the day, you will be
+making a perfect sense of what Maxell equations mean. It it only through this way you can start applying Maxwell&apos;s
+equations and solve real-worl problems.&lt;/p&gt;
+&lt;p&gt;Management, and everything else in our live, goes like this.&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Management#History&quot;&gt;Wikipedia&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The field of management originated in ancient China, including possibly the first highly centralized bureaucratic state,
+and the earliest (by the second century BC) example of an administration based on merit through testing. Some theorists
+have cited ancient military texts as providing lessons for civilian managers. For example, Chinese general Sun Tzu in
+his 6th-century BC work The Art of War recommends[citation needed] (when re-phrased in modern terminology) being aware
+of and acting on strengths and weaknesses of both a manager&apos;s organization and a foe&apos;s.&lt;/p&gt;
+&lt;p&gt;:::note[《孙子兵法，孙膑兵法》下载]
+&lt;a href=&quot;https://zhuanlan.zhihu.com/p/386890361&quot;&gt;中华经典藏书.中华书局·电子书· PDF合集&lt;/a&gt;
+:::&lt;/p&gt;
+&lt;p&gt;The writings of influential Chinese Legalist philosopher Shen Buhai (申子) may be considered to embody a rare premodern example
+of abstract theory of administration.&lt;/p&gt;
+&lt;p&gt;:::note[Key Takeaway]
+&lt;a href=&quot;https://forum.freemdict.com/t/topic/24650/3&quot;&gt;多读一读诸子百家的书籍&lt;/a&gt;，发掘里面的管理学经验
+:::&lt;/p&gt;
+&lt;p&gt;Various ancient and medieval civilizations produced
+&quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/Mirrors_for_princes&quot;&gt;mirrors for princes&lt;/a&gt;&quot; books, which aimed to advise new monarchs on
+how to govern. Examples includes &lt;em&gt;The Prince&lt;/em&gt; by Italian author Niccolò Machiavelli&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;https://www.reddit.com/r/AskHistorians/comments/3jk7uk/is_there_any_management_theory_literature_that_we/&quot;&gt;Reddit&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;in the De &lt;a href=&quot;https://trello.com/c/cKS8d0bp&quot;&gt;Administrando Imperio&lt;/a&gt; of Constantine Porphyrogenitus. Constantine had this
+written/compiled as advice to his son, Romanus. It functions as a practical manual, with a heavy foreign policy
+emphasis, on how to be a good emperor. Unlike some advice written by emperors and historians, this one is not a
+panegyric or solely praise; rather, it is candid and informative policy. Furthermore, it is (mostly) secular and
+research-based; though, the bit on the &quot;obscene&quot; and &quot;blasphemous&quot; Mohammed is obviously biased.&lt;/p&gt;
+&lt;p&gt;R.J.H. Jenkins, in his introduction to the De Administrando Imperio, describes Constantine’s attempt at teaching
+&quot;practical wisdom&quot; to his son by:&lt;/p&gt;
+&lt;p&gt;:::important[Scrutiny of the historical documents]
+writing or causing to be written histories of recent events and manuals of technical instruction on the various
+departments of business and administration… Documents from the files of every branch of the administration, from the
+foreign ministry, the treasury, the offices of ceremonial, were scrutinized and abstracted.
+:::&lt;/p&gt;
+&lt;p&gt;One of its key elements was a &quot;summary of the recent internal history, politics, and organization within the borders of
+the empire.&quot; Far from being a piece of rhetoric or self-absorbed thought, the document contains enormous, albeit
+intermittently erroneous, research and careful analysis. This is “no partial document of propaganda… to impress domestic
+or foreign circles.&quot;&lt;/p&gt;
+&lt;p&gt;From Jenkins,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Provincial governors and imperial envoys wrote historical and topographical reports on the areas of their jurisdiction
+or assignment. Foreign ambassadors were diligently questioned as to the affairs of their respective countries.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One of the interesting things to note about the Administrando was its secret nature, having been written as advice for
+Constantine&apos;s son, Romanus; it acts as part succession letter, part compilation, and part &quot;confidential&quot;
+advice/information.&lt;/p&gt;
+&lt;p&gt;As the emperor puts it,&lt;/p&gt;
+&lt;p&gt;:::tip[On &quot;Knowing the difference between being-managed&quot;]
+it is not for those who wish to govern lawfully to copy and emulate what has been ill done by some out of ignorance or
+arrogance, but rather to have the glorious deeds of those who have ruled lawfully and righteously as noble pictures set
+up for an example to be copied, and after their pattern to strive himself also to direct all that he does... it may
+greatly advantage you… [to know] the difference between other nations, their origins and customs and manner of life, and
+the position and climate of the land they dwell in...
+:::&lt;/p&gt;
 </content:encoded></item><item><title>Managing Tech Assets - Is a Common Library a Good Idea? No</title><link>https://leadership.qubitpi.org/posts/managing-tech-assets-common-lib-or-not/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/managing-tech-assets-common-lib-or-not/</guid><description>Managing Tech Assets - Is a Common Library a Good Idea? No</description><pubDate>Wed, 17 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;A Story - A Person Created a Common Library and Then...&lt;/h2&gt;
 &lt;p&gt;&quot;Embarrassingly I introduced a &quot;common&quot; library, named as such, in a team environment a couple of decades back.
 I didn&apos;t really understand the dynamics back then of what could happen in a loosely-coordinated team setting in just a
@@ -348,127 +404,6 @@ math should get its own line and be put in in double-dollarsigns:&lt;/p&gt;
 &lt;p&gt;$$I = \int \rho R^{2} dV$$&lt;/p&gt;
 &lt;p&gt;And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: `foo`, *bar*, etc.&lt;/p&gt;
-</content:encoded></item><item><title>Strategies To Help Employees Adapt to New Technology in the Workplace</title><link>https://leadership.qubitpi.org/posts/strategies-to-help-employees-adapt-to-new-technology/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/strategies-to-help-employees-adapt-to-new-technology/</guid><description>Strategies To Help Employees Adapt to New Technology in the Workplace</description><pubDate>Wed, 17 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Companies should digitally transform themselves to thrive in today&apos;s rapidly-changing world. However, they may face
-stiff resistance from employees when adopting new tech.&lt;/p&gt;
-&lt;p&gt;There are many reasons workers resist new technology, including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Feeling excluded from the decision-making process.&lt;/li&gt;
-&lt;li&gt;Lack of communication from management.&lt;/li&gt;
-&lt;li&gt;Failing to see the benefits.&lt;/li&gt;
-&lt;li&gt;Resenting perceived interference from management.&lt;/li&gt;
-&lt;li&gt;Lack of confidence around technology.&lt;/li&gt;
-&lt;li&gt;Failing to see a use for it.&lt;/li&gt;
-&lt;li&gt;Feeling threatened and unappreciated.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Asking Employees for Their Input&lt;/h2&gt;
-&lt;p&gt;Let&apos;s start by tackling the first reason workers resist new technology: feeling excluded from the decision-making
-process.&lt;/p&gt;
-&lt;p&gt;Before you rush out and buy new tech, you need to consult your employees. This doesn&apos;t have to be a formal interview.
-For instance, you could:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Send a questionnaire to employees&lt;/strong&gt; about the tech they currently use and what would make their job easier. Is their
-solution the same as yours? Your idea of the best team task management software may not be the same as that of your
-employees. Use software such as Qualtrics or SurveyMonkey to create easily accessible surveys that can be sent across
-the company. By sending a questionnaire straight to employees&apos; inboxes, you can quickly collect valuable feedback on
-what software would benefit them most.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Optimize tech for each employee&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Asking employees for their input not only increases the likelihood of them using the new tech but also shows that you
-appreciate them. And employees who feel appreciated are more productive.&lt;/p&gt;
-&lt;h2&gt;Communicating the Benefits&lt;/h2&gt;
-&lt;p&gt;This strategy combats two causes of worker resistance:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Lack of communication from management.&lt;/li&gt;
-&lt;li&gt;Failing to see the benefits of new technology.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Transparency is vital when bringing in tech that affects how employees do their job. Open dialog is the best way to
-promote transparency and ease the transition from old to new.&lt;/p&gt;
-&lt;p&gt;Consider hosting a video meeting to communicate the benefits of the new technology and encourage questions and feedback
-so you can deal with any issues that may arise.&lt;/p&gt;
-&lt;p&gt;After the meeting, provide a place where employees can continue to ask questions and where you can provide updates.
-Create a group on the instant messaging software you use in-house and send regular email updates to keep employees in
-the loop.&lt;/p&gt;
-&lt;p&gt;But many businesses are failing to promote transparency through open dialog. There&apos;s a big difference between companies
-that outperform their rivals and those that don&apos;t.&lt;/p&gt;
-&lt;p&gt;Employees are more likely to accept new tech if you answer the question, &quot;What&apos;s in it for me?&quot; So, if you think cloud
-computing will make remote sales management easier, tell people! Explain how the new tech will benefit them, and do your
-best to address their concerns.&lt;/p&gt;
-&lt;p&gt;This is particularly important with less tech-savvy employees since they&apos;re the ones who&apos;ll feel the most unsettled.&lt;/p&gt;
-&lt;h2&gt;Recruiting Tech-Savvy Volunteers&lt;/h2&gt;
-&lt;p&gt;Let&apos;s imagine you&apos;re looking to adopt software to help build your affiliate marketing sales funnel. Recruiting a few
-volunteers from your marketing team to try out the software could answer questions like:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;How easy is it to use the software?&lt;/li&gt;
-&lt;li&gt;How will the software benefit the marketing team?&lt;/li&gt;
-&lt;li&gt;What&apos;s the best way to sell it to the rest of the team?&lt;/li&gt;
-&lt;li&gt;Will it create new challenges or address existing ones?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Use these insights to shape how you go about the rest of your rollout.&lt;/p&gt;
-&lt;p&gt;You can also use these tech-savvy volunteers to promote the new technology to their colleagues. Maybe they could be the
-ones to host the video meeting to introduce the technology to the team. This will minimize any resentment employees feel
-about your perceived interference in how they work. These volunteers can also help with the next strategy: providing
-adequate training.&lt;/p&gt;
-&lt;h2&gt;Providing Adequate Training&lt;/h2&gt;
-&lt;p&gt;Training boosts employees&apos; confidence around unfamiliar tech and makes them more likely to accept it. You should
-schedule training sessions both during and after the introduction of the new tech to help everyone get familiar with it.
-But remember - when it comes to learning, there&apos;s no such thing as one-size-fits-all&lt;/p&gt;
-&lt;p&gt;Here are some more training tips to think about:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Make training fun&lt;/strong&gt;. Employees will retain more information if the training is enjoyable. They&apos;re also more likely
-to attend!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Split training up&lt;/strong&gt;. Don&apos;t give employees all the training in one go. Splitting training into shorter chunks will
-help keep them engaged. Consider using microlearning software as employees can learn and test their knowledge in small
-bite-size chunks.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create an SOP&lt;/strong&gt;. Create a standard operating procedure document that employees can refer to if they forget any of
-the training.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If in doubt, think about what helps you learn. And then do that.&lt;/p&gt;
-&lt;h2&gt;Use Guided Learning&lt;/h2&gt;
-&lt;p&gt;Don&apos;t sit employees down and talk at them for two hours. Hold workshops that combine training with doing. For example,
-instructors could give employees bite-sized chunks of information. Then employees could try it out for themselves. This
-kind of guided learning helps employees remember what to do because they&apos;ve actually done it.&lt;/p&gt;
-&lt;p&gt;Tailor workshops by individual, so employees only learn what they need for their job, not everyone else&apos;s.&lt;/p&gt;
-&lt;p&gt;You should also bear in mind that some employees are less tech-savvy than others. If your company is adopting a cloud
-communications platform, some employees will know all about it, while others will be wondering, &quot;what is cloud
-communications&quot;?&lt;/p&gt;
-&lt;p&gt;This is a good time to bring in your tech-savvy volunteers. Pair them with colleagues who are less confident with
-technology so they can help their colleagues get up to speed.&lt;/p&gt;
-&lt;h2&gt;Let Employees Learn on Their Own&lt;/h2&gt;
-&lt;p&gt;Some employees need hand-holding at every stage during training. Others learn best on their own. In fact, more and more
-workers in all age groups want fully independent learning.&lt;/p&gt;
-&lt;p&gt;So it&apos;s important to facilitate self-guided learning. You can do this by:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Creating playground environment&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Providing online resources&lt;/strong&gt; for employees to work through if they need a refresher. Try to provide a mixture of
-resources, like step-by-step guides, infographics, audio recordings, and videos. All of these could be managed through
-a learning management system (LMS) which will help keep track of all training and enable you to identify any areas
-where you can improve.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Giving Employees a Reason to Use It&lt;/h2&gt;
-&lt;p&gt;Sometimes employees may still need convincing of the need to use new technology. Ongoing training can help with this,
-but so can applying the principles of A/B testing ideas (comparing one version of an asset with another) to your
-rollout. You might try:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Holding a workshop&lt;/strong&gt; where everyone tries out the new tech and compares it to the old. A virtual classroom is a
-useful option. It provides an engaging environment for learners to develop their skills and enables you to gather
-vital data on how successful the training is.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Having a friendly competition&lt;/strong&gt; where one team uses the old tech and one team uses the new tech to see which is
-better. Use training software with integrated gamification with leaderboards and reward badges for encouraging
-employees to participate.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Providing incentives for people to use the new tech can also help. A small bonus or even an office trophy could be all
-it takes to encourage people to try it out. And keeping up a dialog will help you quickly address any concerns or
-issues.&lt;/p&gt;
-&lt;h2&gt;Celebrating Success&lt;/h2&gt;
-&lt;p&gt;Just as your company should have a customer-centric culture, it should also have an employee-centric culture. This means
-celebrating success, no matter how small. If an employee does something in record time because of the new tech, make
-sure everyone knows about it! Your marketing department can promote your business to employees as well as customers.&lt;/p&gt;
-&lt;p&gt;It&apos;s also important to reward employees for their contributions. Employees who make the best use of the new tech should
-be paid accordingly, especially if they boost the business&apos;s revenue.&lt;/p&gt;
-&lt;p&gt;If employees know you reward success, they&apos;ll be more motivated to adopt the new tech. They&apos;ll also be more likely to
-adopt new tech in the future.&lt;/p&gt;
-&lt;p&gt;Employees resist new technology for all sorts of reasons. Understanding those reasons is the first step to helping them
-adapt to new technology. The next step is using the tried-and-tested strategies outlined in this post&lt;/p&gt;
 </content:encoded></item><item><title>Include Video in the Posts</title><link>https://leadership.qubitpi.org/posts/video/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/video/</guid><description>This post demonstrates how to include embedded video in a blog post.</description><pubDate>Tue, 01 Aug 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;---
 title: Include Video in the Post
