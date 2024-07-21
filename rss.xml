@@ -1,21 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Jack&apos;s Leadership Blog</title><description>Leadership is, at root, about Influencing Others</description><link>https://leadership.qubitpi.org/</link><language>en</language><item><title>Develop - and Retain - Your High Performers</title><link>https://leadership.qubitpi.org/posts/develop-and-retain-high-performers/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/develop-and-retain-high-performers/</guid><description>Develop - and Retain - Your High Performers</description><pubDate>Wed, 17 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;While most employees strive to excel, being a high performer can come with drawbacks, including high-pressure goals,
-meeting overload, and reduced flexibility. Retaining your high performers - and developing new ones - is critical in
-today&apos;s uncertain, fast-paced business environment. Here&apos;s how to do it.&lt;/p&gt;
-&lt;p&gt;This tip is adapted from
-&quot;&lt;a href=&quot;https://hbr.org/2024/06/3-ways-to-build-a-culture-that-lets-high-performers-thrive&quot;&gt;3 Ways to Build a Culture That Lets High Performers Thrive&lt;/a&gt;&quot; by Lindsay
-McGregor and Neel Doshi&lt;/p&gt;
-&lt;h2&gt;Minimize Meetings&lt;/h2&gt;
-&lt;p&gt;Cut down on unnecessary meetings to free up your employees&apos; time for truly impactful work. This means establishing a
-simple, predictable weekly meeting schedule for your team, as well as optimizing your one-on-ones.&lt;/p&gt;
-&lt;h2&gt;Measure Motivation&lt;/h2&gt;
-&lt;p&gt;Use surveys regularly to assess your team members&apos; motivation and understand what excites or creates stress for them.
-For example, ask: What habits does the team want to improve? What are some specific ideas to improve those habits? Then
-create quarterly improvement plans to address any pain points.&lt;/p&gt;
-&lt;h2&gt;Mentor High-Potential Employees on Key Skills&lt;/h2&gt;
-&lt;p&gt;To ensure your high performers feel challenged and your developing employees are growing, schedule quarterly
-skill-development meetings for each of your direct reports. Use that time to identify one concrete, high-leverage skill
-(think problem-solving or leadership) for them to improve in the next quarter.&lt;/p&gt;
-</content:encoded></item><item><title>Draft Example</title><link>https://leadership.qubitpi.org/posts/draft/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/draft/</guid><pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;This Article is a Draft&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Jack&apos;s Leadership Blog</title><description>Leadership is, at root, about Influencing Others</description><link>https://leadership.qubitpi.org/</link><language>en</language><item><title>Draft Example</title><link>https://leadership.qubitpi.org/posts/draft/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/draft/</guid><pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;This Article is a Draft&lt;/h1&gt;
 &lt;p&gt;This article is currently in a draft state and is not published. Therefore, it will not be visible to the general audience. The content is still a work in progress and may require further editing and review.&lt;/p&gt;
 &lt;p&gt;When the article is ready for publication, you can update the &quot;draft&quot; field to &quot;false&quot; in the Frontmatter:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;---
@@ -404,6 +387,42 @@ math should get its own line and be put in in double-dollarsigns:&lt;/p&gt;
 &lt;p&gt;$$I = \int \rho R^{2} dV$$&lt;/p&gt;
 &lt;p&gt;And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: `foo`, *bar*, etc.&lt;/p&gt;
+</content:encoded></item><item><title>Reading Notes of &quot;De Administrando Imperio&quot;</title><link>https://leadership.qubitpi.org/posts/reading-notes-de-administrando-imperio/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-notes-de-administrando-imperio/</guid><description>A peek into how an emperor manages his nation</description><pubDate>Sun, 21 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Constantine VII Porphyrogenitus (905 - 959) was the fourth Byzantine emperor of the Macedonian dynasty,&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./macedonian-dynasty.png&quot; alt=&quot;Error loading macedonian-dynasty.png&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Byzantine_Empire_under_the_Macedonian_dynasty&quot;&gt;Byzantine Empire under the Macedonian dynasty&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;On Relations with Pechenegs&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;./pechenegs.png&quot; alt=&quot;Error loading pechenegs.png&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Pechenegs&quot;&gt;The Pechenegs and contemporary Asian polities circa 1000 CE.&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Keeping Peace with the Nation of the Pechenegs&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Send every year to them from our side a diplomatic agent with presents&lt;/li&gt;
+&lt;li&gt;Take from their side hostages and a diplomatic agent&lt;/li&gt;
+&lt;li&gt;A broken friendship with them may cause them invading &lt;a href=&quot;https://en.wikipedia.org/wiki/Cherson_(theme)&quot;&gt;Cherson&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Dealing with Pechenegs and Russians Together&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;When the two are not at peace with each other, &lt;strong&gt;raid Russia hard&lt;/strong&gt; &amp;lt;img /&amp;gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Russia have to maintain a relationship with Pechenegs because&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It imports indispensable goods from Pechenegs&lt;/li&gt;
+&lt;li&gt;Russian cannot safely conduct distant and massive invasion unless Pachenegs are happy with not sneak attacking their
+homes at the back&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We don&apos;t have to worry about the Russians in terms of both war and trade if P &amp;amp; R are not happy with each other anyway&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;:::important
+Managing relationships among parties is about prioritizing the power &amp;amp; strength among them
+:::&lt;/p&gt;
 </content:encoded></item><item><title>Include Video in the Posts</title><link>https://leadership.qubitpi.org/posts/video/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/video/</guid><description>This post demonstrates how to include embedded video in a blog post.</description><pubDate>Tue, 01 Aug 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;---
 title: Include Video in the Post
