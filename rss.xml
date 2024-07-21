@@ -388,9 +388,9 @@ math should get its own line and be put in in double-dollarsigns:&lt;/p&gt;
 &lt;p&gt;And note that you can backslash-escape any punctuation characters
 which you wish to be displayed literally, ex.: `foo`, *bar*, etc.&lt;/p&gt;
 </content:encoded></item><item><title>Reading Notes of &quot;De Administrando Imperio&quot;</title><link>https://leadership.qubitpi.org/posts/reading-notes-de-administrando-imperio/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-notes-de-administrando-imperio/</guid><description>A peek into how an emperor manages his nation</description><pubDate>Sun, 21 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Constantine VII Porphyrogenitus (905 - 959) was the fourth Byzantine emperor of the Macedonian dynasty,&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./macedonian-dynasty.png&quot; alt=&quot;Error loading macedonian-dynasty.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./easter-roman-empire.png&quot; alt=&quot;Error loading easter-roman-empire.png&quot; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Byzantine_Empire_under_the_Macedonian_dynasty&quot;&gt;Byzantine Empire under the Macedonian dynasty&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/Map_Porn/comments/81ren9/1715_map_of_the_eastern_roman_empire_under/&quot;&gt;1715 map of the Eastern Roman Empire under Constantine VII Porphyrogenitus&apos;s reign in the 10th Century by Guillaume De L&apos;Isle&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;On Relations with Pechenegs&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;./pechenegs.png&quot; alt=&quot;Error loading pechenegs.png&quot; /&gt;&lt;/p&gt;
@@ -416,13 +416,11 @@ which you wish to be displayed literally, ex.: `foo`, *bar*, etc.&lt;/p&gt;
 homes at the back&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;We don&apos;t have to worry about the Russians in terms of both war and trade if P &amp;amp; R are not happy with each other anyway&lt;/p&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;:::important
 Managing relationships among parties is about prioritizing the power &amp;amp; strength among them
 :::&lt;/p&gt;
+&lt;h3&gt;Of the Dispatch of Imperial Agents from Cherson to &lt;a href=&quot;https://www.reddit.com/r/Map_Porn/comments/81ren9/comment/dv5u195/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;Patzinacia (Pechenegs)&lt;/a&gt;&lt;/h3&gt;
 </content:encoded></item><item><title>Include Video in the Posts</title><link>https://leadership.qubitpi.org/posts/video/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/video/</guid><description>This post demonstrates how to include embedded video in a blog post.</description><pubDate>Tue, 01 Aug 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;---
 title: Include Video in the Post
