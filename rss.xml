@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Jack&apos;s Leadership Blog</title><description>Leadership is, at root, about Influencing Others</description><link>https://leadership.qubitpi.org/</link><language>en</language><item><title>박동훈 상무 승인</title><link>https://leadership.qubitpi.org/posts/%EB%82%98%EC%9D%98-%EC%95%84%EC%A0%80%EC%94%A8-%EC%83%81%EB%AC%B4-%EC%8A%B9%EC%9D%B8/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/%EB%82%98%EC%9D%98-%EC%95%84%EC%A0%80%EC%94%A8-%EC%83%81%EB%AC%B4-%EC%8A%B9%EC%9D%B8/</guid><description>&quot;박동훈 상무 승인!&quot; 기나긴 싸움 끝에 상무로 승진한 박동훈
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Jack&apos;s Leadership Blog</title><description>Leadership is, at root, about Influencing Others</description><link>https://leadership.qubitpi.org/</link><language>en</language><item><title>Literate Programming</title><link>https://leadership.qubitpi.org/posts/literate-programming/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/literate-programming/</guid><description>Shaping a Tech team culture toward literate programming
+</description><pubDate>Wed, 07 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I was studying Jupyter Documentation and stumbled upon &lt;a href=&quot;https://jupyter-docs.qubitpi.org/en/latest/what_is_jupyter.html&quot;&gt;this article&lt;/a&gt;
+which introduced to me the first time &lt;strong&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Literate_programming&quot;&gt;Literate Programming&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I &lt;a href=&quot;http://www.literateprogramming.com/knuthweb.pdf&quot;&gt;read about it&lt;/a&gt; and ended up couldn&apos;t agree with it more. Literate
+Programming significantly improves documentation of programs for human by concentrating on explaining to &lt;em&gt;human beings&lt;/em&gt;
+what we want a computer to do.&lt;/p&gt;
+&lt;p&gt;The practitioner of literate programming can be regarded as an essayist, whose main concern is with exposition and
+excellence of style. Such an author, with thesaurus in hand, chooses the names of variables carefully and explains what
+each variable means. He or she strives for a program that is comprehensible because its concepts have been introduced in
+an order that is best for human understanding, using a mixture of formal and informal methods that reinforce each other.&lt;/p&gt;
+&lt;p&gt;As a leader who has been a beneficiary of excellent code readability and maintainability, it is my responsibility to
+coach my team to follow the same practice of Literate Programming.&lt;/p&gt;
+&lt;p&gt;Literate Programming has her perfect fit in &lt;a href=&quot;https://jupyter-notebook-docs.qubitpi.org&quot;&gt;Jupyter Notebooks&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://qubitpi.github.io/writethedocs/&quot;&gt;Write the Docs&lt;/a&gt; focuses on how a programmer writes better documentations&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://trello.com/c/5W6W5T0b&quot;&gt;Clean code&lt;/a&gt; goes deeper in a systematic way&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Those above are for engineers. But how about the manager or leader to leads the team? How would we boost a proactive
+mindset among the team where each one of them has the consciousness?&lt;/p&gt;
+&lt;p&gt;To be continued...&lt;/p&gt;
+</content:encoded></item><item><title>박동훈 상무 승인</title><link>https://leadership.qubitpi.org/posts/%EB%82%98%EC%9D%98-%EC%95%84%EC%A0%80%EC%94%A8-%EC%83%81%EB%AC%B4-%EC%8A%B9%EC%9D%B8/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/%EB%82%98%EC%9D%98-%EC%95%84%EC%A0%80%EC%94%A8-%EC%83%81%EB%AC%B4-%EC%8A%B9%EC%9D%B8/</guid><description>&quot;박동훈 상무 승인!&quot; 기나긴 싸움 끝에 상무로 승진한 박동훈
 </description><pubDate>Tue, 06 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/pPvso2CJnn8?si=C4UBu68AIVWHXcxY&quot; title=&quot;박동훈 상무 승인!&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
 &lt;p&gt;나의 아저씨는 명작! 제 인생드라마 이렇게 주인공 많은 드라마는 처음봤습니다 진짜 어른이란 무엇인지 알려주고자 한 멋진 드라마였습니다 그저
 무거울줄만 알았는데 착각이었죠 다들 꼭한번 봐보시길 바라봅니다&lt;/p&gt;
