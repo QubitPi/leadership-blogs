@@ -2,6 +2,7 @@ import { getCollection } from "astro:content";
 import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import { getCategoryUrl } from "@utils/url-utils.ts";
+import { siteConfig } from '@/config'
 
 export async function getSortedPosts() {
 	const allBlogPosts = await getCollection("posts", ({ data }) => {
@@ -9,8 +10,16 @@ export async function getSortedPosts() {
 	});
 
 	const sorted = allBlogPosts.sort((a, b) => {
-		const dateA = new Date(a.data.published);
-		const dateB = new Date(b.data.published);
+		const dateA = new Date(a.data.updated ? a.data.updated : a.data.published);
+		const dateB = new Date(b.data.updated ? b.data.updated : b.data.published);
+
+		if (a.data.title == siteConfig.topBlog) {
+			return -1
+		}
+		if (b.data.title == siteConfig.topBlog) {
+			return 1
+		}
+
 		return dateA > dateB ? -1 : 1;
 	});
 
