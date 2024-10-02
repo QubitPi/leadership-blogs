@@ -27,6 +27,16 @@ export async function getStaticPaths() {
 const { entry } = Astro.props
 const { Content, headings } = await entry.render()
 
+const fontSwitch = {
+    'font-USDeclaration': entry.data.font == 'USDeclaration',
+    'font-SweynheimPannartz': entry.data.font == 'SweynheimPannartz',
+    'font-PangZhonghuaXingKai': entry.data.font == 'PangZhonghuaXingKai',
+    'font-DXRedMailboxBold': entry.data.font == 'DXRedMailboxBold',
+    'font-WalbaumFraktur': entry.data.font == 'WalbaumFraktur',
+    'font-Porson': entry.data.font == 'Porson',
+    'font-Poppins': entry.data.font == 'Poppins' || entry.data.font == null
+}
+
 const { remarkPluginFrontmatter } = await entry.render()
 
 const jsonLd = {
@@ -71,12 +81,25 @@ const jsonLd = {
             <div class="relative onload-animation">
                 <div
                     data-pagefind-body data-pagefind-weight="10" data-pagefind-meta="title"
-                    class="transition w-full block font-bold mb-3
-                    text-3xl md:text-[2.25rem]/[2.75rem]
-                    text-black/90 dark:text-white/90
-                    md:before:w-1 before:h-5 before:rounded-md before:bg-[var(--primary)]
-                    before:absolute before:top-[0.75rem] before:left-[-1.125rem]
-                ">
+                    class:list={[
+                        'transition',
+                        'w-full',
+                        'block',
+                        'font-bold',
+                        fontSwitch,
+                        'mb-3',
+                        'text-3xl',
+                        'md:text-[2.25rem]/[2.75rem]',
+                        'text-black/90',
+                        'dark:text-white/90',
+                        'md:before:w-1',
+                        'before:h-5',
+                        'before:rounded-md',
+                        'before:bg-[var(--primary)]',
+                        'before:absolute',
+                        'before:top-[0.75rem]',
+                        'before:left-[-1.125rem]'
+                    ]}>
                     {entry.data.title}
                 </div>
             </div>
@@ -100,7 +123,7 @@ const jsonLd = {
             }
 
 
-            <Markdown class="mb-6 markdown-content onload-animation">
+            <Markdown class:list={[ 'mb-6', 'markdown-content', 'onload-animation', fontSwitch ]}>
                 <Content />
             </Markdown>
 
@@ -132,3 +155,37 @@ const jsonLd = {
     </div>
 
 </MainGridLayout>
+
+<style is:global>
+@font-face {
+    font-family: 'WalbaumFraktur';
+    src: url('/fonts/WalbaumFraktur.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DXRedMailboxBold';
+    src: url('/fonts/DXRedMailboxBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PangZhonghuaXingKai';
+    src: url('/fonts/PangZhonghuaXingKai.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SweynheimPannartz';
+    src: url('/fonts/SweynheimPannartz.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+</style>
