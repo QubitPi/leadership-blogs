@@ -30,6 +30,9 @@ const className = Astro.props.class;
     <div class="flex items-center">
         <div class="meta-icon"
         >
+            <!-- Please visit https://icones.js.org/ for icon codes -->
+            <!-- Need to install the corresponding icon set if it's not already included -->
+            <!-- `pnpm add @iconify-json/<icon-set-name>` -->
             <Icon name="material-symbols:calendar-today-outline-rounded" class="text-xl"></Icon>
         </div>
         <span class="text-50 text-sm font-medium">{formatDateToYYYYMMDD(published)}</span>
@@ -40,6 +43,9 @@ const className = Astro.props.class;
         <div class="flex items-center">
             <div class="meta-icon"
             >
+                <!-- Please visit https://icones.js.org/ for icon codes -->
+                <!-- Need to install the corresponding icon set if it's not already included -->
+                <!-- `pnpm add @iconify-json/<icon-set-name>` -->
                 <Icon name="material-symbols:edit-calendar-outline-rounded" class="text-xl"></Icon>
             </div>
             <span class="text-50 text-sm font-medium">{formatDateToYYYYMMDD(updated)}</span>
@@ -50,7 +56,10 @@ const className = Astro.props.class;
     <div class="flex items-center">
         <div class="meta-icon"
         >
-            <Icon name="material-symbols:book-2-outline-rounded" class="text-xl"></Icon>
+            <!-- Please visit https://icones.js.org/ for icon codes -->
+            <!-- Need to install the corresponding icon set if it's not already included -->
+            <!-- `pnpm add @iconify-json/<icon-set-name>` -->
+            <Icon name="material-symbols:language" class="text-xl"></Icon>
         </div>
         <div class="flex flex-row flex-nowrap items-center">
             <a href={getCategoryUrl(category)} aria-label={`View all posts in the ${category} category`}
@@ -65,6 +74,9 @@ const className = Astro.props.class;
     <div class:list={["items-center", {"flex": !hideTagsForMobile, "hidden md:flex": hideTagsForMobile}]}>
         <div class="meta-icon"
         >
+            <!-- Please visit https://icones.js.org/ for icon codes -->
+            <!-- Need to install the corresponding icon set if it's not already included -->
+            <!-- `pnpm add @iconify-json/<icon-set-name>` -->
             <Icon name="material-symbols:tag-rounded" class="text-xl"></Icon>
         </div>
         <div class="flex flex-row flex-nowrap items-center">
