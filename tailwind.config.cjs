@@ -6,7 +6,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Roboto", "sans-serif", ...defaultTheme.fontFamily.sans],
+        sans: ["Poppins", "sans-serif", ...defaultTheme.fontFamily.sans],
+        Poppins: ["Poppins", "sans-serif", ...defaultTheme.fontFamily.sans],
+        WalbaumFraktur: ["WalbaumFraktur"],
+        SweynheimPannartz: ["SweynheimPannartz", "SweynheimPannartz", "SweynheimPannartz"],
+        PangZhonghuaXingKai: ["PangZhonghuaXingKai"],
+        DXRedMailboxBold: ["DXRedMailboxBold", "DXRedMailboxBold", "DXRedMailboxBold"],
+        Porson: ["Porson"],
+        USDeclaration: ["USDeclaration", "sans-serif", ...defaultTheme.fontFamily.sans],
       },
     },
   },
