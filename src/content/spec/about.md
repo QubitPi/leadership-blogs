@@ -1,9 +1,17 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+About Me
+========
 
-::github{repo="saicaca/fuwari"}
+My name is Jiaqi Liu. I graduate from U of I, had internship at Fortune 500 Grainger Inc., worked at Yahoo for 4 years.
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+Leadership, for me, is a Science, a discipline that involves a much broader superset beyond technology. It includes not
+just project management and public speaking, but also Psychology, Philosophy, and not to forget the technology itself.
+
+[leadership.qubitpi.org](https://leadership.qubitpi.org/) serves as my continuing effort that expand the boundary of my
+limit on being a leader
+
+::github{repo="QubitPi/leadership-blogs"}
+
+Appendix - Recommendation Letter from Grainger Inc.
+---------------------------------------------------
+
+![](./recommendation.png)

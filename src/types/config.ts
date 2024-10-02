@@ -20,6 +20,7 @@ export type SiteConfig = {
 			url?: string;
 		};
 	};
+  topBlog: string;
 	toc: {
 		enable: boolean;
 		depth: 1 | 2 | 3;

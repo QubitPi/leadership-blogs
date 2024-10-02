@@ -8,74 +8,79 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Fuwari",
-	subtitle: "Demo Site",
-	lang: "en", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th', 'vi'
-	themeColor: {
-		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
-		fixed: false, // Hide the theme color picker for visitors
-	},
-	banner: {
-		enable: false,
-		src: "assets/images/demo-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
-		credit: {
-			enable: false, // Display the credit text of the banner image
-			text: "", // Credit text to be displayed
-			url: "", // (Optional) URL link to the original artwork or artist's page
-		},
-	},
-	toc: {
-		enable: true, // Display the table of contents on the right side of the post
-		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
-	},
-	favicon: [
-		// Leave this array empty to use the default favicon
-		// {
-		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
-		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		// }
-	],
-};
+  title: "Jiaqi\'s Leadership Blog",
+  subtitle: "Leadership is an infinite game.",
+  lang: "en",
+  themeColor: {
+    hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+    fixed: false,     // Hide the theme color picker for visitors
+  },
+  banner: {
+    enable: true,
+    src: "assets/images/banner-4.png",   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+    position: "center",      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+    credit: {
+      enable: true,         // Display the credit text of the banner image
+      text: "Ardeth Bay (The Mummy Returns)",              // Credit text to be displayed
+      url: "https://youtu.be/XWJ561xqNNI?t=163"                // (Optional) URL link to the original artwork or artist's page
+    }
+  },
+  topBlog: "Ardeth Bay - Leadership is an Infinite Game",
+  toc: {
+    enable: true,           // Display the table of contents on the right side of the post
+    depth: 3                // Maximum heading depth to show in the table, from 1 to 3
+  },
+  favicon: [    // Leave this array empty to use the default favicon
+    // {
+    //   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
+    //   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+    //   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+    // }
+  ]
+}
 
 export const navBarConfig: NavBarConfig = {
-	links: [
-		LinkPreset.Home,
-		LinkPreset.Archive,
-		LinkPreset.About,
-		{
-			name: "GitHub",
-			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
-		},
-	],
-};
+  links: [
+    LinkPreset.Home,
+    LinkPreset.Archive,
+    LinkPreset.About,
+    {
+      name: "GitHub",
+      url: "https://github.com/Qubitpi",     // Internal links should not include the base path, as it is automatically added
+      external: true,                        // Show an external link icon and will open in a new tab
+    },
+  ],
+}
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Lorem Ipsum",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-	links: [
-		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
-			// You will need to install the corresponding icon set if it's not already included
-			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
-		},
-		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
-		},
-		{
-			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
-		},
-	],
-};
+  avatar: "assets/images/avatar.png",  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+  name: "Jiaqi Liu",
+  bio: "Leadership is an infinite game.",
+  links: [
+    {
+      name: 'Hugging Face',
+      icon: 'simple-icons:huggingface', // Visit https://icones.js.org/ for icon codes
+                                        // You will need to install the corresponding icon set if it's not already included
+                                        // `pnpm add @iconify-json/<icon-set-name>`
+      url: 'https://huggingface.co/QubitPi',
+    },
+    {
+      name: "GitHub",
+      icon: "fa6-brands:github-alt",
+      url: "https://github.com/Qubitpi",
+    },
+    {
+        name: "原神",
+        icon: "simple-icons:mihoyo",
+        url: "https://enka.network/u/MyFavoriteCharacters",
+    },
+    {
+        name: "YouTube",
+        icon: "fa6-brands:youtube",
+        url: "https://www.youtube.com/@wilhelm-tiger",
+    },
+  ],
+}
 
 export const licenseConfig: LicenseConfig = {
 	enable: true,
@@ -84,7 +89,6 @@ export const licenseConfig: LicenseConfig = {
 };
 
 export const expressiveCodeConfig: ExpressiveCodeConfig = {
-	// Note: Some styles (such as background color) are being overridden, see the astro.config.mjs file.
-	// Please select a dark theme, as this blog theme currently only supports dark background color
-	theme: "github-dark",
+	// https://expressive-code.com/guides/themes/#available-themes
+	theme: "catppuccin-latte",
 };

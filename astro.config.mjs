@@ -26,7 +26,7 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://fuwari.vercel.app/",
+	site: "https://leadership.qubitpi.org/",
 	base: "/",
 	trailingSlash: "always",
 	integrations: [
@@ -72,28 +72,7 @@ export default defineConfig({
 				},
 			},
 			styleOverrides: {
-				codeBackground: "var(--codeblock-bg)",
-				borderRadius: "0.75rem",
-				borderColor: "none",
-				codeFontSize: "0.875rem",
-				codeFontFamily: "'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
-				codeLineHeight: "1.5rem",
-				frames: {
-					editorBackground: "var(--codeblock-bg)",
-					terminalBackground: "var(--codeblock-bg)",
-					terminalTitlebarBackground: "var(--codeblock-topbar-bg)",
-					editorTabBarBackground: "var(--codeblock-topbar-bg)",
-					editorActiveTabBackground: "none",
-					editorActiveTabIndicatorBottomColor: "var(--primary)",
-					editorActiveTabIndicatorTopColor: "none",
-					editorTabBarBorderBottomColor: "var(--codeblock-topbar-bg)",
-					terminalTitlebarBorderBottomColor: "none"
-				},
-				textMarkers: {
-					delHue: 0,
-					insHue: 180,
-					markHue: 250
-				}
+				codeFontFamily: "'Ubuntu Mono'",
 			},
 			frames: {
 				showCopyToClipboardButton: false,
@@ -120,6 +99,7 @@ export default defineConfig({
 				{
 					components: {
 						github: GithubCardComponent,
+                        kokomi: (x, y) => AdmonitionComponent(x, y, "kokomi"),
 						note: (x, y) => AdmonitionComponent(x, y, "note"),
 						tip: (x, y) => AdmonitionComponent(x, y, "tip"),
 						important: (x, y) => AdmonitionComponent(x, y, "important"),
@@ -154,6 +134,7 @@ export default defineConfig({
 		],
 	},
 	vite: {
+        assetsInclude: ["**/*.drawio"],
 		build: {
 			rollupOptions: {
 				onwarn(warning, warn) {
