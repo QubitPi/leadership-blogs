@@ -2,6 +2,7 @@ import { type CollectionEntry, getCollection } from "astro:content";
 import I18nKey from "@i18n/i18nKey";
 import { i18n } from "@i18n/translation";
 import { getCategoryUrl } from "@utils/url-utils.ts";
+import { siteConfig } from '@/config'
 
 // // Retrieve posts and sort them by publication date
 async function getRawSortedPosts() {
@@ -10,8 +11,16 @@ async function getRawSortedPosts() {
 	});
 
 	const sorted = allBlogPosts.sort((a, b) => {
-		const dateA = new Date(a.data.published);
-		const dateB = new Date(b.data.published);
+		const dateA = new Date(a.data.updated ? a.data.updated : a.data.published);
+		const dateB = new Date(b.data.updated ? b.data.updated : b.data.published);
+
+		if (a.data.title == siteConfig.topBlog) {
+			return -1
+		}
+		if (b.data.title == siteConfig.topBlog) {
+			return 1
+		}
+
 		return dateA > dateB ? -1 : 1;
 	});
 	return sorted;

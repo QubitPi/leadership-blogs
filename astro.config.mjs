@@ -26,7 +26,7 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://fuwari.vercel.app/",
+	site: "https://leadership.qubitpi.org/",
 	base: "/",
 	trailingSlash: "always",
 	integrations: [
@@ -120,6 +120,7 @@ export default defineConfig({
 				{
 					components: {
 						github: GithubCardComponent,
+                        kokomi: (x, y) => AdmonitionComponent(x, y, "kokomi"),
 						note: (x, y) => AdmonitionComponent(x, y, "note"),
 						tip: (x, y) => AdmonitionComponent(x, y, "tip"),
 						important: (x, y) => AdmonitionComponent(x, y, "important"),
@@ -154,6 +155,7 @@ export default defineConfig({
 		],
 	},
 	vite: {
+        assetsInclude: ["**/*.drawio"],
 		build: {
 			rollupOptions: {
 				onwarn(warning, warn) {
