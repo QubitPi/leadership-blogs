@@ -11,7 +11,7 @@ A static blog template built with [Astro](https://astro.build).
 
 > README version: `2024-09-10`
 
-![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
+![Preview Image](./blog-home-page.png)
 
 ## ✨ Features
 
@@ -23,6 +23,28 @@ A static blog template built with [Astro](https://astro.build).
 - [ ] Comments
 - [x] Search
 - [ ] TOC
+- [x] ([This fork]()) Per-post font customization:
+
+  - [x] [庞中华行楷 for Chinese](https://www.fonts101.com/fonts/view/Script/62094/US_Declaration) ([example post](https://leadership.qubitpi.org/posts/%E5%AD%99%E5%AD%90%E5%85%B5%E6%B3%95%E8%AE%A1%E7%AF%87%E7%AC%AC%E4%B8%80/))
+  - [x] [DX Red Mailbox Bold for Korean](https://www.fonts101.com/fonts/view/Script/62094/US_Declaration) ([example post](https://leadership.qubitpi.org/posts/%EB%82%98%EC%9D%98-%EC%95%84%EC%A0%80%EC%94%A8/))
+  - [x] [US Declaration](https://www.fonts101.com/fonts/view/Script/62094/US_Declaration) ([example post](https://leadership.qubitpi.org/posts/declaration-of-independence/))
+  - [x] [Latin font](https://www.1001fonts.com/sweynheim-pannartz-font.html)[^1] ([example post](https://leadership.qubitpi.org/posts/pro-lege-manilia/))
+  - [x] [GFS Porson for Ancient Greek](https://www.oocities.org/greekfonts/) ([example post](https://leadership.qubitpi.org/posts/reading-notes-de-administrando-imperio/))
+
+[^1]: https://ilovetypography.com/2016/04/18/the-first-roman-fonts/
+
+> [!NOTE]
+>
+> I was actually going to pick up the [ZephGreek](https://www.loebclassics.com/page/logo) but realized that the
+> [Loeb never publishes the font](https://tex.stackexchange.com/a/163342/277953)
+
+  - [x] Ubuntu (Default global font)
+
+### Top Blog
+
+One blog, such as [this one](https://leadership.qubitpi.org/posts/infinite-game/), can be set to always comes as the
+first blog on the first page. To do so, set the `topBlog` to the title of the desired top blog in
+[config](./src/config.ts)
 
 ## 🚀 How to Use
 
