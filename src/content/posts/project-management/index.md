@@ -160,7 +160,16 @@ It is important to keep in mind that those 9 are not separate but are disolved i
 
 1. __Initiating__
 
-   - Defining needs
+   - Defining needs, such as
+   
+     - Reducing costs
+     - Increasing revenues
+     - Eliminating wastes
+     - Increasing productivity/efficiency
+     - Solving a business/functional problem
+     - Taking advantages of market opportunities
+     - etc.
+
    - Project Feasibility Study for the needs (worthiness, cost, time, etc.)
 
 2. __Planning__
@@ -185,7 +194,7 @@ It is important to keep in mind that those 9 are not separate but are disolved i
 Skills of a Project Manager
 ---------------------------
 
-- Communication Skill
+- Communication Skill/Active Listening
 - Organizing a Project: ensuring thorough, fast, and reliable access to project data
 - Negotiation Skills
 - Team Leadership: manage things and lead people
@@ -211,9 +220,9 @@ Organizations are structured into one of 6 models. Project management in them ar
    specific to the function of the department the project falls into. For example, the TI Department could implement new
    software for the Finance Department. The role of the TI Department is separate from the Finance Department, but the
    coordination between the two functional departments would be evident. Communication between departments flows through
-   functional managers down to the project team. Figure 2-4 depicts the relationship between business departments and
-   the flow of communication between projects and departments. Project managers in functional organizations have the
-   following attributes:
+   __functional managers__ down to the project team. The figure below depicts the relationship between business
+   departments and the flow of communication between projects and departments. __Project managers__ of each belonging
+   Project team in functional organizations have the following attributes:
 
    - Little power
    - Little autonomy 
@@ -245,7 +254,11 @@ Organizations are structured into one of 6 models. Project management in them ar
      areas.
    - __Balanced Matrix__: A project manager is assigned to oversee the project. Power is shared equally between the
      project manager and the functional managers
+   - __String Matrix__ (strongly decentralized): A project manager is primarily responsible for the project. Functional
+     managers provide technical expertise and assign resources as needed.
 
+3. __Projectized Structure__
+4. __Hybrid Structure__ mixing the structures above
 
 [^1]: Phillips, Joseph (2004). [_PMP Project Management Professional Study Guide_](https://archive.org/details/pmpprojectmanage00jose/mode/2up). McGraw-Hill/Osborne. p. 354. ISBN 0072230622.
 [^2]: Nokes, Sebastian; Kelly, Sean (2007).
