@@ -27,6 +27,16 @@ choose from a full range of options (not just good ones). He also says that some
 can think of others like courage, forgiveness, compassion) need suffering in order to exist. The evil is necessary. So
 God would allow for these evils in order to make greater good possible[^1].
 
-Leibniz is a very interesting Philosopher
+Leibniz is a very interesting Philosopher. He was perhaps the first major European intellectual to take a close interest
+in Chinese civilization, which he knew by corresponding with, and reading other works by, European Christian
+missionaries posted in China. He apparently read
+[_Confucius Sinarum Philosophus_](https://en.wikipedia.org/wiki/Philippe_Couplet) in the first year of its publication.
+He came to the conclusion that Europeans could learn much from the Confucian ethical tradition. He mulled over the
+possibility that the Chinese characters were an unwitting form of his
+[universal characteristic](https://en.wikipedia.org/wiki/Characteristica_universalis). He noted how the
+[I Ching](https://en.wikipedia.org/wiki/I_Ching) (易经) hexagrams correspond to the binary numbers from 000000 to
+111111, and concluded that this mapping was evidence of major Chinese accomplishments in the sort of philosophical
+mathematics he admired. Leibniz was one of the western philosophers of the time who attempted to accommodate Confucian
+ideas to prevailing European beliefs.
 
 [^1]: https://www.reddit.com/r/askphilosophy/comments/1so41y/comment/cdziue3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
