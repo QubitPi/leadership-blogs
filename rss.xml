@@ -29,9 +29,7 @@ statistics. This data is exported by container and machine-wide.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/google/cadvisor&quot;&gt;cAdvisor&lt;/a&gt; is good for customizing container monitoring, but it&apos;s heavy. A
 quick-and-lightweight option would be &lt;a href=&quot;https://github.com/virtualzone/docker-container-stats&quot;&gt;docker-container-stats&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;docker-container-stats.png&quot; alt=&quot;docker-container-stats Screenshot&quot; /&gt;&lt;/p&gt;
-</content:encoded></item><item><title>Studying the Science of Project Management from a Planning Perspective</title><link>https://leadership.qubitpi.org/posts/project-management/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/project-management/</guid><description>I&apos;d like to plan a series of works that can be accomplished by a group with the expectation that the list of works
-will to be long and once accomplished the goal is to be reached in a high quality.
-</description><pubDate>Fri, 29 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Overview&lt;/h2&gt;
+</content:encoded></item><item><title>Studying the Science of Project Management</title><link>https://leadership.qubitpi.org/posts/project-management/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/project-management/</guid><description>Projects are temporary endeavors to create a unique product or service. All projects must have an end date.</description><pubDate>Fri, 29 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Project management is the process of supervising the work of a team to achieve all project goals within the given
 constraints[^1]. This information is usually described in
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Project_initiation_documentation&quot;&gt;project documentation&lt;/a&gt;, created at the beginning of the
@@ -85,6 +83,8 @@ success we may enjoy, the Just Cause for which we are working lies ahead and not
 &lt;/blockquote&gt;
 &lt;p&gt;For this, we &lt;strong&gt;must define the &lt;em&gt;end&lt;/em&gt; of a project as the &lt;em&gt;start&lt;/em&gt; of the next continuing effort&lt;/strong&gt; and make sure each
 managed project contributed to the infinite game of an organization&lt;/p&gt;
+&lt;p&gt;In addition, a project must support the higher vision of the organization and the project manager must understand why
+the project is being created and what ist purpose in the organization[^1].&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h3&gt;History&lt;/h3&gt;
 &lt;p&gt;Until 1900, civil engineering projects were generally managed by creative architects, engineers, and master builders
