@@ -15,11 +15,12 @@ draft: false
 Overview of Leibniz
 -------------------
 
-_Gottfried Wilhelm Leibniz_ is a very interesting Philosopher. He may have been the first computer scientist and
-information theorist[^2]. He puzzled over the origins of the Slavic languages and was fascinated by classical Chinese.
-Leibniz was also an expert in the Sanskrit language.[^2] He was also perhaps the first major European intellectual to
-take a close interest in Chinese civilization[^2], which he knew by corresponding with, and reading other works by,
-European Christian missionaries posted in China. He apparently read
+_Gottfried Wilhelm Leibniz_ is a very interesting many-sided man (or more easily known as the
+[_German Genius_](https://trello.com/c/rkU6jLnK)). He may have been the first computer scientist and information
+theorist[^2]. He puzzled over the origins of the Slavic languages and was fascinated by classical Chinese. Leibniz was
+also an expert in the Sanskrit language.[^2] He was also perhaps the first major European intellectual to take a close
+interest in Chinese civilization[^2], which he knew by corresponding with, and reading other works by, European
+Christian missionaries posted in China. He apparently read
 [_Confucius Sinarum Philosophus_](https://en.wikipedia.org/wiki/Philippe_Couplet) in the first year of its publication.
 He came to the conclusion that Europeans could learn much from the Confucian ethical tradition. He mulled over the
 possibility that the Chinese characters were an unwitting form of his
