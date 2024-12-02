@@ -2,7 +2,7 @@
 Genius). His Philosophy guided German to constantly push themselves to the endless next levels of human perfection.
 This I believe partially contributed the unbelievable warfare technologies during World War II, such as Tiger and King
 Tiger
-</description><pubDate>Tue, 03 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In his treatise on page 138 of the &lt;em&gt;Thodicy&lt;/em&gt;, Leibniz wrote&lt;/p&gt;
+</description><pubDate>Tue, 03 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In his treatise on page 138 of the &lt;em&gt;Thodicy&lt;/em&gt;, Gottfried Wilhelm Leibniz wrote&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Hence the conclusion that God wills all good in himself antecedently, that he wills the best consequently as an end,
 that he wills what is indifferent, and physical evil, sometimes as a means, but that he will only permit
@@ -16,9 +16,9 @@ perfect world because it has sufficient reason to be there. In fact the evil is 
 Evil is necessary for a true type of free will. For free will to be truly admirable the individual needs to be able to
 choose from a full range of options (not just good ones). He also says that some ultimate goods (like free will, but we
 can think of others like courage, forgiveness, compassion) need suffering in order to exist. The evil is necessary. So
-God would allow for these evils in order to make greater good possible&lt;a href=&quot;https://www.reddit.com/r/askphilosophy/comments/1so41y/comment/cdziue3/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;^1&lt;/a&gt;.&lt;/p&gt;
+God would allow for these evils in order to make greater good possible[^1].&lt;/p&gt;
 &lt;p&gt;Leibniz is a very interesting Philosopher. He was perhaps the first major European intellectual to take a close interest
-in Chinese civilization, which he knew by corresponding with, and reading other works by, European Christian
+in Chinese civilization[^2], which he knew by corresponding with, and reading other works by, European Christian
 missionaries posted in China. He apparently read
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Philippe_Couplet&quot;&gt;&lt;em&gt;Confucius Sinarum Philosophus&lt;/em&gt;&lt;/a&gt; in the first year of its publication.
 He came to the conclusion that Europeans could learn much from the Confucian ethical tradition. He mulled over the
@@ -29,7 +29,13 @@ possibility that the Chinese characters were an unwitting form of his
 mathematics he admired. Leibniz was one of the western philosophers of the time who attempted to accommodate Confucian
 ideas to prevailing European beliefs.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./Diagram_of_I_Ching_hexagrams_owned_by_Gottfried_Wilhelm_Leibniz,_1701.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Leibniz&apos;s attraction to Chinese philosophy originates from his perception that Chinese philosophy was similar to his own&lt;/p&gt;
+&lt;p&gt;Leibniz&apos;s attraction to Chinese philosophy originates from his perception that Chinese philosophy was similar to his own
+The historian E.R. Hughes suggests that Leibniz&apos;s ideas of &quot;simple substance&quot; and
+&quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/Pre-established_harmony&quot;&gt;pre-established harmony&lt;/a&gt;&quot; were directly influenced by
+Confucianism, pointing to the fact that they were conceived during the period when he was reading &lt;em&gt;Confucius Sinarum
+Philosophus&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;[^1]: &lt;a href=&quot;https://www.reddit.com/r/askphilosophy/comments/1so41y/comment/cdziue3/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;Help with Leibniz&apos;s Theodicy&lt;/a&gt;
+[^2]: &lt;a href=&quot;https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz#Sinophology&quot;&gt;Wikipedia - Gottfried Wilhelm Leibniz&lt;/a&gt;&lt;/p&gt;
 </content:encoded></item><item><title>Docker cAdvisor</title><link>https://leadership.qubitpi.org/posts/docker-c-advisor/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/docker-c-advisor/</guid><description>Overseeing resource consumption of all Docker containers on a VM</description><pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/google/cadvisor&quot;&gt;cAdvisor&lt;/a&gt; (Container Advisor) provides Docker container users an understanding of
 the resource usage and performance characteristics of their running containers. It is a running daemon that collects,
 aggregates, processes, and exports information about running containers. Specifically, for each container it keeps
