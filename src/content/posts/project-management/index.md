@@ -215,7 +215,8 @@ Organizations are structured into one of 6 models. Project management in them ar
    flow of communication between projects and departments. Project managers in functional organizations have the
    following attributes:
 
-   - Little power Little autonomy 
+   - Little power
+   - Little autonomy 
    - Report directly to a functional manager 
    - The project manager may be known as a Project Coordinator or Team Leader
    - The project manager's role is part-time 
@@ -223,6 +224,31 @@ Organizations are structured into one of 6 models. Project management in them ar
    - The project manager may have little or no administrative staff to expedite the project management activities
 
    ![Functional Organization](./functional-organizations.png "Error loading functional-organizations.png")
+
+   :::caution
+
+   This organizing of specialization by departments leads to operational efficiency, where employees become specialists
+   within their own realm of expertise.
+
+   Such organization also has the downside of rigid, slow, and inflexible communication and execution
+
+   A functional organization is best suited as a producer of standardized goods and services at large volume and low
+   cost.
+
+   :::
+
+2. __Matrix Structures__: The matrix structure is a mix of functional and decentralized forms in order to remedy the
+   weakness of the former. An example would be a company that produces 2 products, "product A" and "product B". Using
+   the matrix structure, this company would organize functions within the company as follows: "product A" sales
+   department, "product A" customer service department, "product A" accounting, "product B" sales department,
+   "product B" customer service department, "product B" accounting department.
+
+   - __Weak Matrix__ (strongly functional): A project manager with only limited authority is assigned to oversee the
+     cross-functional aspects of the project. The functional managers maintain control over their resources and project
+     areas.
+   - __Balanced Matrix__: A project manager is assigned to oversee the project. Power is shared equally between the
+     project manager and the functional managers
+5. 
 
 [^1]: Phillips, Joseph (2004). [_PMP Project Management Professional Study Guide_](https://archive.org/details/pmpprojectmanage00jose/mode/2up). McGraw-Hill/Osborne. p. 354. ISBN 0072230622.
 [^2]: Nokes, Sebastian; Kelly, Sean (2007).
