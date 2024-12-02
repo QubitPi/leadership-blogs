@@ -74,6 +74,10 @@ In addition, a project must support the higher vision of the organization and th
 the project is being created and what ist purpose in the organization[^1]. Specifically, the larger entities,
 organizations, companies, or communities wil have direct influence over the project itself illustrated below:
 
+- __Why__ is the project important to our organization?
+- __What__ is the project purpose?
+- __How__ can the work be accomplished?
+
 ![Organizational Pyramid](./organizational-pyramid.png "Error loading organizational-pyramid.png")
 
 :::
