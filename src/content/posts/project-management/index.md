@@ -90,7 +90,7 @@ _complex_ engineering projects.
 
 :::note
 
-Project management is not needed for simple project
+__Project management is not needed for simple project__
 
 :::
 
@@ -142,10 +142,19 @@ of 9 knowledge areas:
 8. Project Risk Management
 9. Project Procurement Management
 
-### Project Management Process
+It is important to keep in mind that those 9 are not separate but are disolved into the
+[5 PM processes](#project-management-processes)
+
+### Project Management Processes
 
 1. __Initiating__: Defining needs and plan-B's
-2. __Planning__: The most important
+2. __Planning__
+
+   - scope: defining deliverables - what's going to be implemented, what's not
+   - schedule
+   - cost
+   - defined acceptance level of quality in the end
+
 3. __Executing & Controlling__: Overseeing the implementation of project team and reporting progress to the stakeholders
 
    :::caution[Knowing Stakeholders]
