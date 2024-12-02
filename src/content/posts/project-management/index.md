@@ -203,6 +203,27 @@ Executing Project Management
   - Security audits
   - etc.
 
+### Project Management is Highly Coupled with Organization's Environment
+
+Organizations are structured into one of 6 models. Project management in them are very different:
+
+1. _Functional Organizations_ (Classical): Functional organizations do complete projects, but these projects are
+   specific to the function of the department the project falls into. For example, the TI Department could implement new
+   software for the Finance Department. The role of the TI Department is separate from the Finance Department, but the
+   coordination between the two functional departments would be evident. Communication between departments flows through
+   functional managers down to the project team. Figure 2-4 depicts the relationship between business departments and the
+   flow of communication between projects and departments. Project managers in functional organizations have the
+   following attributes:
+
+   - Little power Little autonomy 
+   - Report directly to a functional manager 
+   - The project manager may be known as a Project Coordinator or Team Leader
+   - The project manager's role is part-time 
+   - The project team is part-time 
+   - The project manager may have little or no administrative staff to expedite the project management activities
+
+   ![Functional Organization](./functional-organizations.png "Error loading functional-organizations.png")
+
 [^1]: Phillips, Joseph (2004). [_PMP Project Management Professional Study Guide_](https://archive.org/details/pmpprojectmanage00jose/mode/2up). McGraw-Hill/Osborne. p. 354. ISBN 0072230622.
 [^2]: Nokes, Sebastian; Kelly, Sean (2007).
 [_The Definitive Guide to Project Management: The Fast Track to Getting the Job Done on Time and on Budget_](https://archive.org/details/definitiveguidet0000noke/mode/2up).
