@@ -94,7 +94,7 @@ managed project contributed to the infinite game of an organization&lt;/p&gt;
 themselves. In the 1950s, organizations started to apply project-management tools and techniques more systematically to
 &lt;em&gt;complex&lt;/em&gt; engineering projects.&lt;/p&gt;
 &lt;p&gt;:::note&lt;/p&gt;
-&lt;p&gt;Project management is not needed for simple project&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Project management is not needed for simple project&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;As a discipline, project management developed from several fields of application including civil construction,
 engineering, and heavy defense activity.&lt;/p&gt;
@@ -135,13 +135,21 @@ of 9 knowledge areas:&lt;/p&gt;
 &lt;li&gt;Project Risk Management&lt;/li&gt;
 &lt;li&gt;Project Procurement Management&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Project Management Process&lt;/h3&gt;
+&lt;p&gt;It is important to keep in mind that those 9 are not separate but are disolved into the
+&lt;a href=&quot;#project-management-processes&quot;&gt;5 PM processes&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Project Management Processes&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Initiating&lt;/strong&gt;: Defining needs and plan-B&apos;s&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Planning&lt;/strong&gt;: The most important&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Planning&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;scope: defining deliverables - what&apos;s going to be implemented, what&apos;s not&lt;/li&gt;
+&lt;li&gt;schedule&lt;/li&gt;
+&lt;li&gt;cost&lt;/li&gt;
+&lt;li&gt;defined acceptance level of quality in the end&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Executing &amp;amp; Controlling&lt;/strong&gt;: Overseeing the implementation of project team and reporting progress to the stakeholders&lt;/p&gt;
