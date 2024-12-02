@@ -2,10 +2,11 @@
 title: Leibniz's Theodicy
 published: 2024-12-03
 description: |
-  Leibnizian idea of perfectibility made Germany so proliferate at contributing genius to the world. His Philosophy
-  guided German to constantly push themselves to the endless next levels of human perfection. This I believe partially
-  contributed the unbelievable warfare technologies during World War II, such as Tiger and King Tiger
-image: cover.PNG
+  Leibnizian idea of perfectibility made Germany so proliferate at contributing genius to the world (Book, The German
+  Genius). His Philosophy guided German to constantly push themselves to the endless next levels of human perfection.
+  This I believe partially contributed the unbelievable warfare technologies during World War II, such as Tiger and King
+  Tiger
+image: cover.png
 tags: [Philosophy]
 category: English
 draft: false 
