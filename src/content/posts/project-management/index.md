@@ -122,6 +122,25 @@ The end results of projects can result in endless operations
 
 :::
 
+All projects begin as a concept, progress through iterative implementation, and completes by fulfilling the initial
+need.
+
+Defining Project Management
+---------------------------
+
+Project management is the supervision and control of the work required to complete the project vision and is comprised
+of 9 knowledge areas:
+
+1. Project Integration Management
+2. Project Scope Management
+3. Project Time Management
+4. Project Cost Management
+5. Project Quality Management
+6. Project Human Resource Management
+7. Project Communications Management
+8. Project Risk Management
+9. Project Procurement Management
+
 
 [^1]: Phillips, Joseph (2004). [_PMP Project Management Professional Study Guide_](https://archive.org/details/pmpprojectmanage00jose/mode/2up). McGraw-Hill/Osborne. p. 354. ISBN 0072230622.
 [^2]: Nokes, Sebastian; Kelly, Sean (2007).
