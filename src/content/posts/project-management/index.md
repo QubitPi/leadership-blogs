@@ -1,9 +1,7 @@
 ---
-title: Studying the Science of Project Management from a Planning Perspective
+title: Studying the Science of Project Management
 published: 2024-11-29
-description: |
-  I'd like to plan a series of works that can be accomplished by a group with the expectation that the list of works
-  will to be long and once accomplished the goal is to be reached in a high quality.
+description: Projects are temporary endeavors to create a unique product or service. All projects must have an end date.
 image: cover.png
 tags: [Management]
 category: English
@@ -71,6 +69,9 @@ to produce products or services.
 
 For this, we __must define the _end_ of a project as the _start_ of the next continuing effort__ and make sure each
 managed project contributed to the infinite game of an organization
+
+In addition, a project must support the higher vision of the organization and the project manager must understand why
+the project is being created and what ist purpose in the organization[^1].
 
 :::
 
