@@ -12,7 +12,7 @@ category: English
 draft: false 
 ---
 
-In his treatise on page 138 of the _Thodicy_, Leibniz wrote
+In his treatise on page 138 of the _Thodicy_, Gottfried Wilhelm Leibniz wrote
 
 > _Hence the conclusion that God wills all good in himself antecedently, that he wills the best consequently as an end,
 > that he wills what is indifferent, and physical evil, sometimes as a means, but that he will only permit 
@@ -29,7 +29,7 @@ can think of others like courage, forgiveness, compassion) need suffering in ord
 God would allow for these evils in order to make greater good possible[^1].
 
 Leibniz is a very interesting Philosopher. He was perhaps the first major European intellectual to take a close interest
-in Chinese civilization, which he knew by corresponding with, and reading other works by, European Christian
+in Chinese civilization[^2], which he knew by corresponding with, and reading other works by, European Christian
 missionaries posted in China. He apparently read
 [_Confucius Sinarum Philosophus_](https://en.wikipedia.org/wiki/Philippe_Couplet) in the first year of its publication.
 He came to the conclusion that Europeans could learn much from the Confucian ethical tradition. He mulled over the
@@ -43,5 +43,10 @@ ideas to prevailing European beliefs.
 ![](./Diagram_of_I_Ching_hexagrams_owned_by_Gottfried_Wilhelm_Leibniz,_1701.png)
 
 Leibniz's attraction to Chinese philosophy originates from his perception that Chinese philosophy was similar to his own
+The historian E.R. Hughes suggests that Leibniz's ideas of "simple substance" and
+"[pre-established harmony](https://en.wikipedia.org/wiki/Pre-established_harmony)" were directly influenced by
+Confucianism, pointing to the fact that they were conceived during the period when he was reading _Confucius Sinarum
+Philosophus_.
 
-[^1]: https://www.reddit.com/r/askphilosophy/comments/1so41y/comment/cdziue3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+[^1]: [Help with Leibniz's Theodicy](https://www.reddit.com/r/askphilosophy/comments/1so41y/comment/cdziue3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+[^2]: [Wikipedia - Gottfried Wilhelm Leibniz](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz#Sinophology)
