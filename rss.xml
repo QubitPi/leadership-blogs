@@ -84,7 +84,9 @@ success we may enjoy, the Just Cause for which we are working lies ahead and not
 &lt;p&gt;For this, we &lt;strong&gt;must define the &lt;em&gt;end&lt;/em&gt; of a project as the &lt;em&gt;start&lt;/em&gt; of the next continuing effort&lt;/strong&gt; and make sure each
 managed project contributed to the infinite game of an organization&lt;/p&gt;
 &lt;p&gt;In addition, a project must support the higher vision of the organization and the project manager must understand why
-the project is being created and what ist purpose in the organization[^1].&lt;/p&gt;
+the project is being created and what ist purpose in the organization[^1]. Specifically, the larger entities,
+organizations, companies, or communities wil have direct influence over the project itself illustrated below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./organizational-pyramid.png&quot; alt=&quot;Organizational Pyramid&quot; title=&quot;Error loading organizational-pyramid.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h3&gt;History&lt;/h3&gt;
 &lt;p&gt;Until 1900, civil engineering projects were generally managed by creative architects, engineers, and master builders
@@ -133,11 +135,15 @@ of 9 knowledge areas:&lt;/p&gt;
 &lt;li&gt;Project Procurement Management&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;It is important to keep in mind that those 9 are not separate but are disolved into the
-&lt;a href=&quot;#project-management-processes&quot;&gt;5 PM processes&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Project Management Processes&lt;/h3&gt;
+&lt;a href=&quot;#project-management-processes-project-life-cycle&quot;&gt;5 PM processes&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Project Management Processes (Project Life Cycle)&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Initiating&lt;/strong&gt;: Defining needs and plan-B&apos;s&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Initiating&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Defining needs&lt;/li&gt;
+&lt;li&gt;Project Feasibility Study for the needs (worthiness, cost, time, etc.)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Planning&lt;/strong&gt;&lt;/p&gt;
@@ -151,7 +157,11 @@ of 9 knowledge areas:&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Executing &amp;amp; Controlling&lt;/strong&gt;: Overseeing the implementation of project team and reporting progress to the stakeholders&lt;/p&gt;
 &lt;p&gt;:::caution[Knowing Stakeholders]&lt;/p&gt;
-&lt;p&gt;Every stakeholder expects differently so it&apos;s crucial to know each one of them and their requests&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Every stakeholder expects differently so it&apos;s crucial to know each one of them and their requests&lt;/li&gt;
+&lt;li&gt;Project manager must be able to meet the customer&apos;s expectation first and then manage expectations from multiple
+stakeholders at the same time&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -164,6 +174,23 @@ of 9 knowledge areas:&lt;/p&gt;
 &lt;li&gt;Organizing a Project: ensuring thorough, fast, and reliable access to project data&lt;/li&gt;
 &lt;li&gt;Negotiation Skills&lt;/li&gt;
 &lt;li&gt;Team Leadership: manage things and lead people&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Executing Project Management&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Break projects into phases, each of which comes with a deliverable (or &lt;strong&gt;milestone&lt;/strong&gt;) at the end&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Verify each deliverable before continuing into the next phase:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sign-offs from the customer&lt;/li&gt;
+&lt;li&gt;Regulatory inspections and audits&lt;/li&gt;
+&lt;li&gt;Quality metrics&lt;/li&gt;
+&lt;li&gt;Performance metrics&lt;/li&gt;
+&lt;li&gt;Security audits&lt;/li&gt;
+&lt;li&gt;etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;[^1]: Phillips, Joseph (2004). &lt;a href=&quot;https://archive.org/details/pmpprojectmanage00jose/mode/2up&quot;&gt;&lt;em&gt;PMP Project Management Professional Study Guide&lt;/em&gt;&lt;/a&gt;. McGraw-Hill/Osborne. p. 354. ISBN 0072230622.
 [^2]: Nokes, Sebastian; Kelly, Sean (2007).
