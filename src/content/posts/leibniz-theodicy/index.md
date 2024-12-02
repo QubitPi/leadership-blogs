@@ -40,4 +40,8 @@ possibility that the Chinese characters were an unwitting form of his
 mathematics he admired. Leibniz was one of the western philosophers of the time who attempted to accommodate Confucian
 ideas to prevailing European beliefs.
 
+![](./Diagram_of_I_Ching_hexagrams_owned_by_Gottfried_Wilhelm_Leibniz,_1701.png)
+
+Leibniz's attraction to Chinese philosophy originates from his perception that Chinese philosophy was similar to his own
+
 [^1]: https://www.reddit.com/r/askphilosophy/comments/1so41y/comment/cdziue3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
