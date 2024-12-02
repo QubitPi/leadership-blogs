@@ -31,7 +31,8 @@ quick-and-lightweight option would be &lt;a href=&quot;https://github.com/virtua
 &lt;p&gt;&lt;img src=&quot;docker-container-stats.png&quot; alt=&quot;docker-container-stats Screenshot&quot; /&gt;&lt;/p&gt;
 </content:encoded></item><item><title>Studying the Science of Project Management from a Planning Perspective</title><link>https://leadership.qubitpi.org/posts/project-management/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/project-management/</guid><description>I&apos;d like to plan a series of works that can be accomplished by a group with the expectation that the list of works
 will to be long and once accomplished the goal is to be reached in a high quality.
-</description><pubDate>Fri, 29 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;:::note&lt;/p&gt;
+</description><pubDate>Fri, 29 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;:::note&lt;/p&gt;
 &lt;p&gt;Source - &lt;a href=&quot;https://en.wikipedia.org/wiki/Project_management&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;Project management is the process of supervising the work of a team to achieve all project goals within the given
@@ -46,6 +47,8 @@ contrast with business as usual (or operations), which are repetitive, permanent
 to produce products or services.&lt;/p&gt;
 &lt;p&gt;:::tip&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&quot;Temporary&quot; means that the project has an end date. &quot;Unique&quot; means that the project&apos;s end result is different from the
+results of other functions of the organization[^1]&lt;/li&gt;
 &lt;li&gt;This &quot;temporary&quot; nature contrasts with the idea of &lt;a href=&quot;https://trello.com/c/cj3d6g2A&quot;&gt;Infinite Game&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;But since an infinite-game must be conducted by every concrete steps, we can consider an instance of project
 management an atomic unity of such step; just as how the &lt;a href=&quot;https://trello.com/c/cj3d6g2A&quot;&gt;book of Infinite Game&lt;/a&gt; stats:&lt;/li&gt;
@@ -86,14 +89,35 @@ success we may enjoy, the Just Cause for which we are working lies ahead and not
 &lt;p&gt;For this, we &lt;strong&gt;must define the &lt;em&gt;end&lt;/em&gt; of a project as the &lt;em&gt;start&lt;/em&gt; of the next continuing effort&lt;/strong&gt; and make sure each
 managed project contributed to the infinite game of an organization&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
-&lt;h2&gt;History&lt;/h2&gt;
+&lt;h3&gt;History&lt;/h3&gt;
 &lt;p&gt;Until 1900, civil engineering projects were generally managed by creative architects, engineers, and master builders
 themselves. In the 1950s, organizations started to apply project-management tools and techniques more systematically to
 &lt;em&gt;complex&lt;/em&gt; engineering projects.&lt;/p&gt;
 &lt;p&gt;:::note&lt;/p&gt;
 &lt;p&gt;Project management is not needed for simple project&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
-&lt;p&gt;To be continued...&lt;/p&gt;
+&lt;p&gt;As a discipline, project management developed from several fields of application including civil construction,
+engineering, and heavy defense activity.&lt;/p&gt;
+&lt;p&gt;The 1950s marked the beginning of the modern project management era&lt;/p&gt;
+&lt;h2&gt;Defining a Project (Projects vs. Operations)&lt;/h2&gt;
+&lt;p&gt;When we look at marketing, sales, manufacturing, and so on. These activities are day-to-day works that goes on in an
+organization. They are already on the track of &quot;infinite-game&quot;. They are &lt;strong&gt;operations&lt;/strong&gt;, not projects. The sign of a
+project, however, is that it has an end date and is unique from these activities. Some examples of projects include&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designing a new product or service&lt;/li&gt;
+&lt;li&gt;Converting from one computer application to another&lt;/li&gt;
+&lt;li&gt;Building a new warehouse&lt;/li&gt;
+&lt;li&gt;Moving from one building to another&lt;/li&gt;
+&lt;li&gt;Organizing a political campaign&lt;/li&gt;
+&lt;li&gt;Designing and building a new airplane&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The end results of projects can result in endless operations&lt;/p&gt;
+&lt;p&gt;:::note[Defining a Project]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A project is all about &lt;em&gt;initiatives&lt;/em&gt; or &lt;em&gt;changes&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;A project is a temporary endeavor undertaken to create a unique product or service.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;[^1]: Phillips, Joseph (2004). &lt;a href=&quot;https://archive.org/details/pmpprojectmanage00jose/mode/2up&quot;&gt;&lt;em&gt;PMP Project Management Professional Study Guide&lt;/em&gt;&lt;/a&gt;. McGraw-Hill/Osborne. p. 354. ISBN 0072230622.
 [^2]: Nokes, Sebastian; Kelly, Sean (2007).
 &lt;a href=&quot;https://archive.org/details/definitiveguidet0000noke/mode/2up&quot;&gt;&lt;em&gt;The Definitive Guide to Project Management: The Fast Track to Getting the Job Done on Time and on Budget&lt;/em&gt;&lt;/a&gt;.
