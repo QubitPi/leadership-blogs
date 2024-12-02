@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Jiaqi&apos;s Leadership Blog</title><description>Leadership is, at root, about Influencing Others</description><link>https://leadership.qubitpi.org/</link><language>en</language><item><title>Docker cAdvisor</title><link>https://leadership.qubitpi.org/posts/docker-c-advisor/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/docker-c-advisor/</guid><description>Overseeing resource consumption of all Docker containers on a VM</description><pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/google/cadvisor&quot;&gt;cAdvisor&lt;/a&gt; (Container Advisor) provides Docker container users an understanding of
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Jiaqi&apos;s Leadership Blog</title><description>Leadership is, at root, about Influencing Others</description><link>https://leadership.qubitpi.org/</link><language>en</language><item><title>Leibniz&apos;s Theodicy</title><link>https://leadership.qubitpi.org/posts/leibniz-theodicy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/leibniz-theodicy/</guid><description>Leibnizian idea of perfectibility made Germany so proliferate at contributing genius to the world. His Philosophy
+guided German to constantly push themselves to the endless next levels of human perfection. This I believe partially
+contributed the unbelievable warfare technologies during World War II, such as Tiger and King Tiger
+</description><pubDate>Tue, 03 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In his treatise on page 138 of the &lt;em&gt;Thodicy&lt;/em&gt;, Leibniz wrote&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hence the conclusion that God wills all good in himself antecedently, that he wills the best consequently as an end,
+that he wills what is indifferent, and physical evil, sometimes as a means, but that he will only permit
+moral evil as the sine quo non or as a hypothetical necessity which connects it with the best. Therefore the
+consequent will of God, which has sin for its object, is only permissive.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Leibniz thinks that the world that we live in is ABSOLUTELY the best possible world because it was created by a perfect
+God. That means that there is no &quot;excess&quot; evil; evil always serves some sort of purpose. This has a lot to do with
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Principle_of_sufficient_reason&quot;&gt;The Principal of Sufficient Reason&lt;/a&gt;. Evil can exist in a
+perfect world because it has sufficient reason to be there. In fact the evil is necessary. He argues this in a few ways.
+Evil is necessary for a true type of free will. For free will to be truly admirable the individual needs to be able to
+choose from a full range of options (not just good ones). He also says that some ultimate goods (like free will, but we
+can think of others like courage, forgiveness, compassion) need suffering in order to exist. The evil is necessary. So
+God would allow for these evils in order to make greater good possible&lt;a href=&quot;https://www.reddit.com/r/askphilosophy/comments/1so41y/comment/cdziue3/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;^1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Leibniz is a very interesting Philosopher&lt;/p&gt;
+</content:encoded></item><item><title>Docker cAdvisor</title><link>https://leadership.qubitpi.org/posts/docker-c-advisor/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/docker-c-advisor/</guid><description>Overseeing resource consumption of all Docker containers on a VM</description><pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/google/cadvisor&quot;&gt;cAdvisor&lt;/a&gt; (Container Advisor) provides Docker container users an understanding of
 the resource usage and performance characteristics of their running containers. It is a running daemon that collects,
 aggregates, processes, and exports information about running containers. Specifically, for each container it keeps
 resource isolation parameters, historical resource usage, histograms of complete historical resource usage and network
