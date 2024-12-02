@@ -10,6 +10,9 @@ category: English
 draft: false 
 ---
 
+Overview
+--------
+
 :::note
 
 Source - [Wikipedia](https://en.wikipedia.org/wiki/Project_management)
@@ -32,6 +35,8 @@ to produce products or services.
 
 :::tip
 
+- "Temporary" means that the project has an end date. "Unique" means that the project's end result is different from the
+  results of other functions of the organization[^1]
 - This "temporary" nature contrasts with the idea of [Infinite Game][The Infinite Game]
 - But since an infinite-game must be conducted by every concrete steps, we can consider an instance of project
   management an atomic unity of such step; just as how the [book of Infinite Game][The Infinite Game] stats:
@@ -77,8 +82,7 @@ managed project contributed to the infinite game of an organization
 
 :::
 
-History
--------
+### History
 
 Until 1900, civil engineering projects were generally managed by creative architects, engineers, and master builders
 themselves. In the 1950s, organizations started to apply project-management tools and techniques more systematically to
@@ -90,7 +94,34 @@ Project management is not needed for simple project
 
 :::
 
-To be continued...
+As a discipline, project management developed from several fields of application including civil construction,
+engineering, and heavy defense activity.
+
+The 1950s marked the beginning of the modern project management era
+
+Defining a Project (Projects vs. Operations)
+--------------------------------------------
+
+When we look at marketing, sales, manufacturing, and so on. These activities are day-to-day works that goes on in an
+organization. They are already on the track of "infinite-game". They are __operations__, not projects. The sign of a
+project, however, is that it has an end date and is unique from these activities. Some examples of projects include
+
+- Designing a new product or service
+- Converting from one computer application to another
+- Building a new warehouse
+- Moving from one building to another
+- Organizing a political campaign
+- Designing and building a new airplane
+
+The end results of projects can result in endless operations
+
+:::note[Defining a Project]
+
+- A project is all about _initiatives_ or _changes_
+- A project is a temporary endeavor undertaken to create a unique product or service.
+
+:::
+
 
 [^1]: Phillips, Joseph (2004). [_PMP Project Management Professional Study Guide_](https://archive.org/details/pmpprojectmanage00jose/mode/2up). McGraw-Hill/Osborne. p. 354. ISBN 0072230622.
 [^2]: Nokes, Sebastian; Kelly, Sean (2007).
