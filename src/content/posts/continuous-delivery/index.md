@@ -33,7 +33,7 @@ highly regulated domains such as [financial services](https://www.youtube.com/wa
 [government](https://www.youtube.com/watch?v=QwHVlJtqhaI). This capability provides an incredible competitive advantage
 for organizations that are willing to invest the effort to pursue it.
 
-:::info
+:::note
 
 - Firms with high-performing IT organizations were twice as likely to exceed their profitability, market share and
   productivity goals.
@@ -47,17 +47,17 @@ for organizations that are willing to invest the effort to pursue it.
 
 The practices at the heart of continuous delivery help us achieve several important benefits:
 
-- **Low risk releases**. The primary goal of continuous delivery is to make software deployments painless, low-risk
-  events that can be performed at any time, on demand. By applying [patterns](#patterns) such as **blue-green
-  deployments** it is relatively straightforward to achieve zero-downtime deployments that are undetectable to users.
+- __Low risk releases__. The primary goal of continuous delivery is to make software deployments painless, low-risk
+  events that can be performed at any time, on demand. By applying [patterns](#patterns) such as __blue-green
+  deployments__ it is relatively straightforward to achieve zero-downtime deployments that are undetectable to users.
 
-  :::info[Blue-green Deployment]
+  :::note[Blue-green Deployment]
 
-  ![Error loading blue-green-deployments.png ](blue-green-deployments.png)
+  ![Error loading blue-green-deployments.png](blue-green-deployments.png)
 
   One of the challenges with automating deployment is the cut-over itself, taking software from the final stage of
   testing to live production. We usually need to do this quickly in order to minimize downtime. The blue-green
-  deployment approach does this by ensuring we have **two production environments**, as identical as possible. At any
+  deployment approach does this by ensuring we have __two production environments__, as identical as possible. At any
   time one of them, let's say blue for the example, is live. As we prepare a new release of our software we do our
   final stage of testing in the green environment. Once the software is working in the green environment, we switch the
   router so that all incoming requests go to the green environment - the blue one is now idle.
@@ -74,7 +74,7 @@ The practices at the heart of continuous delivery help us achieve several import
   also be a single operating environment partitioned into separate zones with separate IP addresses for the two slices.
 
   Once we've put our green environment live and we're happy with its stability, we then use the blue environment as
-  our **staging environment** for the final testing step for our next deployment. When we are ready for our next
+  our __staging environment__ for the final testing step for our next deployment. When we are ready for our next
   release, we switch from green to blue in the same way that we did from blue to green earlier. That way both green and
   blue environments are regularly cycling between live, previous version (for rollback) and staging the next version.
 
@@ -86,34 +86,34 @@ The practices at the heart of continuous delivery help us achieve several import
   variation would be to use the same database, making the blue-green switches for web and domain layers.
 
   Databases can often be a challenge with this technique, particularly when we need to change the schema to support a
-  new version of the software. The trick is to **separate the deployment of schema changes from application upgrades**.
+  new version of the software. The trick is to __separate the deployment of schema changes from application upgrades__.
   So first apply a database refactoring to change the schema to support both the new and old version of the application,
   deploy that, check everything is working fine so we have a rollback point, then deploy the new version of the
   application. (And when the upgrade has bedded down remove the database support for the old version.)
   :::
 
-- **Faster time to market**. It's common for the integration and test/fix phase of the traditional phased software
+- __Faster time to market__. It's common for the integration and test/fix phase of the traditional phased software
   delivery lifecycle to consume weeks to even months. When teams work together to automate the build and deployment,
   environment provisioning, and regression testing process, developers can incorporate integration and regression
   testing into their daily work and completely remove these phases. We also avoid the large amount of re-work that
   plague the phased approach.
-- **Higher quality and Better products**. When developers have automated tools that discover regressions within minutes,
-  teams are freed to **focus their effort on user research and higher level testing activities** such as exploratory
+- __Higher quality and Better products__. When developers have automated tools that discover regressions within minutes,
+  teams are freed to __focus their effort on user research and higher level testing activities__ such as exploratory
   testing, usability testing, and performance and security testing. By building a deployment pipeline, these activities
   can be performed continuously throughout the delivery process, ensuring quality is built into products and services
   from the beginning. Continuous delivery makes it economic to work in small batches. This means we can get feedback
   from users throughout the delivery lifecycle based on working software.
-- **Lower costs**. Any successful software product or service will evolve significantly over the course of its lifetime.
+- __Lower costs__. Any successful software product or service will evolve significantly over the course of its lifetime.
   By investing in build, test, deployment and environment automation, we substantially reduce the cost of making and
-  delivering incremental changes to software by **eliminating many of the fixed costs** associated with the release
+  delivering incremental changes to software by __eliminating many of the fixed costs__ associated with the release
   process.
-- **Happier teams**. Continuous Delivery makes releases less painful and reduces team burnout. Furthermore, when we
+- __Happier teams__. Continuous Delivery makes releases less painful and reduces team burnout. Furthermore, when we
   release more frequently, software delivery teams can engage more actively with users, learn which ideas work and which
   don't, and see first-hand then outcomes of the work they have done. By removing low-value painful activities
   accociated with software delivery, we can fodus on what we care about most - continuous delighting our users.
 
-**Continuous delivery is about continuous, daily improvement - the constant discipline of pursuing higher performance by
-following the heuristic "if it hurts, do it more often, and bring the pain forward."**
+__Continuous delivery is about continuous, daily improvement - the constant discipline of pursuing higher performance by
+following the heuristic "if it hurts, do it more often, and bring the pain forward."__
 
 Principles
 ----------
@@ -159,11 +159,11 @@ Working in small batches has many benefits. It reduces the time it takes to get 
 triage and remediate problems, increases efficiency and motivation, and prevents us from succumbing to the sunk cost
 fallacy.
 
-The reason we work in large batches is because of the large fixed cost of handing off changes. **A key goal of
+The reason we work in large batches is because of the large fixed cost of handing off changes. __A key goal of
 continuous delivery is to change the economics of the software delivery process to make it economically viable to work
-in small batches so we can obtain the many benefits of this approach**.
+in small batches so we can obtain the many benefits of this approach__.
 
-:::info
+:::note
 
 A key goal of continuous delivery is to change the economics of the software delivery process to make it economically
 viable to work in small batches so we can obtain the many benefits of this approach
@@ -215,27 +215,27 @@ state of our environments.
 
 We have two overriding goals:
 
-1. **Reproducibility**: We should be able to provision any environment in a fully automated fashion, and know that any
+1. __Reproducibility__: We should be able to provision any environment in a fully automated fashion, and know that any
    new environment reproduced from the same configuration is identical.
-2. **Traceability**: We should be able to pick any environment and be able to determine quickly and precisely the
+2. __Traceability__: We should be able to pick any environment and be able to determine quickly and precisely the
    versions of every dependency used to create that environment. We also want to be able to compare previous versions of
    an environment and see what has changed between them.
 
 These capabilities give us several very important benefits:
 
-1. **Disaster recovery**: When something goes wrong with one of our environments, for example a hardware failure or a
+1. __Disaster recovery__: When something goes wrong with one of our environments, for example a hardware failure or a
    security breach, we need to be able to reproduce that environment in a deterministic amount of time in order to be
    able to restore service.
-2. **Auditability**: In order to demonstrate the integrity of the delivery process, we need to be able to show the path
+2. __Auditability__: In order to demonstrate the integrity of the delivery process, we need to be able to show the path
    backwards from every deployment to the elements it came from, including their version. Comprehensive configuration
    management, combined with deployment pipelines, enable this.
-3. **Higher quality**: The software delivery process is often subject to long delays waiting for development, testing
+3. __Higher quality__: The software delivery process is often subject to long delays waiting for development, testing
    and production environments to be prepared. When this can be done automatically from version control, we can get
    feedback on the impact of our changes much more rapidly, enabling us to build quality in to our software.
-4. **Capacity management**: When we want to add more capacity to our environments, the ability to create new
+4. __Capacity management__: When we want to add more capacity to our environments, the ability to create new
    reproductions of existing servers is essential. This capability, using [OpenStack](https://www.openstack.org/) for
    example, enables the horizontal scaling of modern cloud-based distributed systems.
-5. **Response to defects**: When we discover a critical defect, or a vulnerability in some component of our system, we
+5. __Response to defects__: When we discover a critical defect, or a vulnerability in some component of our system, we
    want to get a new version of our software released as quickly as possible. Many organizations have an emergency
    process for this type of change which goes faster by bypassing some of the testing and auditing. This presents an
    especially serious dilemma in safety-critical systems. Our goal should be to be able to use our normal release
@@ -244,8 +244,8 @@ These capabilities give us several very important benefits:
 
 As environments become more complex and heterogeneous, it becomes progressively harder to achieve these goals. Achieving
 perfect reproducibility and traceability to the last byte for a complex enterprise system is impossible (apart from
-anything else, every real system has state). Thus a key part of configuration management is working to **simplify our
-architecture, environments and processes** to reduce the investment required to achieve the desired benefits.
+anything else, every real system has state). Thus a key part of configuration management is working to __simplify our
+architecture, environments and processes__ to reduce the investment required to achieve the desired benefits.
 
 #### Configuration Management Learning Resources
 
@@ -272,7 +272,7 @@ becomes exponentially more severe as team sizes grow, and as branches become mor
 The practice of continuous integration was invented to address these problems. CI (continuous integration) follows the
 XP (extreme programming) principle that if something is painful, we should do it more often, and bring the pain forward.
 Thus in CI developers integrate all their work into trunk (also known as mainline or master) on a regular basis (at
-least daily). A set of automated tests is run both **before and after** the merge to validate that no regressions are
+least daily). A set of automated tests is run both __before and after__ the merge to validate that no regressions are
 introduced. If these automated tests fail, the team stops what they are doing and someone fixes the problem immediately.
 
 Thus we ensure that the software is always in a working state, and that developer branches do not diverge significantly
@@ -298,8 +298,8 @@ that makes the tests pass. TDD has several benefits, the most important of which
 that is modular and easy to test, reducing the maintenance cost of the resulting automated test suites. But TDD is still
 not sufficiently widely practiced.
 
-Despite these barriers, **helping software development teams implement continuous integration should be the number one
-priority for any organization** wanting to start the journey to continuous delivery. By creating rapid feedback loops
+Despite these barriers, __helping software development teams implement continuous integration should be the number one
+priority for any organization__ wanting to start the journey to continuous delivery. By creating rapid feedback loops
 and ensuring developers work in small batches, CI enables teams to build quality into their software, thus reducing the
 cost of ongoing software development, and increasing both the productivity of teams and the quality of the work they
 produce.
@@ -422,8 +422,8 @@ In the context of enterprise architecture there are typically multiple attribute
 availability, security, performance, usability and so forth. In continuous delivery, we introduce two new architectural
 attributes:
 
-1. **testability**
-2. **deployability**
+1. __testability__
+2. __deployability__
 
 In a _testable_ architecture, we design our software such that most defects can (in principle, at least) be discovered
 by developers by running automated tests on their workstations. We shouldn’t need to depend on complex, integrated
@@ -448,19 +448,19 @@ machine, a stub, or a mock. Each component or service should be deployable in a 
 workstations, test environments, or in production. In a well-designed architecture, it is possible to get a high level of
 confidence the component is operating properly when deployed in this fashion.
 
-:::info Test Double
+:::note Test Double
 
 Test Double is a generic term for any case where you replace a production object for testing purposes. There are various
 kinds of double:
 
-- **Dummy** objects are passed around but never actually used. Usually they are just used to fill parameter lists.
-- **Fake** objects actually have working implementations, but usually take some shortcut which makes them not suitable
+- __Dummy__ objects are passed around but never actually used. Usually they are just used to fill parameter lists.
+- __Fake__ objects actually have working implementations, but usually take some shortcut which makes them not suitable
   for production (an InMemoryTestDatabase is a good example).
-- **Stubs** provide canned answers to calls made during the test, usually not responding at all to anything outside
+- __Stubs__ provide canned answers to calls made during the test, usually not responding at all to anything outside
   what's programmed in for the test.
-- **Spies** are stubs that also record some information based on how they were called. One form of this might be an email
+- __Spies__ are stubs that also record some information based on how they were called. One form of this might be an email
   service that records how many messages it was sent.
-- **Mocks** are pre-programmed with expectations which form a specification of the calls they are expected to receive.
+- __Mocks__ are pre-programmed with expectations which form a specification of the calls they are expected to receive.
   They can throw an exception if they receive a call they don't expect and are checked during verification to ensure
   they got all the calls they were expecting.
 
@@ -486,7 +486,7 @@ being replaced is "strangled".
 
 #### The Deployment Pipeline
 
-The key pattern introduced in continuous delivery is the **deployment pipeline**. Our goal was to make deployment to any
+The key pattern introduced in continuous delivery is the __deployment pipeline__. Our goal was to make deployment to any
 environment a fully automated, scripted process that could be performed on demand in minutes. We wanted to be able to
 configure testing and production environments purely from configuration files stored in version control. The apparatus
 we used to perform these tasks became known as _deployment pipelines_
@@ -504,14 +504,14 @@ holistic, powerful way that works to improve software quality, increase stabilit
 to make incremental changes to software, whatever domain we're operating in. When building a deployment pipeline, the
 following practices become valuable:
 
-- **Only build packages once**. We want to be sure the thing we're deploying is the same thing we've tested throughout
+- __Only build packages once__. We want to be sure the thing we're deploying is the same thing we've tested throughout
   the deployment pipeline, so if a deployment fails we can eliminate the packages as the source of the failure.
-- **Deploy the same way to every environment, including development**. This way, we test the deployment process many,
+- __Deploy the same way to every environment, including development__. This way, we test the deployment process many,
   many times before it gets to production, and again, we can eliminate it as the source of any problems.
-- **Smoke test your deployments**. Have a script that validates all your application's dependencies are available, at
+- __Smoke test your deployments__. Have a script that validates all your application's dependencies are available, at
   the location you have configured your application. Make sure your application is running and available as part of the
   deployment process.
-- **Keep your environments similar**. Although they may differ in hardware configuration, they should have the same
+- __Keep your environments similar__. Although they may differ in hardware configuration, they should have the same
   version of the operating system and middleware packages, and they should be configured in the same way. This has
   become much easier to achieve with modern virtualization and container technology.
 
@@ -527,16 +527,16 @@ creating resilient large-scale systems in his book
 
 The 3 key principles that enable low-risk releases are
 
-1. **Optimize for Resilience**. Once we accept that failures are inevitable, we should start to move away from the idea
+1. __Optimize for Resilience__. Once we accept that failures are inevitable, we should start to move away from the idea
    of investing all our effort in preventing problems, and think instead about how to restore service as rapidly as
    possible when something goes wrong. Furthermore, when an accident occurs, we should treat it as a learning
    opportunity. Resilience isn't just a feature of our systems, it's a characteristic of a team's culture. High
    performance organizations are constantly working to improve the resilience of their systems by trying to break them
    and implementing the lessons learned in the course of doing so.
-2. **Low-risk Releases are Incremental**. Our goal is to architect our systems such that we can release individual
+2. __Low-risk Releases are Incremental__. Our goal is to architect our systems such that we can release individual
    changes (including database changes) independently, rather than having to orchestrate big-bang releases due to tight
    coupling between multiple different systems.
-3. **Focus on Reducing Batch Size**. Counterintuitively, deploying to production more frequently actually reduces the
+3. __Focus on Reducing Batch Size__. Counterintuitively, deploying to production more frequently actually reduces the
    risk of release when done properly, simply because the amount of change in each deployment is smaller. When each
    deployment consists of tens of lines of code or a few configuration settings, it becomes much easier to perform root
    cause analysis and restore service in the case of an incident. Furthermore, because we practice the deployment
