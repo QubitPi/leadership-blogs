@@ -16,7 +16,17 @@ Evil is necessary for a true type of free will. For free will to be truly admira
 choose from a full range of options (not just good ones). He also says that some ultimate goods (like free will, but we
 can think of others like courage, forgiveness, compassion) need suffering in order to exist. The evil is necessary. So
 God would allow for these evils in order to make greater good possible&lt;a href=&quot;https://www.reddit.com/r/askphilosophy/comments/1so41y/comment/cdziue3/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;^1&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Leibniz is a very interesting Philosopher&lt;/p&gt;
+&lt;p&gt;Leibniz is a very interesting Philosopher. He was perhaps the first major European intellectual to take a close interest
+in Chinese civilization, which he knew by corresponding with, and reading other works by, European Christian
+missionaries posted in China. He apparently read
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Philippe_Couplet&quot;&gt;&lt;em&gt;Confucius Sinarum Philosophus&lt;/em&gt;&lt;/a&gt; in the first year of its publication.
+He came to the conclusion that Europeans could learn much from the Confucian ethical tradition. He mulled over the
+possibility that the Chinese characters were an unwitting form of his
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Characteristica_universalis&quot;&gt;universal characteristic&lt;/a&gt;. He noted how the
+&lt;a href=&quot;https://en.wikipedia.org/wiki/I_Ching&quot;&gt;I Ching&lt;/a&gt; (易经) hexagrams correspond to the binary numbers from 000000 to
+111111, and concluded that this mapping was evidence of major Chinese accomplishments in the sort of philosophical
+mathematics he admired. Leibniz was one of the western philosophers of the time who attempted to accommodate Confucian
+ideas to prevailing European beliefs.&lt;/p&gt;
 </content:encoded></item><item><title>Docker cAdvisor</title><link>https://leadership.qubitpi.org/posts/docker-c-advisor/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/docker-c-advisor/</guid><description>Overseeing resource consumption of all Docker containers on a VM</description><pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/google/cadvisor&quot;&gt;cAdvisor&lt;/a&gt; (Container Advisor) provides Docker container users an understanding of
 the resource usage and performance characteristics of their running containers. It is a running daemon that collects,
 aggregates, processes, and exports information about running containers. Specifically, for each container it keeps
