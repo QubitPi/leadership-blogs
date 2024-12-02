@@ -119,6 +119,7 @@ The end results of projects can result in endless operations
 
 - A project is all about _initiatives_ or _changes_
 - A project is a temporary endeavor undertaken to create a unique product or service.
+- ___A project eventually ends___
 
 :::
 
@@ -140,6 +141,21 @@ of 9 knowledge areas:
 7. Project Communications Management
 8. Project Risk Management
 9. Project Procurement Management
+
+### Project Management Process
+
+1. __Initiating__: Defining needs and plan-B's
+2. __Planning__: The most important
+3. __Executing & Controlling__: Overseeing the implementation of project team and reporting progress to the stakeholders
+
+   :::caution[Knowing Stakeholders]
+
+   Every stakeholder expects differently so it's crucial to know each one of them and their requests
+
+   :::
+
+4. __Closing__
+
 
 
 [^1]: Phillips, Joseph (2004). [_PMP Project Management Professional Study Guide_](https://archive.org/details/pmpprojectmanage00jose/mode/2up). McGraw-Hill/Osborne. p. 354. ISBN 0072230622.
