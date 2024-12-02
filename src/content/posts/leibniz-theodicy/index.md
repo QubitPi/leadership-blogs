@@ -28,8 +28,10 @@ choose from a full range of options (not just good ones). He also says that some
 can think of others like courage, forgiveness, compassion) need suffering in order to exist. The evil is necessary. So
 God would allow for these evils in order to make greater good possible[^1].
 
-Leibniz is a very interesting Philosopher. He was perhaps the first major European intellectual to take a close interest
-in Chinese civilization[^2], which he knew by corresponding with, and reading other works by, European Christian
+Leibniz is a very interesting Philosopher. He may have been the first computer scientist and information theorist[^2].
+He puzzled over the origins of the Slavic languages and was fascinated by classical Chinese. Leibniz was also an expert
+in the Sanskrit language.[^2] He was also perhaps the first major European intellectual to take a close interest in
+Chinese civilization[^2], which he knew by corresponding with, and reading other works by, European Christian
 missionaries posted in China. He apparently read
 [_Confucius Sinarum Philosophus_](https://en.wikipedia.org/wiki/Philippe_Couplet) in the first year of its publication.
 He came to the conclusion that Europeans could learn much from the Confucian ethical tradition. He mulled over the
@@ -49,4 +51,4 @@ Confucianism, pointing to the fact that they were conceived during the period wh
 Philosophus_.
 
 [^1]: [Help with Leibniz's Theodicy](https://www.reddit.com/r/askphilosophy/comments/1so41y/comment/cdziue3/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
-[^2]: [Wikipedia - Gottfried Wilhelm Leibniz](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz#Sinophology)
+[^2]: [Wikipedia - Gottfried Wilhelm Leibniz](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz)
