@@ -13,12 +13,6 @@ draft: false
 Overview
 --------
 
-:::note
-
-Source - [Wikipedia](https://en.wikipedia.org/wiki/Project_management)
-
-:::
-
 Project management is the process of supervising the work of a team to achieve all project goals within the given
 constraints[^1]. This information is usually described in
 [project documentation](https://en.wikipedia.org/wiki/Project_initiation_documentation), created at the beginning of the
@@ -29,9 +23,7 @@ A project is a _temporary_ and unique endeavor designed to produce a product, se
 and end (usually time-constrained, often constrained by funding or staffing) undertaken to meet unique goals and
 objectives, typically to bring about beneficial change or added value.[^2] The temporary nature of projects stands in
 contrast with business as usual (or operations), which are repetitive, permanent or semi-permanent functional activities
-to produce products or services. 
-
-[The Infinite Game]: https://trello.com/c/cj3d6g2A
+to produce products or services.
 
 :::tip
 
@@ -165,10 +157,18 @@ It is important to keep in mind that those 9 are not separate but are disolved i
 
 4. __Closing__
 
+Skills of a Project Manager
+---------------------------
 
+- Communication Skill
+- Organizing a Project: ensuring thorough, fast, and reliable access to project data
+- Negotiation Skills
+- Team Leadership: manage things and lead people
 
 [^1]: Phillips, Joseph (2004). [_PMP Project Management Professional Study Guide_](https://archive.org/details/pmpprojectmanage00jose/mode/2up). McGraw-Hill/Osborne. p. 354. ISBN 0072230622.
 [^2]: Nokes, Sebastian; Kelly, Sean (2007).
 [_The Definitive Guide to Project Management: The Fast Track to Getting the Job Done on Time and on Budget_](https://archive.org/details/definitiveguidet0000noke/mode/2up).
 Pearson Education. Prentice Hall Financial Times. ISBN 9780273710974.
 [^3]: Sinek, Simon (2019). _The Infinite Game_. Portfolio/Penguin. ISBN 9780735213500.
+
+[The Infinite Game]: https://trello.com/c/cj3d6g2A
