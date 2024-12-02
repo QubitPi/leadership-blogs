@@ -2182,7 +2182,7 @@ consistently deliver services faster and more reliably than their low performing
 highly regulated domains such as &lt;a href=&quot;https://www.youtube.com/watch?v=eMS97X5ZTGc&quot;&gt;financial services&lt;/a&gt; and
 &lt;a href=&quot;https://www.youtube.com/watch?v=QwHVlJtqhaI&quot;&gt;government&lt;/a&gt;. This capability provides an incredible competitive advantage
 for organizations that are willing to invest the effort to pursue it.&lt;/p&gt;
-&lt;p&gt;:::info&lt;/p&gt;
+&lt;p&gt;:::note&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Firms with high-performing IT organizations were twice as likely to exceed their profitability, market share and
 productivity goals.&lt;/li&gt;
@@ -2199,8 +2199,8 @@ predicts higher IT performance.&lt;/li&gt;
 &lt;p&gt;&lt;strong&gt;Low risk releases&lt;/strong&gt;. The primary goal of continuous delivery is to make software deployments painless, low-risk
 events that can be performed at any time, on demand. By applying &lt;a href=&quot;#patterns&quot;&gt;patterns&lt;/a&gt; such as &lt;strong&gt;blue-green
 deployments&lt;/strong&gt; it is relatively straightforward to achieve zero-downtime deployments that are undetectable to users.&lt;/p&gt;
-&lt;p&gt;:::info[Blue-green Deployment]&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;blue-green-deployments.png&quot; alt=&quot;Error loading blue-green-deployments.png &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;:::note[Blue-green Deployment]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;blue-green-deployments.png&quot; alt=&quot;Error loading blue-green-deployments.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;One of the challenges with automating deployment is the cut-over itself, taking software from the final stage of
 testing to live production. We usually need to do this quickly in order to minimize downtime. The blue-green
 deployment approach does this by ensuring we have &lt;strong&gt;two production environments&lt;/strong&gt;, as identical as possible. At any
@@ -2298,7 +2298,7 @@ fallacy.&lt;/p&gt;
 &lt;p&gt;The reason we work in large batches is because of the large fixed cost of handing off changes. &lt;strong&gt;A key goal of
 continuous delivery is to change the economics of the software delivery process to make it economically viable to work
 in small batches so we can obtain the many benefits of this approach&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;:::info&lt;/p&gt;
+&lt;p&gt;:::note&lt;/p&gt;
 &lt;p&gt;A key goal of continuous delivery is to change the economics of the software delivery process to make it economically
 viable to work in small batches so we can obtain the many benefits of this approach&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
@@ -2527,7 +2527,7 @@ or service on its own, with any dependencies replaced by a suitable test double,
 machine, a stub, or a mock. Each component or service should be deployable in a fully automated fashion on developer
 workstations, test environments, or in production. In a well-designed architecture, it is possible to get a high level of
 confidence the component is operating properly when deployed in this fashion.&lt;/p&gt;
-&lt;p&gt;:::info Test Double&lt;/p&gt;
+&lt;p&gt;:::note Test Double&lt;/p&gt;
 &lt;p&gt;Test Double is a generic term for any case where you replace a production object for testing purposes. There are various
 kinds of double:&lt;/p&gt;
 &lt;ul&gt;
