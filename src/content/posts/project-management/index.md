@@ -71,7 +71,10 @@ For this, we __must define the _end_ of a project as the _start_ of the next con
 managed project contributed to the infinite game of an organization
 
 In addition, a project must support the higher vision of the organization and the project manager must understand why
-the project is being created and what ist purpose in the organization[^1].
+the project is being created and what ist purpose in the organization[^1]. Specifically, the larger entities,
+organizations, companies, or communities wil have direct influence over the project itself illustrated below:
+
+![Organizational Pyramid](./organizational-pyramid.png "Error loading organizational-pyramid.png")
 
 :::
 
@@ -136,11 +139,15 @@ of 9 knowledge areas:
 9. Project Procurement Management
 
 It is important to keep in mind that those 9 are not separate but are disolved into the
-[5 PM processes](#project-management-processes)
+[5 PM processes](#project-management-processes-project-life-cycle)
 
-### Project Management Processes
+### Project Management Processes (Project Life Cycle)
 
-1. __Initiating__: Defining needs and plan-B's
+1. __Initiating__
+
+   - Defining needs
+   - Project Feasibility Study for the needs (worthiness, cost, time, etc.)
+
 2. __Planning__
 
    - scope: defining deliverables - what's going to be implemented, what's not
@@ -152,7 +159,9 @@ It is important to keep in mind that those 9 are not separate but are disolved i
 
    :::caution[Knowing Stakeholders]
 
-   Every stakeholder expects differently so it's crucial to know each one of them and their requests
+   - Every stakeholder expects differently so it's crucial to know each one of them and their requests
+   - Project manager must be able to meet the customer's expectation first and then manage expectations from multiple
+     stakeholders at the same time
 
    :::
 
@@ -165,6 +174,19 @@ Skills of a Project Manager
 - Organizing a Project: ensuring thorough, fast, and reliable access to project data
 - Negotiation Skills
 - Team Leadership: manage things and lead people
+
+Executing Project Management
+----------------------------
+
+- Break projects into phases, each of which comes with a deliverable (or __milestone__) at the end
+- Verify each deliverable before continuing into the next phase:
+
+  - Sign-offs from the customer
+  - Regulatory inspections and audits
+  - Quality metrics
+  - Performance metrics
+  - Security audits
+  - etc.
 
 [^1]: Phillips, Joseph (2004). [_PMP Project Management Professional Study Guide_](https://archive.org/details/pmpprojectmanage00jose/mode/2up). McGraw-Hill/Osborne. p. 354. ISBN 0072230622.
 [^2]: Nokes, Sebastian; Kelly, Sean (2007).
