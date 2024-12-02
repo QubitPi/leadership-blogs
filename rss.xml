@@ -28,6 +28,8 @@ possibility that the Chinese characters were an unwitting form of his
 111111, and concluded that this mapping was evidence of major Chinese accomplishments in the sort of philosophical
 mathematics he admired. Leibniz was one of the western philosophers of the time who attempted to accommodate Confucian
 ideas to prevailing European beliefs.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./Diagram_of_I_Ching_hexagrams_owned_by_Gottfried_Wilhelm_Leibniz,_1701.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Leibniz&apos;s attraction to Chinese philosophy originates from his perception that Chinese philosophy was similar to his own&lt;/p&gt;
 </content:encoded></item><item><title>Docker cAdvisor</title><link>https://leadership.qubitpi.org/posts/docker-c-advisor/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/docker-c-advisor/</guid><description>Overseeing resource consumption of all Docker containers on a VM</description><pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/google/cadvisor&quot;&gt;cAdvisor&lt;/a&gt; (Container Advisor) provides Docker container users an understanding of
 the resource usage and performance characteristics of their running containers. It is a running daemon that collects,
 aggregates, processes, and exports information about running containers. Specifically, for each container it keeps
