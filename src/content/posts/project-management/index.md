@@ -211,8 +211,8 @@ Organizations are structured into one of 6 models. Project management in them ar
    specific to the function of the department the project falls into. For example, the TI Department could implement new
    software for the Finance Department. The role of the TI Department is separate from the Finance Department, but the
    coordination between the two functional departments would be evident. Communication between departments flows through
-   functional managers down to the project team. Figure 2-4 depicts the relationship between business departments and the
-   flow of communication between projects and departments. Project managers in functional organizations have the
+   functional managers down to the project team. Figure 2-4 depicts the relationship between business departments and
+   the flow of communication between projects and departments. Project managers in functional organizations have the
    following attributes:
 
    - Little power
@@ -228,12 +228,9 @@ Organizations are structured into one of 6 models. Project management in them ar
    :::caution
 
    This organizing of specialization by departments leads to operational efficiency, where employees become specialists
-   within their own realm of expertise.
-
-   Such organization also has the downside of rigid, slow, and inflexible communication and execution
-
-   A functional organization is best suited as a producer of standardized goods and services at large volume and low
-   cost.
+   within their own realm of expertise. Such organization also has the downside of rigid, slow, and inflexible
+   communication and execution. A functional organization is best suited as a producer of standardized goods and
+   services at large volume and low cost.
 
    :::
 
@@ -248,7 +245,7 @@ Organizations are structured into one of 6 models. Project management in them ar
      areas.
    - __Balanced Matrix__: A project manager is assigned to oversee the project. Power is shared equally between the
      project manager and the functional managers
-5. 
+
 
 [^1]: Phillips, Joseph (2004). [_PMP Project Management Professional Study Guide_](https://archive.org/details/pmpprojectmanage00jose/mode/2up). McGraw-Hill/Osborne. p. 354. ISBN 0072230622.
 [^2]: Nokes, Sebastian; Kelly, Sean (2007).
