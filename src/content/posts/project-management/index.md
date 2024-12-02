@@ -20,7 +20,7 @@ Source - [Wikipedia](https://en.wikipedia.org/wiki/Project_management)
 :::
 
 Project management is the process of supervising the work of a team to achieve all project goals within the given
-constraints[^1].This information is usually described in
+constraints[^1]. This information is usually described in
 [project documentation](https://en.wikipedia.org/wiki/Project_initiation_documentation), created at the beginning of the
 development process. The primary constraints are scope, time and budget. The secondary challenge is to optimize the
 allocation of necessary inputs and apply them to meet predefined objectives.
@@ -35,8 +35,8 @@ to produce products or services.
 
 :::tip
 
-- "Temporary" means that the project has an end date. "Unique" means that the project's end result is different from the
-  results of other functions of the organization[^1]
+- "Temporary" means that the _project has an end date_. "Unique" means that the project's end result is _different from
+  the results of other functions of the organization_[^1]
 - This "temporary" nature contrasts with the idea of [Infinite Game][The Infinite Game]
 - But since an infinite-game must be conducted by every concrete steps, we can consider an instance of project
   management an atomic unity of such step; just as how the [book of Infinite Game][The Infinite Game] stats:
