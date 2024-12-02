@@ -43,6 +43,7 @@ mathematics he admired. Leibniz was one of the western philosophers of the time 
 ideas to prevailing European beliefs.
 
 ![](./Diagram_of_I_Ching_hexagrams_owned_by_Gottfried_Wilhelm_Leibniz,_1701.png)
+> A diagram of I Ching hexagrams sent to Leibniz from Joachim Bouvet. The Arabic numerals were added by Leibniz.[188]
 
 Leibniz's attraction to Chinese philosophy originates from his perception that Chinese philosophy was similar to his own
 The historian E.R. Hughes suggests that Leibniz's ideas of "simple substance" and
