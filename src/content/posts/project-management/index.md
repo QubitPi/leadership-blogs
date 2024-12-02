@@ -126,6 +126,17 @@ The end results of projects can result in endless operations
 All projects begin as a concept, progress through iterative implementation, and completes by fulfilling the initial
 need.
 
+### Types of Project Management
+
+Organizations fall into one of three models:
+
+- __Completing projects for others__  These entities swoop into other organizations and complete the project work based
+  on specifications, details, and specification documents. Classical examples of these types of organizations include
+  consultants and technology integration companies.
+- __Completing projects internally through a system__  Usually SaaS
+- __Completing projects as needed__ Staggering governmental or financial institutions which really doesn't do projects
+  as much
+
 Defining Project Management
 ---------------------------
 
