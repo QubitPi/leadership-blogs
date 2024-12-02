@@ -14,10 +14,10 @@ draft: false
 
 In his treatise on page 138 of the _Thodicy_, Leibniz wrote
 
-> Hence the conclusion that God wills all good in himself antecedently, that he wills the best consequently as an end,
+> _Hence the conclusion that God wills all good in himself antecedently, that he wills the best consequently as an end,
 > that he wills what is indifferent, and physical evil, sometimes as a means, but that he will only permit 
 > moral evil as the sine quo non or as a hypothetical necessity which connects it with the best. Therefore the
-> consequent will of God, which has sin for its object, is only permissive.
+> consequent will of God, which has sin for its object, is only permissive._
 
 Leibniz thinks that the world that we live in is ABSOLUTELY the best possible world because it was created by a perfect
 God. That means that there is no "excess" evil; evil always serves some sort of purpose. This has a lot to do with
