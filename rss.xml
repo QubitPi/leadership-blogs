@@ -27,7 +27,7 @@ The historian E.R. Hughes suggests that Leibniz&apos;s ideas of &quot;simple sub
 Confucianism, pointing to the fact that they were conceived during the period when he was reading &lt;em&gt;Confucius Sinarum
 Philosophus&lt;/em&gt;.&lt;/p&gt;
 &lt;h2&gt;Theodicy&lt;/h2&gt;
-&lt;p&gt;In his treatise on page 138 of the &lt;em&gt;Theodicy&lt;/em&gt;, Leibniz wrote&lt;/p&gt;
+&lt;p&gt;On page 138 of &lt;em&gt;Theodicy&lt;/em&gt;, the only book-length treatise that he published during his lifetime[^3], Leibniz wrote&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Hence the conclusion that God wills all good in himself antecedently, that he wills the best consequently as an end,
 that he wills what is indifferent, and physical evil, sometimes as a means, but that he will only permit
@@ -43,7 +43,8 @@ choose from a full range of options (not just good ones). He also says that some
 can think of others like courage, forgiveness, compassion) need suffering in order to exist. The evil is necessary. So
 God would allow for these evils in order to make greater good possible[^1].&lt;/p&gt;
 &lt;p&gt;[^1]: &lt;a href=&quot;https://www.reddit.com/r/askphilosophy/comments/1so41y/comment/cdziue3/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;Help with Leibniz&apos;s Theodicy&lt;/a&gt;
-[^2]: &lt;a href=&quot;https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz&quot;&gt;Wikipedia - Gottfried Wilhelm Leibniz&lt;/a&gt;&lt;/p&gt;
+[^2]: &lt;a href=&quot;https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz&quot;&gt;Wikipedia - Gottfried Wilhelm Leibniz&lt;/a&gt;
+[^3]: Stanford Encyclopedia of Philosophy, &lt;a href=&quot;https://plato.stanford.edu/entries/leibniz-evil/&quot;&gt;Leibniz on the Problem of Evil&lt;/a&gt;&lt;/p&gt;
 </content:encoded></item><item><title>Docker cAdvisor</title><link>https://leadership.qubitpi.org/posts/docker-c-advisor/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/docker-c-advisor/</guid><description>Overseeing resource consumption of all Docker containers on a VM</description><pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/google/cadvisor&quot;&gt;cAdvisor&lt;/a&gt; (Container Advisor) provides Docker container users an understanding of
 the resource usage and performance characteristics of their running containers. It is a running daemon that collects,
 aggregates, processes, and exports information about running containers. Specifically, for each container it keeps
