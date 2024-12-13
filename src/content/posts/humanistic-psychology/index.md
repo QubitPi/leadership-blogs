@@ -1,6 +1,7 @@
 ---
 title: Humanistic Psychology
 published: 2024-11-28
+updated: 2024-12-13
 description: In order for individuals to thrive and excel, a health-fostering culture must be created.
 image: cover.png
 tags: [Psychology]
@@ -60,8 +61,8 @@ The first four levels are known as deficit needs or D-needs. This means that if 
 four needs, there will be a need to get it. Getting them brings a feeling of contentment. These needs alone are not
 motivating.
 
-Maslow wrote that there are certain conditions that must be fulfilled in order for the basic needs to be satisfied. For
-example, freedom of speech, freedom to express oneself, and freedom to seek new information
+Maslow wrote that [there are certain conditions that must be fulfilled in order for the basic needs to be satisfied. For
+example, freedom of speech, freedom to express oneself, and freedom to seek new information](#preconditions-for-satisfying-basic-needs)
 (_A Theory of Human Motivation_) are a few of the prerequisites. Any blockages of these freedoms could prevent the
 satisfaction of the basic needs.
 
@@ -182,8 +183,84 @@ be more autonomous and creative work outcome that targets more on the _problems_
 15. Reality shapes the dynamics between Freudian Id and Ego
 16. Focusing on healthy person instead of psychotherapists's neurotic sufferers.
 
-### Chapter 4 - Motivation Theory
+### Chapter 4 - Basic Needs: Just the Basic
+
+What we are talking about here is also called _Gratification Theory_ - gratifying a lower need bumps a person to the
+next level of need. The validity of this theory is justified given the following premises being true:
+
+1. Frustration Theory
+2. Learning Theory
+3. Theory of Neurosis
+4. Theory of Psychological Health
+5. Theory of values
+6. Theory of discipline, will, responsibility, etc
+
+In addition, it must be kept in mind that there are determinants other than the Basic Need gratifications.
 
 #### Basic Needs
 
-- Psychological Needs: indicated by specific appetites
+:::tip[UNCONSCIOUS CHARACTER OF NEEDS]
+
+The following needs tend to be more unconscious than conscious
+
+:::
+
+1. __Physiological Needs__
+
+   - Nutritions for survival
+   - Indicated by specific appetites
+   - Those that are deprived of a person are regarded as being more important than something else higher
+
+2. __Safety Needs__
+
+   - Indication: preference for undisrupted routine or rhythm. e.g. justice, consistency, ordered world
+   - Permissiveness within limits, rather than unrestricted permissiveness is preferred as well as needed by children.
+     Perhaps one could express this more accurately by saying that the child needs an organized and structured world
+     rather than an unorganized or unstructured one
+   - Those with excessive expression of closeness with their parents might suggest they are seeing themselves facing a
+     world of much greater danger, because infant tend to cling to parents at times of feeling unsafe
+   - To identify the degree of safety needs of a person requires us to look at that person from an economic and social 
+     context
+   - Psychologically, these behaviors also shows people's attempts to seek safety
+
+     - people's preference for familiar/known rather than unfamiliar/unknown things
+     - tendency to have some religion or world philosophy
+     - too freaking-out about some world events that seems to be a catastrophe to them; they seem to be looking for a
+       Fuehrer
+
+   - The neurotic individual may be described with great usefulness as a grown-up person who retains his childhood
+     attitudes toward the world. That is to say, a neurotic adult may be said to behave as if he were actually afraid of
+     a spanking, or of his mother's disapproval, or of being abandoned by his parents, or having his food taken away from
+     him. It is as if his childish attitudes of fear and threat reaction to a dangerous world had gone underground, and
+     untouched by the growing up and learning processes, were now ready to be called out by any stimulus that would make
+     a child feel endangered and threatened. Horney[^1] especially has written well about "basic anxiety"
+
+3. __Sense of Belong and Love__
+
+   - Lots of activities within our societies are driven by the hunger for belongness.
+   - Love is not sex. Love is about giving and receiving
+
+4. __Esteem Needs__ (strength & reputation)
+5. __Self-Actualization__ (He or she must be true to their own nature)
+
+   - The desire to become more and more what one idiosyncratically is, to become everything that one is capable of
+     becoming
+   - Individual differences are greatest at this level
+
+It should be noted that such order of hierarchy is not rigidly fixed for everyone. The arrangement of basic needs
+differs according to different people's priority or potency. For example, some seek self-esteem (_Esteem Needs_) before
+_Sense of Belong and Love_; some simply lost the desire for love. In addition, everyone has all 5 needs partially filled
+and unfilled while climbing up the pyramid and people tend to develop all 5 levels at the same time with different
+speed. With that said then, most human behaviors are _multimotivated_
+
+The needs above are all driven motivations. Not all behaviors, however, are motivation-driven. Motivation-driven
+behaviors are what we called _expressive behaviors_. On the other hand, _coping behaviors_ is purposive goal seeking.
+
+A _satisfied_ need does not motivate us anymore. If that's the case, the author postulates further that what really
+motivates us is "__the need to develop and actualize our fullest potentialities and capacities__."
+
+### Chapter 5 - Consequences of Basic Needs
+
+
+
+[^1]: Horney, K, _The Neurotic Personality of Our Time_, New York Norton, 1937
