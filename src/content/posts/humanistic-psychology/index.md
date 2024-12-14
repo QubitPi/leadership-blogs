@@ -1,7 +1,7 @@
 ---
 title: Humanistic Psychology
 published: 2024-11-28
-updated: 2024-12-13
+updated: 2024-12-15
 description: In order for individuals to thrive and excel, a health-fostering culture must be created.
 image: cover.png
 tags: [Psychology]
@@ -262,6 +262,26 @@ motivates us is "__the need to develop and actualize our fullest potentialities 
 
 ### Chapter 5 - Consequences of Basic Needs
 
+- People learn in a certain way toward certain learning goal _exclusively_ for the gratification of the basic needs.
+- Early-childhood gratifications tends to shape a healthier adult
+- Different degrees of gratifications shapes personalities
+- People with gratifications of higher levels tend to be more psychologically healthier
 
+### Chapter 6 - Something I Really Don't Care
+
+### Chapter 7 - Higher v.s. Lower Needs
+
+1. Higher need is a later phyletic or evolutionary development
+2. Higher needs are later ontogenetic developments
+3. Higher the need the less imperative at as for sheer survival, the longer gratification can be postponed, and the
+   easter it as for the need to disappear permanently
+4. Higher needs are less urgent subjectively
+5. Higher need gratifications produce more desirable subjective results
+6. Pursuit and gratification of higher needs represent a general healthward trend,  a trend away from psychopathology.
+7. The higher need has more preconditions
+8. A greater value is usually placed upon the higher need than upon the lower by those who have been gratified in both
+9. The pursuit and gratification of the higher needs leads to greater, stronger, and truer individualism
+
+### Chapter 8
 
 [^1]: Horney, K, _The Neurotic Personality of Our Time_, New York Norton, 1937
