@@ -282,6 +282,27 @@ motivates us is "__the need to develop and actualize our fullest potentialities 
 8. A greater value is usually placed upon the higher need than upon the lower by those who have been gratified in both
 9. The pursuit and gratification of the higher needs leads to greater, stronger, and truer individualism
 
-### Chapter 8
+### Chapter 8 - Theory of Threat
+
+This chapter talks about what a _threat_ really is for human. What are its relationships to various Psychological
+phenomenons.
+
+#### Threat Caused by Frustration and Deprivation
+
+A person targets towards a goal (or _object_) for two causes:
+
+1. its intrinsic meaning
+2. its symbolic value (psychological values)
+
+We've all experienced deprivation and frustration. The distinction between the two is that deprivation on non-basic
+needs does not lead to frustration. Only the deprivation of an object's symbolic value from a person could lead to
+frustration. This has an important application in the dominance-subordinate relationship (e.g. working environment). The
+dominance feels safe by keeping objects with symbolic dominance value on their side. Taking such away from them triggers
+their hostile attacks. It is safe to gain support, permission, or resources from the dominance if subordinate can
+deprive them of its symbolic value. Another example is when you know your friends truly love you, you respond gently
+to their criticism instead of becoming angry. In this sense, __a thread to personality comes from the deprivation of
+symbolic value__
+
+#### Thread Caused by Conflict
 
 [^1]: Horney, K, _The Neurotic Personality of Our Time_, New York Norton, 1937
