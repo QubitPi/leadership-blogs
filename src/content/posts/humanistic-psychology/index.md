@@ -1,7 +1,7 @@
 ---
 title: Humanistic Psychology
 published: 2024-11-28
-updated: 2024-12-15
+updated: 2024-12-24
 description: In order for individuals to thrive and excel, a health-fostering culture must be created.
 image: cover.png
 tags: [Psychology]
@@ -287,8 +287,6 @@ motivates us is "__the need to develop and actualize our fullest potentialities 
 This chapter talks about what a _threat_ really is for human. What are its relationships to various Psychological
 phenomenons.
 
-#### Threat Caused by Frustration and Deprivation
-
 A person targets towards a goal (or _object_) for two causes:
 
 1. its intrinsic meaning
@@ -303,6 +301,12 @@ deprive them of its symbolic value. Another example is when you know your friend
 to their criticism instead of becoming angry. In this sense, __a thread to personality comes from the deprivation of
 symbolic value__
 
-#### Thread Caused by Conflict
+The author then argues that the nature of _threat_, however, is not subsumed under the concept of frustration, but more
+attributed to pathogenic psychopathology, such as illness, brain-injured, and trauma.
+
+### Chapter 9 - Something I Really Don't Care
+
+### Chapter 10 - Expression and Coping
+
 
 [^1]: Horney, K, _The Neurotic Personality of Our Time_, New York Norton, 1937
