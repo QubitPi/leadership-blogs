@@ -21,12 +21,6 @@ the direct result of another, from the following 4 perspectives:
 Kant's  Metaphysics
 -------------------
 
-:::note[References]
-
-- Wikipedia, [_Causality_](https://en.wikipedia.org/wiki/Causality)
-
-:::
-
 The nature of cause and effect is a concern of the subject known as metaphysics. __Kant__ primarily discusses the concept of cause and effect in the __Division One - Book II - Section III - 3.B. Second
 analogy__ of his [_Critique of Pure Reason_](https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/):
 
@@ -38,45 +32,41 @@ Everything that happens (begins to be) presupposes something which it follows in
 All alterations occur in accordance with the law of the connection of cause and effect.
 :::
 
-
 He thought that time and space
 were notions prior to human understanding of the progress or evolution of the world, and he also recognized __the priority
 of causality__. But he did not have the understanding that came with knowledge of [Minkowski geometry] and the
 [Special Theory of Relativity], that the notion of causality can be used as a prior foundation from which to
-[construct notions](https://en.wikipedia.org/wiki/Causal_structure) of time and space
+[construct notions](https://en.wikipedia.org/wiki/Causal_structure) of time and space[^1]
 
 Aristotle's Philosophy
 ----------------------
 
-In Book II, Chapter 3 of his work "[Physics](https://trello.com/c/fIM7TADB)", __Aristotle__ identified 4 kinds of answer
-or explanatory mode to various "Why?" questions:
+In Book II, Chapter 3 of his work "[Physics](https://trello.com/c/fIM7TADB)", __Aristotle__ considered in how many senses "because" may answer the
+question "why". He believes understanding a thing means knowing its "how and why" and gave the following rough classification of the causal determinants of things: 
 
-1. _Material Cause_: Aristotle considers the material "cause" of an object as equivalent to the nature of the raw
-   material out of which the object is composed.
+:::tip[The meaning of physics in Aristotle]
 
-   Whereas modern Physics looks to simple bodies, Aristotle's Physics took a more general viewpoint, and treated living
-   things as exemplary. Nevertheless, he argued that simple natural bodies such as earth, fire, air, and water also
-   showed signs of having their own innate sources of motion, change, and rest. Fire, for example, carries things
-   upwards, unless stopped from doing so. Things formed by human artifice, such as beds and cloaks, have no innate
-   tendency to become beds or cloaks.
+Aristotle's _Physics_ deals with the most general (philosophical) principles of natural or __moving__ things, both living and non-living, rather than physical theories (in the modern sense) or investigations of the particular contents of the universe. The chief purpose of the work is to discover the principles and causes of change, or movement, or motion, especially that of natural wholes (mostly living things, but also inanimate wholes like the cosmos).[^2]
 
-2. _Formal Cause_: Aristotle considers the formal "cause" as describing the pattern or form which when present makes
-   matter into a particular type of thing, which we recognize as being of that particular type.
-3. _Efficient Cause_: Aristotle defines the agent or efficient "cause" of an object as that which causes change and
-   drives transient motion (such as a painter painting a house) (see Aristotle, _Physics_ II 3, 194b29). In many cases,
-   this is simply the thing that brings something about. For example, in the case of a statue, it is the person
-   chiseling away which transforms a block of marble into a statue. [According to Lloyd, of the four causes, only this
+Therefore the "_process_" in the discussion below is nothing but just the movement of a thing from one place to another,
+such as a vehicle head toward San Francisco from Los Angeles. 
+
+:::
+
+1. _Material Cause_ - _The existence of material for the generating process to start from_. For example, bronze _for_
+   the statue
+2. _Formal Cause_ - _The material must receives the form (characteristics) of the type which conforms to its own definition_
+3. _Efficient Cause_ - _There must be something to initiate a process for change and cease the process when completed_, i.e. changing from what it was to what it is to be. [According to Lloyd, of the four causes, only this
    one is what is meant by the modern English word "cause" in ordinary speech](https://trello.com/c/V3QZplQN).
-4. _Final Cause_: the criterion of completion, or the end; it may refer to an action or to an inanimate process.
-   Examples: Socrates takes a walk after dinner for the sake of his health; earth falls to the lowest level because that
-   is its nature.
+4. _Final Cause_ - The _end_ or purpose of the process being initiated. For instance, people exercise for their health. 
 
 Buddhist Philosophy
 -------------------
 
 All the classic Buddhist schools teach [Karma](https://en.wikipedia.org/wiki/Karma) (Sanskrit: कर्म). "The law of karma is a special instance of the law of cause and effect, according to which all our actions of body, speech, and mind are causes and all our experiences are their effects."
 
-
+[^1]: Wikipedia, [_Causality_](https://en.wikipedia.org/wiki/Causality)
+[^2]: Wikipedia, [Physics (Aristotle)](https://en.wikipedia.org/wiki/Physics_(Aristotle))
 
 [Minkowski geometry]: https://en.wikipedia.org/wiki/Minkowski_space#Causal_structure
 [Special Theory of Relativity]: https://github.com/QubitPi/general-relativity
