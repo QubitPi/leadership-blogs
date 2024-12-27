@@ -32,6 +32,7 @@ const fontSwitch = {
     'font-SweynheimPannartz': entry.data.font == 'SweynheimPannartz',
     'font-PangZhonghuaXingKai': entry.data.font == 'PangZhonghuaXingKai',
     'font-DXRedMailboxBold': entry.data.font == 'DXRedMailboxBold',
+    'font-WalbaumFraktur': entry.data.font == 'WalbaumFraktur',
     'font-Porson': entry.data.font == 'Porson',
     'font-Ubuntu': entry.data.font == 'Ubuntu' || entry.data.font == null
 }
@@ -156,6 +157,14 @@ const jsonLd = {
 </MainGridLayout>
 
 <style is:global>
+@font-face {
+    font-family: 'WalbaumFraktur';
+    src: url('/fonts/WalbaumFraktur.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 @font-face {
     font-family: 'DXRedMailboxBold';
     src: url('/fonts/DXRedMailboxBold.ttf') format('truetype');

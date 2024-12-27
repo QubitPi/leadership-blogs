@@ -6,6 +6,7 @@ image: cover.png
 tags: [Philosophy]
 category: German
 draft: false 
+font: WalbaumFraktur
 ---
 
 Die Transscendentale Aesthetik

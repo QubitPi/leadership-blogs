@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         sans: ["Ubuntu", "sans-serif", ...defaultTheme.fontFamily.sans],
         Ubuntu: ["Ubuntu", "sans-serif", ...defaultTheme.fontFamily.sans],
+        WalbaumFraktur: ["WalbaumFraktur"],
         SweynheimPannartz: ["SweynheimPannartz", "SweynheimPannartz", "SweynheimPannartz"],
         PangZhonghuaXingKai: ["PangZhonghuaXingKai"],
         DXRedMailboxBold: ["DXRedMailboxBold", "DXRedMailboxBold", "DXRedMailboxBold"],
