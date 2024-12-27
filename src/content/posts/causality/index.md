@@ -27,22 +27,26 @@ Kant's  Metaphysics
 
 :::
 
-The nature of cause and effect is a concern of the subject known as metaphysics. __Kant__ thought that time and space
-were notions prior to human understanding of the progress or evolution of the world, and he also recognized the priority
-of causality. But he did not have the understanding that came with knowledge of [Minkowski geometry] and the
+The nature of cause and effect is a concern of the subject known as metaphysics. __Kant__ primarily discusses the concept of cause and effect in the __Division One - Book II - Section III - 3.B. Second
+analogy__ of his [_Critique of Pure Reason_](https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/):
+
+:::tip[Law of Causality - 1st Version]
+Everything that happens (begins to be) presupposes something which it follows in accordance with a rule.
+:::
+
+:::tip[Law of Causality - 2nd Version]
+All alterations occur in accordance with the law of the connection of cause and effect.
+:::
+
+
+He thought that time and space
+were notions prior to human understanding of the progress or evolution of the world, and he also recognized __the priority
+of causality__. But he did not have the understanding that came with knowledge of [Minkowski geometry] and the
 [Special Theory of Relativity], that the notion of causality can be used as a prior foundation from which to
 [construct notions](https://en.wikipedia.org/wiki/Causal_structure) of time and space
 
-Kant primarily discusses the concept of cause and effect in the _Division One - Book II - Section III - 3.B. Second
-analogy__ of his "Critique of Pure Reason".
-
-Buddhist Philosophy
--------------------
-
-All the classic Buddhist schools teach [Karma](https://en.wikipedia.org/wiki/Karma) (Sanskrit: कर्म). "The law of karma is a special instance of the law of cause and effect, according to which all our actions of body, speech, and mind are causes and all our experiences are their effects."
-
-Western Philosophy
-------------------
+Aristotle's Philosophy
+----------------------
 
 In Book II, Chapter 3 of his work "[Physics](https://trello.com/c/fIM7TADB)", __Aristotle__ identified 4 kinds of answer
 or explanatory mode to various "Why?" questions:
@@ -50,7 +54,7 @@ or explanatory mode to various "Why?" questions:
 1. _Material Cause_: Aristotle considers the material "cause" of an object as equivalent to the nature of the raw
    material out of which the object is composed.
 
-   Whereas modern Physics looks to simple bodies, Aristotle's Physics took a more general viewpoint, and treated living 
+   Whereas modern Physics looks to simple bodies, Aristotle's Physics took a more general viewpoint, and treated living
    things as exemplary. Nevertheless, he argued that simple natural bodies such as earth, fire, air, and water also
    showed signs of having their own innate sources of motion, change, and rest. Fire, for example, carries things
    upwards, unless stopped from doing so. Things formed by human artifice, such as beds and cloaks, have no innate
@@ -66,6 +70,13 @@ or explanatory mode to various "Why?" questions:
 4. _Final Cause_: the criterion of completion, or the end; it may refer to an action or to an inanimate process.
    Examples: Socrates takes a walk after dinner for the sake of his health; earth falls to the lowest level because that
    is its nature.
+
+Buddhist Philosophy
+-------------------
+
+All the classic Buddhist schools teach [Karma](https://en.wikipedia.org/wiki/Karma) (Sanskrit: कर्म). "The law of karma is a special instance of the law of cause and effect, according to which all our actions of body, speech, and mind are causes and all our experiences are their effects."
+
+
 
 [Minkowski geometry]: https://en.wikipedia.org/wiki/Minkowski_space#Causal_structure
 [Special Theory of Relativity]: https://github.com/QubitPi/general-relativity
