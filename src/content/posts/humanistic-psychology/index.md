@@ -1,6 +1,6 @@
 ---
 title: Humanistic Psychology
-published: 2024-11-28
+published: 2024-12-17
 updated: 2024-12-24
 description: In order for individuals to thrive and excel, a health-fostering culture must be created.
 image: cover.png

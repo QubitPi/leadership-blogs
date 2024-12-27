@@ -1,6 +1,6 @@
 ---
 title: Design Principles
-published: 2024-12-17
+published: 2024-11-28
 description: Learning Design for Web Development
 image: cover.png
 tags: [Technology]
