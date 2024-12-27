@@ -69,12 +69,11 @@ result. But one is the cause as aim (Final Cause) and the other as initiating th
 Buddhist Philosophy
 -------------------
 
-All the classic Buddhist schools teach [Karma](https://en.wikipedia.org/wiki/Karma) (Sanskrit: कर्म). "The law of karma is a special instance of the law of cause and effect, according to which all our actions of body, speech, and mind are causes and all our experiences are their effects."[^1]
+All the classic Buddhist schools teach [__Karma__](https://en.wikipedia.org/wiki/Karma) (Sanskrit: कर्म). "The law of karma is a special instance of the law of cause and effect, according to which all our actions of body, speech, and mind are causes and all our experiences are their effects."[^1]
 
 :::tip
 
-- "Karma" 的最好中文翻译是“业”（既“业障”的业）
-- 玩原神的朋友，这和[纳西妲的元素战绩“灭净三业”](https://genshin-impact.fandom.com/wiki/Nahida)中的“业”是一个意思
+"Karma" 的最好中文翻译是“业”（既“业障”的业）。玩原神的朋友，这和[纳西妲的元素战技“灭净三业”](https://genshin-impact.fandom.com/wiki/Nahida)中的“业”是一个意思 <img src="./探头.gif" width="70px"/>
 
 :::
 
