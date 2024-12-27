@@ -395,12 +395,12 @@ in many aspects of our lives and works, which is why I was drawn upon this topic
 </description><pubDate>Thu, 26 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This article is an overview of the Cause and Effect as the Principle of Causality, establishing one event or action as
 the direct result of another, from the following 4 perspectives:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Kant&apos;s Metaphysics&lt;/li&gt;
-&lt;li&gt;Aristotle&apos;s Philosophy&lt;/li&gt;
-&lt;li&gt;Chinese Yin-Yang&lt;/li&gt;
-&lt;li&gt;Buddhism&apos;s Karma&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#kants-metaphysics&quot;&gt;Kant&apos;s Metaphysics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#aristotles-western-philosophy&quot;&gt;Aristotle&apos;s Philosophy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E4%B8%AD%E5%9B%BD%E9%98%B4%E9%98%B3%E5%AD%A6%E8%AF%B4&quot;&gt;Chinese Yin-Yang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#buddhist-philosophy&quot;&gt;Buddhism&apos;s Karma&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Kant&apos;s  Metaphysics&lt;/h2&gt;
+&lt;h2&gt;Kant&apos;s Metaphysics&lt;/h2&gt;
 &lt;p&gt;The nature of cause and effect is a concern of the subject known as metaphysics. &lt;strong&gt;Kant&lt;/strong&gt; primarily discusses the concept of cause and effect in the &lt;strong&gt;Division One - Book II - Section III - 3.B. Second
 analogy&lt;/strong&gt; of his &lt;a href=&quot;https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/&quot;&gt;&lt;em&gt;Critique of Pure Reason&lt;/em&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;:::tip[Law of Causality - 1st Version]
@@ -414,7 +414,7 @@ were notions prior to human understanding of the progress or evolution of the wo
 of causality&lt;/strong&gt;. But he did not have the understanding that came with knowledge of &lt;a href=&quot;https://en.wikipedia.org/wiki/Minkowski_space#Causal_structure&quot;&gt;Minkowski geometry&lt;/a&gt; and the
 &lt;a href=&quot;https://github.com/QubitPi/general-relativity&quot;&gt;Special Theory of Relativity&lt;/a&gt;, that the notion of causality can be used as a prior foundation from which to
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Causal_structure&quot;&gt;construct notions&lt;/a&gt; of time and space[^1]&lt;/p&gt;
-&lt;h2&gt;Aristotle&apos;s Philosophy&lt;/h2&gt;
+&lt;h2&gt;Aristotle&apos;s (Western) Philosophy&lt;/h2&gt;
 &lt;p&gt;In Book II, Chapter 3 of his work &quot;&lt;a href=&quot;https://trello.com/c/fIM7TADB&quot;&gt;&lt;em&gt;Physics&lt;/em&gt;&lt;/a&gt;&quot;, &lt;strong&gt;Aristotle&lt;/strong&gt; considered in how many senses &quot;because&quot; may answer the
 question &quot;why&quot;. He believes understanding a thing means knowing its &quot;how and why&quot; and gave the following rough classification of the causal determinants of things:&lt;/p&gt;
 &lt;p&gt;:::tip[The meaning of physics in Aristotle]&lt;/p&gt;
@@ -434,7 +434,8 @@ one is what is meant by the modern English word &quot;cause&quot; in ordinary sp
 &lt;p&gt;In addition, none of them are the causes or effects of others. For example, we may say that a man is in fine condition
 because he has been in training, or that he has been in training because of the good condition he expected as the
 result. But one is the cause as aim (Final Cause) and the other as initiating the process (Efficient Cause).&lt;/p&gt;
-&lt;h2&gt;Chinese Yin-Yang&lt;/h2&gt;
+&lt;h2&gt;中国阴阳学说&lt;/h2&gt;
+&lt;p&gt;春秋战国末期出现的&lt;/p&gt;
 &lt;h2&gt;Buddhist Philosophy&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Karma&quot;&gt;&lt;strong&gt;Karma&lt;/strong&gt;&lt;/a&gt; (Sanskrit: कर्म) is the causality principle focusing on 1) causes, 2) actions, 3) effects, where it is the mind&apos;s phenomena that guide the actions that the actor performs. Buddhism trains the actor&apos;s actions for continued and uncontrived virtuous outcomes aimed at reducing suffering. This follows the Subject-verb-object structure[^1]&lt;/p&gt;
 &lt;p&gt;All the classic Buddhist schools teach Karma. &quot;The law of karma is a special instance of the law of cause and effect, according to which all our actions of body, speech, and mind are causes and all our experiences are their effects.&quot;[^1]&lt;/p&gt;
@@ -448,10 +449,12 @@ result. But one is the cause as aim (Final Cause) and the other as initiating th
 &lt;p&gt;and as is his desire, so is his will;&lt;/p&gt;
 &lt;p&gt;and as is his will, so is his deed;&lt;/p&gt;
 &lt;p&gt;and whatever deed he does, that he will reap.&lt;/p&gt;
-&lt;p&gt;— Brihadaranyaka Upanishad&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brihadaranyaka Upanishad&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;:::tip&lt;/p&gt;
-&lt;p&gt;&quot;Karma&quot; 的最好中文翻译是“业”（既“业障”的业）。玩原神的朋友，这和&lt;a href=&quot;https://genshin-impact.fandom.com/wiki/Nahida&quot;&gt;纳西妲的元素战技“灭净三业”&lt;/a&gt;中的“业”是一个意思（三业 = Tri-Karma） &amp;lt;img src=&quot;./nahida.gif&quot; width=&quot;70px&quot;/&amp;gt;&lt;/p&gt;
+&lt;p&gt;&quot;Karma&quot; 的最好中文翻译是“业”（既“业障”的业）。玩原神的朋友，这和&lt;a href=&quot;https://genshin-impact.fandom.com/wiki/Nahida&quot;&gt;纳西妲的元素战技“灭净三业”&lt;/a&gt;中的“业”是一个意思（三业 = Tri-Karma） &amp;lt;img src=&quot;nahida.gif&quot; width=&quot;70px&quot; /&amp;gt;&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h3&gt;Taoism&lt;/h3&gt;
 &lt;p&gt;Karma is an important concept in Taoism. Every deed is tracked by deities and spirits. Appropriate rewards or
