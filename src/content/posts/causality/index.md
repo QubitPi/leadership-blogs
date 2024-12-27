@@ -1,6 +1,6 @@
 ---
 title: Causality
-published: 2024-12-27
+published: 2024-12-26
 description: |
   I don't believe in any religion, but the notion of Buddhism's idea of Karma, i.e. cause and effect, seems to prevail
   in many aspects of our lives and works, which is why I was drawn upon this topic of "Causality"
@@ -32,6 +32,9 @@ were notions prior to human understanding of the progress or evolution of the wo
 of causality. But he did not have the understanding that came with knowledge of [Minkowski geometry] and the
 [Special Theory of Relativity], that the notion of causality can be used as a prior foundation from which to
 [construct notions](https://en.wikipedia.org/wiki/Causal_structure) of time and space
+
+Kant primarily discusses the concept of cause and effect in the _Division One - Book II - Section III - 3.B. Second
+Analogy his "Critique of Pure Reason".
 
 Buddhist Philosophy
 -------------------
