@@ -15,7 +15,7 @@ the direct result of another, from the following 4 perspectives:
 
 1. Kant's Metaphysics
 2. Aristotle's Philosophy
-3. Chinese Ying-Yang
+3. Chinese Yin-Yang
 4. Buddhism's Karma
 
 Kant's  Metaphysics
@@ -41,7 +41,7 @@ of causality__. But he did not have the understanding that came with knowledge o
 Aristotle's Philosophy
 ----------------------
 
-In Book II, Chapter 3 of his work "[Physics](https://trello.com/c/fIM7TADB)", __Aristotle__ considered in how many senses "because" may answer the
+In Book II, Chapter 3 of his work "[_Physics_](https://trello.com/c/fIM7TADB)", __Aristotle__ considered in how many senses "because" may answer the
 question "why". He believes understanding a thing means knowing its "how and why" and gave the following rough classification of the causal determinants of things: 
 
 :::tip[The meaning of physics in Aristotle]
@@ -58,12 +58,25 @@ such as a vehicle head toward San Francisco from Los Angeles.
 2. _Formal Cause_ - _The material must receives the form (characteristics) of the type which conforms to its own definition_
 3. _Efficient Cause_ - _There must be something to initiate a process for change and cease the process when completed_, i.e. changing from what it was to what it is to be. [According to Lloyd, of the four causes, only this
    one is what is meant by the modern English word "cause" in ordinary speech](https://trello.com/c/V3QZplQN).
-4. _Final Cause_ - The _end_ or purpose of the process being initiated. For instance, people exercise for their health. 
+4. _Final Cause_ - The _end_ or purpose of the process being initiated. For instance, people exercise for their health.
+
+Often, several of the 4 coalesce one another to produce a single effect and the same cause is often alleged for its opposite effects. For instance if the pilot's presence would have brought the ship safe to harbour, we say that he caused its wreck byhis absence. 
+
+In addition, none of them are the causes or effects of others. For example, we may say that a man is in fine condition
+because he has been in training, or that he has been in training because of the good condition he expected as the
+result. But one is the cause as aim (Final Cause) and the other as initiating the process (Efficient Cause).
 
 Buddhist Philosophy
 -------------------
 
-All the classic Buddhist schools teach [Karma](https://en.wikipedia.org/wiki/Karma) (Sanskrit: कर्म). "The law of karma is a special instance of the law of cause and effect, according to which all our actions of body, speech, and mind are causes and all our experiences are their effects."
+All the classic Buddhist schools teach [Karma](https://en.wikipedia.org/wiki/Karma) (Sanskrit: कर्म). "The law of karma is a special instance of the law of cause and effect, according to which all our actions of body, speech, and mind are causes and all our experiences are their effects."[^1]
+
+:::tip
+
+- "Karma" 的最好中文翻译是“业”（既“业障”的业）
+- 玩原神的朋友，这和[纳西妲的元素战绩“灭净三业”](https://genshin-impact.fandom.com/wiki/Nahida)中的“业”是一个意思
+
+:::
 
 [^1]: Wikipedia, [_Causality_](https://en.wikipedia.org/wiki/Causality)
 [^2]: Wikipedia, [Physics (Aristotle)](https://en.wikipedia.org/wiki/Physics_(Aristotle))
