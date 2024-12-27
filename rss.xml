@@ -401,11 +401,6 @@ the direct result of another, from the following 4 perspectives:&lt;/p&gt;
 &lt;li&gt;Buddhism&apos;s Karma&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Kant&apos;s  Metaphysics&lt;/h2&gt;
-&lt;p&gt;:::note[References]&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Wikipedia, &lt;a href=&quot;https://en.wikipedia.org/wiki/Causality&quot;&gt;&lt;em&gt;Causality&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;The nature of cause and effect is a concern of the subject known as metaphysics. &lt;strong&gt;Kant&lt;/strong&gt; primarily discusses the concept of cause and effect in the &lt;strong&gt;Division One - Book II - Section III - 3.B. Second
 analogy&lt;/strong&gt; of his &lt;a href=&quot;https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/&quot;&gt;&lt;em&gt;Critique of Pure Reason&lt;/em&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;:::tip[Law of Causality - 1st Version]
@@ -418,39 +413,27 @@ All alterations occur in accordance with the law of the connection of cause and 
 were notions prior to human understanding of the progress or evolution of the world, and he also recognized &lt;strong&gt;the priority
 of causality&lt;/strong&gt;. But he did not have the understanding that came with knowledge of &lt;a href=&quot;https://en.wikipedia.org/wiki/Minkowski_space#Causal_structure&quot;&gt;Minkowski geometry&lt;/a&gt; and the
 &lt;a href=&quot;https://github.com/QubitPi/general-relativity&quot;&gt;Special Theory of Relativity&lt;/a&gt;, that the notion of causality can be used as a prior foundation from which to
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Causal_structure&quot;&gt;construct notions&lt;/a&gt; of time and space&lt;/p&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Causal_structure&quot;&gt;construct notions&lt;/a&gt; of time and space[^1]&lt;/p&gt;
 &lt;h2&gt;Aristotle&apos;s Philosophy&lt;/h2&gt;
-&lt;p&gt;In Book II, Chapter 3 of his work &quot;&lt;a href=&quot;https://trello.com/c/fIM7TADB&quot;&gt;Physics&lt;/a&gt;&quot;, &lt;strong&gt;Aristotle&lt;/strong&gt; identified 4 kinds of answer
-or explanatory mode to various &quot;Why?&quot; questions:&lt;/p&gt;
+&lt;p&gt;In Book II, Chapter 3 of his work &quot;&lt;a href=&quot;https://trello.com/c/fIM7TADB&quot;&gt;Physics&lt;/a&gt;&quot;, &lt;strong&gt;Aristotle&lt;/strong&gt; considered in how many senses &quot;because&quot; may answer the
+question &quot;why&quot;. He believes understanding a thing means knowing its &quot;how and why&quot; and gave the following rough classification of the causal determinants of things:&lt;/p&gt;
+&lt;p&gt;:::tip[The meaning of physics in Aristotle]&lt;/p&gt;
+&lt;p&gt;Aristotle&apos;s &lt;em&gt;Physics&lt;/em&gt; deals with the most general (philosophical) principles of natural or &lt;strong&gt;moving&lt;/strong&gt; things, both living and non-living, rather than physical theories (in the modern sense) or investigations of the particular contents of the universe. The chief purpose of the work is to discover the principles and causes of change, or movement, or motion, especially that of natural wholes (mostly living things, but also inanimate wholes like the cosmos).[^2]&lt;/p&gt;
+&lt;p&gt;Therefore the &quot;&lt;em&gt;process&lt;/em&gt;&quot; in the discussion below is nothing but just the movement of a thing from one place to another,
+such as a vehicle head toward San Francisco from Los Angeles.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;Material Cause&lt;/em&gt;: Aristotle considers the material &quot;cause&quot; of an object as equivalent to the nature of the raw
-material out of which the object is composed.&lt;/p&gt;
-&lt;p&gt;Whereas modern Physics looks to simple bodies, Aristotle&apos;s Physics took a more general viewpoint, and treated living
-things as exemplary. Nevertheless, he argued that simple natural bodies such as earth, fire, air, and water also
-showed signs of having their own innate sources of motion, change, and rest. Fire, for example, carries things
-upwards, unless stopped from doing so. Things formed by human artifice, such as beds and cloaks, have no innate
-tendency to become beds or cloaks.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;Formal Cause&lt;/em&gt;: Aristotle considers the formal &quot;cause&quot; as describing the pattern or form which when present makes
-matter into a particular type of thing, which we recognize as being of that particular type.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;Efficient Cause&lt;/em&gt;: Aristotle defines the agent or efficient &quot;cause&quot; of an object as that which causes change and
-drives transient motion (such as a painter painting a house) (see Aristotle, &lt;em&gt;Physics&lt;/em&gt; II 3, 194b29). In many cases,
-this is simply the thing that brings something about. For example, in the case of a statue, it is the person
-chiseling away which transforms a block of marble into a statue. &lt;a href=&quot;https://trello.com/c/V3QZplQN&quot;&gt;According to Lloyd, of the four causes, only this
-one is what is meant by the modern English word &quot;cause&quot; in ordinary speech&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;Final Cause&lt;/em&gt;: the criterion of completion, or the end; it may refer to an action or to an inanimate process.
-Examples: Socrates takes a walk after dinner for the sake of his health; earth falls to the lowest level because that
-is its nature.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Material Cause&lt;/em&gt; - &lt;em&gt;The existence of material for the generating process to start from&lt;/em&gt;. For example, bronze &lt;em&gt;for&lt;/em&gt;
+the statue&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Formal Cause&lt;/em&gt; - &lt;em&gt;The material must receives the form (characteristics) of the type which conforms to its own definition&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Efficient Cause&lt;/em&gt; - &lt;em&gt;There must be something to initiate a process for change and cease the process when completed&lt;/em&gt;, i.e. changing from what it was to what it is to be. &lt;a href=&quot;https://trello.com/c/V3QZplQN&quot;&gt;According to Lloyd, of the four causes, only this
+one is what is meant by the modern English word &quot;cause&quot; in ordinary speech&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Final Cause&lt;/em&gt; - The &lt;em&gt;end&lt;/em&gt; or purpose of the process being initiated. For instance, people exercise for their health.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Buddhist Philosophy&lt;/h2&gt;
 &lt;p&gt;All the classic Buddhist schools teach &lt;a href=&quot;https://en.wikipedia.org/wiki/Karma&quot;&gt;Karma&lt;/a&gt; (Sanskrit: कर्म). &quot;The law of karma is a special instance of the law of cause and effect, according to which all our actions of body, speech, and mind are causes and all our experiences are their effects.&quot;&lt;/p&gt;
+&lt;p&gt;[^1]: Wikipedia, &lt;a href=&quot;https://en.wikipedia.org/wiki/Causality&quot;&gt;&lt;em&gt;Causality&lt;/em&gt;&lt;/a&gt;
+[^2]: Wikipedia, &lt;a href=&quot;https://en.wikipedia.org/wiki/Physics_(Aristotle)&quot;&gt;Physics (Aristotle)&lt;/a&gt;&lt;/p&gt;
 </content:encoded></item><item><title>Πολιτεία</title><link>https://leadership.qubitpi.org/posts/%CF%80%CE%BB%CE%AC%CF%84%CF%89%CE%BD-%CF%80%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B1/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/%CF%80%CE%BB%CE%AC%CF%84%CF%89%CE%BD-%CF%80%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B1/</guid><description>ἀναγινώσκειν σημειώσεις Πλάτων Πολιτεία</description><pubDate>Tue, 10 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/NKEhdsnKKHs?start=102&quot; title=&quot;Socrates&apos; Tripartite Soul&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
 &lt;p&gt;Γίγνεται τοίνυν, ἦν δ᾽ ἐγώ, πόλις, ὡς ἐγᾦμαι, ἐπειδὴ τυγχάνει ἡμῶν ἕκαστος οὐκ αὐτάρκης, ἀλλὰ πολλῶν ὢν ἐνδεής: ἢ τίν᾽ οἴει ἀρχὴν ἄλλην πόλιν οἰκίζειν; οὐδεμίαν, ἦ δ᾽ ὅς. οὕτω δὴ ἄρα παραλαμβάνων ἄλλος ἄλλον, ἐπ᾽ ἄλλου, τὸν δ᾽ ἐπ᾽ ἄλλου χρείᾳ, πολλῶν δεόμενοι, πολλοὺς εἰς μίαν οἴκησιν ἀγείραντες κοινωνούς τε καὶ βοηθούς, ταύτῃ τῇ συνοικίᾳ ἐθέμεθα πόλιν ὄνομα: ἦ γάρ; πάνυ μὲν οὖν. μεταδίδωσι δὴ ἄλλος ἄλλῳ, εἴ τι μεταδίδωσιν, ἢ μεταλαμβάνει, οἰόμενος αὑτῷ ἄμεινον εἶναι; πάνυ γε. ἴθι δή, ἦν δ᾽ ἐγώ, τῷ λόγῳ ἐξ ἀρχῆς ποιῶμεν πόλιν: ποιήσει δὲ αὐτήν, ὡς ἔοικεν, ἡ ἡμετέρα χρεία. πῶς δ᾽ οὔ; ἀλλὰ μὴν πρώτη γε καὶ μεγίστη τῶν χρειῶν ἡ τῆς τροφῆς παρασκευὴ τοῦ εἶναί τε καὶ ζῆν ἕνεκα. παντάπασί γε. δευτέρα δὴ οἰκήσεως, τρίτη δὲ ἐσθῆτος καὶ τῶν τοιούτων. ἔστι ταῦτα. φέρε δή, ἦν δ᾽ ἐγώ, πῶς ἡ πόλις ἀρκέσει ἐπὶ τοσαύτην παρασκευήν; ἄλλο τι γεωργὸς μὲν εἷς, ὁ δὲ οἰκοδόμος, ἄλλος δέ τις ὑφάντης; ἢ καὶ σκυτοτόμον αὐτόσε προσθήσομεν ἤ τιν᾽ ἄλλον τῶν περὶ τὸ σῶμα θεραπευτήν; πάνυ γε. εἴη δ᾽ ἂν ἥ γε ἀναγκαιοτάτη πόλις ἐκ τεττάρων ἢ πέντε ἀνδρῶν. φαίνεται.&lt;/p&gt;
 &lt;p&gt;Τί δὴ οὖν; ἕνα ἕκαστον τούτων δεῖ τὸ αὑτοῦ ἔργον ἅπασι κοινὸν κατατιθέναι, οἷον τὸν γεωργὸν ἕνα ὄντα παρασκευάζειν σιτία τέτταρσιν καὶ τετραπλάσιον χρόνον τε καὶ πόνον ἀναλίσκειν ἐπὶ σίτου παρασκευῇ καὶ ἄλλοις κοινωνεῖν, ἢ ἀμελήσαντα ἑαυτῷ μόνον τέταρτον μέρος ποιεῖν τούτου τοῦ σίτου ἐν τετάρτῳ μέρει τοῦ χρόνου, τὰ δὲ τρία, τὸ μὲν ἐπὶ τῇ τῆς οἰκίας παρασκευῇ διατρίβειν, τὸ δὲ ἱματίου, τὸ δὲ ὑποδημάτων, καὶ μὴ ἄλλοις κοινωνοῦντα πράγματα ἔχειν, ἀλλ᾽ αὐτὸν δι᾽ αὑτὸν τὰ αὑτοῦ πράττειν;
