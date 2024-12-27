@@ -66,19 +66,45 @@ In addition, none of them are the causes or effects of others. For example, we m
 because he has been in training, or that he has been in training because of the good condition he expected as the
 result. But one is the cause as aim (Final Cause) and the other as initiating the process (Efficient Cause).
 
+Chinese Yin-Yang
+----------------
+
+
+
 Buddhist Philosophy
 -------------------
 
-All the classic Buddhist schools teach [__Karma__](https://en.wikipedia.org/wiki/Karma) (Sanskrit: कर्म). "The law of karma is a special instance of the law of cause and effect, according to which all our actions of body, speech, and mind are causes and all our experiences are their effects."[^1]
+[__Karma__](https://en.wikipedia.org/wiki/Karma) (Sanskrit: कर्म) is the causality principle focusing on 1) causes, 2) actions, 3) effects, where it is the mind's phenomena that guide the actions that the actor performs. Buddhism trains the actor's actions for continued and uncontrived virtuous outcomes aimed at reducing suffering. This follows the Subject-verb-object structure[^1]
+
+All the classic Buddhist schools teach Karma. "The law of karma is a special instance of the law of cause and effect, according to which all our actions of body, speech, and mind are causes and all our experiences are their effects."[^1]
+
+A common theme to theories of karma is its principle of causality. This relationship between karma and causality is a central motif in all schools of Hindu, Buddhist, and Jain thought. One of the earliest associations of karma to causality occurs in the [_Brihadaranyaka Upanishad_](https://en.wikipedia.org/wiki/Brihadaranyaka_Upanishad) verses 4.4.5–6:[^3]
+
+:::note
+
+Now as a man is like this or like that,
+according as he acts and according as he behaves, so will he be;
+a man of good acts will become good, a man of bad acts, bad;
+he becomes pure by pure deeds, bad by bad deeds;
+
+And here they say that a person consists of desires,
+and as is his desire, so is his will;
+and as is his will, so is his deed;
+and whatever deed he does, that he will reap.
+
+— Brihadaranyaka Upanishad
+
+:::
 
 :::tip
 
-"Karma" 的最好中文翻译是“业”（既“业障”的业）。玩原神的朋友，这和[纳西妲的元素战技“灭净三业”](https://genshin-impact.fandom.com/wiki/Nahida)中的“业”是一个意思 <img src="./探头.gif" width="70px"/>
+"Karma" 的最好中文翻译是“业”（既“业障”的业）。玩原神的朋友，这和[纳西妲的元素战技“灭净三业”](https://genshin-impact.fandom.com/wiki/Nahida)中的“业”是一个意思（三业 = Tri-Karma） <img src="./探头.gif" width="70px"/>
 
 :::
 
 [^1]: Wikipedia, [_Causality_](https://en.wikipedia.org/wiki/Causality)
 [^2]: Wikipedia, [Physics (Aristotle)](https://en.wikipedia.org/wiki/Physics_(Aristotle))
+[^3]: Wikipedia, [Karma](https://en.wikipedia.org/wiki/Karma)
 
 [Minkowski geometry]: https://en.wikipedia.org/wiki/Minkowski_space#Causal_structure
 [Special Theory of Relativity]: https://github.com/QubitPi/general-relativity
