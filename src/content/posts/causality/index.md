@@ -34,7 +34,7 @@ of causality. But he did not have the understanding that came with knowledge of 
 [construct notions](https://en.wikipedia.org/wiki/Causal_structure) of time and space
 
 Kant primarily discusses the concept of cause and effect in the _Division One - Book II - Section III - 3.B. Second
-Analogy his "Critique of Pure Reason".
+analogy__ of his "Critique of Pure Reason".
 
 Buddhist Philosophy
 -------------------
