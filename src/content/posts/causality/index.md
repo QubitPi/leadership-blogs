@@ -1,6 +1,7 @@
 ---
 title: Causality
 published: 2024-12-26
+updated: 2024-12-29
 description: |
   I don't believe in any religion, but the notion of Buddhism's idea of Karma, i.e. cause and effect, seems to prevail
   in many aspects of our lives and works, which is why I was drawn upon this topic of "Causality"
@@ -21,9 +22,9 @@ the direct result of another, from the following 4 perspectives:
 Kant's Metaphysics
 ------------------
 
-The nature of cause and effect is a concern of the subject known as metaphysics. __Kant__ primarily discusses the
-concept of cause and effect in the __Division One - Book II - Section III - 3.B. Second
-analogy__ of his [_Critique of Pure Reason_](https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/):
+The nature of cause and effect is a concern of the subject known as metaphysics. Kant primarily discusses the concept of
+cause and effect in the __Division One - Book II - Section III - 3.B. Second
+analogy of his [_Critique of Pure Reason_](https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/)__:
 
 :::tip[Law of Causality - 1st Version]
 Everything that happens (begins to be) presupposes something which it follows in accordance with a rule.
@@ -42,7 +43,7 @@ priority of causality__. But he did not have the understanding that came with kn
 Aristotle's (Western) Philosophy
 --------------------------------
 
-In Book II, Chapter 3 of his work "[_Physics_](https://trello.com/c/fIM7TADB)", __Aristotle__ considered in how many
+__In Book II, Chapter 3 of his work [_Physics_](https://trello.com/c/fIM7TADB)__, Aristotle considered in how many
 senses "because" may answer the question "why". He believes understanding a thing means knowing its "how and why" and
 gave the following rough classification of the causal determinants of things: 
 
@@ -63,8 +64,8 @@ such as a vehicle head toward San Francisco from Los Angeles.
 2. _Formal Cause_ - _The material must receives the form (characteristics) of the type which conforms to its own
    definition_
 3. _Efficient Cause_ - _There must be something to initiate a process for change and cease the process when completed_,
-   i.e. changing from what it was to what it is to be. [According to Lloyd, of the four causes, only this
-   one is what is meant by the modern English word "cause" in ordinary speech](https://trello.com/c/V3QZplQN).
+   i.e. changing from what it was to what it is to be. According to [_Lloyd_](https://trello.com/c/V3QZplQN), of the
+   four causes, only this one is what is meant by the modern English word "cause" in ordinary speech[^1].
 4. _Final Cause_ - The _end_ or purpose of the process being initiated. For instance, people exercise for their health.
 
 Often, several of the 4 coalesce one another to produce a single effect and the same cause is often alleged for its
@@ -79,7 +80,7 @@ result. But one is the cause as aim (Final Cause) and the other as initiating th
 ------------
 
 春秋战国末期，观星学有了很大的发展，对后世产生了很深远的影响。人们将星象分门别类，用星象“感应”来描述世间的种种现象
-（Theory of causality）。其中《吕氏春秋》中的一段文字对此有代表性的描述:
+（Theory of causality）。其中__《吕氏春秋》__《中的一段文字对此有代表性的描述:
 
 :::note[《吕氏春秋》，有始览第一，应同篇]
 
@@ -88,24 +89,22 @@ result. But one is the cause as aim (Final Cause) and the other as initiating th
 
 :::
 
-除此之外，世间万物亦可划分以阴阳、五行、已经《易经》中的八卦。
-
-
+除此之外，世间万物亦可划分以阴阳、五行、以及__《易经》__中的八卦。
 
 Buddhist Philosophy
 -------------------
 
-[__Karma__](https://en.wikipedia.org/wiki/Karma) (Sanskrit: __कर्म__) is the causality principle focusing on 1) causes,
-2) actions, 3) effects, where it is the mind's phenomena that guide the actions that the actor performs. Buddhism trains
-3) the actor's actions for continued and uncontrived virtuous outcomes aimed at reducing suffering. This follows the
-4) Subject-verb-object structure[^1]
+[Karma](https://en.wikipedia.org/wiki/Karma) (Sanskrit: __कर्म__) is the causality principle focusing on 1) causes, 2)
+actions, 3) effects, where it is the mind's phenomena that guide the actions that the actor performs. Buddhism trains 3)
+the actor's actions for continued and uncontrived virtuous outcomes aimed at reducing suffering. This follows the 4)
+_Subject-verb-object_ structure[^1]
 
 All the classic Buddhist schools teach Karma. "The law of karma is a special instance of the law of cause and effect,
 according to which all our actions of body, speech, and mind are causes and all our experiences are their effects."[^1]
 
 A common theme to theories of karma is its principle of causality. This relationship between karma and causality is a
 central motif in all schools of Hindu, Buddhist, and Jain thought. One of the earliest associations of karma to
-causality occurs in the [_Brihadaranyaka Upanishad_](https://en.wikipedia.org/wiki/Brihadaranyaka_Upanishad) verses
+causality occurs in the [__Brihadaranyaka Upanishad__](https://en.wikipedia.org/wiki/Brihadaranyaka_Upanishad) verses
 4.4.5 - 6:[^4]
 
 :::note
@@ -145,9 +144,9 @@ Karma is an important concept in Taoism. Every deed is tracked by deities and sp
 retribution follow karma, just like a shadow follows a person.
 
 [^1]: Wikipedia, [_Causality_](https://en.wikipedia.org/wiki/Causality)
-[^2]: Wikipedia, [Physics (Aristotle)](https://en.wikipedia.org/wiki/Physics_(Aristotle))
+[^2]: Wikipedia, [_Physics (Aristotle)_](https://en.wikipedia.org/wiki/Physics_(Aristotle))
 [^3]: 陆玖（译注），[_吕氏春秋（上）_](https://trello.com/c/hjiEeFRf)，中华经典名著全本全注全译 - 中华书局，第 377 页
-[^4]: Wikipedia, [Karma](https://en.wikipedia.org/wiki/Karma)
+[^4]: Wikipedia, [_Karma_](https://en.wikipedia.org/wiki/Karma)
 
 [Minkowski geometry]: https://en.wikipedia.org/wiki/Minkowski_space#Causal_structure
 [Special Theory of Relativity]: https://github.com/QubitPi/general-relativity
