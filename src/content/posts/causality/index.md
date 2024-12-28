@@ -69,8 +69,8 @@ result. But one is the cause as aim (Final Cause) and the other as initiating th
 中国阴阳学说
 ------------
 
-春秋战国末期，天文学和人们的探索认知有了很大的发展和变化，对后世产生了很深远的影响。人们将万事万物分门别类并且用
-“感应”的说法来描述因果论。其中的代表作是《吕氏春秋》中对此概念的描述:
+春秋战国末期，观星学有了很大的发展，对后世产生了很深远的影响。人们将星象分门别类，用星象“感应”来描述世间的种种现象
+（Theory of causality）。其中《吕氏春秋》中的一段文字对此有代表性的描述:
 
 :::note[《吕氏春秋》，有始览第一，应同篇]
 
@@ -78,7 +78,7 @@ result. But one is the cause as aim (Final Cause) and the other as initiating th
 
 :::
 
-
+除此之外，世间万物亦可划分以阴阳、五行、已经《易经》中的八卦。
 
 
 
