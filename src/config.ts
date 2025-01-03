@@ -21,7 +21,7 @@ export const siteConfig: SiteConfig = {
     credit: {
       enable: true,         // Display the credit text of the banner image
       text: 'Ardeth Bay (The Mummy Returns)',              // Credit text to be displayed
-      url: 'https://youtu.be/DtKDPBqMu3o?t=7239'                // (Optional) URL link to the original artwork or artist's page
+      url: 'https://youtu.be/XWJ561xqNNI?t=162'                // (Optional) URL link to the original artwork or artist's page
     }
   },
   topBlog: "Ardeth Bay - Leadership is an Infinite Game",

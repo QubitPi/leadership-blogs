@@ -17,3 +17,5 @@ Auf welche Art und durch welche Mittel sich auch immer eine Erkenntniss auf Gege
 :::tip[Die Fähigkeit, Vorstellungen durch die Art, wie wir von Gegenstände afficirt werden, zu bekommen, heisst Sinnlichkeit.]
 Die Fähigkeit heisst Sinnlichkeit. -> Die Fähigkeit, Vorstellungen durch die Art zu bekommen, heisst Sinnlichkeit. -> Welche Art? wie wir von Gegenstände afficirt werden.
 :::
+
+Vermittelst der Sinnlichkeit also werden uns Gegenstände gegeben, 
