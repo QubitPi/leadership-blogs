@@ -30,7 +30,7 @@ _"This was my first bus-ride"_. (see the clip below)
 
 :::
 
-<iframe width="100%" height="468" src="https://www.youtube.com/embed/lZaOKSRIMmk?start=233" title="The Mummy Returns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/lZaOKSRIMmk?start=234" title="The Mummy Returns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 There are lots of "fake" leaders who enjoys the countless power and wealth and yet there is a true leader who at his
 adult age never had the experience of boarding a regular bus. While those fake leaders always shot for short-term gains
