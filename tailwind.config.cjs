@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Ubuntu", "sans-serif", ...defaultTheme.fontFamily.sans],
-        Ubuntu: ["Ubuntu", "sans-serif", ...defaultTheme.fontFamily.sans],
+        sans: ["Poppins", "sans-serif", ...defaultTheme.fontFamily.sans],
+        Poppins: ["Poppins", "sans-serif", ...defaultTheme.fontFamily.sans],
         WalbaumFraktur: ["WalbaumFraktur"],
         SweynheimPannartz: ["SweynheimPannartz", "SweynheimPannartz", "SweynheimPannartz"],
         PangZhonghuaXingKai: ["PangZhonghuaXingKai"],
