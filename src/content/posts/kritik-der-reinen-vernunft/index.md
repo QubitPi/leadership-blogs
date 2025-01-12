@@ -22,3 +22,6 @@ Vermittelst der Sinnlichkeit also werden uns Gegenstände gegeben, und sie allei
 
 Die Wirkung eines Gegenstandes auf die Vorstellungsfähigkeit ist Empfindung. Diejenige Anschauung heisst empirisch. Der
 unbestimmte Gegenstand einer empirischen Anschauung heisst Erscheinung.
+
+In der Erscheinung nennt Kant das die Materie, dasjenige aber, welches macht, dass das Mannigfaltige der Erscheinung
+nennt Kant die __Form__ der Erscheinung.
