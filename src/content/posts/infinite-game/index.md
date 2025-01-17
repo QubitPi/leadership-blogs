@@ -13,7 +13,7 @@ Ardeth Bay - My Role Model of A True Leader
 -------------------------------------------
 
 The cover image of my leadership blog is __Ardeth Bay__, a Medjai chieftain and warrior in a movie I watched few years
-back - [_The Mummy Returns_](https://youtu.be/DtKDPBqMu3o).
+back - [_The Mummy Returns_](http://j.mp/1uwn500).
 
 Being the descendent of royal Egyptian secret bodyguards also knows as _the Medjai_, Ardeth is the leader of 12 Medjai
 tribes that together control tens of thousands of warriors. For over 3000 years, Ardeth along with his Medjai worriors
