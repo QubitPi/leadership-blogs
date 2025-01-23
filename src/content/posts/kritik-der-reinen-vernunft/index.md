@@ -1,6 +1,7 @@
 ---
 title: Lese-Notizen die „Kritik der reinen Vernunft“
 published: 2024-12-27
+updated: 2025-01-23
 description: A Masterpiece of Idealism of Anti-Idealism - Transcendental Idealism
 image: cover.png
 tags: [Philosophy]
@@ -38,4 +39,8 @@ liegen, und abgesondert von aller Empfindung können betrachtet werden.
 
 Kant nennt alle Vorstellungen rein, in dene nichts, was zur Empfindung gehört, angetroffen wird. Demnach wird die reine
 Form sinnlicher Anschauungen überhaupt im Gemüthe _a priori_ angetroffen werden, worinnen alles Mannigfaltige der
-Erscheinungen in gewissen Verhältnissen angeschaut wird.
+Erscheinungen in gewissen Verhältnissen angeschaut wird. Diese reine Form der Sinnlichkeit wird auch selber reine
+Anschauung heissen. So, wenn wir von der Vorstellung eines Körpers absondern, so bleibt mir aus dieser empirischen
+Anschauung noch etwas übrig, nämlich Ausdehnuug und Gestalt. Diese gehören zur reinen Auschauung, die _a priori_, auch
+ohne einen wirklichen Gegenstand der Sinne oder Empfindung, als eine blosse Form der Sinnlichkeit im Gemüthe
+stattfindet.
