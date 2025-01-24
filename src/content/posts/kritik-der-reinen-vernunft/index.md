@@ -1,7 +1,7 @@
 ---
 title: Lese-Notizen die „Kritik der reinen Vernunft“
 published: 2024-12-27
-updated: 2025-01-23
+updated: 2025-01-24
 description: A Masterpiece of Idealism of Anti-Idealism - Transcendental Idealism
 image: cover.png
 tags: [Philosophy]
@@ -44,3 +44,7 @@ Anschauung heissen. So, wenn wir von der Vorstellung eines Körpers absondern, s
 Anschauung noch etwas übrig, nämlich Ausdehnuug und Gestalt. Diese gehören zur reinen Auschauung, die _a priori_, auch
 ohne einen wirklichen Gegenstand der Sinne oder Empfindung, als eine blosse Form der Sinnlichkeit im Gemüthe
 stattfindet.
+
+Eine Wissenschaft von allen Principien der Sinnlichkeit _a priori_ nennt Kant die transscendentale
+[Aesthetik](https://youtu.be/6lOwHdydgi4). Es muss also eine solche Wissenschaft geben in Gegensatz mit derjenigen,
+welche die Principien des reinen Denkens enthält, und transscendentale Logik genannt wird.
