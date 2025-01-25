@@ -1,7 +1,7 @@
 ---
 title: Lese-Notizen die „Kritik der reinen Vernunft“
 published: 2024-12-27
-updated: 2025-01-24
+updated: 2025-01-25
 description: A Masterpiece of Idealism of Anti-Idealism - Transcendental Idealism
 image: cover.png
 tags: [Philosophy]
@@ -48,3 +48,9 @@ stattfindet.
 Eine Wissenschaft von allen Principien der Sinnlichkeit _a priori_ nennt Kant die transscendentale
 [Aesthetik](https://youtu.be/6lOwHdydgi4). Es muss also eine solche Wissenschaft geben in Gegensatz mit derjenigen,
 welche die Principien des reinen Denkens enthält, und transscendentale Logik genannt wird.
+
+Zuerst in der transscendentalen Aesthetik also werden wir die Sinnlichkeit isoliren, dadurch, dass wir alles absondern,
+was der Verstand durch seine Begriffe dabei denkt, damit nichts als empirische Anschauung übrig bleibe. Zweitens werden
+wir von dieser noch alles (was zur Empfindung gehört) abtrennen, damit nichts als reine Anschauung und die blosse Form
+der Erscheinungen übrig bleibe. Bei dieser Untersuchung wird sich finden zwei reinen Formen sinnlicher Anschauung (als
+Principien der Erkenntniss _a priori_ gebe), nämlich __Raum__ und __Zeit__.
