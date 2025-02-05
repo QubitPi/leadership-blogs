@@ -1,7 +1,7 @@
 ---
 title: Lese-Notizen die „Kritik der reinen Vernunft“
 published: 2024-12-27
-updated: 2025-01-25
+updated: 2025-02-05
 description: A Masterpiece of Idealism of Anti-Idealism - Transcendental Idealism
 image: cover.png
 tags: [Philosophy]

@@ -1,7 +1,7 @@
 ---
 title: Humanistic Psychology
 published: 2024-12-27
-updated: 2024-12-24
+updated: 2025-02-05
 description: In order for individuals to thrive and excel, a health-fostering culture must be created.
 image: cover.png
 tags: [Psychology]
@@ -306,7 +306,22 @@ attributed to pathogenic psychopathology, such as illness, brain-injured, and tr
 
 ### Chapter 9 - Something I Really Don't Care
 
-### Chapter 10 - Expression and Coping
+### Chapter 10 - Expression v.s. Coping
+
+:::note
+
+This section is the preliminary to the important task of [challenging and calling into question the generally accepted 
+belief that all behavior is motivated](#chapter-14---unmotivated-and-purposeless-reactions)
+
+:::
+
+The differences between expression (non-instrumental) and coping (Instrumental, adaptive, functional, purposive) are
+
+- Coping is by definition purposive and motivated, expression is often unmotivated
+- Coping is more determined by external environmental and cultural variables, expression is largely determined by the 
+  state of the organism
+
+### Chapter 14 - Unmotivated and Purposeless Reactions
 
 
 [^1]: Horney, K, _The Neurotic Personality of Our Time_, New York Norton, 1937

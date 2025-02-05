@@ -1,7 +1,7 @@
 ---
 title: Ardeth Bay - Leadership is an Infinite Game
 published: 2024-12-03
-updated: 2024-12-05
+updated: 2025-02-05
 description: My definition of a true leadership - A chieftain and A book
 image: cover.png
 tags: [Leadership]
