@@ -1,7 +1,7 @@
 ---
 title: Humanistic Psychology
 published: 2024-12-27
-updated: 2025-02-05
+updated: 2025-02-21
 description: In order for individuals to thrive and excel, a health-fostering culture must be created.
 image: cover.png
 tags: [Psychology]
@@ -315,11 +315,29 @@ belief that all behavior is motivated](#chapter-14---unmotivated-and-purposeless
 
 :::
 
-The differences between expression (non-instrumental) and coping (Instrumental, adaptive, functional, purposive) are
+Expression (unlearned, non-instrumental) and coping (learned, instrumental, adaptive, functional, purposive) differs
+mainly in terms of internal and external motivations. For example:
 
 - Coping is by definition purposive and motivated, expression is often unmotivated
 - Coping is more determined by external environmental and cultural variables, expression is largely determined by the 
   state of the organism
+
+Specifically, _coping behavior_ always has among its determinants drives, needs, goals, purposes, functions, or aims. It
+comes into existence to get something done, eg, walking to some destination, shopping for food, going to mail a letter,
+building a set of bookshelves, or doing the work for which we get paid. The term coping itself implies the attempt to
+solve a problem or at least to deal with it. __It therefore implies a reference to something beyond itself; it is NOT
+self-contained__. _Expressive behavior_, however, is generally unmotivated, such as the style of writing and walking,
+the beauty of beautiful woman, and delightful expression of a happy person. These are non-purposive. They have no aim or
+goal.
+
+In addition, coping behavior tends to die out unless rewarded, expression often persists without reward or reinforcement
+
+The author extended the concept by introducing the _motivated self expression_. For example, a sophisticated person can
+_try_ to be honest and kind; a motivated self-expressive dancer need to _learn to be spontaneous and natural_. In the
+human need for love, it starts as a coping which a person lacks and, once being gained, is later being developed
+internally and differently in each individual, thus reflecting the expressive nature of a self-actualization. This
+indicates that there is a dynamics between coping and expressive behavior: One can try to go in the direction of
+self-actualization by solving the lesser, prerequisite motivational problems.-
 
 ### Chapter 14 - Unmotivated and Purposeless Reactions
 
