@@ -336,8 +336,8 @@ The author extended the concept by introducing the _motivated self expression_. 
 _try_ to be honest and kind; a motivated self-expressive dancer need to _learn to be spontaneous and natural_. In the
 human need for love, it starts as a coping which a person lacks and, once being gained, is later being developed
 internally and differently in each individual, thus reflecting the expressive nature of a self-actualization. This
-indicates that there is a dynamics between coping and expressive behavior: One can try to go in the direction of
-self-actualization by solving the lesser, prerequisite motivational problems.-
+indicates that there is a dynamics between coping and expressive behavior: __One can try to go in the direction of
+self-actualization by solving the lesser, prerequisite motivational problems__.
 
 ### Chapter 14 - Unmotivated and Purposeless Reactions
 
