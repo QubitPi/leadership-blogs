@@ -249,10 +249,17 @@ very beginning.
 #### Manipulations
 
 - Vicious circle of price game
+- Incentives/Promotions
+- Fear-based advertisement - "Every thirty-six seconds, someone dies of a heart attack"
+- Aspiration messages - "Six easy steps to losing weight" (⚠️ Aspirational messages are most effective with those who
+  lack discipline or have a nagging fear or insecurity that they don't have the ability to achieve their dreams on their
+  own. Someone who lives a healthy lifestyle and is in a habit of exercising does not respond to "six easy steps to
+  losing weight.")
+- Expert/Celebrity-based endorsement in advertisement
+- Novelty
 
-
-The reality is, in today's world, manipulations are the norm. This book talks about an alternative - The
-__golden circle__:
+Manipulations are short-termed and doesn't trigger loyalty. The reality is, in today's world, manipulations are the
+norm. This book talks about an alternative - The __golden circle__:
 
 ![Error loading golden-circle.png](./golden-circle.png)
 
