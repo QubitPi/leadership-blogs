@@ -224,6 +224,10 @@ Simon Sinek, Portfolio, 2011.
 
 :::
 
+### Phenomenons That Don't Start with Why
+
+#### Assuming Too Much in the Beginning
+
 Not all decisions work out to be the right ones, because our decisions are based on a perception of the world that may
 not be completely accurate. The inaccurate information brings false assumptions. Although logic, more information and
 data, and more advices from others could help, they still do not guarantee. 
@@ -241,6 +245,10 @@ start of the process.
 
 This example is a metaphor of solving problems with short-term tactics/decisions v.s. actively assuming less from the
 very beginning.
+
+#### Manipulations
+
+- Vicious circle of price game
 
 
 The reality is, in today's world, manipulations are the norm. This book talks about an alternative - The
