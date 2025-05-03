@@ -224,7 +224,7 @@ Simon Sinek, Portfolio, 2011.
 
 :::
 
-### Phenomenons That Don't Start with Why
+### Phenomenons That Don't Start with Why (Part 1)
 
 #### Assuming Too Much in the Beginning
 
@@ -265,6 +265,14 @@ norm. This book talks about an alternative - The __golden circle__:
 
 > Source: [Golden Circle for Organizations](https://simonsinek.com/product/golden-circle-for-organizations/),
 > [_Start with WHY_](https://simonsinek.com/books/start-with-why/)
+
+### Golden Circle (Part 2)
+
+#### It's What You Can't See That Matters
+
+We should focus on the _WHY_ behind customers' needs, because it's not logic or facts but our hopes and dreams, our
+hearts and our guts, that drive us to try new things. Products with a clear sense of WHY give people a way to tell the
+outside world who they are and what they believe.
 
 ### Applications of Golden Circle (Part 3)
 
