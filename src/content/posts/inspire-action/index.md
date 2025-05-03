@@ -148,14 +148,14 @@ tipping point between 15 and 18 percent market penetration, and then the system 
 trip over 10% of the customers. We all have about 10% who just "get it." That's how we describe them, right? That's like
 that gut feeling, "Oh, they just get it."
 
-The problem is: How do you find the ones that get it before you're doing business with them versus the ones who don't get it?
-So it's this here, this little gap that you have to close, as Jeffrey Moore calls it, "Crossing the Chasm" -- because,
-you see, the early majority will not try something until someone else has tried it first. And these guys, the innovators
-and the early adopters, they're comfortable making those gut decisions. They're more comfortable making those intuitive
-decisions that are driven by what they believe about the world and not just what product is available. These are the
-people who stood in line for six hours to buy an iPhone when they first came out, when you could've just walked into the
-store the next week and bought one off the shelf. These are the people who spent 40,000 dollars on flat-screen TVs when
-they first came out, even though the technology was substandard. And, by the way, they didn't do it because the
+The problem is: How do you find the ones that get it before you're doing business with them versus the ones who don't
+get it? So it's this here, this little gap that you have to close, as Jeffrey Moore calls it, "Crossing the Chasm" --
+because, you see, the early majority will not try something until someone else has tried it first. And these guys, the
+innovators and the early adopters, they're comfortable making those gut decisions. They're more comfortable making those
+intuitive decisions that are driven by what they believe about the world and not just what product is available. These
+are the people who stood in line for six hours to buy an iPhone when they first came out, when you could've just walked
+into the store the next week and bought one off the shelf. These are the people who spent 40,000 dollars on flat-screen
+TVs when they first came out, even though the technology was substandard. And, by the way, they didn't do it because the
 technology was so great; they did it for themselves. It's because they wanted to be first. People don't buy what you do;
 they buy why you do it and what you do simply proves what you believe. In fact, people will do the things that prove
 what they believe. The reason that person bought the iPhone in the first six hours, stood in line for six hours, was
@@ -216,6 +216,9 @@ Reading Notes - Start with WHY
 ------------------------------
 
 :::tip[Book]
+
+![](book-cover.png)
+
 [_Start with Why: How Great Leaders Inspire Everyone to Take Action_](https://trello.com/c/fybM5zoD), Simon Sinek, 
 Portfolio, 2011.
 :::
