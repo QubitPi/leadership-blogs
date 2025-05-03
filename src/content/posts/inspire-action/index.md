@@ -221,7 +221,15 @@ Reading Notes - Start with WHY
 
 [_Start with Why: How Great Leaders Inspire Everyone to Take Action_](https://trello.com/c/fybM5zoD), Simon Sinek, 
 Portfolio, 2011.
+
 :::
+
+Not all decisions work out to be the right ones, because our decisions are based on a perception of the world that may
+not be completely accurate. The inaccurate information brings false assumptions. Although logic, more information and
+data, and more advices from others could help, they still do not guarantee. 
+
+Ultimately, the book authors argues that there must be something outside of our rational realm that's missing from our
+deceision making process
 
 The reality is, in today's world, manipulations are the norm. This book talks about an alternative - The
 __golden circle__:
