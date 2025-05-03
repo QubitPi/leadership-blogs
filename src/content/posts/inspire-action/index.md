@@ -219,8 +219,8 @@ Reading Notes - Start with WHY
 
 ![](book-cover.png)
 
-[_Start with Why: How Great Leaders Inspire Everyone to Take Action_](https://trello.com/c/fybM5zoD), Simon Sinek, 
-Portfolio, 2011.
+[_Start with Why: How Great Leaders Inspire Everyone to Take Action_](https://www.earthgifts.com.au/ebook/simon-sinek-start-with-why.pdf), 
+Simon Sinek, Portfolio, 2011.
 
 :::
 
@@ -229,7 +229,19 @@ not be completely accurate. The inaccurate information brings false assumptions.
 data, and more advices from others could help, they still do not guarantee. 
 
 Ultimately, the book authors argues that there must be something outside of our rational realm that's missing from our
-deceision making process
+decision making process. He further gives an example where he compares American and Japanese automakers. A group of
+American car executives went to Japan to see a Japanese assembly line. At the end of the line, the doors were put on the
+hinges, the same as in America. But something was missing. In the United States, a line worker would take a rubber
+mallet and tap the edges of the door to ensure that it fit perfectly. In Japan, that job didn't seem to exist. Confused,
+the American auto executives asked at what point they made sure the door fit perfectly. Their Japanese guide looked at
+them and smiled sheepishly. "We make sure it fits when we design it." In the Japanese auto plant, they didn't examine
+the problem and accumulate data to figure out the best solution—they engineered the outcome they wanted from the
+beginning. If they didn't achieve their desired outcome, they understood it was because of a decision they made at the
+start of the process.
+
+This example is a metaphor of solving problems with short-term tactics/decisions v.s. actively assuming less from the
+very beginning.
+
 
 The reality is, in today's world, manipulations are the norm. This book talks about an alternative - The
 __golden circle__:
