@@ -266,6 +266,10 @@ norm. This book talks about an alternative - The __golden circle__:
 > Source: [Golden Circle for Organizations](https://simonsinek.com/product/golden-circle-for-organizations/),
 > [_Start with WHY_](https://simonsinek.com/books/start-with-why/)
 
+Unlike manipulations which manipulates in _HOW_ and _WHAT_ level, inspiration comes from the _WHY_ level. When we are
+inspired, the decisions we make have more to do with who we are and less to do with the companies or the products we're
+buying.
+
 ### Golden Circle (Part 2)
 
 #### It's What You Can't See That Matters
