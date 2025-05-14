@@ -527,45 +527,6 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{ \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} = \left( \boldsymbol{W_{yh}} \right)^\intercal \nabla_{\boldsymbol{o}^{(t)}}\mathcal{L}+ \boldsymbol{W_{hh}}^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \left( diag\left[ 1 - (\boldsymbol{h}^{(t + 1)})^2 \right] \right) }
 $$&lt;/p&gt;
-</content:encoded></item><item><title>In UML class diagrams, what are Boundary Classes, Control Classes, and Entity Classes?</title><link>https://leadership.qubitpi.org/posts/uml/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/uml/</guid><description>In the class diagram, there are model elements known as Boundary Class, Control Class, and Entity Class. What are
-differences among them?
-</description><pubDate>Fri, 21 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Robustness diagrams are written after use cases and before class diagrams. They help to identify the roles of use case
-steps. We can use them to ensure our use cases are sufficiently robust to represent usage requirements for the system
-we&apos;re building.&lt;/p&gt;
-&lt;p&gt;They involve:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Actors&lt;/li&gt;
-&lt;li&gt;Use Cases&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Entities&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Boundaries&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Controls&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Whereas the Model-View-Controller pattern is used for user interfaces, the Entity-Control-Boundary Pattern (ECB) is used
-for systems. The following aspects of ECB can be likened to an abstract version of MVC, if that&apos;s helpful:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./ecb.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Entities&lt;/strong&gt; (&lt;em&gt;model&lt;/em&gt;): Objects representing system data, often from the domain model.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Boundaries&lt;/strong&gt; (&lt;em&gt;view/service collaborator&lt;/em&gt;): Objects that interface with system actors (e.g. a &lt;strong&gt;user&lt;/strong&gt; or
-&lt;strong&gt;external&lt;/strong&gt; service). Windows, screens and menus are examples of boundaries that interface with users.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Controls&lt;/strong&gt; (&lt;em&gt;controller&lt;/em&gt;): Objects that mediate between boundaries and entities. These serve as the glue between
-boundary elements and entity elements, implementing the logic required to manage the various elements and their
-interactions. It is important to understand that you may decide to implement controllers within your design as
-something other than objects - many controllers are simple enough to be implemented as a method of an entity or
-boundary class for example.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Four rules apply to their communication&lt;/strong&gt;:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Actors can only talk to boundary objects.&lt;/li&gt;
-&lt;li&gt;Boundary objects can only talk to controllers and actors.&lt;/li&gt;
-&lt;li&gt;Entity objects can only talk to controllers.&lt;/li&gt;
-&lt;li&gt;Controllers can talk to boundary objects and entity objects, and to other controllers, but not to actors&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Communication allowed&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;         Entity    Boundary   Control
-Entity     X                     X
-Boundary                         X
-Control    X          X          X
-&lt;/code&gt;&lt;/pre&gt;
 </content:encoded></item><item><title>Reading Notes - The Mythical Man-Month</title><link>https://leadership.qubitpi.org/posts/mythical-man-month/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/mythical-man-month/</guid><description>The art of managing a software dev team</description><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;On Lack of Time&lt;/h2&gt;
 &lt;p&gt;The reasons why timing is often the problem during software development are the following.&lt;/p&gt;
 &lt;h3&gt;Optimism&lt;/h3&gt;
@@ -2927,6 +2888,45 @@ reusable libraries possible that will last you from one project to the next and 
 its scope to the minimum, I would actually suggest considering duplicating a little bit here. And naturally write unit
 tests and make sure it&apos;s really thoroughly tested and reliable at what it&apos;s doing. This is only for the libraries that
 you really want to take the time to generalize to a point that goes far beyond a single project.&quot;&lt;/p&gt;
+</content:encoded></item><item><title>In UML class diagrams, what are Boundary Classes, Control Classes, and Entity Classes?</title><link>https://leadership.qubitpi.org/posts/uml/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/uml/</guid><description>In the class diagram, there are model elements known as Boundary Class, Control Class, and Entity Class. What are
+differences among them?
+</description><pubDate>Thu, 21 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Robustness diagrams are written after use cases and before class diagrams. They help to identify the roles of use case
+steps. We can use them to ensure our use cases are sufficiently robust to represent usage requirements for the system
+we&apos;re building.&lt;/p&gt;
+&lt;p&gt;They involve:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Actors&lt;/li&gt;
+&lt;li&gt;Use Cases&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Entities&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Boundaries&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Controls&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Whereas the Model-View-Controller pattern is used for user interfaces, the Entity-Control-Boundary Pattern (ECB) is used
+for systems. The following aspects of ECB can be likened to an abstract version of MVC, if that&apos;s helpful:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./ecb.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Entities&lt;/strong&gt; (&lt;em&gt;model&lt;/em&gt;): Objects representing system data, often from the domain model.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Boundaries&lt;/strong&gt; (&lt;em&gt;view/service collaborator&lt;/em&gt;): Objects that interface with system actors (e.g. a &lt;strong&gt;user&lt;/strong&gt; or
+&lt;strong&gt;external&lt;/strong&gt; service). Windows, screens and menus are examples of boundaries that interface with users.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Controls&lt;/strong&gt; (&lt;em&gt;controller&lt;/em&gt;): Objects that mediate between boundaries and entities. These serve as the glue between
+boundary elements and entity elements, implementing the logic required to manage the various elements and their
+interactions. It is important to understand that you may decide to implement controllers within your design as
+something other than objects - many controllers are simple enough to be implemented as a method of an entity or
+boundary class for example.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Four rules apply to their communication&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Actors can only talk to boundary objects.&lt;/li&gt;
+&lt;li&gt;Boundary objects can only talk to controllers and actors.&lt;/li&gt;
+&lt;li&gt;Entity objects can only talk to controllers.&lt;/li&gt;
+&lt;li&gt;Controllers can talk to boundary objects and entity objects, and to other controllers, but not to actors&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Communication allowed&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;         Entity    Boundary   Control
+Entity     X                     X
+Boundary                         X
+Control    X          X          X
+&lt;/code&gt;&lt;/pre&gt;
 </content:encoded></item><item><title>Continuous Delivery</title><link>https://leadership.qubitpi.org/posts/continuous-delivery/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/continuous-delivery/</guid><description>continuousdelivery.com</description><pubDate>Wed, 31 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Continuous delivery is an approach where teams release quality products frequently and predictably from source code
 repository to production in an automated fashion.&lt;/p&gt;
 &lt;h2&gt;What is Continuous Delivery&lt;/h2&gt;
