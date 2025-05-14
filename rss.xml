@@ -491,8 +491,6 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{ \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} = \left( \boldsymbol{W_{yh}} \right)^\intercal \nabla_{\boldsymbol{o}^{(t)}}\mathcal{L}+ \boldsymbol{W_{hh}}^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \left( diag\left[ 1 - (\boldsymbol{h}^{(t + 1)})^2 \right] \right) }
 $$&lt;/p&gt;
-&lt;h2&gt;Computational Gradient Descent Weight Update Rule&lt;/h2&gt;
-&lt;p&gt;What does the propagation rules above look like in Python?&lt;/p&gt;
 </content:encoded></item><item><title>In UML class diagrams, what are Boundary Classes, Control Classes, and Entity Classes?</title><link>https://leadership.qubitpi.org/posts/uml/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/uml/</guid><description>In the class diagram, there are model elements known as Boundary Class, Control Class, and Entity Class. What are
 differences among them?
 </description><pubDate>Fri, 21 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Robustness diagrams are written after use cases and before class diagrams. They help to identify the roles of use case
