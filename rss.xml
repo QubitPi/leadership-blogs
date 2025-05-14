@@ -106,7 +106,7 @@ efficiencies. Ethical fading, however, is a people problem.&lt;/p&gt;
 a culture in which their people can work toward the short-term goals while also considering the morality, ethics and
 wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 &lt;p&gt;[^1]: Sinek, Simon (2019). &lt;a href=&quot;https://dokumen.pub/the-infinite-game.html&quot;&gt;&lt;em&gt;The Infinite Game&lt;/em&gt;&lt;/a&gt;. Portfolio. ISBN 073521350X.&lt;/p&gt;
-</content:encoded></item><item><title>Introduction to Recurrent Neural Networks (RNNs)</title><link>https://leadership.qubitpi.org/posts/rnn/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/rnn/</guid><pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This notebook has the following prerequisites:&lt;/p&gt;
+</content:encoded></item><item><title>Introduction to Recurrent Neural Networks (RNNs)</title><link>https://leadership.qubitpi.org/posts/rnn/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/rnn/</guid><pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This article has the following prerequisites:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Chapter 4 - Artificial Neural Networks (p. 81) of &lt;a href=&quot;https://a.co/d/bjmsEOg&quot;&gt;&lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), Paperback&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Deep Learning&lt;/em&gt; (Adaptive Computation and Machine Learning series), Ian Goodfellow&lt;/li&gt;
