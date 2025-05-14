@@ -162,6 +162,18 @@ tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
 $$&lt;/p&gt;
 &lt;p&gt;In practice, $g_2$ is constance, i.e. $g_2 = 1$&lt;/p&gt;
 &lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;h2&gt;Forward Propagation Equations for RNN&lt;/h2&gt;
+&lt;p&gt;We now develop the forward propagation equations for the RNN. We assume the hyperbolic tangent activation function and that the output is discrete, as if the RNN is used to predict words or characters. A natural way to represent discrete variables is to regard the output $\boldsymbol{o}$ as giving the unnormalized log probabilities of each possible value of the discrete variable. We can then apply the softmax (we will disucss softmax function in the next section) operation as a post-processing step to obtain a vector $\boldsymbol{\hat{y}}$ of normalized probabilities over the output. Forward propagation begins with a specification of the initial state $\boldsymbol{h}^{(0)}$. Then, for each time step from $t = 1$ to $t = \tau$, we apply the following update equations:&lt;/p&gt;
+&lt;p&gt;$$
+\color{green} \boxed{
+\begin{gather*}
+\boldsymbol{h}^{(t)} = \tanh\left( \boldsymbol{W_{hh}}h^{(t - 1)} + \boldsymbol{W_{xh}}x^{(t)} + \boldsymbol{b_h} \right) \ \
+\boldsymbol{o}^{(t)} = \boldsymbol{W_{yh}}\boldsymbol{h}^{(t)} + \boldsymbol{b_o} \ \
+\boldsymbol{\hat{y}} = softmax(\boldsymbol{o}^{(t)})
+\end{gather*}
+}
+$$&lt;/p&gt;
+&lt;p&gt;Note that this recurrent network maps an input sequence to an output sequence of the same length.&lt;/p&gt;
 </content:encoded></item><item><title>In UML class diagrams, what are Boundary Classes, Control Classes, and Entity Classes?</title><link>https://leadership.qubitpi.org/posts/uml/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/uml/</guid><description>In the class diagram, there are model elements known as Boundary Class, Control Class, and Entity Class. What are
 differences among them?
 </description><pubDate>Fri, 21 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Robustness diagrams are written after use cases and before class diagrams. They help to identify the roles of use case
