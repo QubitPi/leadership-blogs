@@ -279,12 +279,22 @@ $$&lt;/p&gt;
 &lt;h3&gt;Cross-Entropy&lt;/h3&gt;
 &lt;p&gt;:::tip&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Cross-entropy&quot;&gt;&lt;strong&gt;Cross-Entropy&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;In information theory, the cross-entropy between two probability distributions $p$ and $q$ over the same underlying set of events measures the average number of bits needed to identify an event drawn from the set if a coding scheme used for the set is optimized for an estimated probability distribution $q$, rather than the true distribution $p$&lt;/p&gt;
+&lt;p&gt;In information theory, the cross-entropy between two probability distributions $p$ and $q$ over the same underlying set
+of events measures the average number of bits needed to identify an event drawn from the set if a coding scheme used for
+the set is optimized for an estimated probability distribution $q$, rather than the true distribution $p$&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
-&lt;p&gt;Confused? Let&apos;s put it in the context of Machine Learning. Machine Learning sees the world based on probability. The &quot;probability distribution&quot; identifies the various tasks to learn. For example, a daily language such as English or Chinese, can be seen as a probability distribution. The probability of &quot;name&quot; followed by &quot;is&quot; is far greater than &quot;are&quot; as in &quot;My name is Jack&quot;. We call such language distribution $p$. The task of RNN (or Machine Learning in general) is to learn an approximated distribution of $p$; we call this approximation $q$&lt;/p&gt;
-&lt;p&gt;&quot;The average number of bits needed&quot; is can be seen as the distance between $p$ and $q$ given an event. In analogy of language, this can be the &lt;em&gt;quantitative&lt;/em&gt; measure of the deviation between a real language phrase &quot;My name is Jack&quot; and &quot;My name are Jack&quot;.&lt;/p&gt;
-&lt;p&gt;At this point, it is easy to imagine that, in the Machine Learning world, the cross entropy indicates the distance between what the model believes the output distribution should be and what the original distribution really is.&lt;/p&gt;
-&lt;p&gt;Now we have an intuitive understanding of cross entropy, let&apos;s formally define it. The cross-entropy of the discrete probability distribution $q$ relative to a distribution $p$ over a given set is defined as&lt;/p&gt;
+&lt;p&gt;Confused? Let&apos;s put it in the context of Machine Learning. Machine Learning sees the world based on probability. The
+&quot;probability distribution&quot; identifies the various tasks to learn. For example, a daily language such as English or
+Chinese, can be seen as a probability distribution. The probability of &quot;name&quot; followed by &quot;is&quot; is far greater than &quot;are&quot;
+as in &quot;My name is Jack&quot;. We call such language distribution $p$. The task of RNN (or Machine Learning in general) is to
+learn an approximated distribution of $p$; we call this approximation $q$&lt;/p&gt;
+&lt;p&gt;&quot;The average number of bits needed&quot; is can be seen as the distance between $p$ and $q$ given an event. In analogy of
+language, this can be the &lt;em&gt;quantitative&lt;/em&gt; measure of the deviation between a real language phrase &quot;My name is Jack&quot; and
+&quot;My name are Jack&quot;.&lt;/p&gt;
+&lt;p&gt;At this point, it is easy to imagine that, in the Machine Learning world, the cross entropy indicates the distance
+between what the model believes the output distribution should be and what the original distribution really is.&lt;/p&gt;
+&lt;p&gt;Now we have an intuitive understanding of cross entropy, let&apos;s formally define it. The cross-entropy of the discrete
+probability distribution $q$ relative to a distribution $p$ over a given set is defined as&lt;/p&gt;
 &lt;p&gt;$$
 H(p, q) = -\sum_x p(x)\log q(x)
 $$&lt;/p&gt;
@@ -295,17 +305,22 @@ $$&lt;/p&gt;
 &lt;p&gt;where $\boldsymbol{o}$ is the predicted sequence by RNN and $o_i$ is the &lt;em&gt;i&lt;/em&gt;-th element of the predicted sequence&lt;/p&gt;
 &lt;p&gt;:::tip&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What is the Mathematical form of $p(i)$ in RNN? Why would it become 1?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;By definition, $p(i)$ is the &lt;em&gt;true&lt;/em&gt; distribution whose exact functional form is unknown. In the language of Approximation Theory, $p(i)$ is the function that RNN is trying to learn or approximate mathematically.&lt;/p&gt;
-&lt;p&gt;Although the $p(i)$ makes the exact form of $\mathcal{L}$ unknown, computationally $p(i)$ is perfectly defined in each training example. Taking our &quot;hello&quot; example:&lt;/p&gt;
+&lt;p&gt;By definition, $p(i)$ is the &lt;em&gt;true&lt;/em&gt; distribution whose exact functional form is unknown. In the language of
+Approximation Theory, $p(i)$ is the function that RNN is trying to learn or approximate mathematically.&lt;/p&gt;
+&lt;p&gt;Although the $p(i)$ makes the exact form of $\mathcal{L}$ unknown, computationally $p(i)$ is perfectly defined in each
+training example. Taking our &quot;hello&quot; example:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./img/char-level-language-model.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The 4 probability distributions of $q(x)$ is &quot;reflected&quot; in the output layer of this example. They are &quot;reflecting&quot; the probability distribution of $q(x)$ because they are only $o$ values and have not been transformed to the $\sigma$ distribution yet. But in this case, we are 100% sure that the true probability distribution $p(i)$ for the 4 outputs are&lt;/p&gt;
+&lt;p&gt;The 4 probability distributions of $q(x)$ is &quot;reflected&quot; in the output layer of this example. They are &quot;reflecting&quot; the
+probability distribution of $q(x)$ because they are only $o$ values and have not been transformed to the $\sigma$
+distribution yet. But in this case, we are 100% sure that the true probability distribution $p(i)$ for the 4 outputs are&lt;/p&gt;
 &lt;p&gt;$$
 \begin{pmatrix}0\1\0\0\end{pmatrix}, \begin{pmatrix}0\0\1\0\end{pmatrix}, \begin{pmatrix}0\0\1\0\end{pmatrix}, \begin{pmatrix}0\0\0\1\end{pmatrix}
 $$&lt;/p&gt;
 &lt;p&gt;respectively. That is all we need for calculating the $\mathcal{L}$&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h2&gt;Deriving Gradient Descent Weight Update Rule&lt;/h2&gt;
-&lt;p&gt;Training a RNN model of is the same thing as searching for the optimal values for the following parameters of these two perceptrons:&lt;/p&gt;
+&lt;p&gt;Training a RNN model of is the same thing as searching for the optimal values for the following parameters of these two
+perceptrons:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$W_{xh}$&lt;/li&gt;
 &lt;li&gt;$W_{hh}$&lt;/li&gt;
@@ -313,20 +328,34 @@ $$&lt;/p&gt;
 &lt;li&gt;$b_h$&lt;/li&gt;
 &lt;li&gt;$b_o$&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;By the Gradient Descent discussed in &lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), we should derive the weight updat rule by taking partial derivatives with respect to all of the variables above. Let&apos;s start with $W_{yh}$&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997) has mentioned gradients and partial derivatives as being important for an optimization algorithm to update, say, the model weights of a neural network to reach an optimal set of weights. The use of partial derivatives permits each weight to be updated independently of the others, by calculating the gradient of the error curve with respect to each weight in turn.&lt;/p&gt;
-&lt;p&gt;Many of the functions that we usually work with in machine learning are multivariate, vector-valued functions, which means that they map multiple real inputs $n$ to multiple real outputs $m$:&lt;/p&gt;
+&lt;p&gt;By the Gradient Descent discussed in &lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), we should derive the weight updat
+rule by taking partial derivatives with respect to all of the variables above. Let&apos;s start with $W_{yh}$&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997) has mentioned gradients and partial derivatives as being important for an
+optimization algorithm to update, say, the model weights of a neural network to reach an optimal set of weights. The use
+of partial derivatives permits each weight to be updated independently of the others, by calculating the gradient of the
+error curve with respect to each weight in turn.&lt;/p&gt;
+&lt;p&gt;Many of the functions that we usually work with in machine learning are multivariate, vector-valued functions, which
+means that they map multiple real inputs $n$ to multiple real outputs $m$:&lt;/p&gt;
 &lt;p&gt;$$
 f: \mathbb{R}^n \rightarrow \mathbb{R}^m
 $$&lt;/p&gt;
-&lt;p&gt;In training a neural network, the backpropagation algorithm is responsible for sharing back the error calculated at the output layer among the neurons comprising the different hidden layers of the neural network, until it reaches the input.&lt;/p&gt;
-&lt;p&gt;If our RNN contains only 1 perceptron unit, the error is propagated back by, using the &lt;a href=&quot;https://en.wikipedia.org/wiki/Chain_rule&quot;&gt;Chain Rule&lt;/a&gt; of $\frac{dz}{dx} = \frac{dz}{dy}\frac{dy}{dx}$:&lt;/p&gt;
+&lt;p&gt;In training a neural network, the backpropagation algorithm is responsible for sharing back the error calculated at the
+output layer among the neurons comprising the different hidden layers of the neural network, until it reaches the input.&lt;/p&gt;
+&lt;p&gt;If our RNN contains only 1 perceptron unit, the error is propagated back by, using the
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Chain_rule&quot;&gt;Chain Rule&lt;/a&gt; of $\frac{dz}{dx} = \frac{dz}{dy}\frac{dy}{dx}$:&lt;/p&gt;
 &lt;p&gt;$$
 \frac{\partial \mathcal{L}}{\partial W} = \frac{\partial \mathcal{L}}{\partial o}\frac{\partial o}{\partial W}
 $$&lt;/p&gt;
-&lt;p&gt;Note that in the RNN mode, $\mathcal{L}$ is not a direct function of $W$. Thus its first order derivative cannot be computed unless we connect the $\mathcal{L}$ to $o$ first and then to $W$, because both the first order derivatives of $\frac{\partial \mathcal{L}}{\partial o}$ and $\frac{\partial o}{\partial W}$ are defined by the model presented earlier above&lt;/p&gt;
-&lt;p&gt;It is more often the case that we&apos;d have many connected perceptrons populating the network, each attributed a different weight. Since this is the case for RNN, we can generalise multiple inputs and multiple outputs using the &lt;strong&gt;Generalized Chain Rule&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;Consider the case where $x \in \mathbb{R}^m$ and $u \in \mathbb{R}^n$; an inner function, $f$, maps $m$ inputs to $n$ outputs, while an outer function, $g$, receives $n$ inputs to produce an output, $h \in \mathbb{R}^k$. For $i = 1, \dots, m$  the generalized chain rule states:&lt;/p&gt;
+&lt;p&gt;Note that in the RNN mode, $\mathcal{L}$ is not a direct function of $W$. Thus its first order derivative cannot be
+computed unless we connect the $\mathcal{L}$ to $o$ first and then to $W$, because both the first order derivatives of
+$\frac{\partial \mathcal{L}}{\partial o}$ and $\frac{\partial o}{\partial W}$ are defined by the model presented earlier
+above&lt;/p&gt;
+&lt;p&gt;It is more often the case that we&apos;d have many connected perceptrons populating the network, each attributed a different
+weight. Since this is the case for RNN, we can generalise multiple inputs and multiple outputs using the &lt;strong&gt;Generalized
+Chain Rule&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Consider the case where $x \in \mathbb{R}^m$ and $u \in \mathbb{R}^n$; an inner function, $f$, maps $m$ inputs to $n$
+outputs, while an outer function, $g$, receives $n$ inputs to produce an output, $h \in \mathbb{R}^k$. For
+$i = 1, \dots, m$  the generalized chain rule states:&lt;/p&gt;
 &lt;p&gt;$$
 \frac{\partial h}{\partial x_i} = \frac{\partial h}{\partial u_1} \frac{\partial u_1}{\partial x_i} + \frac{\partial h}{\partial u_2} \frac{\partial u_2}{\partial x_i} + \dots + \frac{\partial h}{\partial u_n} \frac{\partial u_n}{\partial x_i} = \sum_{j = 1}^n \frac{\partial h}{\partial u_j} \frac{\partial u_j}{\partial x_i}
 $$&lt;/p&gt;
@@ -353,7 +382,8 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 \frac{\partial o_i}{W_{yh}} = \frac{\partial }{W_{yh}}\left( W_{yh}h_i + b_o \right) = h_i
 $$&lt;/p&gt;
-&lt;p&gt;For the $\frac{\partial \mathcal{L}}{\partial o_i}$ we shall recall from the earlier discussion on softmax derivative that we CANNOT simply have&lt;/p&gt;
+&lt;p&gt;For the $\frac{\partial \mathcal{L}}{\partial o_i}$ we shall recall from the earlier discussion on softmax derivative
+that we CANNOT simply have&lt;/p&gt;
 &lt;p&gt;$$
 \frac{\partial \mathcal{L}}{\partial o_i} = -\frac{\partial}{\partial o_i}\sum_i^np(i)\log\sigma_i
 $$&lt;/p&gt;
@@ -409,7 +439,8 @@ $$&lt;/p&gt;
 &lt;li&gt;✅ $b_o$&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Now let&apos;s look at $\frac{\partial \mathcal{L}}{\partial W_{hh}}$:&lt;/p&gt;
-&lt;p&gt;Recall from &lt;em&gt;Deep Learning&lt;/em&gt;, section 6.5.2, p. 207 that the vector notation of $\frac{\partial z}{\partial x_i} = \sum_j \frac{\partial z}{\partial y_j}\frac{\partial y_j}{\partial x_i}$ is&lt;/p&gt;
+&lt;p&gt;Recall from &lt;em&gt;Deep Learning&lt;/em&gt;, section 6.5.2, p. 207 that the vector notation of
+$\frac{\partial z}{\partial x_i} = \sum_j \frac{\partial z}{\partial y_j}\frac{\partial y_j}{\partial x_i}$ is&lt;/p&gt;
 &lt;p&gt;$$
 \nabla_{\boldsymbol{x}}z = \left( \frac{\partial \boldsymbol{y}}{\partial \boldsymbol{x}} \right)^\intercal \nabla_{\boldsymbol{y}}z
 $$&lt;/p&gt;
@@ -433,7 +464,9 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{ \frac{\partial \mathcal{L}}{\partial W_{hh}} = \sum_{t = 1}^\tau diag\left[ 1 - \left(\boldsymbol{h}^{(t)}\right)^2 \right] \left( \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} \right) {\boldsymbol{h}^{(t - 1)}}^\intercal }
 $$&lt;/p&gt;
-&lt;p&gt;The equation above leaves us with a term $\nabla_{\boldsymbol{h}^{(t)}}\mathcal{L}$, which we calculate next. Note that the back propagation on $\boldsymbol{h}^{(t)}$ has source from both $\boldsymbol{o}^{(t)}$ and $\boldsymbol{h}^{(t + 1)}$. It&apos;s gradient, therefore, is given by&lt;/p&gt;
+&lt;p&gt;The equation above leaves us with a term $\nabla_{\boldsymbol{h}^{(t)}}\mathcal{L}$, which we calculate next. Note that
+the back propagation on $\boldsymbol{h}^{(t)}$ has source from both $\boldsymbol{o}^{(t)}$ and
+$\boldsymbol{h}^{(t + 1)}$. It&apos;s gradient, therefore, is given by&lt;/p&gt;
 &lt;p&gt;$$
 \begin{align}
 \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} &amp;amp;= \left( \frac{\partial \boldsymbol{o}^{(t)}}{\partial \boldsymbol{h}^{(t)}} \right)^\intercal \nabla_{\boldsymbol{o}^{(t)}}\mathcal{L} + \left( \frac{\partial \boldsymbol{h}^{(t + 1)}}{\partial \boldsymbol{h}^{(t)}} \right)^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \
@@ -444,7 +477,10 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{ \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} = \left( \boldsymbol{W_{yh}} \right)^\intercal \nabla_{\boldsymbol{o}^{(t)}}\mathcal{L} + \boldsymbol{W_{hh}}^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \left( diag\left[ 1 - (\boldsymbol{h}^{(t + 1)})^2 \right] \right) }
 $$&lt;/p&gt;
-&lt;p&gt;Note that the 2nd term $\boldsymbol{W_{xh}}^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \left( diag\left[ 1 - (\boldsymbol{h}^{(t + 1)})^2 \right] \right)$ is zero at first iteration propagating back because for the last-layer (unrolled) of RNN , there&apos;s no gradient update flow from the next hidden state.&lt;/p&gt;
+&lt;p&gt;Note that the 2nd term
+$\boldsymbol{W_{xh}}^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \left( diag\left[ 1 - (\boldsymbol{h}^{(t + 1)})^2 \right] \right)$
+is zero at first iteration propagating back because for the last-layer (unrolled) of RNN , there&apos;s no gradient update
+flow from the next hidden state.&lt;/p&gt;
 &lt;p&gt;So far we have derived backpropagating rule for $W_{hh}$&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$W_{xh}$&lt;/li&gt;
@@ -587,6 +623,41 @@ schedules using fewer men and more months. One simply cannot get workable schedu
 large systems one wants a way to bring considerable manpower to bear, so that the product can make a timely appearance
 before the technology becomes obsolete. There is a trade-off here. How can these two needs be reconciled?&lt;/p&gt;
 &lt;p&gt;To be continued...&lt;/p&gt;
+</content:encoded></item><item><title>Lese-Notizen die „Kritik der reinen Vernunft“</title><link>https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/</guid><description>A Masterpiece of Idealism of Anti-Idealism - Transcendental Idealism</description><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Die Transscendentale Aesthetik&lt;/h2&gt;
+&lt;p&gt;Auf welche Art und durch welche Mittel sich auch immer eine Erkenntniss auf Gegenstände beziehen mag, die Anschauung.
+Diese findet aber nur statt, so fern uns der Gegenstand gegeben wird; dieses aber ist wiederum nur dadurch möglich, dass
+er das Gemüth auf gewisse Weise  afficire. Die Fähigkeit, Vorstellungen durch die Art, wie wir von Gegenstände afficirt
+werden, zu bekommen, heisst Sinnlichkeit.&lt;/p&gt;
+&lt;p&gt;:::tip[Die Fähigkeit, Vorstellungen durch die Art, wie wir von Gegenstände afficirt werden, zu bekommen, heisst Sinnlichkeit.]
+Die Fähigkeit heisst Sinnlichkeit. → Die Fähigkeit, Vorstellungen durch die Art zu bekommen, heisst Sinnlichkeit. →
+Welche Art? wie wir von Gegenstände afficirt werden.
+:::&lt;/p&gt;
+&lt;p&gt;Vermittelst der Sinnlichkeit also werden uns Gegenstände gegeben, und sie allein liefert uns Anschauungen; durch den
+Verstand aber werden sie gedacht, und von ihm entspringen Begriffe. Alles Denken aber muss sich vermittelst gewisser
+Merkmale, zuletzt auf Anschauungen beziehen, weil uns auf andere Weise kein Gegenstand gegeben werden kann.&lt;/p&gt;
+&lt;p&gt;Die Wirkung eines Gegenstandes auf die Vorstellungsfähigkeit ist Empfindung. Diejenige Anschauung heisst empirisch. Der
+unbestimmte Gegenstand einer empirischen Anschauung heisst Erscheinung.&lt;/p&gt;
+&lt;p&gt;In der Erscheinung nennt Kant das die Materie, dasjenige aber, welches macht, dass das Mannigfaltige der Erscheinung
+nennt Kant die &lt;strong&gt;Form&lt;/strong&gt; der Erscheinung.&lt;/p&gt;
+&lt;p&gt;Da das, worinnen sich die Empfindungen allein ordnen und in gewisse Form gestellt werden können, nicht Empfindung sein
+kann, so ist uns die Materie aller Erscheinung nur a &lt;em&gt;posteriori&lt;/em&gt; gegeben, aber die Form muss im Gemüt &lt;em&gt;a priori&lt;/em&gt; bereit
+liegen, und abgesondert von aller Empfindung können betrachtet werden.&lt;/p&gt;
+&lt;p&gt;Kant nennt alle Vorstellungen rein, in dene nichts, was zur Empfindung gehört, angetroffen wird. Demnach wird die reine
+Form sinnlicher Anschauungen überhaupt im Gemüthe &lt;em&gt;a priori&lt;/em&gt; angetroffen werden, worinnen alles Mannigfaltige der
+Erscheinungen in gewissen Verhältnissen angeschaut wird. Diese reine Form der Sinnlichkeit wird auch selber reine
+Anschauung heissen. So, wenn wir von der Vorstellung eines Körpers absondern, so bleibt mir aus dieser empirischen
+Anschauung noch etwas übrig, nämlich Ausdehnuug und Gestalt. Diese gehören zur reinen Auschauung, die &lt;em&gt;a priori&lt;/em&gt;, auch
+ohne einen wirklichen Gegenstand der Sinne oder Empfindung, als eine blosse Form der Sinnlichkeit im Gemüthe
+stattfindet.&lt;/p&gt;
+&lt;p&gt;Eine Wissenschaft von allen Principien der Sinnlichkeit &lt;em&gt;a priori&lt;/em&gt; nennt Kant die transscendentale
+&lt;a href=&quot;https://youtu.be/6lOwHdydgi4&quot;&gt;Aesthetik&lt;/a&gt;. Es muss also eine solche Wissenschaft geben in Gegensatz mit derjenigen,
+welche die Principien des reinen Denkens enthält, und transscendentale Logik genannt wird.&lt;/p&gt;
+&lt;p&gt;Zuerst in der transscendentalen Aesthetik also werden wir die Sinnlichkeit isoliren, dadurch, dass wir alles absondern,
+was der Verstand durch seine Begriffe dabei denkt, damit nichts als empirische Anschauung übrig bleibe. Zweitens werden
+wir von dieser noch alles (was zur Empfindung gehört) abtrennen, damit nichts als reine Anschauung und die blosse Form
+der Erscheinungen übrig bleibe. Bei dieser Untersuchung wird sich finden zwei reinen Formen sinnlicher Anschauung (als
+Principien der Erkenntniss &lt;em&gt;a priori&lt;/em&gt; gebe), nämlich &lt;a href=&quot;#von-dem-raume&quot;&gt;&lt;strong&gt;Raum&lt;/strong&gt;&lt;/a&gt; und &lt;strong&gt;Zeit&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;Von dem Raume&lt;/h3&gt;
 </content:encoded></item><item><title>Humanistic Psychology</title><link>https://leadership.qubitpi.org/posts/humanistic-psychology/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/humanistic-psychology/</guid><description>In order for individuals to thrive and excel, a health-fostering culture must be created.</description><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/mUELAiHbCxc?start=573&quot; title=&quot;Humanistic Psychology&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Humanistic psychology&lt;/em&gt; is a psychological perspective that arose in the mid-20th century in answer to two theories:
 Sigmund Freud&apos;s psychoanalytic theory and B. F. Skinner&apos;s behaviorism. Abraham Maslow, in this context, established
@@ -925,41 +996,6 @@ indicates that there is a dynamics between coping and expressive behavior: &lt;s
 self-actualization by solving the lesser, prerequisite motivational problems&lt;/strong&gt;.&lt;/p&gt;
 &lt;h3&gt;Chapter 14 - Unmotivated and Purposeless Reactions&lt;/h3&gt;
 &lt;p&gt;[^1]: Horney, K, &lt;em&gt;The Neurotic Personality of Our Time&lt;/em&gt;, New York Norton, 1937&lt;/p&gt;
-</content:encoded></item><item><title>Lese-Notizen die „Kritik der reinen Vernunft“</title><link>https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/</guid><description>A Masterpiece of Idealism of Anti-Idealism - Transcendental Idealism</description><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Die Transscendentale Aesthetik&lt;/h2&gt;
-&lt;p&gt;Auf welche Art und durch welche Mittel sich auch immer eine Erkenntniss auf Gegenstände beziehen mag, die Anschauung.
-Diese findet aber nur statt, so fern uns der Gegenstand gegeben wird; dieses aber ist wiederum nur dadurch möglich, dass
-er das Gemüth auf gewisse Weise  afficire. Die Fähigkeit, Vorstellungen durch die Art, wie wir von Gegenstände afficirt
-werden, zu bekommen, heisst Sinnlichkeit.&lt;/p&gt;
-&lt;p&gt;:::tip[Die Fähigkeit, Vorstellungen durch die Art, wie wir von Gegenstände afficirt werden, zu bekommen, heisst Sinnlichkeit.]
-Die Fähigkeit heisst Sinnlichkeit. → Die Fähigkeit, Vorstellungen durch die Art zu bekommen, heisst Sinnlichkeit. →
-Welche Art? wie wir von Gegenstände afficirt werden.
-:::&lt;/p&gt;
-&lt;p&gt;Vermittelst der Sinnlichkeit also werden uns Gegenstände gegeben, und sie allein liefert uns Anschauungen; durch den
-Verstand aber werden sie gedacht, und von ihm entspringen Begriffe. Alles Denken aber muss sich vermittelst gewisser
-Merkmale, zuletzt auf Anschauungen beziehen, weil uns auf andere Weise kein Gegenstand gegeben werden kann.&lt;/p&gt;
-&lt;p&gt;Die Wirkung eines Gegenstandes auf die Vorstellungsfähigkeit ist Empfindung. Diejenige Anschauung heisst empirisch. Der
-unbestimmte Gegenstand einer empirischen Anschauung heisst Erscheinung.&lt;/p&gt;
-&lt;p&gt;In der Erscheinung nennt Kant das die Materie, dasjenige aber, welches macht, dass das Mannigfaltige der Erscheinung
-nennt Kant die &lt;strong&gt;Form&lt;/strong&gt; der Erscheinung.&lt;/p&gt;
-&lt;p&gt;Da das, worinnen sich die Empfindungen allein ordnen und in gewisse Form gestellt werden können, nicht Empfindung sein
-kann, so ist uns die Materie aller Erscheinung nur a &lt;em&gt;posteriori&lt;/em&gt; gegeben, aber die Form muss im Gemüt &lt;em&gt;a priori&lt;/em&gt; bereit
-liegen, und abgesondert von aller Empfindung können betrachtet werden.&lt;/p&gt;
-&lt;p&gt;Kant nennt alle Vorstellungen rein, in dene nichts, was zur Empfindung gehört, angetroffen wird. Demnach wird die reine
-Form sinnlicher Anschauungen überhaupt im Gemüthe &lt;em&gt;a priori&lt;/em&gt; angetroffen werden, worinnen alles Mannigfaltige der
-Erscheinungen in gewissen Verhältnissen angeschaut wird. Diese reine Form der Sinnlichkeit wird auch selber reine
-Anschauung heissen. So, wenn wir von der Vorstellung eines Körpers absondern, so bleibt mir aus dieser empirischen
-Anschauung noch etwas übrig, nämlich Ausdehnuug und Gestalt. Diese gehören zur reinen Auschauung, die &lt;em&gt;a priori&lt;/em&gt;, auch
-ohne einen wirklichen Gegenstand der Sinne oder Empfindung, als eine blosse Form der Sinnlichkeit im Gemüthe
-stattfindet.&lt;/p&gt;
-&lt;p&gt;Eine Wissenschaft von allen Principien der Sinnlichkeit &lt;em&gt;a priori&lt;/em&gt; nennt Kant die transscendentale
-&lt;a href=&quot;https://youtu.be/6lOwHdydgi4&quot;&gt;Aesthetik&lt;/a&gt;. Es muss also eine solche Wissenschaft geben in Gegensatz mit derjenigen,
-welche die Principien des reinen Denkens enthält, und transscendentale Logik genannt wird.&lt;/p&gt;
-&lt;p&gt;Zuerst in der transscendentalen Aesthetik also werden wir die Sinnlichkeit isoliren, dadurch, dass wir alles absondern,
-was der Verstand durch seine Begriffe dabei denkt, damit nichts als empirische Anschauung übrig bleibe. Zweitens werden
-wir von dieser noch alles (was zur Empfindung gehört) abtrennen, damit nichts als reine Anschauung und die blosse Form
-der Erscheinungen übrig bleibe. Bei dieser Untersuchung wird sich finden zwei reinen Formen sinnlicher Anschauung (als
-Principien der Erkenntniss &lt;em&gt;a priori&lt;/em&gt; gebe), nämlich &lt;a href=&quot;#von-dem-raume&quot;&gt;&lt;strong&gt;Raum&lt;/strong&gt;&lt;/a&gt; und &lt;strong&gt;Zeit&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3&gt;Von dem Raume&lt;/h3&gt;
 </content:encoded></item><item><title>Causality</title><link>https://leadership.qubitpi.org/posts/causality/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/causality/</guid><description>I don&apos;t believe in any religion, but the notion of Buddhism&apos;s idea of Karma, i.e. cause and effect, seems to prevail
 in many aspects of our lives and works, which is why I was drawn upon this topic of &quot;Causality&quot;
 </description><pubDate>Thu, 26 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This article is an overview of the Cause and Effect as the Principle of Causality, establishing one event or action as
