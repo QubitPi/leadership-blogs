@@ -195,8 +195,14 @@ $\boldsymbol{y}$ is the sum of the losses over all the time steps, i.e.&lt;/p&gt
 $$&lt;/p&gt;
 &lt;p&gt;:::tip&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Why would we have $\mathcal{L}^{(t)} = \log\boldsymbol{\hat{y}}^{(t)}$? We need to learn &lt;em&gt;Softmax Activation&lt;/em&gt; first&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Softmax_function&quot;&gt;softmax function&lt;/a&gt; takes as input a vector $z$ of $K$ real numbers, and normalizes it into a probability distribution consisting of $K$ probabilities proportional to the exponentials of the input numbers. That is, prior to applying softmax, some vector components could be negative, or greater than one; and might not sum to 1; but after applying softmax, each component will be in the interval $(0, 1)$ and the components will add up to 1, so that they can be interpreted as probabilities. Furthermore, the larger input components will correspond to larger probabilities.&lt;/p&gt;
-&lt;p&gt;For a vector $z$ of $K$ real numbers, the the standard (unit) softmax function $\sigma: \mathbb{R}^K \mapsto (0, 1)^K$, where $K \ge 1$ is defined by&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Softmax_function&quot;&gt;softmax function&lt;/a&gt; takes as input a vector $z$ of $K$ real numbers,
+and normalizes it into a probability distribution consisting of $K$ probabilities proportional to the exponentials of
+the input numbers. That is, prior to applying softmax, some vector components could be negative, or greater than one;
+and might not sum to 1; but after applying softmax, each component will be in the interval $(0, 1)$ and the components
+will add up to 1, so that they can be interpreted as probabilities. Furthermore, the larger input components will
+correspond to larger probabilities.&lt;/p&gt;
+&lt;p&gt;For a vector $z$ of $K$ real numbers, the the standard (unit) softmax function $\sigma: \mathbb{R}^K \mapsto (0, 1)^K$,
+where $K \ge 1$ is defined by&lt;/p&gt;
 &lt;p&gt;$$
 \sigma(\boldsymbol{z})&lt;em&gt;i = \frac{e^{z_i}}{\sum&lt;/em&gt;{j = 1}^Ke^{z_j}}
 $$&lt;/p&gt;
@@ -213,12 +219,18 @@ $$&lt;/p&gt;
 &lt;li&gt;$i = 1, 2, ..., n$,&lt;/li&gt;
 &lt;li&gt;$\boldsymbol{o} = (o_1, o_2, ..., o_n) \in \mathbb{R}^n$&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The softmax function takes an N-dimensional vector of arbitrary real values and produces another N-dimensional vector with real values in the range (0, 1) that add up to 1.0. It maps $\mathbb{R}^N \rightarrow \mathbb{R}^N$&lt;/p&gt;
+&lt;p&gt;The softmax function takes an N-dimensional vector of arbitrary real values and produces another N-dimensional vector
+with real values in the range (0, 1) that add up to 1.0. It maps $\mathbb{R}^N \rightarrow \mathbb{R}^N$&lt;/p&gt;
 &lt;p&gt;$$
 \sigma(\boldsymbol{o}): \begin{pmatrix}o_1\o_2\\dots\o_n\end{pmatrix} \rightarrow \begin{pmatrix}\sigma_1\\sigma_2\\dots\\sigma_n\end{pmatrix}
 $$&lt;/p&gt;
-&lt;p&gt;This property of softmax function that it outputs a probability distribution makes it suitable for probabilistic interpretation in classification tasks. Neural networks, however, are commonly trained under a log loss (or cross-entropy) regime&lt;/p&gt;
-&lt;p&gt;We are going to compute the derivative of the softmax function because we will be using it for training our RNN model shortly. But before diving in, it is important to keep in mind that Softmax is fundamentally a vector function. It takes a vector as input and produces a vector as output; in other words, it has multiple inputs and multiple outputs. Therefore, we cannot just ask for &quot;the derivative of softmax&quot;; We should instead specify:&lt;/p&gt;
+&lt;p&gt;This property of softmax function that it outputs a probability distribution makes it suitable for probabilistic
+interpretation in classification tasks. Neural networks, however, are commonly trained under a log loss (or
+cross-entropy) regime&lt;/p&gt;
+&lt;p&gt;We are going to compute the derivative of the softmax function because we will be using it for training our RNN model
+shortly. But before diving in, it is important to keep in mind that Softmax is fundamentally a vector function. It takes
+a vector as input and produces a vector as output; in other words, it has multiple inputs and multiple outputs.
+Therefore, we cannot just ask for &quot;the derivative of softmax&quot;; We should instead specify:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Which component (output element) of softmax we&apos;re seeking to find the derivative of.&lt;/li&gt;
 &lt;li&gt;Since softmax has multiple inputs, with respect to which input element the partial derivative is computed.&lt;/li&gt;
@@ -227,8 +239,11 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 \frac{\partial \sigma_i}{\partial o_k} = \frac{\partial }{\partial o_k} \frac{e^{o_i}}{\sum_{j = 1}^ne^{o_j}}
 $$&lt;/p&gt;
-&lt;p&gt;where $\frac{\partial \sigma_i}{\partial o_k}$ is the partial derivative of the i-th output with respect with the k-th input.&lt;/p&gt;
-&lt;p&gt;We&apos;ll be using the quotient rule of derivatives. For $h(x) = \frac{f(x)}{g(x)}$ where both $f$ and $g$ are differentiable and $g(x) \ne 0$, The &lt;a href=&quot;https://en.wikipedia.org/wiki/Quotient_rule&quot;&gt;quotient rule&lt;/a&gt; states that the derivative of $h(x)$ is&lt;/p&gt;
+&lt;p&gt;where $\frac{\partial \sigma_i}{\partial o_k}$ is the partial derivative of the i-th output with respect with the k-th
+input.&lt;/p&gt;
+&lt;p&gt;We&apos;ll be using the quotient rule of derivatives. For $h(x) = \frac{f(x)}{g(x)}$ where both $f$ and $g$ are
+differentiable and $g(x) \ne 0$, The &lt;a href=&quot;https://en.wikipedia.org/wiki/Quotient_rule&quot;&gt;quotient rule&lt;/a&gt; states that the
+derivative of $h(x)$ is&lt;/p&gt;
 &lt;p&gt;$$
 h&apos;(x) = \frac{f&apos;(x)g(x) - f(x)g&apos;(x)}{g^2(x)}
 $$&lt;/p&gt;
@@ -238,8 +253,8 @@ f&apos;(o_k) = \frac{\partial}{\partial o_k} e^{o_i} = \begin{cases}
 e^{o_k}, &amp;amp; \text{if}\ i = k \
 0,       &amp;amp; \text{otherwise}
 \end{cases}
-$$
-$$
+$$&lt;/p&gt;
+&lt;p&gt;$$
 g&apos;(o_k) = \frac{\partial}{\partial o_k} \sum_{j = 1}^ne^{o_j} = \left( \frac{\partial e^{o_1}}{\partial o_k} + \frac{\partial e^{o_2}}{\partial o_k} + \dots + \frac{\partial e^{o_k}}{\partial o_k} + \dots + \frac{\partial e^{o_n}}{\partial o_k} \right) = \frac{\partial e^{o_k}}{\partial o_k} = e^{o_k}
 $$&lt;/p&gt;
 &lt;p&gt;The rest of it becomes trivial then. When $i = k$,&lt;/p&gt;
