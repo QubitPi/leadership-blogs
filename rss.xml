@@ -133,8 +133,8 @@ account. Instead of having $f$ depend on 1 parameter, we now have it take 2 para
 &lt;p&gt;Now it makes much more sense with:&lt;/p&gt;
 &lt;p&gt;$$
 f(\text{‘l&apos;}, h_2) = \text{‘l&apos;}
-$$
-$$
+$$&lt;/p&gt;
+&lt;p&gt;$$
 f(\text{‘l&apos;}, h_3) = \text{‘o&apos;}
 $$&lt;/p&gt;
 &lt;p&gt;But what if we want to predict a longer or shorter word? For example, how about predicting &quot;cat&quot; by &quot;ca&quot;? That&apos;s simple,
