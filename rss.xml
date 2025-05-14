@@ -157,7 +157,7 @@ perceptron computes the output like &apos;e&apos;, &apos;l&apos;, &apos;l&apos;,
 &lt;p&gt;$$
 o^{(t)} = g_2\left( W_{yh}h^{(t)} + b_o \right)
 $$&lt;/p&gt;
-&lt;p&gt;&amp;lt;div class=&quot;alert alert-block alert-info&quot;&amp;gt;&lt;/p&gt;
+&lt;p&gt;:::tip&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What are $g_1$ and $g_2$?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;They are &lt;em&gt;activation functions&lt;/em&gt; which are used to change the linear function in a perceptron to a non-linear function.
 Please refer to &lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), Paperback (page 96) for why we bump it to non-linear&lt;/p&gt;
@@ -166,7 +166,7 @@ Please refer to &lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997)
 tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
 $$&lt;/p&gt;
 &lt;p&gt;In practice, $g_2$ is constance, i.e. $g_2 = 1$&lt;/p&gt;
-&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;h2&gt;Forward Propagation Equations for RNN&lt;/h2&gt;
 &lt;p&gt;We now develop the forward propagation equations for the RNN. We assume the hyperbolic tangent activation function and
 that the output is discrete, as if the RNN is used to predict words or characters. A natural way to represent discrete
