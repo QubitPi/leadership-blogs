@@ -216,7 +216,7 @@ probability distribution $q$ relative to a distribution $p$ over a given set is 
 &lt;p&gt;$$
 H(p, q) = -\sum_x p(x)\log q(x)
 $$&lt;/p&gt;
-&lt;p&gt;In RNN, the probability distribution of $q(x)$ is exactly the softmax function we defined earlier:&lt;/p&gt;
+&lt;p&gt;Since we assume the softmax probability distribution earlier, the probability distribution of $q(x)$ is:&lt;/p&gt;
 &lt;p&gt;$$
 \mathcal{L} = -\sum_i p(i)\log\sigma(\boldsymbol{o})_i = -\sum_i \log\sigma(\boldsymbol{o})_i = -\log\boldsymbol{\hat{y}}^{(t)}
 $$&lt;/p&gt;
