@@ -277,7 +277,7 @@ $$&lt;/p&gt;
 \end{cases}
 $$&lt;/p&gt;
 &lt;h3&gt;Cross-Entropy&lt;/h3&gt;
-&lt;p&gt;:::tip&lt;/p&gt;
+&lt;p&gt;:::note&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Cross-entropy&quot;&gt;&lt;strong&gt;Cross-Entropy&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In information theory, the cross-entropy between two probability distributions $p$ and $q$ over the same underlying set
 of events measures the average number of bits needed to identify an event drawn from the set if a coding scheme used for
