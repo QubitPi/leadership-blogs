@@ -193,6 +193,49 @@ $\boldsymbol{y}$ is the sum of the losses over all the time steps, i.e.&lt;/p&gt
 &lt;p&gt;$$
 \mathcal{L}\left( { \boldsymbol{x}^{(1)}, ..., \boldsymbol{x}^{(\tau)} }, { \boldsymbol{y}^{(1)}, ..., \boldsymbol{y}^{(\tau)} } \right) = \sum_t^{\tau} \mathcal{L}^{(t)} = \sum_t^{\tau}\log\boldsymbol{\hat{y}}^{(t)}
 $$&lt;/p&gt;
+&lt;p&gt;Knowing the exact form of $\mathcal{L}^{(t)}$ requires our intuitive understanding of cross-entropy&lt;/p&gt;
+&lt;h3&gt;Cross-Entropy&lt;/h3&gt;
+&lt;p&gt;:::note&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Cross-entropy&quot;&gt;&lt;strong&gt;Cross-Entropy&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In information theory, the cross-entropy between two probability distributions $p$ and $q$ over the same underlying set
+of events measures the average number of bits needed to identify an event drawn from the set if a coding scheme used for
+the set is optimized for an estimated probability distribution $q$, rather than the true distribution $p$&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;Confused? Let&apos;s put it in the context of Machine Learning. Machine Learning sees the world based on probability. The
+&quot;probability distribution&quot; identifies the various tasks to learn. For example, a daily language such as English or
+Chinese, can be seen as a probability distribution. The probability of &quot;name&quot; followed by &quot;is&quot; is far greater than &quot;are&quot;
+as in &quot;My name is Jack&quot;. We call such language distribution $p$. The task of RNN (or Machine Learning in general) is to
+learn an approximated distribution of $p$; we call this approximation $q$&lt;/p&gt;
+&lt;p&gt;&quot;The average number of bits needed&quot; is can be seen as the distance between $p$ and $q$ given an event. In analogy of
+language, this can be the &lt;em&gt;quantitative&lt;/em&gt; measure of the deviation between a real language phrase &quot;My name is Jack&quot; and
+&quot;My name are Jack&quot;.&lt;/p&gt;
+&lt;p&gt;At this point, it is easy to imagine that, in the Machine Learning world, the cross entropy indicates the distance
+between what the model believes the output distribution should be and what the original distribution really is.&lt;/p&gt;
+&lt;p&gt;Now we have an intuitive understanding of cross entropy, let&apos;s formally define it. The cross-entropy of the discrete
+probability distribution $q$ relative to a distribution $p$ over a given set is defined as&lt;/p&gt;
+&lt;p&gt;$$
+H(p, q) = -\sum_x p(x)\log q(x)
+$$&lt;/p&gt;
+&lt;p&gt;In RNN, the probability distribution of $q(x)$ is exactly the softmax function we defined earlier:&lt;/p&gt;
+&lt;p&gt;$$
+\mathcal{L} = -\sum_i p(i)\log\sigma(\boldsymbol{o})_i = -\sum_i \log\sigma(\boldsymbol{o})_i = -\log\boldsymbol{\hat{y}}^{(t)}
+$$&lt;/p&gt;
+&lt;p&gt;where $\boldsymbol{o}$ is the predicted sequence by RNN and $o_i$ is the &lt;em&gt;i&lt;/em&gt;-th element of the predicted sequence&lt;/p&gt;
+&lt;p&gt;:::tip&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is the Mathematical form of $p(i)$ in RNN? Why would it become 1?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;By definition, $p(i)$ is the &lt;em&gt;true&lt;/em&gt; distribution whose exact functional form is unknown. In the language of
+Approximation Theory, $p(i)$ is the function that RNN is trying to learn or approximate mathematically.&lt;/p&gt;
+&lt;p&gt;Although the $p(i)$ makes the exact form of $\mathcal{L}$ unknown, computationally $p(i)$ is perfectly defined in each
+training example. Taking our &quot;hello&quot; example:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./img/char-level-language-model.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The 4 probability distributions of $q(x)$ is &quot;reflected&quot; in the output layer of this example. They are &quot;reflecting&quot; the
+probability distribution of $q(x)$ because they are only $o$ values and have not been transformed to the $\sigma$
+distribution yet. But in this case, we are 100% sure that the true probability distribution $p(i)$ for the 4 outputs are&lt;/p&gt;
+&lt;p&gt;$$
+\begin{pmatrix}0\1\0\0\end{pmatrix}, \begin{pmatrix}0\0\1\0\end{pmatrix}, \begin{pmatrix}0\0\1\0\end{pmatrix}, \begin{pmatrix}0\0\0\1\end{pmatrix}
+$$&lt;/p&gt;
+&lt;p&gt;respectively. That is all we need for calculating the $\mathcal{L}$&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;:::tip&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Why would we have $\mathcal{L}^{(t)} = \log\boldsymbol{\hat{y}}^{(t)}$? We need to learn &lt;em&gt;Softmax Activation&lt;/em&gt; first&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Softmax_function&quot;&gt;softmax function&lt;/a&gt; takes as input a vector $z$ of $K$ real numbers,
@@ -276,48 +319,6 @@ $$&lt;/p&gt;
 -\sigma_i\sigma_k,                    &amp;amp; \text{otherwise}
 \end{cases}
 $$&lt;/p&gt;
-&lt;h3&gt;Cross-Entropy&lt;/h3&gt;
-&lt;p&gt;:::note&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Cross-entropy&quot;&gt;&lt;strong&gt;Cross-Entropy&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;In information theory, the cross-entropy between two probability distributions $p$ and $q$ over the same underlying set
-of events measures the average number of bits needed to identify an event drawn from the set if a coding scheme used for
-the set is optimized for an estimated probability distribution $q$, rather than the true distribution $p$&lt;/p&gt;
-&lt;p&gt;:::&lt;/p&gt;
-&lt;p&gt;Confused? Let&apos;s put it in the context of Machine Learning. Machine Learning sees the world based on probability. The
-&quot;probability distribution&quot; identifies the various tasks to learn. For example, a daily language such as English or
-Chinese, can be seen as a probability distribution. The probability of &quot;name&quot; followed by &quot;is&quot; is far greater than &quot;are&quot;
-as in &quot;My name is Jack&quot;. We call such language distribution $p$. The task of RNN (or Machine Learning in general) is to
-learn an approximated distribution of $p$; we call this approximation $q$&lt;/p&gt;
-&lt;p&gt;&quot;The average number of bits needed&quot; is can be seen as the distance between $p$ and $q$ given an event. In analogy of
-language, this can be the &lt;em&gt;quantitative&lt;/em&gt; measure of the deviation between a real language phrase &quot;My name is Jack&quot; and
-&quot;My name are Jack&quot;.&lt;/p&gt;
-&lt;p&gt;At this point, it is easy to imagine that, in the Machine Learning world, the cross entropy indicates the distance
-between what the model believes the output distribution should be and what the original distribution really is.&lt;/p&gt;
-&lt;p&gt;Now we have an intuitive understanding of cross entropy, let&apos;s formally define it. The cross-entropy of the discrete
-probability distribution $q$ relative to a distribution $p$ over a given set is defined as&lt;/p&gt;
-&lt;p&gt;$$
-H(p, q) = -\sum_x p(x)\log q(x)
-$$&lt;/p&gt;
-&lt;p&gt;In RNN, the probability distribution of $q(x)$ is exactly the softmax function we defined earlier:&lt;/p&gt;
-&lt;p&gt;$$
-\mathcal{L} = -\sum_i p(i)\log\sigma(\boldsymbol{o})_i = -\sum_i \log\sigma(\boldsymbol{o})_i = -\log\boldsymbol{\hat{y}}^{(t)}
-$$&lt;/p&gt;
-&lt;p&gt;where $\boldsymbol{o}$ is the predicted sequence by RNN and $o_i$ is the &lt;em&gt;i&lt;/em&gt;-th element of the predicted sequence&lt;/p&gt;
-&lt;p&gt;:::tip&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What is the Mathematical form of $p(i)$ in RNN? Why would it become 1?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;By definition, $p(i)$ is the &lt;em&gt;true&lt;/em&gt; distribution whose exact functional form is unknown. In the language of
-Approximation Theory, $p(i)$ is the function that RNN is trying to learn or approximate mathematically.&lt;/p&gt;
-&lt;p&gt;Although the $p(i)$ makes the exact form of $\mathcal{L}$ unknown, computationally $p(i)$ is perfectly defined in each
-training example. Taking our &quot;hello&quot; example:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./img/char-level-language-model.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The 4 probability distributions of $q(x)$ is &quot;reflected&quot; in the output layer of this example. They are &quot;reflecting&quot; the
-probability distribution of $q(x)$ because they are only $o$ values and have not been transformed to the $\sigma$
-distribution yet. But in this case, we are 100% sure that the true probability distribution $p(i)$ for the 4 outputs are&lt;/p&gt;
-&lt;p&gt;$$
-\begin{pmatrix}0\1\0\0\end{pmatrix}, \begin{pmatrix}0\0\1\0\end{pmatrix}, \begin{pmatrix}0\0\1\0\end{pmatrix}, \begin{pmatrix}0\0\0\1\end{pmatrix}
-$$&lt;/p&gt;
-&lt;p&gt;respectively. That is all we need for calculating the $\mathcal{L}$&lt;/p&gt;
-&lt;p&gt;:::&lt;/p&gt;
 &lt;h2&gt;Deriving Gradient Descent Weight Update Rule&lt;/h2&gt;
 &lt;p&gt;Training a RNN model of is the same thing as searching for the optimal values for the following parameters of these two
 perceptrons:&lt;/p&gt;
