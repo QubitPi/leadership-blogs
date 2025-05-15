@@ -193,14 +193,12 @@ $\boldsymbol{y}$ is the sum of the losses over all the time steps, i.e.&lt;/p&gt
 &lt;p&gt;$$
 \mathcal{L}\left( { \boldsymbol{x}^{(1)}, ..., \boldsymbol{x}^{(\tau)} }, { \boldsymbol{y}^{(1)}, ..., \boldsymbol{y}^{(\tau)} } \right) = \sum_t^{\tau} \mathcal{L}^{(t)}
 $$&lt;/p&gt;
-&lt;p&gt;Knowing the exact form of $\mathcal{L}^{(t)}$ requires our intuitive understanding of cross-entropy&lt;/p&gt;
+&lt;p&gt;Knowing the exact form of $\mathcal{L}^{(t)}$ requires our intuitive understanding of &lt;a href=&quot;#cross-entropy&quot;&gt;cross-entropy&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Cross-Entropy&lt;/h3&gt;
-&lt;p&gt;:::note&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Cross-entropy&quot;&gt;&lt;strong&gt;Cross-Entropy&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;In information theory, the cross-entropy between two probability distributions $p$ and $q$ over the same underlying set
-of events measures the average number of bits needed to identify an event drawn from the set if a coding scheme used for
-the set is optimized for an estimated probability distribution $q$, rather than the true distribution $p$&lt;/p&gt;
-&lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;In information theory, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Cross-entropy&quot;&gt;cross-entropy&lt;/a&gt; between two probability
+distributions $p$ and $q$ over the same underlying set of events measures the average number of bits needed to identify
+an event drawn from the set if a coding scheme used for the set is optimized for an estimated probability distribution
+$q$, rather than the true distribution $p$&lt;/p&gt;
 &lt;p&gt;Confused? Let&apos;s put it in the context of Machine Learning. Machine Learning sees the world based on probability. The
 &quot;probability distribution&quot; identifies the various tasks to learn. For example, a daily language such as English or
 Chinese, can be seen as a probability distribution. The probability of &quot;name&quot; followed by &quot;is&quot; is far greater than &quot;are&quot;
