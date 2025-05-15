@@ -191,7 +191,7 @@ network is through &quot;specifying a measure for the training error&quot;. We c
 &lt;p&gt;In RNN, the total loss for a given sequence of input $\boldsymbol{x}$ paired with a sequence of expected
 $\boldsymbol{y}$ is the sum of the losses over all the time steps, i.e.&lt;/p&gt;
 &lt;p&gt;$$
-\mathcal{L}\left( { \boldsymbol{x}^{(1)}, ..., \boldsymbol{x}^{(\tau)} }, { \boldsymbol{y}^{(1)}, ..., \boldsymbol{y}^{(\tau)} } \right) = \sum_t^{\tau} \mathcal{L}^{(t)} = \sum_t^{\tau}\log\boldsymbol{\hat{y}}^{(t)}
+\mathcal{L}\left( { \boldsymbol{x}^{(1)}, ..., \boldsymbol{x}^{(\tau)} }, { \boldsymbol{y}^{(1)}, ..., \boldsymbol{y}^{(\tau)} } \right) = \sum_t^{\tau} \mathcal{L}^{(t)}
 $$&lt;/p&gt;
 &lt;p&gt;Knowing the exact form of $\mathcal{L}^{(t)}$ requires our intuitive understanding of cross-entropy&lt;/p&gt;
 &lt;h3&gt;Cross-Entropy&lt;/h3&gt;
@@ -221,6 +221,13 @@ $$&lt;/p&gt;
 \mathcal{L} = -\sum_i p(i)\log\sigma(\boldsymbol{o})_i = -\sum_i \log\sigma(\boldsymbol{o})_i = -\log\boldsymbol{\hat{y}}^{(t)}
 $$&lt;/p&gt;
 &lt;p&gt;where $\boldsymbol{o}$ is the predicted sequence by RNN and $o_i$ is the &lt;em&gt;i&lt;/em&gt;-th element of the predicted sequence&lt;/p&gt;
+&lt;p&gt;Therefore, the total loss for a given sequence of input $\boldsymbol{x}$ paired with a sequence of expected
+$\boldsymbol{y}$ is the sum of the losses over all the time steps, i.e.&lt;/p&gt;
+&lt;p&gt;$$
+\color{green} \boxed{
+\mathcal{L}\left( { \boldsymbol{x}^{(1)}, ..., \boldsymbol{x}^{(\tau)} }, { \boldsymbol{y}^{(1)}, ..., \boldsymbol{y}^{(\tau)} } \right) = \sum_t^{\tau} \mathcal{L}^{(t)} = \sum_t^{\tau}\log\boldsymbol{\hat{y}}^{(t)}
+}
+$$&lt;/p&gt;
 &lt;p&gt;:::tip&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What is the Mathematical form of $p(i)$ in RNN? Why would it become 1?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;By definition, $p(i)$ is the &lt;em&gt;true&lt;/em&gt; distribution whose exact functional form is unknown. In the language of
