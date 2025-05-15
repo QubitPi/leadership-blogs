@@ -168,8 +168,8 @@ $$&lt;/p&gt;
 &lt;p&gt;In practice, $g_2$ is constance, i.e. $g_2 = 1$&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h2&gt;Forward Propagation Equations for RNN&lt;/h2&gt;
-&lt;p&gt;We now develop the forward propagation equations for the RNN. We assume the hyperbolic tangent activation function and
-that the output is discrete, as if the RNN is used to predict words or characters. A natural way to represent discrete
+&lt;p&gt;We now develop the forward propagation equations for the RNN. We assume the hyperbolic tangent activation function,
+i.e. $tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$ and that the output is discrete, as if the RNN is used to predict words or characters. A natural way to represent discrete
 variables is to regard the output $\boldsymbol{o}$ as giving the unnormalized log probabilities of each possible value
 of the discrete variable. We can then apply the softmax (we will disucss softmax function in the next section) operation
 as a post-processing step to obtain a vector $\boldsymbol{\hat{y}}$ of normalized probabilities over the output. Forward
