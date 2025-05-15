@@ -169,12 +169,12 @@ $$&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h2&gt;Forward Propagation Equations for RNN&lt;/h2&gt;
 &lt;p&gt;We now develop the forward propagation equations for the RNN. We assume the hyperbolic tangent activation function,
-i.e. $tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$ and that the output is discrete, as if the RNN is used to predict words or characters. A natural way to represent discrete
-variables is to regard the output $\boldsymbol{o}$ as giving the unnormalized log probabilities of each possible value
-of the discrete variable. We can then apply the softmax (discussed shortly) operation
-as a post-processing step to obtain a vector $\boldsymbol{\hat{y}}$ of normalized probabilities over the output. Forward
-propagation begins with a specification of the initial state $\boldsymbol{h}^{(0)}$. Then, for each time step from
-$t = 1$ to $t = \tau$, we apply the following update equations:&lt;/p&gt;
+i.e. $tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$ and that the output is discrete, as if the RNN is used to predict
+words or characters. A natural way to represent discrete variables is to regard the output $\boldsymbol{o}$ as giving
+the unnormalized log probabilities of each possible value of the discrete variable. We can then apply the softmax
+(discussed shortly) operation as a post-processing step to obtain a vector $\boldsymbol{\hat{y}}$ of normalized
+probabilities over the output. Forward propagation begins with a specification of the initial state
+$\boldsymbol{h}^{(0)}$. Then, for each time step from $t = 1$ to $t = \tau$, we apply the following update equations:&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{
 \begin{gather*}
