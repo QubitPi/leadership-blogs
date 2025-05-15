@@ -324,8 +324,8 @@ $$&lt;/p&gt;
 \end{cases}
 $$&lt;/p&gt;
 &lt;h2&gt;Deriving Gradient Descent Weight Update Rule&lt;/h2&gt;
-&lt;p&gt;Training a RNN model of is the same thing as searching for the optimal values for the following parameters of these two
-perceptrons:&lt;/p&gt;
+&lt;p&gt;Training a RNN model of is the same thing as searching for the optimal values for the following parameters of the
+&lt;a href=&quot;#forward-propagation-equations-for-rnn&quot;&gt;Forward Progagation Equations&lt;/a&gt;:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;$W_{xh}$&lt;/li&gt;
 &lt;li&gt;$W_{hh}$&lt;/li&gt;
