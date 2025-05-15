@@ -236,8 +236,6 @@ distribution yet. But in this case, we are 100% sure that the true probability d
 $$&lt;/p&gt;
 &lt;p&gt;respectively. That is all we need for calculating the $\mathcal{L}$&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
-&lt;p&gt;:::tip&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Why would we have $\mathcal{L}^{(t)} = \log\boldsymbol{\hat{y}}^{(t)}$? We need to learn &lt;em&gt;Softmax Activation&lt;/em&gt; first&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Softmax_function&quot;&gt;softmax function&lt;/a&gt; takes as input a vector $z$ of $K$ real numbers,
 and normalizes it into a probability distribution consisting of $K$ probabilities proportional to the exponentials of
 the input numbers. That is, prior to applying softmax, some vector components could be negative, or greater than one;
@@ -250,7 +248,6 @@ where $K \ge 1$ is defined by&lt;/p&gt;
 \sigma(\boldsymbol{z})&lt;em&gt;i = \frac{e^{z_i}}{\sum&lt;/em&gt;{j = 1}^Ke^{z_j}}
 $$&lt;/p&gt;
 &lt;p&gt;where $i = 1, 2, ..., K$ and $\boldsymbol{x} = (x_1, x_2, ..., x_K) \in \mathbb{R}^K$&lt;/p&gt;
-&lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;In the context of RNN,&lt;/p&gt;
 &lt;p&gt;$$
 \sigma(\boldsymbol{o})&lt;em&gt;i = -\frac{e^{o_i}}{\sum&lt;/em&gt;{j = 1}^ne^{o_j}}
