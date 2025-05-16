@@ -535,11 +535,12 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{ \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} = \left( \boldsymbol{W_{yh}} \right)^\intercal \nabla_{\boldsymbol{o}^{(t)}}\mathcal{L}+ \boldsymbol{W_{hh}}^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \left( diag\left[ 1 - (\boldsymbol{h}^{(t + 1)})^2 \right] \right) }
 $$&lt;/p&gt;
-&lt;p&gt;According to page 91 of &lt;a href=&quot;https://trello.com/c/bccmQ6jv&quot;&gt;&lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), Paperback&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;According to page 91 of &lt;a href=&quot;https://trello.com/c/bccmQ6jv&quot;&gt;&lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), Paperback&lt;/a&gt;, the amount of updates in direction
+$i$ is given by&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
-&lt;p&gt;\text{The amount of update in direction } i = \Delta{w_i} = -\eta\frac{\nabla E}{\nabla w_i}&lt;/p&gt;
+&lt;p&gt;\text{ } i = \Delta{w_i} = -\eta\frac{\nabla E}{\nabla w_i}&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
-&lt;p&gt;the update rules for training RNN are:&lt;/p&gt;
+&lt;p&gt;The update rules for training RNN, therefore, are:&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{
 \begin{align*}
