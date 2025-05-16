@@ -540,7 +540,7 @@ $i$ is given by&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
 &lt;p&gt;\Delta{w_i} = -\eta\frac{\partial E}{\partial w_i}&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
-&lt;p&gt;The update rules for training RNN, therefore, are:&lt;/p&gt;
+&lt;p&gt;The update rules for training RNN with a learning rate of $\eta$, therefore, are:&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{
 \begin{align*}
@@ -552,7 +552,7 @@ $i$ is given by&lt;/p&gt;
 \end{align*}
 }
 $$&lt;/p&gt;
-&lt;p&gt;where $\eta$ is the learning rate and&lt;/p&gt;
+&lt;p&gt;where&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{ \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} = \left( \boldsymbol{W_{yh}} \right)^\intercal \nabla_{\boldsymbol{o}^{(t)}}\mathcal{L}+ \boldsymbol{W_{hh}}^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \left( diag\left[ 1 - (\boldsymbol{h}^{(t + 1)})^2 \right] \right) }
 $$&lt;/p&gt;
