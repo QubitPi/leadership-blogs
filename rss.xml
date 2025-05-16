@@ -109,11 +109,13 @@ wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 </content:encoded></item><item><title>Introduction to Recurrent Neural Networks (RNNs)</title><link>https://leadership.qubitpi.org/posts/rnn/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/rnn/</guid><description>I was reading the Foreword section of the book &quot;Natural Language Processing with Transformers, Revised Edition&quot; and
 stumbled upon this paper &quot;Attention is All You Need&quot;. &quot;Recurrent neural networks&quot; popped out as the very first words
 in the paper&apos;s introduction. This was why I draw my attention to the topics RNN and, hence, this blog.
-</description><pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This article has the following prerequisites:&lt;/p&gt;
+</description><pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;:::note&lt;/p&gt;
+&lt;p&gt;This article has the following recommended prerequisites:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Chapter 4 - Artificial Neural Networks (p. 81) of &lt;a href=&quot;https://a.co/d/bjmsEOg&quot;&gt;&lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), Paperback&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Deep Learning&lt;/em&gt; (Adaptive Computation and Machine Learning series), Ian Goodfellow&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;We all heard of this buz word &quot;LLM&quot; (Large Language Model). But let&apos;s put that aside for just a second and look at a
 much simpler one called &quot;character-level language model&quot; where, for example, we input a prefix of a word such as &quot;hell&quot;
 and the model outputs a complete word &quot;hello&quot;. That is, this language model predicts the next character of a character
