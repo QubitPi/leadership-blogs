@@ -568,6 +568,11 @@ $$&lt;/p&gt;
 \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} = \left( \boldsymbol{W_{yh}} \right)^\intercal \nabla_{\boldsymbol{o}^{(t)}}\mathcal{L}+ \boldsymbol{W_{hh}}^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \left( diag\left[ 1 - (\boldsymbol{h}^{(t + 1)})^2 \right] \right)
 $$&lt;/p&gt;
 &lt;h3&gt;Initialization&lt;/h3&gt;
+&lt;p&gt;There are two initial variables:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\boldsymbol{h}^{(0)}$&lt;/li&gt;
+&lt;li&gt;$\boldsymbol{b_h}$&lt;/li&gt;
+&lt;/ol&gt;
 </content:encoded></item><item><title>Reading Notes - The Mythical Man-Month</title><link>https://leadership.qubitpi.org/posts/mythical-man-month/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/mythical-man-month/</guid><description>The art of managing a software dev team</description><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;On Lack of Time&lt;/h2&gt;
 &lt;p&gt;The reasons why timing is often the problem during software development are the following.&lt;/p&gt;
 &lt;h3&gt;Optimism&lt;/h3&gt;
