@@ -112,7 +112,7 @@ in the paper&apos;s introduction. This was why I draw my attention to the topics
 </description><pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;:::note&lt;/p&gt;
 &lt;p&gt;This article has the following recommended prerequisites:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Chapter 4 - Artificial Neural Networks (p. 81) of &lt;a href=&quot;https://a.co/d/bjmsEOg&quot;&gt;&lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), Paperback&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chapter 4 - Artificial Neural Networks (p. 81) of &lt;a href=&quot;https://trello.com/c/bccmQ6jv&quot;&gt;&lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), Paperback&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Deep Learning&lt;/em&gt; (Adaptive Computation and Machine Learning series), Ian Goodfellow&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;:::&lt;/p&gt;
@@ -527,13 +527,29 @@ $$&lt;/p&gt;
 &amp;amp; \frac{\partial \mathcal{L}}{\partial W_{hh}} = \sum_{t = 1}^\tau diag\left[ 1 - \left(\boldsymbol{h}^{(t)}\right)^2 \right] \left( \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} \right) {\boldsymbol{h}^{(t - 1)}}^\intercal \ \
 &amp;amp; \frac{\partial \mathcal{L}}{\partial W_{yh}} = \sum_{t = 1}^\tau \left( \boldsymbol{\sigma} - \boldsymbol{p} \right) \boldsymbol{h}^{(t)} \ \
 &amp;amp; \frac{\partial \mathcal{L}}{\partial b_h} = \sum_{t = 1}^\tau \left( diag\left[ 1 - (\boldsymbol{h}^{(t)})^2 \right] \right)^\intercal \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} \ \
-&amp;amp; \frac{\partial \mathcal{L}}{\partial b_o} =\sum_{t = 1}^\tau \boldsymbol{\sigma} - \boldsymbol{p}
+&amp;amp; \frac{\partial \mathcal{L}}{\partial b_o} = \sum_{t = 1}^\tau \boldsymbol{\sigma} - \boldsymbol{p}
 \end{align*}
 }
 $$&lt;/p&gt;
 &lt;p&gt;where&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{ \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} = \left( \boldsymbol{W_{yh}} \right)^\intercal \nabla_{\boldsymbol{o}^{(t)}}\mathcal{L}+ \boldsymbol{W_{hh}}^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \left( diag\left[ 1 - (\boldsymbol{h}^{(t + 1)})^2 \right] \right) }
+$$&lt;/p&gt;
+&lt;p&gt;According to page 91 of &lt;a href=&quot;https://trello.com/c/bccmQ6jv&quot;&gt;&lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), Paperback&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;$$&lt;/p&gt;
+&lt;p&gt;\text{The amount of update in direction } i = \Delta{w_i} = -\eta\frac{\nabla E}{\nabla w_i}&lt;/p&gt;
+&lt;p&gt;$$&lt;/p&gt;
+&lt;p&gt;the update rules for training RNN are:&lt;/p&gt;
+&lt;p&gt;$$
+\color{green} \boxed{
+\begin{align*}
+&amp;amp; \Delta W_{xh} = -\eta\sum_{t = 1}^\tau \left( diag\left[ 1 - (\boldsymbol{h}^{(t)})^2 \right] \right)^\intercal \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} \left( \boldsymbol{x}^{(t)} \right) \ \
+&amp;amp; \Delta W_{hh} = -\eta\sum_{t = 1}^\tau diag\left[ 1 - \left(\boldsymbol{h}^{(t)}\right)^2 \right] \left( \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} \right) {\boldsymbol{h}^{(t - 1)}}^\intercal \ \
+&amp;amp; \Delta W_{yh} = -\eta\sum_{t = 1}^\tau \left( \boldsymbol{\sigma} - \boldsymbol{p} \right) \boldsymbol{h}^{(t)} \ \
+&amp;amp; \Delta b_h = -\eta\sum_{t = 1}^\tau \left( diag\left[ 1 - (\boldsymbol{h}^{(t)})^2 \right] \right)^\intercal \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} \ \
+&amp;amp; \Delta b_o = -\eta\sum_{t = 1}^\tau \boldsymbol{\sigma} - \boldsymbol{p}
+\end{align*}
+}
 $$&lt;/p&gt;
 &lt;p&gt;:::note&lt;/p&gt;
 &lt;p&gt;A Python implementation of the RNN discussed in this article can be found at &lt;a href=&quot;https://github.com/QubitPi/RNN&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
