@@ -549,7 +549,7 @@ $$&lt;/p&gt;
 &lt;li&gt;$\boldsymbol{o}^{(t)}$ is the output produced by the model at $\tau = t$ where $t \in {1, 2, \cdot, \tau}$&lt;/li&gt;
 &lt;li&gt;$\boldsymbol{\hat{y}}$ is the normalized output produced by the model&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The loose function of this model would be&lt;/p&gt;
+&lt;p&gt;The loose function of this model is&lt;/p&gt;
 &lt;p&gt;$$
 \mathcal{L}\left( { \boldsymbol{x}^{(1)}, ..., \boldsymbol{x}^{(\tau)} }, { \boldsymbol{y}^{(1)}, ..., \boldsymbol{y}^{(\tau)} } \right) = \sum_t^{\tau} \mathcal{L}^{(t)} = \sum_t^{\tau}\log\boldsymbol{\hat{y}}^{(t)}
 $$&lt;/p&gt;
