@@ -228,7 +228,7 @@ $$&lt;/p&gt;
 $\boldsymbol{y}$ is the sum of the losses over all the time steps, i.e.&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{
-\mathcal{L}\left( { \boldsymbol{x}^{(1)}, ..., \boldsymbol{x}^{(\tau)} }, { \boldsymbol{y}^{(1)}, ..., \boldsymbol{y}^{(\tau)} } \right) = \sum_t^{\tau} \mathcal{L}^{(t)} = \sum_t^{\tau}\log\boldsymbol{\hat{y}}^{(t)}
+\mathcal{L}\left( { \boldsymbol{x}^{(1)}, ..., \boldsymbol{x}^{(\tau)} }, { \boldsymbol{y}^{(1)}, ..., \boldsymbol{y}^{(\tau)} } \right) = \sum_t^{\tau} \mathcal{L}^{(t)} = -\sum_t^{\tau}\log\boldsymbol{\hat{y}}^{(t)}
 }
 $$&lt;/p&gt;
 &lt;p&gt;:::tip&lt;/p&gt;
