@@ -537,11 +537,11 @@ $$&lt;/p&gt;
 &lt;p&gt;Let&apos;s review what we need to code up so far. Given an input of size $\tau &amp;gt; 0$, we train a model that produces an output
 of the same size, i.e. $\tau &amp;gt; 0$; the forward propagation of this model is defined by&lt;/p&gt;
 &lt;p&gt;$$
-\begin{gather*}
-\boldsymbol{h}^{(t)} = \tanh\left( \boldsymbol{W_{hh}}h^{(t - 1)} + \boldsymbol{W_{xh}}x^{(t)} + \boldsymbol{b_h} \right) \ \
-\boldsymbol{o}^{(t)} = \boldsymbol{W_{yh}}\boldsymbol{h}^{(t)} + \boldsymbol{b_o} \ \
+\begin{align}
+\boldsymbol{h}^{(t)} = \tanh\left( \boldsymbol{W_{hh}}h^{(t - 1)} + \boldsymbol{W_{xh}}x^{(t)} + \boldsymbol{b_h} \right) \
+\boldsymbol{o}^{(t)} = \boldsymbol{W_{yh}}\boldsymbol{h}^{(t)} + \boldsymbol{b_o} \
 \boldsymbol{\hat{y}^{(t)}} = softmax(\boldsymbol{o}^{(t)})
-\end{gather*}
+\end{align}
 $$&lt;/p&gt;
 &lt;p&gt;where&lt;/p&gt;
 &lt;ul&gt;
