@@ -357,8 +357,8 @@ computed unless we connect the $\mathcal{L}$ to $o$ first and then to $W$, becau
 $\frac{\partial \mathcal{L}}{\partial o}$ and $\frac{\partial o}{\partial W}$ are defined by the model presented earlier
 above&lt;/p&gt;
 &lt;p&gt;It is more often the case that we&apos;d have many connected perceptrons populating the network, each attributed a different
-weight. Since this is the case for RNN, we can generalise multiple inputs and multiple outputs using the &lt;strong&gt;Generalized
-Chain Rule&lt;/strong&gt;:&lt;/p&gt;
+weight. Since this is the case for RNN, we can generalise multiple inputs and multiple outputs using the
+&lt;a href=&quot;https://machinelearningmastery.com/the-chain-rule-of-calculus-for-univariate-and-multivariate-functions/&quot;&gt;&lt;strong&gt;Generalized Chain Rule&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;Consider the case where $x \in \mathbb{R}^m$ and $u \in \mathbb{R}^n$; an inner function, $f$, maps $m$ inputs to $n$
 outputs, while an outer function, $g$, receives $n$ inputs to produce an output, $h \in \mathbb{R}^k$. For
 $i = 1, \dots, m$  the generalized chain rule states:&lt;/p&gt;
