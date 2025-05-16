@@ -550,7 +550,7 @@ $i$ is given by&lt;/p&gt;
 $$&lt;/p&gt;
 &lt;p&gt;where&lt;/p&gt;
 &lt;p&gt;$$
-\color{green} \boxed{ \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} = \left( \boldsymbol{W_{yh}} \right)^\intercal \nabla_{\boldsymbol{o}^{(t)}}\mathcal{L}+ \boldsymbol{W_{hh}}^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \left( diag\left[ 1 - (\boldsymbol{h}^{(t + 1)})^2 \right] \right) }
+\color{green} \boxed{ \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} = \left( \boldsymbol{W_{yh}} \right)^\intercal \nabla_{\boldsymbol{o}^{(t)}}\mathcal{L} + \boldsymbol{W_{hh}}^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \left( diag\left[ 1 - (\boldsymbol{h}^{(t + 1)})^2 \right] \right) }
 $$&lt;/p&gt;
 &lt;p&gt;:::note&lt;/p&gt;
 &lt;p&gt;A Python implementation of the RNN discussed in this article can be found at &lt;a href=&quot;https://github.com/QubitPi/RNN&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
