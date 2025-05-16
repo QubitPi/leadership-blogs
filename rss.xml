@@ -175,7 +175,7 @@ $$&lt;/p&gt;
 i.e. $tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$ and that the output is discrete, as if the RNN is used to predict
 words or characters. A natural way to represent discrete variables is to regard the output $\boldsymbol{o}$ as giving
 the unnormalized log probabilities of each possible value of the discrete variable. We can then apply the softmax
-(discussed shortly) operation as a post-processing step to obtain a vector $\boldsymbol{\hat{y}^{(t)}}$ of normalized
+(discussed shortly) operation as a post-processing step to obtain a vector $\boldsymbol{\hat{y}}$ of normalized
 probabilities over the output. Forward propagation begins with a specification of the initial state
 $\boldsymbol{h}^{(0)}$. Then, for each time step from $t = 1$ to $t = \tau$, we apply the following update equations:&lt;/p&gt;
 &lt;p&gt;$$
@@ -183,7 +183,7 @@ $\boldsymbol{h}^{(0)}$. Then, for each time step from $t = 1$ to $t = \tau$, we 
 \begin{gather*}
 \boldsymbol{h}^{(t)} = \tanh\left( \boldsymbol{W_{hh}}h^{(t - 1)} + \boldsymbol{W_{xh}}x^{(t)} + \boldsymbol{b_h} \right) \ \
 \boldsymbol{o}^{(t)} = \boldsymbol{W_{yh}}\boldsymbol{h}^{(t)} + \boldsymbol{b_o} \ \
-\boldsymbol{\hat{y}^{(t)}} = softmax(\boldsymbol{o}^{(t)})
+\boldsymbol{\hat{y}} = softmax(\boldsymbol{o}^{(t)})
 \end{gather*}
 }
 $$&lt;/p&gt;
@@ -219,14 +219,14 @@ H(p, q) = -\sum_x p(x)\log q(x)
 $$&lt;/p&gt;
 &lt;p&gt;Since we assume the softmax probability distribution earlier, the probability distribution of $q(x)$ is:&lt;/p&gt;
 &lt;p&gt;$$
-\mathcal{L} = -\sum_i p(i)\log\sigma(\boldsymbol{o})_i = -\sum_i \log\sigma(\boldsymbol{o})_i = -\log\boldsymbol{\hat{y}^{(t)}}^{(t)}
+\mathcal{L} = -\sum_i p(i)\log\sigma(\boldsymbol{o})_i = -\sum_i \log\sigma(\boldsymbol{o})_i = -\log\boldsymbol{\hat{y}}^{(t)}
 $$&lt;/p&gt;
 &lt;p&gt;where $\boldsymbol{o}$ is the predicted sequence by RNN and $o_i$ is the &lt;em&gt;i&lt;/em&gt;-th element of the predicted sequence&lt;/p&gt;
 &lt;p&gt;Therefore, the total loss for a given sequence of input $\boldsymbol{x}$ paired with a sequence of expected
 $\boldsymbol{y}$ is the sum of the losses over all the time steps, i.e.&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{
-\mathcal{L}\left( { \boldsymbol{x}^{(1)}, ..., \boldsymbol{x}^{(\tau)} }, { \boldsymbol{y}^{(1)}, ..., \boldsymbol{y}^{(\tau)} } \right) = \sum_t^{\tau} \mathcal{L}^{(t)} = \sum_t^{\tau}\log\boldsymbol{\hat{y}^{(t)}}^{(t)}
+\mathcal{L}\left( { \boldsymbol{x}^{(1)}, ..., \boldsymbol{x}^{(\tau)} }, { \boldsymbol{y}^{(1)}, ..., \boldsymbol{y}^{(\tau)} } \right) = \sum_t^{\tau} \mathcal{L}^{(t)} = \sum_t^{\tau}\log\boldsymbol{\hat{y}}^{(t)}
 }
 $$&lt;/p&gt;
 &lt;p&gt;:::tip&lt;/p&gt;
@@ -537,21 +537,21 @@ $$&lt;/p&gt;
 &lt;p&gt;Let&apos;s review what we need to code up so far. Given an input of size $\tau &amp;gt; 0$, we train a model that produces an output
 of the same size, i.e. $\tau &amp;gt; 0$; the forward propagation of this model is defined by&lt;/p&gt;
 &lt;p&gt;$$
-\begin{align}
-\boldsymbol{h}^{(t)} = \tanh\left( \boldsymbol{W_{hh}}h^{(t - 1)} + \boldsymbol{W_{xh}}x^{(t)} + \boldsymbol{b_h} \right) \
-\boldsymbol{o}^{(t)} = \boldsymbol{W_{yh}}\boldsymbol{h}^{(t)} + \boldsymbol{b_o} \
-\boldsymbol{\hat{y}^{(t)}} = softmax(\boldsymbol{o}^{(t)})
-\end{align}
+\begin{gather*}
+\boldsymbol{h}^{(t)} = \tanh\left( \boldsymbol{W_{hh}}h^{(t - 1)} + \boldsymbol{W_{xh}}x^{(t)} + \boldsymbol{b_h} \right) \ \
+\boldsymbol{o}^{(t)} = \boldsymbol{W_{yh}}\boldsymbol{h}^{(t)} + \boldsymbol{b_o} \ \
+\boldsymbol{\hat{y}} = softmax(\boldsymbol{o}^{(t)})
+\end{gather*}
 $$&lt;/p&gt;
 &lt;p&gt;where&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$\boldsymbol{h}^{(t)}$ is the hidden state of size $$\tau + 1$$&lt;/li&gt;
 &lt;li&gt;$\boldsymbol{o}^{(t)}$ is the output produced by the model at $\tau = t$ where $t \in {1, 2, \cdots, \tau}$&lt;/li&gt;
-&lt;li&gt;$\boldsymbol{\hat{y}^{(t)}}$ is the normalized probability of $\boldsymbol{o}^{(t)}$ at $\tau = t$&lt;/li&gt;
+&lt;li&gt;$\boldsymbol{\hat{y}}$ is the normalized output produced by the model&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The loose function of this model is&lt;/p&gt;
 &lt;p&gt;$$
-\mathcal{L}\left( { \boldsymbol{x}^{(1)}, ..., \boldsymbol{x}^{(\tau)} }, { \boldsymbol{y}^{(1)}, ..., \boldsymbol{y}^{(\tau)} } \right) = \sum_t^{\tau} \mathcal{L}^{(t)} = \sum_t^{\tau}\log\boldsymbol{\hat{y}^{(t)}}^{(t)}
+\mathcal{L}\left( { \boldsymbol{x}^{(1)}, ..., \boldsymbol{x}^{(\tau)} }, { \boldsymbol{y}^{(1)}, ..., \boldsymbol{y}^{(\tau)} } \right) = \sum_t^{\tau} \mathcal{L}^{(t)} = \sum_t^{\tau}\log\boldsymbol{\hat{y}}^{(t)}
 $$&lt;/p&gt;
 &lt;p&gt;The update rules are given by&lt;/p&gt;
 &lt;p&gt;$$
