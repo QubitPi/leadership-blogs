@@ -551,6 +551,7 @@ $$&lt;/p&gt;
 \end{align*}
 }
 $$&lt;/p&gt;
+&lt;p&gt;where $\eta$ is the learning rate.&lt;/p&gt;
 &lt;p&gt;:::note&lt;/p&gt;
 &lt;p&gt;A Python implementation of the RNN discussed in this article can be found at &lt;a href=&quot;https://github.com/QubitPi/RNN&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
