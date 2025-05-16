@@ -547,7 +547,7 @@ $$&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$\boldsymbol{h}^{(t)}$ is the hidden state of size $$\tau + 1$$&lt;/li&gt;
 &lt;li&gt;$\boldsymbol{o}^{(t)}$ is the output produced by the model at $\tau = t$ where $t \in {1, 2, \cdots, \tau}$&lt;/li&gt;
-&lt;li&gt;$\boldsymbol{\hat{y}^{(t)}}$ is the normalized output produced by the model&lt;/li&gt;
+&lt;li&gt;$\boldsymbol{\hat{y}^{(t)}}$ is the normalized probability of $\boldsymbol{o}^{(t)}$ at $\tau = t$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The loose function of this model is&lt;/p&gt;
 &lt;p&gt;$$
