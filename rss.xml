@@ -221,7 +221,7 @@ H(p, q) = -\sum_x p(x)\log q(x)
 $$&lt;/p&gt;
 &lt;p&gt;Since we assume the softmax probability distribution earlier, the probability distribution of $q(x)$ is:&lt;/p&gt;
 &lt;p&gt;$$
-\mathcal{L} = -\sum_t p(t)\log\sigma(\boldsymbol{o})_t = -\sum_t\log\sigma(\boldsymbol{o})_t = -\sum_t^{\tau}\log\boldsymbol{\hat{y}}^{(t)}
+\mathcal{L} = -\sum_t p(t)\log\sigma(\boldsymbol{o}^{(t)}) = -\sum_t\log\sigma(\boldsymbol{o}^{(t)}) = -\sum_t^{\tau}\log\boldsymbol{\hat{y}}^{(t)}
 $$&lt;/p&gt;
 &lt;p&gt;where $\boldsymbol{o}$ is the predicted sequence by RNN and $o_i$ is the &lt;em&gt;i&lt;/em&gt;-th element of the predicted sequence&lt;/p&gt;
 &lt;p&gt;Therefore, the total loss for a given sequence of input $\boldsymbol{x}$ paired with a sequence of expected
