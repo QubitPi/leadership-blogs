@@ -533,6 +533,36 @@ $$&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{ \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} = \left( \boldsymbol{W_{yh}} \right)^\intercal \nabla_{\boldsymbol{o}^{(t)}}\mathcal{L}+ \boldsymbol{W_{hh}}^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \left( diag\left[ 1 - (\boldsymbol{h}^{(t + 1)})^2 \right] \right) }
 $$&lt;/p&gt;
+&lt;h2&gt;Python Implementation of RNN&lt;/h2&gt;
+&lt;p&gt;Let&apos;s review what we need to code up so far. We will need to train a model whose forward propagation is defined by&lt;/p&gt;
+&lt;p&gt;$$
+\begin{gather*}
+\boldsymbol{h}^{(t)} = \tanh\left( \boldsymbol{W_{hh}}h^{(t - 1)} + \boldsymbol{W_{xh}}x^{(t)} + \boldsymbol{b_h} \right) \ \
+\boldsymbol{o}^{(t)} = \boldsymbol{W_{yh}}\boldsymbol{h}^{(t)} + \boldsymbol{b_o} \ \
+\boldsymbol{\hat{y}} = softmax(\boldsymbol{o}^{(t)})
+\end{gather*}
+$$&lt;/p&gt;
+&lt;p&gt;The loose function of this model would be&lt;/p&gt;
+&lt;p&gt;$$
+\mathcal{L}\left( { \boldsymbol{x}^{(1)}, ..., \boldsymbol{x}^{(\tau)} }, { \boldsymbol{y}^{(1)}, ..., \boldsymbol{y}^{(\tau)} } \right) = \sum_t^{\tau} \mathcal{L}^{(t)} = \sum_t^{\tau}\log\boldsymbol{\hat{y}}^{(t)}
+$$&lt;/p&gt;
+&lt;p&gt;The update rules are given by&lt;/p&gt;
+&lt;p&gt;$$
+\color{green} \boxed{
+\begin{gather*}
+\frac{\partial \mathcal{L}}{\partial W_{xh}} = \sum_{t = 1}^\tau \left( diag\left[ 1 - (\boldsymbol{h}^{(t)})^2 \right] \right)^\intercal \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} \left( \boldsymbol{x}^{(t)} \right) \ \
+\frac{\partial \mathcal{L}}{\partial W_{hh}} = \sum_{t = 1}^\tau diag\left[ 1 - \left(\boldsymbol{h}^{(t)}\right)^2 \right] \left( \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} \right) {\boldsymbol{h}^{(t - 1)}}^\intercal \ \
+\frac{\partial \mathcal{L}}{\partial W_{yh}} = \sum_{t = 1}^\tau \left( \boldsymbol{\sigma} - \boldsymbol{p} \right) \boldsymbol{h}^{(t)} \ \
+\frac{\partial \mathcal{L}}{\partial b_h} = \sum_{t = 1}^\tau \left( diag\left[ 1 - (\boldsymbol{h}^{(t)})^2 \right] \right)^\intercal \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} \ \
+\frac{\partial \mathcal{L}}{\partial b_o} =\sum_{t = 1}^\tau \boldsymbol{\sigma} - \boldsymbol{p}
+\end{gather*}
+}
+$$&lt;/p&gt;
+&lt;p&gt;where&lt;/p&gt;
+&lt;p&gt;$$
+\color{green} \boxed{ \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} = \left( \boldsymbol{W_{yh}} \right)^\intercal \nabla_{\boldsymbol{o}^{(t)}}\mathcal{L}+ \boldsymbol{W_{hh}}^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \left( diag\left[ 1 - (\boldsymbol{h}^{(t + 1)})^2 \right] \right) }
+$$&lt;/p&gt;
+&lt;h3&gt;Initialization&lt;/h3&gt;
 </content:encoded></item><item><title>Reading Notes - The Mythical Man-Month</title><link>https://leadership.qubitpi.org/posts/mythical-man-month/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/mythical-man-month/</guid><description>The art of managing a software dev team</description><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;On Lack of Time&lt;/h2&gt;
 &lt;p&gt;The reasons why timing is often the problem during software development are the following.&lt;/p&gt;
 &lt;h3&gt;Optimism&lt;/h3&gt;
