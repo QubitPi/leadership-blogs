@@ -538,9 +538,9 @@ $$&lt;/p&gt;
 of the same size, i.e. $\tau &amp;gt; 0$; the forward propagation of this model is defined by&lt;/p&gt;
 &lt;p&gt;$$
 \begin{align*}
-\boldsymbol{h}^{(t)} = \tanh\left( \boldsymbol{W_{hh}}h^{(t - 1)} + \boldsymbol{W_{xh}}x^{(t)} + \boldsymbol{b_h} \right) \
-\boldsymbol{o}^{(t)} = \boldsymbol{W_{yh}}\boldsymbol{h}^{(t)} + \boldsymbol{b_o} \
-\boldsymbol{\hat{y}^{(t)}} = softmax(\boldsymbol{o}^{(t)})
+&amp;amp; \boldsymbol{h}^{(t)} = \tanh\left( \boldsymbol{W_{hh}}h^{(t - 1)} + \boldsymbol{W_{xh}}x^{(t)} + \boldsymbol{b_h} \right) \
+&amp;amp; \boldsymbol{o}^{(t)} = \boldsymbol{W_{yh}}\boldsymbol{h}^{(t)} + \boldsymbol{b_o} \
+&amp;amp; \boldsymbol{\hat{y}^{(t)}} = softmax(\boldsymbol{o}^{(t)})
 \end{align*}
 $$&lt;/p&gt;
 &lt;p&gt;where&lt;/p&gt;
