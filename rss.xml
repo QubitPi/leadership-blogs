@@ -545,9 +545,11 @@ of the same size, i.e. $\tau &amp;gt; 0$; the forward propagation of this model 
 $$&lt;/p&gt;
 &lt;p&gt;where&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;$\boldsymbol{h}^{(t)}$ is the hidden state vector of size $$(\tau + 1)$$&lt;/li&gt;
+&lt;li&gt;$\boldsymbol{h}^{(t)}$ is the hidden state vector of size $(\tau + 1)$&lt;/li&gt;
 &lt;li&gt;$\boldsymbol{o}^{(t)}$ is the output produced by the model at step $t$ where $t \in {1, 2, \cdots, \tau}$&lt;/li&gt;
 &lt;li&gt;$\boldsymbol{\hat{y}^{(t)}}$ is the normalized probability of $\boldsymbol{o}^{(t)}$ at $\tau = t$&lt;/li&gt;
+&lt;li&gt;$\boldsymbol{b_h}$ is the hidden bias vector of size $\tau$&lt;/li&gt;
+&lt;li&gt;$\boldsymbol{b_o}$ is the output bias vector of size $\tau$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The loose function of this model is&lt;/p&gt;
 &lt;p&gt;$$
@@ -568,6 +570,10 @@ $$&lt;/p&gt;
 \nabla_{\boldsymbol{h}^{(t)}}\mathcal{L} = \left( \boldsymbol{W_{yh}} \right)^\intercal \nabla_{\boldsymbol{o}^{(t)}}\mathcal{L}+ \boldsymbol{W_{hh}}^\intercal \nabla_{\boldsymbol{h}^{(t + 1)}}\mathcal{L} \left( diag\left[ 1 - (\boldsymbol{h}^{(t + 1)})^2 \right] \right)
 $$&lt;/p&gt;
 &lt;h3&gt;Initialization&lt;/h3&gt;
+&lt;p&gt;There can be a research area around initializing the RNN. Specifically, the following variables need to be initialized:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content:encoded></item><item><title>Reading Notes - The Mythical Man-Month</title><link>https://leadership.qubitpi.org/posts/mythical-man-month/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/mythical-man-month/</guid><description>The art of managing a software dev team</description><pubDate>Tue, 07 Jan 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;On Lack of Time&lt;/h2&gt;
 &lt;p&gt;The reasons why timing is often the problem during software development are the following.&lt;/p&gt;
 &lt;h3&gt;Optimism&lt;/h3&gt;
