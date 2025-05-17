@@ -29,7 +29,7 @@ $$
     f(\text{“hell"}) = \text{“hello"}
 $$
 
-where we call inputs like "hell" as __sequence__.
+where we call inputs like "hell" a __sequence__.
 
 How do we obtain a function like this? One approach is to have 4 black boxes, each of which takes a single character as
 input and calculates an output:
