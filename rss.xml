@@ -567,7 +567,7 @@ $$&lt;/p&gt;
 &lt;li&gt;implementation&lt;/li&gt;
 &lt;li&gt;interaction (between creation and users)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;implementation in software development is very tractable, making programmer over-optimistic about the implementation
+&lt;p&gt;Implementation in software development is very tractable, making programmer over-optimistic about the implementation
 difficulties, such as bugs.&lt;/p&gt;
 &lt;h3&gt;Not Taking Communication Efforts into Account&lt;/h3&gt;
 &lt;p&gt;In a partitioned work with no communications among distributed workers, such as wheat reaping and cotton picking, more
@@ -605,13 +605,19 @@ driven by data&lt;/li&gt;
 conduct&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3&gt;Adding Manpower to a Late Software Project Makes it Later&lt;/h3&gt;
-&lt;p&gt;The maximum number of men depends upon the number of &lt;em&gt;independent&lt;/em&gt; subtasks. From these 2 quantities on can derive
+&lt;p&gt;The maximum number of men depends upon the number of &lt;em&gt;independent&lt;/em&gt; subtasks. From these 2 quantities one can derive
 schedules using fewer men and more months. One simply cannot get workable schedules using more men and fewer months.&lt;/p&gt;
 &lt;h2&gt;But Too Few Man Is Too Slow for Really Big System&lt;/h2&gt;
 &lt;p&gt;The author, in the last chapter, suggests that one wants the system to be built by as few minds as possible. Yet for
 large systems one wants a way to bring considerable manpower to bear, so that the product can make a timely appearance
 before the technology becomes obsolete. There is a trade-off here. How can these two needs be reconciled?&lt;/p&gt;
-&lt;p&gt;To be continued...&lt;/p&gt;
+&lt;h3&gt;Mill&apos;s Proposal&lt;/h3&gt;
+&lt;p&gt;Each segment of a large job be tackled by a team, but that the team be organized like a surgical team:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The surgeon: &lt;strong&gt;chief programmer&lt;/strong&gt; designs, writes, tests, and documents the code. Must be a great talent with 10 years
+worth of experiences&lt;/li&gt;
+&lt;li&gt;The copilot:&lt;/li&gt;
+&lt;/ul&gt;
 </content:encoded></item><item><title>Humanistic Psychology</title><link>https://leadership.qubitpi.org/posts/humanistic-psychology/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/humanistic-psychology/</guid><description>In order for individuals to thrive and excel, a health-fostering culture must be created.</description><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/mUELAiHbCxc?start=573&quot; title=&quot;Humanistic Psychology&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Humanistic psychology&lt;/em&gt; is a psychological perspective that arose in the mid-20th century in answer to two theories:
 Sigmund Freud&apos;s psychoanalytic theory and B. F. Skinner&apos;s behaviorism. Abraham Maslow, in this context, established
