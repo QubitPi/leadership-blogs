@@ -123,7 +123,7 @@ sequence. This is like a Math function where we have:&lt;/p&gt;
 &lt;p&gt;$$
 f(\text{“hell&quot;}) = \text{“hello&quot;}
 $$&lt;/p&gt;
-&lt;p&gt;where we call inputs like &quot;hell&quot; as &lt;strong&gt;sequence&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;where we call inputs like &quot;hell&quot; a &lt;strong&gt;sequence&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;How do we obtain a function like this? One approach is to have 4 black boxes, each of which takes a single character as
 input and calculates an output:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./img/rnn-4-black-boxes.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
