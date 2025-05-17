@@ -27,7 +27,7 @@ This assumption, according to the author, is false, because given that creative 
 2. implementation
 3. interaction (between creation and users)
 
-implementation in software development is very tractable, making programmer over-optimistic about the implementation
+Implementation in software development is very tractable, making programmer over-optimistic about the implementation
 difficulties, such as bugs. 
 
 ### Not Taking Communication Efforts into Account
@@ -76,7 +76,7 @@ basis for estimation.
 
 ### Adding Manpower to a Late Software Project Makes it Later
 
-The maximum number of men depends upon the number of _independent_ subtasks. From these 2 quantities on can derive
+The maximum number of men depends upon the number of _independent_ subtasks. From these 2 quantities one can derive
 schedules using fewer men and more months. One simply cannot get workable schedules using more men and fewer months.
 
 But Too Few Man Is Too Slow for Really Big System
@@ -86,4 +86,10 @@ The author, in the last chapter, suggests that one wants the system to be built 
 large systems one wants a way to bring considerable manpower to bear, so that the product can make a timely appearance
 before the technology becomes obsolete. There is a trade-off here. How can these two needs be reconciled?
 
-To be continued...
+### Mill's Proposal
+
+Each segment of a large job be tackled by a team, but that the team be organized like a surgical team:
+
+- The surgeon: __chief programmer__ designs, writes, tests, and documents the code. Must be a great talent with 10 years
+  worth of experiences
+- The copilot: 
