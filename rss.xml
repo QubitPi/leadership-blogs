@@ -628,6 +628,7 @@ people, space, etc.&lt;/li&gt;
 &lt;li&gt;2 secretaries: 1 for administrator and 1 for editor&lt;/li&gt;
 &lt;li&gt;The program clerk: maintains tech records and files of the team. All computer inputs goes to the clerk, who then logs
 everything about the computing result&lt;/li&gt;
+&lt;li&gt;The toolsmith:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;All the roles, except for the surgeon, act as auxiliary personnel. We need to be little careful on this scheme of team
 work. &quot;The Mythical Man-Month&quot; came out the year of 1970&apos;s. What we need to understand is the difference in how software
