@@ -607,11 +607,11 @@ conduct&lt;/li&gt;
 &lt;h3&gt;Adding Manpower to a Late Software Project Makes it Later&lt;/h3&gt;
 &lt;p&gt;The maximum number of men depends upon the number of &lt;em&gt;independent&lt;/em&gt; subtasks. From these 2 quantities one can derive
 schedules using fewer men and more months. One simply cannot get workable schedules using more men and fewer months.&lt;/p&gt;
-&lt;h2&gt;But Too Few Man Is Too Slow for Really Big System&lt;/h2&gt;
+&lt;h3&gt;But Too Few Man Is Too Slow for Really Big System&lt;/h3&gt;
 &lt;p&gt;The author, in the last chapter, suggests that one wants the system to be built by as few minds as possible. Yet for
 large systems one wants a way to bring considerable manpower to bear, so that the product can make a timely appearance
 before the technology becomes obsolete. There is a trade-off here. How can these two needs be reconciled?&lt;/p&gt;
-&lt;h3&gt;Mill&apos;s Proposal&lt;/h3&gt;
+&lt;h4&gt;Mill&apos;s Proposal&lt;/h4&gt;
 &lt;p&gt;:::caution&lt;/p&gt;
 &lt;p&gt;While the trade-off problem above is always there, the solution presented in this section, given it&apos;s discussed
 in 1970&apos;s where the world of computing is considered &quot;ancient&quot;, has some limitations to the current date. This section
@@ -628,7 +628,9 @@ people, space, etc.&lt;/li&gt;
 &lt;li&gt;2 secretaries: 1 for administrator and 1 for editor&lt;/li&gt;
 &lt;li&gt;The program clerk: maintains tech records and files of the team. All computer inputs goes to the clerk, who then logs
 everything about the computing result&lt;/li&gt;
-&lt;li&gt;The toolsmith:&lt;/li&gt;
+&lt;li&gt;The toolsmith: ensuring the health of the various tools used by team&lt;/li&gt;
+&lt;li&gt;The tester&lt;/li&gt;
+&lt;li&gt;The language lawyer: gives advice on how to write program in a certain language elegantly&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;All the roles, except for the surgeon, act as auxiliary personnel. We need to be little careful on this scheme of team
 work. &quot;The Mythical Man-Month&quot; came out the year of 1970&apos;s. What we need to understand is the difference in how software
@@ -642,6 +644,28 @@ mid-to-late 1960&apos;s CPU time was even more expensive, memory/disk/whatever w
 time on mundane tasks like desk-checking code, keypunching, submitting jobs, waiting around (sometimes for hours) for
 results. Rockstar Dude Developer Man was to &lt;em&gt;write code&lt;/em&gt;. Their legion of groupies/clerks/junior developers was supposed
 to do the mundane stuff.&lt;/p&gt;
+&lt;h2&gt;Conceptual Integrity in System Design&lt;/h2&gt;
+&lt;p&gt;Using the metaphor of European cathedrals, the authors argues that the &lt;strong&gt;conceptual integrity&lt;/strong&gt; is a continuous
+improvements by generations of designers over a system.&lt;/p&gt;
+&lt;h3&gt;How is Conceptual Integrity Achieved?&lt;/h3&gt;
+&lt;p&gt;The author stated that the conceptual integrity is possible by the following maneuvers:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;#function-vs-complexity&quot;&gt;Maximizing functions while minimizing complexities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#one-mind-vs-many-hands&quot;&gt;Conceptual integrity from one or fiew minds, while its implementation is by many hands&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Function v.s. Complexity&lt;/h4&gt;
+&lt;p&gt;There are programming system, different from a computer system, whose purpose is to make computer easier to use. In
+modern days, this can be Spring framework for example. The ease of use is enhanced only if the time gained in functions
+exceeds the time lost in learning, remembering, and searching manuals. For instance, learning how to write a Spring Boot
+application took about 10 minutes which in turn avoided 10 hours of starting-from-scratch. This makes the webservice
+development &lt;em&gt;easier&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Quantitatively, the ratio of functions gained to the conceptual complexity costed determines the system design
+effectiveness. It should be noted that, therefore, neither function alone nor simplicity alone defines a good design. In
+addition, &lt;em&gt;simplicity&lt;/em&gt; is not enough; it is the combination os &lt;em&gt;simplicity&lt;/em&gt; and &lt;em&gt;straightforwardness&lt;/em&gt;_ that reflects the
+conceptual integrity.&lt;/p&gt;
+&lt;h4&gt;One Mind v.s. Many Hands&lt;/h4&gt;
+&lt;p&gt;Conceptual integrity requires that the design must proceed from &lt;strong&gt;one&lt;/strong&gt; mind, or from a very small number of agreeing
+resonant minds. Scheduling pressures, however, dictate that system building needs &lt;strong&gt;many&lt;/strong&gt; hands.&lt;/p&gt;
 </content:encoded></item><item><title>Humanistic Psychology</title><link>https://leadership.qubitpi.org/posts/humanistic-psychology/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/humanistic-psychology/</guid><description>In order for individuals to thrive and excel, a health-fostering culture must be created.</description><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/mUELAiHbCxc?start=573&quot; title=&quot;Humanistic Psychology&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Humanistic psychology&lt;/em&gt; is a psychological perspective that arose in the mid-20th century in answer to two theories:
 Sigmund Freud&apos;s psychoanalytic theory and B. F. Skinner&apos;s behaviorism. Abraham Maslow, in this context, established
