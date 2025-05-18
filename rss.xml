@@ -680,11 +680,9 @@ agendas can be reconciled by 2 strategies:&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;A system architect is the user&apos;s agent. Their straight stakeholder is user, not salesman. Where architecture tells
 &lt;em&gt;what&lt;/em&gt; happens, implementation tells &lt;em&gt;how&lt;/em&gt; it is made to happen.&lt;/p&gt;
-&lt;p&gt;:::important&lt;/p&gt;
 &lt;p&gt;Conceptual integrity of a system determines its ease of use. Good features and ideas that do not integrate with a
 system&apos;s basic concepts are best left out. If there appear many such important but incompatible ideas, one scraps the
 whole system and starts again on an integrated system with different basic concepts.&lt;/p&gt;
-&lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;Since conceptual integrity of a system determines its ease of use and conceptual integrity also comes from one or few
 minds, the job of creatively designing an architecture must sit in the hands of the few, i.e. the architects, and there
 will be many more implementors who, on the contrary, also creatively implementing that architecture.&lt;/p&gt;
