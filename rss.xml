@@ -621,8 +621,26 @@ state the solution, for the record, followed by a discussion in the context of m
 &lt;ul&gt;
 &lt;li&gt;The surgeon: &lt;strong&gt;chief programmer&lt;/strong&gt; designs, writes, tests, and documents the code. Must be a great talent with 10 years
 worth of experiences&lt;/li&gt;
-&lt;li&gt;The copilot:&lt;/li&gt;
+&lt;li&gt;The copilot: interface with other teams, knows all the code intimately, an &quot;extra hand&quot; to the surgeon&lt;/li&gt;
+&lt;li&gt;The administrator: interfaces with the administrative machinery of the rest of the organization, such as money,
+people, space, etc.&lt;/li&gt;
+&lt;li&gt;The editor: technical writer who enhances surgeon&apos;s documentation&lt;/li&gt;
+&lt;li&gt;2 secretaries: 1 for administrator and 1 for editor&lt;/li&gt;
+&lt;li&gt;The program clerk: maintains tech records and files of the team. All computer inputs goes to the clerk, who then logs
+everything about the computing result&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;All the roles, except for the surgeon, act as auxiliary personnel. We need to be little careful on this scheme of team
+work. &quot;The Mythical Man-Month&quot; came out the year of 1970&apos;s. What we need to understand is the difference in how software
+was developed &lt;em&gt;then&lt;/em&gt; v.s. &lt;em&gt;now&lt;/em&gt;. Back in the day pretty much all coding was done on paper first, was then keypunched
+onto punched cards, then was read in, compiled, linked, executed, results were obtained, and the process repeated. CPU
+time was an expensive and limited resource and we didn&apos;t want to waste it. Ditto and likewise disk space, tape drive
+time, and etc. all took resources. Wasting perfectly good CPU time on a compile which resulted in errors was a waste of
+perfectly good CPU time. And this was in 1975. At the time that Fred Brooks was developing his ideas, which was the
+mid-to-late 1960&apos;s CPU time was even more expensive, memory/disk/whatever was even more limited. The idea behind The
+&lt;a href=&quot;#mills-proposal&quot;&gt;Surgical Team&lt;/a&gt; was to ensure that the One Super Great Rockstar Developer did not have to waste their
+time on mundane tasks like desk-checking code, keypunching, submitting jobs, waiting around (sometimes for hours) for
+results. Rockstar Dude Developer Man was to &lt;em&gt;write code&lt;/em&gt;. Their legion of groupies/clerks/junior developers was supposed
+to do the mundane stuff.&lt;/p&gt;
 </content:encoded></item><item><title>Humanistic Psychology</title><link>https://leadership.qubitpi.org/posts/humanistic-psychology/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/humanistic-psychology/</guid><description>In order for individuals to thrive and excel, a health-fostering culture must be created.</description><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/mUELAiHbCxc?start=573&quot; title=&quot;Humanistic Psychology&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Humanistic psychology&lt;/em&gt; is a psychological perspective that arose in the mid-20th century in answer to two theories:
 Sigmund Freud&apos;s psychoanalytic theory and B. F. Skinner&apos;s behaviorism. Abraham Maslow, in this context, established
