@@ -645,8 +645,8 @@ time on mundane tasks like desk-checking code, keypunching, submitting jobs, wai
 results. Rockstar Dude Developer Man was to &lt;em&gt;write code&lt;/em&gt;. Their legion of groupies/clerks/junior developers was supposed
 to do the mundane stuff.&lt;/p&gt;
 &lt;h2&gt;Conceptual Integrity in System Design&lt;/h2&gt;
-&lt;p&gt;Using the metaphor of European cathedrals, the authors argues that the &lt;strong&gt;conceptual integrity&lt;/strong&gt; is a continuous
-improvements by generations of designers over a system.&lt;/p&gt;
+&lt;p&gt;Using the metaphor of European cathedrals, the hard work of several generation of builders, the authors argues that the
+&lt;strong&gt;conceptual integrity&lt;/strong&gt; is a continuous improvements by generations of designers over a system.&lt;/p&gt;
 &lt;h3&gt;How is Conceptual Integrity Achieved?&lt;/h3&gt;
 &lt;p&gt;The author stated that the conceptual integrity is possible by the following maneuvers:&lt;/p&gt;
 &lt;ol&gt;
@@ -665,7 +665,29 @@ addition, &lt;em&gt;simplicity&lt;/em&gt; is not enough; it is the combination o
 conceptual integrity.&lt;/p&gt;
 &lt;h4&gt;One Mind v.s. Many Hands&lt;/h4&gt;
 &lt;p&gt;Conceptual integrity requires that the design must proceed from &lt;strong&gt;one&lt;/strong&gt; mind, or from a very small number of agreeing
-resonant minds. Scheduling pressures, however, dictate that system building needs &lt;strong&gt;many&lt;/strong&gt; hands.&lt;/p&gt;
+resonant minds. Scheduling pressures, however, dictate that system building needs &lt;strong&gt;many&lt;/strong&gt; hands. These two conflicting
+agendas can be reconciled by 2 strategies:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Labor division between architecture and implementation (discussed below)&lt;/li&gt;
+&lt;li&gt;A new way of structuring implementation teams (&lt;a href=&quot;#but-too-few-man-is-too-slow-for-really-big-system&quot;&gt;discussed above&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;:::note[What is the architecture of a system?]&lt;/p&gt;
+&lt;p&gt;The complete and detailed specification of the user interface. Such as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;programming manual of a computer&lt;/li&gt;
+&lt;li&gt;language manual of a compiler or control program&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;A system architect is the user&apos;s agent. Their straight stakeholder is user, not salesman. Where architecture tells
+&lt;em&gt;what&lt;/em&gt; happens, implementation tells &lt;em&gt;how&lt;/em&gt; it is made to happen.&lt;/p&gt;
+&lt;p&gt;:::important&lt;/p&gt;
+&lt;p&gt;Conceptual integrity of a system determines its ease of use. Good features and ideas that do not integrate with a
+system&apos;s basic concepts are best left out. If there appear many such important but incompatible ideas, one scraps the
+whole system and starts again on an integrated system with different basic concepts.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;Since conceptual integrity of a system determines its ease of use and conceptual integrity also comes from one or few
+minds, the job of creatively designing an architecture must sit in the hands of the few, i.e. the architects, and there
+will be many more implementors who, on the contrary, also creatively implementing that architecture.&lt;/p&gt;
 </content:encoded></item><item><title>Humanistic Psychology</title><link>https://leadership.qubitpi.org/posts/humanistic-psychology/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/humanistic-psychology/</guid><description>In order for individuals to thrive and excel, a health-fostering culture must be created.</description><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/mUELAiHbCxc?start=573&quot; title=&quot;Humanistic Psychology&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Humanistic psychology&lt;/em&gt; is a psychological perspective that arose in the mid-20th century in answer to two theories:
 Sigmund Freud&apos;s psychoanalytic theory and B. F. Skinner&apos;s behaviorism. Abraham Maslow, in this context, established
