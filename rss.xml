@@ -126,6 +126,14 @@ limit the client&apos;s access to only the actions that the resource owner has d
 either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP
 service, or by allowing the third-party application to obtain access on its own behalf&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;There are 3 components involved here:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;resource owner&lt;/strong&gt;: a person assumed to have access to a web browser and an API&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;protected resource&lt;/strong&gt;: the component that resource owner has access to, i.e. the API&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;client&lt;/strong&gt;: the software that accesses the protected resource &lt;em&gt;on behalf&lt;/em&gt; of the resource owner&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The way OAuth 2.0 is different from the traditional username-password sharing mechanism is by introducing the 4th
+component, i.e. the &lt;strong&gt;authorization server&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;A React Example&lt;/h2&gt;
 &lt;p&gt;Suppose we stumble upon an interesting web app that needs READ access to our Google Drive data, such as file and folder
 names. Let&apos;s further assume that the web app requires users to login. After user logins, the web app will be able to
