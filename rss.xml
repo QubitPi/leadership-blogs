@@ -147,6 +147,14 @@ able to further diminish. Once the authorization grant has been made, the client
 the authorization server. This access token can be used at the protected resource to access the API, as granted by the
 resource owner (see figure below)&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./OAuth-diagram.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;At no time in this process are the resource owner&apos;s credentials exposed to the client: the resource owner authenticates
+to the authorization server separately from anything used to communicate with the client. The client is unable to access
+anything on its own and instead must be authorized by a valid resource owner before it can access any protected
+resources. This is true even though most OAuth clients have a means of authenticating themselves to the authorization
+server. The user generally never has to see or deal with the access token directly. Instead of requiring the user to
+generate tokens and paste them into clients, the OAuth protocol facilitates this process and makes it relatively simple
+for the client to &lt;a href=&quot;#requesting-access-token&quot;&gt;request a token&lt;/a&gt; and the user to authorize the client. Clients can then
+&lt;a href=&quot;#using-access-token&quot;&gt;manage the tokens&lt;/a&gt;, and users can manage the client applications.&lt;/p&gt;
 &lt;h2&gt;A React Example&lt;/h2&gt;
 &lt;p&gt;Suppose we stumble upon an interesting web app that needs READ access to our Google Drive data, such as file and folder
 names. Let&apos;s further assume that the web app requires users to login. After user logins, the web app will be able to
@@ -191,6 +199,7 @@ by &lt;code&gt;window.location.href = authUrl;&lt;/code&gt;. Then the user sees 
 &lt;p&gt;We see why it&apos;s not &lt;em&gt;authentication&lt;/em&gt; because the user is simply authorizing the app to access the user&apos;s data on that
 app&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
+&lt;h3&gt;Requesting Access Token&lt;/h3&gt;
 &lt;p&gt;In the redirected page (usually designated by a file called &lt;code&gt;Callback.tsx&lt;/code&gt;), the app does everything to fetch and saves
 the access token to a state management such as &lt;a href=&quot;https://react-redux.qubitpi.org/&quot;&gt;Redux&lt;/a&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;import { useEffect } from &apos;react&apos;;
@@ -238,6 +247,7 @@ function Callback() {
   );
 }
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Using Access Token&lt;/h3&gt;
 &lt;p&gt;After that the user is taken to the business page, such as the user&apos;s profile page, in which the app fetches the access
 token from state store and use that token to send API request to Google.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;function Profile() {
