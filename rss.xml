@@ -106,19 +106,26 @@ efficiencies. Ethical fading, however, is a people problem.&lt;/p&gt;
 a culture in which their people can work toward the short-term goals while also considering the morality, ethics and
 wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 &lt;p&gt;[^1]: Sinek, Simon (2019). &lt;a href=&quot;https://dokumen.pub/the-infinite-game.html&quot;&gt;&lt;em&gt;The Infinite Game&lt;/em&gt;&lt;/a&gt;. Portfolio. ISBN 073521350X.&lt;/p&gt;
-</content:encoded></item><item><title>OAuth2 from A React Implementation Perspective</title><link>https://leadership.qubitpi.org/posts/oauth2/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/oauth2/</guid><description>As a software developer on the web today, chances are we&apos;ve heard of OAuth. It is a security protocol used to protect
-a large (and growing) number of web APIs all over the world, from large-scale providers such as Facebook and Google to
-small one-off APIs at startups and inside enterprises of all sizes. It&apos;s used to connect websites to one another and
-it powers native and mobile applications connecting to cloud services. It&apos;s being used as the security layer for a
-growing number of standard protocols in a variety of domains, from healthcare to identity, from energy to the social
-web. OAuth is far and away the dominant security method on the web today, and its ubiquity has leveled the playing
-field for developers wanting to secure their applications.
+</content:encoded></item><item><title>OAuth2</title><link>https://leadership.qubitpi.org/posts/oauth2/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/oauth2/</guid><description>OAuth2 is NOT authentication. OAuth2 is NOT authentication. OAuth2 is NOT authentication. 
 </description><pubDate>Tue, 20 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;What is OAuth 2.0?&lt;/h2&gt;
 &lt;p&gt;OAuth 2.0 is a &lt;em&gt;delegation&lt;/em&gt; protocol, a means of letting someone who controls a resource allow a software application to
 access that resource on their behalf without impersonating them. The application requests authorization from the owner
 of the resource and receives tokens that it can use to access the resource. This all happens without the application
 needing to impersonate the person who controls the resource, since the token explicitly represents a delegated right of
 access.&lt;/p&gt;
+&lt;p&gt;In many ways, you can think of the OAuth token as a &quot;valet key&quot; for the web. Not all cars have a valet key, but for
+those that do, the valet key provides additional security beyond simply handing over the regular key. The valet key of
+a car allows the owner of the car to give limited access to someone, the valet, without handing over full control in the
+form of the owner&apos;s key. Simple valet keys limit the valet to accessing the ignition and doors but not the trunk or
+glove box. More complex valet keys can limit the upper speed of the car and even shut the car off if it travels more
+than a set distance from its starting point, sending an alert to the owner. &lt;em&gt;In much the same way, OAuth tokens can
+limit the client&apos;s access to only the actions that the resource owner has delegated&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;According to the &lt;a href=&quot;https://datatracker.ietf.org/doc/html/rfc6749&quot;&gt;specification that defines it&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;:::note[What does OAuth 2.0 do as a security protocol?]&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The OAuth 2.0 authorization framework enables a third-party application to obtain limited access to an HTTP service,
+either on behalf of a resource owner by orchestrating an approval interaction between the resource owner and the HTTP
+service, or by allowing the third-party application to obtain access on its own behalf&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;h2&gt;A React Example&lt;/h2&gt;
 &lt;p&gt;Suppose we stumble upon an interesting web app that needs READ access to our Google Drive data, such as file and folder
 names. Let&apos;s further assume that the web app requires users to login. After user logins, the web app will be able to
