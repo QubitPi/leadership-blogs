@@ -132,6 +132,11 @@ service, or by allowing the third-party application to obtain access on its own 
 &lt;li&gt;&lt;strong&gt;protected resource&lt;/strong&gt;: the component that resource owner has access to, i.e. the API&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;client&lt;/strong&gt;: the software that accesses the protected resource &lt;em&gt;on behalf&lt;/em&gt; of the resource owner&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;:::important&lt;/p&gt;
+&lt;p&gt;The name &quot;client&quot; might confuse us to think this as the web browser or the person who&apos;s paying for our services, but
+that&apos;s not how the term is used here. In OAuth, the client is whatever &lt;em&gt;software&lt;/em&gt; consumes the API that makes up the
+protected resource. There are many different forms of client applications, though.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;The way OAuth 2.0 is different from the traditional username-password sharing mechanism is by introducing the 4th
 component, the &lt;strong&gt;authorization server&lt;/strong&gt; (&lt;strong&gt;AS&lt;/strong&gt;), which is trusted by the protected resource to issue special-purpose
 security credentials called OAuth &lt;strong&gt;access tokens&lt;/strong&gt; to clients. To acquire a token, the client first sends the resource
