@@ -106,7 +106,7 @@ efficiencies. Ethical fading, however, is a people problem.&lt;/p&gt;
 a culture in which their people can work toward the short-term goals while also considering the morality, ethics and
 wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 &lt;p&gt;[^1]: Sinek, Simon (2019). &lt;a href=&quot;https://dokumen.pub/the-infinite-game.html&quot;&gt;&lt;em&gt;The Infinite Game&lt;/em&gt;&lt;/a&gt;. Portfolio. ISBN 073521350X.&lt;/p&gt;
-</content:encoded></item><item><title>OAuth2</title><link>https://leadership.qubitpi.org/posts/oauth2/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/oauth2/</guid><description>OAuth2 is NOT authentication. OAuth2 is NOT authentication. OAuth2 is NOT authentication. 
+</content:encoded></item><item><title>OAuth 2.0</title><link>https://leadership.qubitpi.org/posts/oauth2/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/oauth2/</guid><description>OAuth2 is NOT authentication. OAuth2 is NOT authentication. OAuth2 is NOT authentication. 
 </description><pubDate>Tue, 20 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;What is OAuth 2.0?&lt;/h2&gt;
 &lt;p&gt;OAuth 2.0 is a &lt;em&gt;delegation&lt;/em&gt; protocol, a means of letting someone who controls a resource allow a software application to
 access that resource on their behalf without impersonating them. The application requests authorization from the owner
@@ -133,7 +133,15 @@ service, or by allowing the third-party application to obtain access on its own 
 &lt;li&gt;&lt;strong&gt;client&lt;/strong&gt;: the software that accesses the protected resource &lt;em&gt;on behalf&lt;/em&gt; of the resource owner&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;The way OAuth 2.0 is different from the traditional username-password sharing mechanism is by introducing the 4th
-component, i.e. the &lt;strong&gt;authorization server&lt;/strong&gt;&lt;/p&gt;
+component, the &lt;strong&gt;authorization server&lt;/strong&gt; (&lt;strong&gt;AS&lt;/strong&gt;), which is trusted by the protected resource to issue special-purpose
+security credentials called OAuth &lt;strong&gt;access tokens&lt;/strong&gt; to clients. To acquire a token, the client first sends the resource
+owner to the authorization server in order to request that the resource owner authorize this client. The resource owner
+authenticates to the authorization server and is generally presented with a choice of whether to authorize the client
+making the request. The client is able to ask for a subset of functionality, or scopes, which the resource owner may be
+able to further diminish. Once the authorization grant has been made, the client can then request an access token from
+the authorization server. This access token can be used at the protected resource to access the API, as granted by the
+resource owner (see figure below)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./OAuth-diagram.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;A React Example&lt;/h2&gt;
 &lt;p&gt;Suppose we stumble upon an interesting web app that needs READ access to our Google Drive data, such as file and folder
 names. Let&apos;s further assume that the web app requires users to login. After user logins, the web app will be able to
