@@ -106,6 +106,128 @@ efficiencies. Ethical fading, however, is a people problem.&lt;/p&gt;
 a culture in which their people can work toward the short-term goals while also considering the morality, ethics and
 wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 &lt;p&gt;[^1]: Sinek, Simon (2019). &lt;a href=&quot;https://dokumen.pub/the-infinite-game.html&quot;&gt;&lt;em&gt;The Infinite Game&lt;/em&gt;&lt;/a&gt;. Portfolio. ISBN 073521350X.&lt;/p&gt;
+</content:encoded></item><item><title>OAuth2 from A React Implementation Perspective</title><link>https://leadership.qubitpi.org/posts/oauth2/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/oauth2/</guid><description>A vanilla OAuth2 implementation in ReactJS</description><pubDate>Tue, 20 May 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Suppose we stumble upon an interesting web app that needs READ access to our Google Drive data, such as file and folder
+names. Let&apos;s further assume that the web app requires users to login. After user logins, the web app will be able to
+interact with Google Drive API on behalf of user to read their Drive data. The web app uses
+&lt;a href=&quot;https://developers.google.com/identity/gsi/web/guides/overview&quot;&gt;Sign In With Google&lt;/a&gt; which handles the OAuth 2.0 flow
+and application access tokens. To get user started with the web app, therefore, there must be a Login button&lt;/p&gt;
+&lt;p&gt;We will start with the:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./login.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The page above can be implemented with basic code below:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;export const oauthConfig = {
+    authEndpoint: &quot;https://accounts.google.com/o/oauth2/v2/auth&quot;,
+    tokenEndpoint: &quot;https://oauth2.googleapis.com/token&quot;,
+    fileEndpoint: &quot;https://googleapis.com/drive/v3&quot;,
+    clientId: &quot;your_client_id&quot;,
+    clientSecret: &quot;your_client_secret&quot;,
+    redirectUrl: &quot;http://localhost:3000/callback&quot;
+};
+
+function Login() {
+    const handleLogin = (e: React.FormEvent): void =&amp;gt; {
+        e.preventDefault();
+
+        const authUrl = `${oauthConfig.authEndpoint}?client_id=${oauthConfig.clientId}&amp;amp;redirect_uri=${oauthConfig.redirectUrl}&amp;amp;scope=user_data&amp;amp;response_type=code`;
+        window.location.href = authUrl;
+
+        (e.currentTarget as HTMLFormElement).reset();
+    };
+
+  return (
+    &amp;lt;div&amp;gt;
+      &amp;lt;button onClick={handleLogin}&amp;gt;Sign in with Google&amp;lt;/button&amp;gt;
+    &amp;lt;/div&amp;gt;
+  );
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When a user initiates a login, they will be redirected to the authentication page hosted on Google authentication server
+by &lt;code&gt;window.location.href = authUrl;&lt;/code&gt;. Then the user sees the familiar page like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./authorization.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;After &lt;strong&gt;authorization&lt;/strong&gt; is granted by the user, the Google redirects user back to the app page specified by
+&lt;code&gt;oauthConfig.redirectUrl&lt;/code&gt; which were provided in the snippet earlier.&lt;/p&gt;
+&lt;p&gt;:::caution&lt;/p&gt;
+&lt;p&gt;We see why it&apos;s not &lt;em&gt;authentication&lt;/em&gt; because the user is simply authorizing the app to access the user&apos;s data on that
+app&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;In the redirected page (usually designated by a file called &lt;code&gt;Callback.tsx&lt;/code&gt;), the app does everything to fetch and saves
+the access token to a state management such as &lt;a href=&quot;https://react-redux.qubitpi.org/&quot;&gt;Redux&lt;/a&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import { useEffect } from &apos;react&apos;;
+import { useNavigate, useLocation } from &apos;react-router-dom&apos;;
+
+function Callback() {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  useEffect(() =&amp;gt; {
+    const searchParams = new URLSearchParams(location.search);
+    const code = searchParams.get(&apos;code&apos;);
+
+    if (code != null) {
+      const payload = {
+        client_id: oauthConfig.clientId,
+        client_secret: oauthConfig.clientSecret,
+        grant_type: &apos;authorization_code&apos;,
+        code: code,
+        redirect_uri: oauthConfig.redirectUrl
+      };
+
+      fetch(oauthConfig/tokenEndpoint, {
+        method: &apos;POST&apos;,
+        headers: {
+          &apos;Content-Type&apos;: &apos;application/x-www-form-urlencoded&apos;
+        },
+        body: new URLSearchParams(payload)
+      })
+        .then(response =&amp;gt; response.json())
+        .then(data =&amp;gt; {
+          dispatch(setAccessToken(data.access_token as string));
+            void navigate(&apos;/profile&apos;);
+        })
+        .catch(error =&amp;gt; {
+          console.error(&apos;Error exchanging code for token:&apos;, error);
+        });
+    }
+  }, [location, navigate]);
+
+  return (
+    &amp;lt;div&amp;gt;
+      // some HTML markup for displayiing &quot;loading&quot; status, such as a spinner
+    &amp;lt;/div&amp;gt;
+  );
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After that the user is taken to the business page, such as the user&apos;s profile page, in which the app fetches the access
+token from state store and use that token to send API request to Google.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;function Profile() {
+    const accessToken = useAppSelector(selectAccessToken);
+  
+    if (!accessToken) {
+      return &amp;lt;div&amp;gt;Please login first.&amp;lt;/div&amp;gt;;
+    }
+  
+    return (
+      &amp;lt;div&amp;gt;
+        &amp;lt;h1&amp;gt;Profile&amp;lt;/h1&amp;gt;
+        &amp;lt;p&amp;gt;Access Token: {accessToken}&amp;lt;/p&amp;gt;
+      &amp;lt;/div&amp;gt;
+    );
+  }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Everything is wired by the app&apos;s home page of:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import { BrowserRouter as Router, Route, Routes } from &apos;react-router-dom&apos;;
+
+export default function App(): JSX.Element {
+    return (
+        &amp;lt;Router&amp;gt;
+            &amp;lt;Routes&amp;gt;
+                &amp;lt;Route path=&quot;/&quot; element={&amp;lt;Proposal /&amp;gt;} /&amp;gt;
+                &amp;lt;Route path=&quot;/callback&quot; element={&amp;lt;Callback /&amp;gt;} /&amp;gt;
+                &amp;lt;Route path=&quot;/graph&quot; element={&amp;lt;Graph /&amp;gt;} /&amp;gt;
+            &amp;lt;/Routes&amp;gt;
+        &amp;lt;/Router&amp;gt;
+    );
+}
+&lt;/code&gt;&lt;/pre&gt;
 </content:encoded></item><item><title>Introduction to Recurrent Neural Networks (RNNs)</title><link>https://leadership.qubitpi.org/posts/rnn/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/rnn/</guid><description>I was reading the Foreword section of the book &quot;Natural Language Processing with Transformers, Revised Edition&quot; and
 stumbled upon this paper &quot;Attention is All You Need&quot;. &quot;Recurrent neural networks&quot; popped out as the very first words
 in the paper&apos;s introduction. This was why I draw my attention to the topics RNN and, hence, this blog.
