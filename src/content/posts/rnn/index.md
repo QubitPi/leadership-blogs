@@ -378,9 +378,7 @@ $$
 
 where $n$ is the length of a RNN sequence and $t$ the index of timestep
 
-:::tip
-
-On $\sum_{t = 1}^\tau$
+:::note[On $\sum_{t = 1}^\tau$]
 
 We assume the error is the sum of all errors of each timestep, which is why we include the $\sum_{t = 1}^\tau$ term
 
