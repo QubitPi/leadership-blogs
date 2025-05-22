@@ -322,13 +322,13 @@ Training a RNN model of is the same thing as searching for the optimal values fo
 4. $b_h$
 5. $b_o$
 
-By the Gradient Descent discussed in _Machine Learning_ by Mitchell, Tom M. (1997), we should derive the weight updat
-rule by taking partial derivatives with respect to all of the variables above. Let's start with $W_{yh}$
+By the Gradient Descent discussed in [_Machine Learning_ by Mitchell, Tom M. (1997), Paperback], we should derive the
+weight update rule by taking partial derivatives with respect to all of the variables above. Let's start with $W_{yh}$
 
-_Machine Learning_ by Mitchell, Tom M. (1997) has mentioned gradients and partial derivatives as being important for an
-optimization algorithm to update, say, the model weights of a neural network to reach an optimal set of weights. The use
-of partial derivatives permits each weight to be updated independently of the others, by calculating the gradient of the
-error curve with respect to each weight in turn.
+[_Machine Learning_ by Mitchell, Tom M. (1997), Paperback] has also mentioned gradients and partial derivatives as being
+important for an optimization algorithm to update, say, the model weights of a neural network to reach an optimal set of
+weights. The use of partial derivatives permits each weight to be updated independently of the others, by calculating
+the gradient of the error curve with respect to each weight in turn.
 
 Many of the functions that we usually work with in machine learning are multivariate, vector-valued functions, which
 means that they map multiple real inputs $n$ to multiple real outputs $m$:
@@ -356,9 +356,13 @@ It is more often the case that we'd have many connected perceptrons populating t
 weight. Since this is the case for RNN, we can generalise multiple inputs and multiple outputs using the
 [__Generalized Chain Rule__](https://machinelearningmastery.com/the-chain-rule-of-calculus-for-univariate-and-multivariate-functions/):
 
+:::note[Generalized Chain Rule]
+
 Consider the case where $x \in \mathbb{R}^m$ and $u \in \mathbb{R}^n$; an inner function, $f$, maps $m$ inputs to $n$
 outputs, while an outer function, $g$, receives $n$ inputs to produce an output, $h \in \mathbb{R}^k$. For
 $i = 1, \dots, m$  the generalized chain rule states:
+
+:::
 
 $$
 \frac{\partial h}{\partial x_i} = \frac{\partial h}{\partial u_1} \frac{\partial u_1}{\partial x_i} + \frac{\partial h}{\partial u_2} \frac{\partial u_2}{\partial x_i} + \dots + \frac{\partial h}{\partial u_n} \frac{\partial u_n}{\partial x_i} = \sum_{j = 1}^n \frac{\partial h}{\partial u_j} \frac{\partial u_j}{\partial x_i}
