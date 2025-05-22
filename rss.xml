@@ -553,7 +553,7 @@ $$&lt;/p&gt;
 \end{align}
 }
 $$&lt;/p&gt;
-&lt;p&gt;where $n$ is the length of a RNN sequence and $t$ is the index of timestep&lt;/p&gt;
+&lt;p&gt;where $n$ is the length of a RNN sequence and $t$ the index of timestep&lt;/p&gt;
 &lt;p&gt;:::tip&lt;/p&gt;
 &lt;p&gt;On $\sum_{t = 1}^\tau$&lt;/p&gt;
 &lt;p&gt;We assume the error is the sum of all errors of each timestep, which is why we include the $\sum_{t = 1}^\tau$ term&lt;/p&gt;
