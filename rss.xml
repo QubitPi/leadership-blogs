@@ -405,8 +405,7 @@ $\boldsymbol{y}$ is the sum of the losses over all the time steps, i.e.&lt;/p&gt
 \mathcal{L}\left( { \boldsymbol{x}^{(1)}, ..., \boldsymbol{x}^{(\tau)} }, { \boldsymbol{y}^{(1)}, ..., \boldsymbol{y}^{(\tau)} } \right) = \sum_t^{\tau} \mathcal{L}^{(t)} = -\sum_t^{\tau}\log\boldsymbol{\hat{y}}^{(t)}
 }
 $$&lt;/p&gt;
-&lt;p&gt;:::tip&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What is the Mathematical form of $p(i)$ in RNN? Why would it become 1?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;:::tip[What is the Mathematical form of $p(i)$ in RNN? Why would it become 1?]&lt;/p&gt;
 &lt;p&gt;By definition, $p(i)$ is the &lt;em&gt;true&lt;/em&gt; distribution whose exact functional form is unknown. In the language of
 Approximation Theory, $p(i)$ is the function that RNN is trying to learn or approximate mathematically.&lt;/p&gt;
 &lt;p&gt;Although the $p(i)$ makes the exact form of $\mathcal{L}$ unknown, computationally $p(i)$ is perfectly defined in each
