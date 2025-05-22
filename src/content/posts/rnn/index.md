@@ -356,17 +356,17 @@ It is more often the case that we'd have many connected perceptrons populating t
 weight. Since this is the case for RNN, we can generalise multiple inputs and multiple outputs using the
 [__Generalized Chain Rule__](https://machinelearningmastery.com/the-chain-rule-of-calculus-for-univariate-and-multivariate-functions/):
 
-:::note[Generalized Chain Rule]
+:::tip[Generalized Chain Rule]
 
 Consider the case where $x \in \mathbb{R}^m$ and $u \in \mathbb{R}^n$; an inner function, $f$, maps $m$ inputs to $n$
 outputs, while an outer function, $g$, receives $n$ inputs to produce an output, $h \in \mathbb{R}^k$. For
 $i = 1, \dots, m$  the generalized chain rule states:
 
-:::
-
 $$
 \frac{\partial h}{\partial x_i} = \frac{\partial h}{\partial u_1} \frac{\partial u_1}{\partial x_i} + \frac{\partial h}{\partial u_2} \frac{\partial u_2}{\partial x_i} + \dots + \frac{\partial h}{\partial u_n} \frac{\partial u_n}{\partial x_i} = \sum_{j = 1}^n \frac{\partial h}{\partial u_j} \frac{\partial u_j}{\partial x_i}
 $$
+
+:::
 
 Therefore, the error propagation of Gradient Descent in RNN is
 
