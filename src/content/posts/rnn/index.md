@@ -84,11 +84,9 @@ $$
     o^{(t)} = g_2\left( W_{yh}h^{(t)} + b_o \right)
 $$
 
-:::tip
+:::tip[What are $g_1$ and $g_2$?]
 
-__What are $g_1$ and $g_2$?__
-
-They are _activation functions_ which are used to change the linear function in a perceptron to a non-linear function.
+They are __activation functions__ which are used to change the linear function in a perceptron to a non-linear function.
 Please refer to _Machine Learning_ by Mitchell, Tom M. (1997), Paperback (page 96) for why we bump it to non-linear
 
 A typical activation function for $g_1$ is $tanh$:
