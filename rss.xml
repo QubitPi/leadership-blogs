@@ -1391,37 +1391,6 @@ God would allow for these evils in order to make greater good possible[^1].&lt;/
 &lt;p&gt;[^1]: &lt;a href=&quot;https://www.reddit.com/r/askphilosophy/comments/1so41y/comment/cdziue3/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;Help with Leibniz&apos;s Theodicy&lt;/a&gt;
 [^2]: &lt;a href=&quot;https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz&quot;&gt;Wikipedia - Gottfried Wilhelm Leibniz&lt;/a&gt;
 [^3]: Stanford Encyclopedia of Philosophy, &lt;a href=&quot;https://plato.stanford.edu/entries/leibniz-evil/&quot;&gt;Leibniz on the Problem of Evil&lt;/a&gt;&lt;/p&gt;
-</content:encoded></item><item><title>Docker cAdvisor</title><link>https://leadership.qubitpi.org/posts/docker-c-advisor/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/docker-c-advisor/</guid><description>Overseeing resource consumption of all Docker containers on a VM</description><pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/google/cadvisor&quot;&gt;cAdvisor&lt;/a&gt; (Container Advisor) provides Docker container users an understanding of
-the resource usage and performance characteristics of their running containers. It is a running daemon that collects,
-aggregates, processes, and exports information about running containers. Specifically, for each container it keeps
-resource isolation parameters, historical resource usage, histograms of complete historical resource usage and network
-statistics. This data is exported by container and machine-wide.&lt;/p&gt;
-&lt;p&gt;&amp;lt;!--truncate--&amp;gt;&lt;/p&gt;
-&lt;p&gt;Although &lt;a href=&quot;https://github.com/google/cadvisor&quot;&gt;cAdvisor&lt;/a&gt; has some prelimilary (useful though) UI. It also offers&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/google/cadvisor/blob/master/docs/api.md&quot;&gt;RESTful API to query container stats&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/google/cadvisor/blob/master/docs/storage/README.md&quot;&gt;Export capability to common data storage, such as Elasticsearch&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;To pull the image and run it:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo docker run \
-    --volume=/:/rootfs:ro \
-    --volume=/var/run/docker.sock:/var/run/docker.sock:rw \
-    --volume=/sys:/sys:ro \
-    --volume=/var/lib/docker/:/var/lib/docker:ro \
-    --volume=/dev/disk/:/dev/disk:ro \
-    --publish=8080:8080 \
-    --detach=true \
-    --name=cadvisor \
-    --privileged \
-    --device=/dev/kmsg \
-    gcr.io/cadvisor/cadvisor:v0.36.0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&quot;cadvisor-1.png&quot; alt=&quot;cAdvisor Screenshot 1&quot; /&gt;
-&lt;img src=&quot;cadvisor-2.png&quot; alt=&quot;cAdvisor Screenshot 2&quot; /&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;a href=&quot;https://github.com/virtualzone/docker-container-stats&quot;&gt;docker-container-stats&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/google/cadvisor&quot;&gt;cAdvisor&lt;/a&gt; is good for customizing container monitoring, but it&apos;s heavy. A
-quick-and-lightweight option would be &lt;a href=&quot;https://github.com/virtualzone/docker-container-stats&quot;&gt;docker-container-stats&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;docker-container-stats.png&quot; alt=&quot;docker-container-stats Screenshot&quot; /&gt;&lt;/p&gt;
 </content:encoded></item><item><title>Studying the Science of Project Management</title><link>https://leadership.qubitpi.org/posts/project-management/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/project-management/</guid><description>Projects are temporary endeavors to create a unique product or service. All projects must have an end date.</description><pubDate>Fri, 29 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Project management is the process of supervising the work of a team to achieve all project goals within the given
 constraints[^1]. This information is usually described in
