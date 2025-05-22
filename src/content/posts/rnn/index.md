@@ -380,7 +380,7 @@ $$
     }
 $$
 
-where $n$ is the length of a RNN sequence and $t$ is the index of timestep
+where $n$ is the length of a RNN sequence and $t$ the index of timestep
 
 :::tip
 
