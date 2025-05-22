@@ -183,9 +183,7 @@ $$
     }
 $$
 
-:::tip
-
-__What is the Mathematical form of $p(i)$ in RNN? Why would it become 1?__
+:::tip[What is the Mathematical form of $p(i)$ in RNN? Why would it become 1?]
 
 By definition, $p(i)$ is the _true_ distribution whose exact functional form is unknown. In the language of
 Approximation Theory, $p(i)$ is the function that RNN is trying to learn or approximate mathematically.
