@@ -510,12 +510,12 @@ $$&lt;/p&gt;
 &lt;li&gt;$b_h$&lt;/li&gt;
 &lt;li&gt;$b_o$&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;By the Gradient Descent discussed in &lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), we should derive the weight updat
-rule by taking partial derivatives with respect to all of the variables above. Let&apos;s start with $W_{yh}$&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997) has mentioned gradients and partial derivatives as being important for an
-optimization algorithm to update, say, the model weights of a neural network to reach an optimal set of weights. The use
-of partial derivatives permits each weight to be updated independently of the others, by calculating the gradient of the
-error curve with respect to each weight in turn.&lt;/p&gt;
+&lt;p&gt;By the Gradient Descent discussed in &lt;a href=&quot;https://trello.com/c/bccmQ6jv&quot;&gt;&lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), Paperback&lt;/a&gt;, we should derive the
+weight update rule by taking partial derivatives with respect to all of the variables above. Let&apos;s start with $W_{yh}$&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://trello.com/c/bccmQ6jv&quot;&gt;&lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), Paperback&lt;/a&gt; has also mentioned gradients and partial derivatives as being
+important for an optimization algorithm to update, say, the model weights of a neural network to reach an optimal set of
+weights. The use of partial derivatives permits each weight to be updated independently of the others, by calculating
+the gradient of the error curve with respect to each weight in turn.&lt;/p&gt;
 &lt;p&gt;Many of the functions that we usually work with in machine learning are multivariate, vector-valued functions, which
 means that they map multiple real inputs $n$ to multiple real outputs $m$:&lt;/p&gt;
 &lt;p&gt;$$
@@ -535,9 +535,11 @@ above&lt;/p&gt;
 &lt;p&gt;It is more often the case that we&apos;d have many connected perceptrons populating the network, each attributed a different
 weight. Since this is the case for RNN, we can generalise multiple inputs and multiple outputs using the
 &lt;a href=&quot;https://machinelearningmastery.com/the-chain-rule-of-calculus-for-univariate-and-multivariate-functions/&quot;&gt;&lt;strong&gt;Generalized Chain Rule&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;:::note[Generalized Chain Rule]&lt;/p&gt;
 &lt;p&gt;Consider the case where $x \in \mathbb{R}^m$ and $u \in \mathbb{R}^n$; an inner function, $f$, maps $m$ inputs to $n$
 outputs, while an outer function, $g$, receives $n$ inputs to produce an output, $h \in \mathbb{R}^k$. For
 $i = 1, \dots, m$  the generalized chain rule states:&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;$$
 \frac{\partial h}{\partial x_i} = \frac{\partial h}{\partial u_1} \frac{\partial u_1}{\partial x_i} + \frac{\partial h}{\partial u_2} \frac{\partial u_2}{\partial x_i} + \dots + \frac{\partial h}{\partial u_n} \frac{\partial u_n}{\partial x_i} = \sum_{j = 1}^n \frac{\partial h}{\partial u_j} \frac{\partial u_j}{\partial x_i}
 $$&lt;/p&gt;
