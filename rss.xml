@@ -535,14 +535,14 @@ above&lt;/p&gt;
 &lt;p&gt;It is more often the case that we&apos;d have many connected perceptrons populating the network, each attributed a different
 weight. Since this is the case for RNN, we can generalise multiple inputs and multiple outputs using the
 &lt;a href=&quot;https://machinelearningmastery.com/the-chain-rule-of-calculus-for-univariate-and-multivariate-functions/&quot;&gt;&lt;strong&gt;Generalized Chain Rule&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;:::note[Generalized Chain Rule]&lt;/p&gt;
+&lt;p&gt;:::tip[Generalized Chain Rule]&lt;/p&gt;
 &lt;p&gt;Consider the case where $x \in \mathbb{R}^m$ and $u \in \mathbb{R}^n$; an inner function, $f$, maps $m$ inputs to $n$
 outputs, while an outer function, $g$, receives $n$ inputs to produce an output, $h \in \mathbb{R}^k$. For
 $i = 1, \dots, m$  the generalized chain rule states:&lt;/p&gt;
-&lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;$$
 \frac{\partial h}{\partial x_i} = \frac{\partial h}{\partial u_1} \frac{\partial u_1}{\partial x_i} + \frac{\partial h}{\partial u_2} \frac{\partial u_2}{\partial x_i} + \dots + \frac{\partial h}{\partial u_n} \frac{\partial u_n}{\partial x_i} = \sum_{j = 1}^n \frac{\partial h}{\partial u_j} \frac{\partial u_j}{\partial x_i}
 $$&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;Therefore, the error propagation of Gradient Descent in RNN is&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{
