@@ -271,13 +271,23 @@ Unlike manipulations which manipulates in _HOW_ and _WHAT_ level, inspiration co
 inspired, the decisions we make have more to do with who we are and less to do with the companies or the products we're
 buying.
 
-### Golden Circle (Part 2)
-
-#### It's What You Can't See That Matters
+### Golden Circle (Part 2) - It's What You Can't See That Matters
 
 We should focus on the _WHY_ behind customers' needs, because it's not logic or facts but our hopes and dreams, our
 hearts and our guts, that drive us to try new things. Products with a clear sense of WHY give people a way to tell the
 outside world who they are and what they believe.
+
+Individual can trust their gut decision by following that they love. It's not scalable thought, because the gut decision
+can be a perfectly good strategy for an individual or a small organization, not for more people being able to make the
+same decision that all feel right.
+
+That's when the power of WHY come into play. The ability to put a WHY into words provides the emotional context for
+decisions. When we know our WHY, we are able to put this subconsciousness into words. The rational of WHAT simply offers
+the proof for the feeling of WHY.
+
+The goal of business should not be to do business with anyone who simply wants what you have. It should be to focus on
+the people who believe what you believe. When we are selective about doing business only with those who believe in our
+WHY, trust emerges.
 
 ### Applications of Golden Circle (Part 3)
 
