@@ -362,6 +362,17 @@ $\boldsymbol{h}^{(0)}$. Then, for each time step from $t = 1$ to $t = \tau$, we 
 \end{gather*}
 }
 $$&lt;/p&gt;
+&lt;p&gt;where&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\boldsymbol{h}^{(t)}$ is the hidden state vector of size $(\tau - 1)$&lt;/li&gt;
+&lt;li&gt;$\boldsymbol{o}^{(t)}$ is the output produced by the model at step $t$ where $t \in {1, 2, \cdots, \tau}$&lt;/li&gt;
+&lt;li&gt;$\boldsymbol{\hat{y}^{(t)}}$ is the normalized probability of $\boldsymbol{o}^{(t)}$ at $\tau = t$&lt;/li&gt;
+&lt;li&gt;$\boldsymbol{b_h}$ is the hidden bias vector of size $\tau$&lt;/li&gt;
+&lt;li&gt;$\boldsymbol{b_o}$ is the output bias vector of size $\tau$&lt;/li&gt;
+&lt;li&gt;the size of $\boldsymbol{W_{xh}}$ is $(\tau - 1) \times \tau$&lt;/li&gt;
+&lt;li&gt;the size of $\boldsymbol{W_{hh}}$ is $(\tau - 1) \times (\tau - 1)$&lt;/li&gt;
+&lt;li&gt;the size of $\boldsymbol{W_{xh}}$ is $\tau \times (\tau - 1)$&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Note that this recurrent network maps an input sequence to an output sequence of the same length.&lt;/p&gt;
 &lt;h2&gt;Loss Function of RNN&lt;/h2&gt;
 &lt;p&gt;According to the discussion of &lt;em&gt;Machine Learning by Mitchell&lt;/em&gt;, Tom M. (1997), the key for training RNN or any neural
