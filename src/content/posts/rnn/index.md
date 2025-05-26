@@ -1,6 +1,7 @@
 ---
 title: Introduction to Recurrent Neural Networks (RNNs)
 published: 2025-05-14
+upodated: 2025-05-26
 tags: [Technology]
 image: cover.png
 draft: false
@@ -119,6 +120,17 @@ $$
         \end{gather*}
     }
 $$
+
+where
+
+- $\boldsymbol{h}^{(t)}$ is the hidden state vector of size $(\tau - 1)$
+- $\boldsymbol{o}^{(t)}$ is the output produced by the model at step $t$ where $t \in \{1, 2, \cdots, \tau\}$
+- $\boldsymbol{\hat{y}^{(t)}}$ is the normalized probability of $\boldsymbol{o}^{(t)}$ at $\tau = t$
+- $\boldsymbol{b_h}$ is the hidden bias vector of size $\tau$
+- $\boldsymbol{b_o}$ is the output bias vector of size $\tau$
+- the size of $\boldsymbol{W_{xh}}$ is $(\tau - 1) \times \tau$
+- the size of $\boldsymbol{W_{hh}}$ is $(\tau - 1) \times (\tau - 1)$
+- the size of $\boldsymbol{W_{xh}}$ is $\tau \times (\tau - 1)$
 
 Note that this recurrent network maps an input sequence to an output sequence of the same length.
 
