@@ -354,8 +354,8 @@ the unnormalized log probabilities of each possible value of the discrete variab
 (discussed shortly) operation as a post-processing step to obtain a vector $\boldsymbol{\hat{y}^{(t)}}$ of normalized
 probabilities over the output.&lt;/p&gt;
 &lt;p&gt;Forward propagation begins with a specification of the initial state $\boldsymbol{h}^{(0)}$. The dimension of the hidden
-state $\boldsymbol{h}$is independent of the dimension of the input or output sequences. In fact, the size of
-$\boldsymbol{h}^{(0)}$ is exactly the number of parameters used to train a RNN.&lt;/p&gt;
+state $\boldsymbol{h}$is independent of the dimension of the input or output sequences. In fact, $\boldsymbol{h}^{(0)}$
+is a 3D array, whose 1st dimensional size is exactly the number of parameters used to train RNN.&lt;/p&gt;
 &lt;p&gt;Then, for each time step from $t = 1$ to $t = \tau$, we apply the following update equations:&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{
@@ -879,41 +879,6 @@ will be many more implementors who, on the contrary, also creatively implementin
 implementation, and realization. The 3 phases can execute in parallel in many ways and together speed up the entire
 project.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
-</content:encoded></item><item><title>Lese-Notizen die „Kritik der reinen Vernunft“</title><link>https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/</guid><description>A Masterpiece of Idealism of Anti-Idealism - Transcendental Idealism</description><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Die Transscendentale Aesthetik&lt;/h2&gt;
-&lt;p&gt;Auf welche Art und durch welche Mittel sich auch immer eine Erkenntniss auf Gegenstände beziehen mag, die Anschauung.
-Diese findet aber nur statt, so fern uns der Gegenstand gegeben wird; dieses aber ist wiederum nur dadurch möglich, dass
-er das Gemüth auf gewisse Weise  afficire. Die Fähigkeit, Vorstellungen durch die Art, wie wir von Gegenstände afficirt
-werden, zu bekommen, heisst Sinnlichkeit.&lt;/p&gt;
-&lt;p&gt;:::tip[Die Fähigkeit, Vorstellungen durch die Art, wie wir von Gegenstände afficirt werden, zu bekommen, heisst Sinnlichkeit.]
-Die Fähigkeit heisst Sinnlichkeit. → Die Fähigkeit, Vorstellungen durch die Art zu bekommen, heisst Sinnlichkeit. →
-Welche Art? wie wir von Gegenstände afficirt werden.
-:::&lt;/p&gt;
-&lt;p&gt;Vermittelst der Sinnlichkeit also werden uns Gegenstände gegeben, und sie allein liefert uns Anschauungen; durch den
-Verstand aber werden sie gedacht, und von ihm entspringen Begriffe. Alles Denken aber muss sich vermittelst gewisser
-Merkmale, zuletzt auf Anschauungen beziehen, weil uns auf andere Weise kein Gegenstand gegeben werden kann.&lt;/p&gt;
-&lt;p&gt;Die Wirkung eines Gegenstandes auf die Vorstellungsfähigkeit ist Empfindung. Diejenige Anschauung heisst empirisch. Der
-unbestimmte Gegenstand einer empirischen Anschauung heisst Erscheinung.&lt;/p&gt;
-&lt;p&gt;In der Erscheinung nennt Kant das die Materie, dasjenige aber, welches macht, dass das Mannigfaltige der Erscheinung
-nennt Kant die &lt;strong&gt;Form&lt;/strong&gt; der Erscheinung.&lt;/p&gt;
-&lt;p&gt;Da das, worinnen sich die Empfindungen allein ordnen und in gewisse Form gestellt werden können, nicht Empfindung sein
-kann, so ist uns die Materie aller Erscheinung nur a &lt;em&gt;posteriori&lt;/em&gt; gegeben, aber die Form muss im Gemüt &lt;em&gt;a priori&lt;/em&gt; bereit
-liegen, und abgesondert von aller Empfindung können betrachtet werden.&lt;/p&gt;
-&lt;p&gt;Kant nennt alle Vorstellungen rein, in dene nichts, was zur Empfindung gehört, angetroffen wird. Demnach wird die reine
-Form sinnlicher Anschauungen überhaupt im Gemüthe &lt;em&gt;a priori&lt;/em&gt; angetroffen werden, worinnen alles Mannigfaltige der
-Erscheinungen in gewissen Verhältnissen angeschaut wird. Diese reine Form der Sinnlichkeit wird auch selber reine
-Anschauung heissen. So, wenn wir von der Vorstellung eines Körpers absondern, so bleibt mir aus dieser empirischen
-Anschauung noch etwas übrig, nämlich Ausdehnuug und Gestalt. Diese gehören zur reinen Auschauung, die &lt;em&gt;a priori&lt;/em&gt;, auch
-ohne einen wirklichen Gegenstand der Sinne oder Empfindung, als eine blosse Form der Sinnlichkeit im Gemüthe
-stattfindet.&lt;/p&gt;
-&lt;p&gt;Eine Wissenschaft von allen Principien der Sinnlichkeit &lt;em&gt;a priori&lt;/em&gt; nennt Kant die transscendentale
-&lt;a href=&quot;https://youtu.be/6lOwHdydgi4&quot;&gt;Aesthetik&lt;/a&gt;. Es muss also eine solche Wissenschaft geben in Gegensatz mit derjenigen,
-welche die Principien des reinen Denkens enthält, und transscendentale Logik genannt wird.&lt;/p&gt;
-&lt;p&gt;Zuerst in der transscendentalen Aesthetik also werden wir die Sinnlichkeit isoliren, dadurch, dass wir alles absondern,
-was der Verstand durch seine Begriffe dabei denkt, damit nichts als empirische Anschauung übrig bleibe. Zweitens werden
-wir von dieser noch alles (was zur Empfindung gehört) abtrennen, damit nichts als reine Anschauung und die blosse Form
-der Erscheinungen übrig bleibe. Bei dieser Untersuchung wird sich finden zwei reinen Formen sinnlicher Anschauung (als
-Principien der Erkenntniss &lt;em&gt;a priori&lt;/em&gt; gebe), nämlich &lt;a href=&quot;#von-dem-raume&quot;&gt;&lt;strong&gt;Raum&lt;/strong&gt;&lt;/a&gt; und &lt;strong&gt;Zeit&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3&gt;Von dem Raume&lt;/h3&gt;
 </content:encoded></item><item><title>Humanistic Psychology</title><link>https://leadership.qubitpi.org/posts/humanistic-psychology/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/humanistic-psychology/</guid><description>In order for individuals to thrive and excel, a health-fostering culture must be created.</description><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&amp;lt;iframe width=&quot;100%&quot; height=&quot;468&quot; src=&quot;https://www.youtube.com/embed/mUELAiHbCxc?start=573&quot; title=&quot;Humanistic Psychology&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Humanistic psychology&lt;/em&gt; is a psychological perspective that arose in the mid-20th century in answer to two theories:
 Sigmund Freud&apos;s psychoanalytic theory and B. F. Skinner&apos;s behaviorism. Abraham Maslow, in this context, established
@@ -1252,6 +1217,41 @@ indicates that there is a dynamics between coping and expressive behavior: &lt;s
 self-actualization by solving the lesser, prerequisite motivational problems&lt;/strong&gt;.&lt;/p&gt;
 &lt;h3&gt;Chapter 14 - Unmotivated and Purposeless Reactions&lt;/h3&gt;
 &lt;p&gt;[^1]: Horney, K, &lt;em&gt;The Neurotic Personality of Our Time&lt;/em&gt;, New York Norton, 1937&lt;/p&gt;
+</content:encoded></item><item><title>Lese-Notizen die „Kritik der reinen Vernunft“</title><link>https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/</guid><description>A Masterpiece of Idealism of Anti-Idealism - Transcendental Idealism</description><pubDate>Fri, 27 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Die Transscendentale Aesthetik&lt;/h2&gt;
+&lt;p&gt;Auf welche Art und durch welche Mittel sich auch immer eine Erkenntniss auf Gegenstände beziehen mag, die Anschauung.
+Diese findet aber nur statt, so fern uns der Gegenstand gegeben wird; dieses aber ist wiederum nur dadurch möglich, dass
+er das Gemüth auf gewisse Weise  afficire. Die Fähigkeit, Vorstellungen durch die Art, wie wir von Gegenstände afficirt
+werden, zu bekommen, heisst Sinnlichkeit.&lt;/p&gt;
+&lt;p&gt;:::tip[Die Fähigkeit, Vorstellungen durch die Art, wie wir von Gegenstände afficirt werden, zu bekommen, heisst Sinnlichkeit.]
+Die Fähigkeit heisst Sinnlichkeit. → Die Fähigkeit, Vorstellungen durch die Art zu bekommen, heisst Sinnlichkeit. →
+Welche Art? wie wir von Gegenstände afficirt werden.
+:::&lt;/p&gt;
+&lt;p&gt;Vermittelst der Sinnlichkeit also werden uns Gegenstände gegeben, und sie allein liefert uns Anschauungen; durch den
+Verstand aber werden sie gedacht, und von ihm entspringen Begriffe. Alles Denken aber muss sich vermittelst gewisser
+Merkmale, zuletzt auf Anschauungen beziehen, weil uns auf andere Weise kein Gegenstand gegeben werden kann.&lt;/p&gt;
+&lt;p&gt;Die Wirkung eines Gegenstandes auf die Vorstellungsfähigkeit ist Empfindung. Diejenige Anschauung heisst empirisch. Der
+unbestimmte Gegenstand einer empirischen Anschauung heisst Erscheinung.&lt;/p&gt;
+&lt;p&gt;In der Erscheinung nennt Kant das die Materie, dasjenige aber, welches macht, dass das Mannigfaltige der Erscheinung
+nennt Kant die &lt;strong&gt;Form&lt;/strong&gt; der Erscheinung.&lt;/p&gt;
+&lt;p&gt;Da das, worinnen sich die Empfindungen allein ordnen und in gewisse Form gestellt werden können, nicht Empfindung sein
+kann, so ist uns die Materie aller Erscheinung nur a &lt;em&gt;posteriori&lt;/em&gt; gegeben, aber die Form muss im Gemüt &lt;em&gt;a priori&lt;/em&gt; bereit
+liegen, und abgesondert von aller Empfindung können betrachtet werden.&lt;/p&gt;
+&lt;p&gt;Kant nennt alle Vorstellungen rein, in dene nichts, was zur Empfindung gehört, angetroffen wird. Demnach wird die reine
+Form sinnlicher Anschauungen überhaupt im Gemüthe &lt;em&gt;a priori&lt;/em&gt; angetroffen werden, worinnen alles Mannigfaltige der
+Erscheinungen in gewissen Verhältnissen angeschaut wird. Diese reine Form der Sinnlichkeit wird auch selber reine
+Anschauung heissen. So, wenn wir von der Vorstellung eines Körpers absondern, so bleibt mir aus dieser empirischen
+Anschauung noch etwas übrig, nämlich Ausdehnuug und Gestalt. Diese gehören zur reinen Auschauung, die &lt;em&gt;a priori&lt;/em&gt;, auch
+ohne einen wirklichen Gegenstand der Sinne oder Empfindung, als eine blosse Form der Sinnlichkeit im Gemüthe
+stattfindet.&lt;/p&gt;
+&lt;p&gt;Eine Wissenschaft von allen Principien der Sinnlichkeit &lt;em&gt;a priori&lt;/em&gt; nennt Kant die transscendentale
+&lt;a href=&quot;https://youtu.be/6lOwHdydgi4&quot;&gt;Aesthetik&lt;/a&gt;. Es muss also eine solche Wissenschaft geben in Gegensatz mit derjenigen,
+welche die Principien des reinen Denkens enthält, und transscendentale Logik genannt wird.&lt;/p&gt;
+&lt;p&gt;Zuerst in der transscendentalen Aesthetik also werden wir die Sinnlichkeit isoliren, dadurch, dass wir alles absondern,
+was der Verstand durch seine Begriffe dabei denkt, damit nichts als empirische Anschauung übrig bleibe. Zweitens werden
+wir von dieser noch alles (was zur Empfindung gehört) abtrennen, damit nichts als reine Anschauung und die blosse Form
+der Erscheinungen übrig bleibe. Bei dieser Untersuchung wird sich finden zwei reinen Formen sinnlicher Anschauung (als
+Principien der Erkenntniss &lt;em&gt;a priori&lt;/em&gt; gebe), nämlich &lt;a href=&quot;#von-dem-raume&quot;&gt;&lt;strong&gt;Raum&lt;/strong&gt;&lt;/a&gt; und &lt;strong&gt;Zeit&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;Von dem Raume&lt;/h3&gt;
 </content:encoded></item><item><title>Causality</title><link>https://leadership.qubitpi.org/posts/causality/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/causality/</guid><description>I don&apos;t believe in any religion, but the notion of Buddhism&apos;s idea of Karma, i.e. cause and effect, seems to prevail
 in many aspects of our lives and works, which is why I was drawn upon this topic of &quot;Causality&quot;
 </description><pubDate>Thu, 26 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This article is an overview of the Cause and Effect as the Principle of Causality, establishing one event or action as
