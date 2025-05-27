@@ -116,8 +116,8 @@ probabilities over the output.
 
 Forward propagation begins with a specification of the initial state $\boldsymbol{h}^{(0)}$. The dimension of the hidden
 state $\boldsymbol{h}$, in contract to our [previous overview](#introduction), is independent of the dimension of the
-input or output sequences. In fact, $\boldsymbol{h}^{(0)}$ is a 3D array, whose 1st-dimensional size is exactly the
-number of RNN parameters.
+input or output sequences. In fact, $\boldsymbol{h}$ is a 3D array, whose 1st-dimensional size is exactly the number of
+RNN parameters.
 
 Then, for each time step from $t = 1$ to $t = \tau$, we apply the following update equations:
 
