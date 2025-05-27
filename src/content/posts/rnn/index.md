@@ -115,7 +115,8 @@ the unnormalized log probabilities of each possible value of the discrete variab
 probabilities over the output.
 
 Forward propagation begins with a specification of the initial state $\boldsymbol{h}^{(0)}$. The dimension of the hidden
-state $\boldsymbol{h}$is independent of the dimension of the input or output sequences.
+state $\boldsymbol{h}$is independent of the dimension of the input or output sequences. In fact, the size of
+$\boldsymbol{h}^{(0)}$ is exactly the number of parameters used to train a RNN. 
 
 Then, for each time step from $t = 1$ to $t = \tau$, we apply the following update equations:
 
