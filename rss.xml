@@ -354,8 +354,9 @@ the unnormalized log probabilities of each possible value of the discrete variab
 (discussed shortly) operation as a post-processing step to obtain a vector $\boldsymbol{\hat{y}^{(t)}}$ of normalized
 probabilities over the output.&lt;/p&gt;
 &lt;p&gt;Forward propagation begins with a specification of the initial state $\boldsymbol{h}^{(0)}$. The dimension of the hidden
-state $\boldsymbol{h}$is independent of the dimension of the input or output sequences. In fact, $\boldsymbol{h}^{(0)}$
-is a 3D array, whose 1st dimensional size is exactly the number of parameters used to train RNN.&lt;/p&gt;
+state $\boldsymbol{h}$, in contract to our &lt;a href=&quot;#introduction&quot;&gt;previous overview&lt;/a&gt;, is independent of the dimension of the
+input or output sequences. In fact, $\boldsymbol{h}^{(0)}$ is a 3D array, whose 1st-dimensional size is exactly the
+number of parameters used to train RNN.&lt;/p&gt;
 &lt;p&gt;Then, for each time step from $t = 1$ to $t = \tau$, we apply the following update equations:&lt;/p&gt;
 &lt;p&gt;$$
 \color{green} \boxed{
