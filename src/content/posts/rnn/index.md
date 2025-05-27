@@ -21,6 +21,9 @@ This article has the following recommended prerequisites:
 
 :::
 
+Introduction
+------------
+
 We all heard of this buz word "LLM" (Large Language Model). But let's put that aside for just a second and look at a
 much simpler one called "character-level language model" where, for example, we input a prefix of a word such as "hell"
 and the model outputs a complete word "hello". That is, this language model predicts the next character of a character
@@ -65,9 +68,9 @@ What if the function $f$ is not smart enough to produce the correct output every
 examples such as "cat" and "hello", and feed them into the boxes to train them until they can output correct vocabulary
 like "cat" and "hello".
 
-This is the idea behind RNN. It's recurrent because the boxed function gets invoked repeatedly for each element of the
-sequence. In the case of our character-level language model, element is a character such as "e" and sequence is a string
-like "hell"
+This is the idea behind [RNN](https://en.wikipedia.org/wiki/Recurrent_neural_network). It's recurrent because the boxed
+function gets invoked repeatedly for each element of the sequence. In the case of our character-level language model,
+element is a character such as "e" and sequence is a string like "hell"
 
 ![](img/rnn.png)
 
@@ -78,8 +81,9 @@ $$
     h^{(t)} = g_1\left( W_{hh}h^{(t - 1)} + W_{xh}x^{(t)} + b_h \right)
 $$
 
-where $t$ is the index of the "black boxes" shown above. In our example of "hell", $t \in \{ 1, 2, 3, 4 \}$. The other
-perceptron computes the output like 'e', 'l', 'l', 'o'. We call those value $y$ which is given by
+where $t$ is the index of the "black boxes" shown above. In our example of "hell", $t \in \{ 1, 2, 3, 4 \}$.
+
+The other perceptron computes the output like 'e', 'l', 'l', 'o'. We call those value $y$ which is given by
 
 $$
     o^{(t)} = g_2\left( W_{yh}h^{(t)} + b_o \right)
@@ -108,8 +112,12 @@ i.e. $tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$ and that the output is discre
 words or characters. A natural way to represent discrete variables is to regard the output $\boldsymbol{o}$ as giving
 the unnormalized log probabilities of each possible value of the discrete variable. We can then apply the softmax
 (discussed shortly) operation as a post-processing step to obtain a vector $\boldsymbol{\hat{y}^{(t)}}$ of normalized
-probabilities over the output. Forward propagation begins with a specification of the initial state
-$\boldsymbol{h}^{(0)}$. Then, for each time step from $t = 1$ to $t = \tau$, we apply the following update equations:
+probabilities over the output.
+
+Forward propagation begins with a specification of the initial state $\boldsymbol{h}^{(0)}$. The dimension of the hidden
+state $\boldsymbol{h}$is independent of the dimension of the input or output sequences.
+
+Then, for each time step from $t = 1$ to $t = \tau$, we apply the following update equations:
 
 $$
     \color{green} \boxed{
@@ -123,7 +131,7 @@ $$
 
 where
 
-- $\boldsymbol{h}^{(t)}$ is the hidden state vector of size $(\tau - 1)$
+- $\boldsymbol{h}^{(t)}$ is the hidden state vector of size $(\tau + 1)$
 - $\boldsymbol{o}^{(t)}$ is the output produced by the model at step $t$ where $t \in \{1, 2, \cdots, \tau\}$
 - $\boldsymbol{\hat{y}^{(t)}}$ is the normalized probability of $\boldsymbol{o}^{(t)}$ at $\tau = t$
 - $\boldsymbol{b_h}$ is the hidden bias vector of size $\tau$
