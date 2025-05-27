@@ -1,7 +1,7 @@
 ---
 title: Introduction to Recurrent Neural Networks (RNNs)
 published: 2025-05-14
-upodated: 2025-05-26
+upodated: 2025-05-27
 tags: [Technology]
 image: cover.png
 draft: false
@@ -115,8 +115,9 @@ the unnormalized log probabilities of each possible value of the discrete variab
 probabilities over the output.
 
 Forward propagation begins with a specification of the initial state $\boldsymbol{h}^{(0)}$. The dimension of the hidden
-state $\boldsymbol{h}$is independent of the dimension of the input or output sequences. In fact, $\boldsymbol{h}^{(0)}$
-is a 3D array, whose 1st dimensional size is exactly the number of parameters used to train RNN. 
+state $\boldsymbol{h}$, in contract to our [previous overview](#introduction), is independent of the dimension of the
+input or output sequences. In fact, $\boldsymbol{h}^{(0)}$ is a 3D array, whose 1st-dimensional size is exactly the
+number of parameters used to train RNN.
 
 Then, for each time step from $t = 1$ to $t = \tau$, we apply the following update equations:
 
