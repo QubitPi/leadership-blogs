@@ -8,13 +8,11 @@ tags: [Philosophy]
 category: English
 draft: false
 ---
+ 
+It is an interesting assumption that people without background in academic Philosophy think that one have to read the
+primary sources with verify little hand holding. Studying both Physics and Philosophy, I have literally never in my life met someone that tries to access Physics by
+reading the primary academic literature. 
 
-I always find it interesting that folks without background in academic philosophy think that they have to read the primary sources with very little hand holding. And I truly mean that as just ‘interesting’, with no sassiness or judgement.
+Literally nobody interested in Physics starts by trying to read Newton’s principia.  If one is interested in Philosophy and doesn't have any training in it, why not start with Philosophy textbooks just like how we
+study Physics in college? These university level introductory texts take these complex and often unfriendly primary texts and parse them for us.
 
-I studied both physics and philosophy and I have literally never in my life met someone that tries to access physics by reading the primary academic literature. But I know tons of people interested enough to have read A Brief History of Time.
-
-If you’re interested in philosophy and don’t have any training in it, why not just read the ‘popular’ philosophy books just like interested lay people read ‘popular’ science books?
-
-I mean that with no judgement. There are great podcasts and intros to philosophy, and even university level introductory texts that take these complex and often unfriendly primary texts and parse them for the lay person.
-
-Literally nobody interested in physics starts by trying to read Newton’s principia. Why do ppl interested in philosophy start by just diving into Nietzsche assuming they’ll get it?
