@@ -3,7 +3,7 @@ title: Why is Philosophy so Pretentious?
 published: 2025-05-29
 description: |
   People who are interested in Philosophy but not a Philosophy major doen't like the overly complicated style of writing where everything is symbolic or metaphorical and one have to dig for the meaning instead of it just being clearly stated. For example, reading Newton's principia feels struggling for really understand the work not because the ideas in it are too complicated, but because reaching the ideas feels like going through a maze of unnecessary jargon to reach them, and by the time one've made it through all that, people become too mentally drained to even digest what they're really saying. Is there anything wrong?
-image: cover.gif
+image: cover.png
 tags: [Philosophy]
 category: English
 draft: false
