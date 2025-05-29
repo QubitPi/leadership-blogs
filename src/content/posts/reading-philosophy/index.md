@@ -16,3 +16,4 @@ reading the primary academic literature.
 Literally nobody interested in Physics starts by trying to read Newton’s principia.  If one is interested in Philosophy and doesn't have any training in it, why not start with Philosophy textbooks just like how we
 study Physics in college? These university level introductory texts take these complex and often unfriendly primary texts and parse them for us.
 
+(To be continued...)
