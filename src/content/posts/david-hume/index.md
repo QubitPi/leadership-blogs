@@ -6,7 +6,6 @@ image: cover.gif
 tags: [Philosophy]
 category: English
 draft: false
-font: USDeclaration
 ---
 
 Introduction
