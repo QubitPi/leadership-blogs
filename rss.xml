@@ -3080,6 +3080,215 @@ reusable libraries possible that will last you from one project to the next and 
 its scope to the minimum, I would actually suggest considering duplicating a little bit here. And naturally write unit
 tests and make sure it&apos;s really thoroughly tested and reliable at what it&apos;s doing. This is only for the libraries that
 you really want to take the time to generalize to a point that goes far beyond a single project.&quot;&lt;/p&gt;
+</content:encoded></item><item><title>Expressive Code Example</title><link>https://leadership.qubitpi.org/posts/expressive-code/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/expressive-code/</guid><description>How code blocks look in Markdown using Expressive Code.</description><pubDate>Wed, 10 Apr 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Here, we&apos;ll explore how code blocks look using &lt;a href=&quot;https://expressive-code.com/&quot;&gt;Expressive Code&lt;/a&gt;. The provided examples are based on the official documentation, which you can refer to for further details.&lt;/p&gt;
+&lt;h2&gt;Expressive Code&lt;/h2&gt;
+&lt;h3&gt;Syntax Highlighting&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://expressive-code.com/key-features/syntax-highlighting/&quot;&gt;Syntax Highlighting&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Regular syntax highlighting&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;console.log(&apos;This code is syntax highlighted!&apos;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Rendering ANSI escape sequences&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;ANSI colors:
+- Regular: [31mRed[0m [32mGreen[0m [33mYellow[0m [34mBlue[0m [35mMagenta[0m [36mCyan[0m
+- Bold:    [1;31mRed[0m [1;32mGreen[0m [1;33mYellow[0m [1;34mBlue[0m [1;35mMagenta[0m [1;36mCyan[0m
+- Dimmed:  [2;31mRed[0m [2;32mGreen[0m [2;33mYellow[0m [2;34mBlue[0m [2;35mMagenta[0m [2;36mCyan[0m
+
+256 colors (showing colors 160-177):
+[38;5;160m160 [38;5;161m161 [38;5;162m162 [38;5;163m163 [38;5;164m164 [38;5;165m165[0m
+[38;5;166m166 [38;5;167m167 [38;5;168m168 [38;5;169m169 [38;5;170m170 [38;5;171m171[0m
+[38;5;172m172 [38;5;173m173 [38;5;174m174 [38;5;175m175 [38;5;176m176 [38;5;177m177[0m
+
+Full RGB colors:
+[38;2;34;139;34mForestGreen - RGB(34, 139, 34)[0m
+
+Text formatting: [1mBold[0m [2mDimmed[0m [3mItalic[0m [4mUnderline[0m
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Editor &amp;amp; Terminal Frames&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://expressive-code.com/key-features/frames/&quot;&gt;Editor &amp;amp; Terminal Frames&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Code editor frames&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;console.log(&apos;Title attribute example&apos;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- src/content/index.html --&amp;gt;
+&amp;lt;div&amp;gt;File name comment example&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Terminal frames&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;echo &quot;This terminal frame has no title&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;Write-Output &quot;This one has a title!&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Overriding frame types&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;echo &quot;Look ma, no frame!&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;# Without overriding, this would be a terminal frame
+function Watch-Tail { Get-Content -Tail 20 -Wait $args }
+New-Alias tail Watch-Tail
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Text &amp;amp; Line Markers&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://expressive-code.com/key-features/text-markers/&quot;&gt;Text &amp;amp; Line Markers&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Marking full lines &amp;amp; line ranges&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;// Line 1 - targeted by line number
+// Line 2
+// Line 3
+// Line 4 - targeted by line number
+// Line 5
+// Line 6
+// Line 7 - targeted by range &quot;7-8&quot;
+// Line 8 - targeted by range &quot;7-8&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Selecting line marker types (mark, ins, del)&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;function demo() {
+  console.log(&apos;this line is marked as deleted&apos;)
+  // This line and the next one are marked as inserted
+  console.log(&apos;this is the second inserted line&apos;)
+
+  return &apos;this line uses the neutral default marker type&apos;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Adding labels to line markers&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;// labeled-line-markers.jsx
+&amp;lt;button
+  role=&quot;button&quot;
+  {...props}
+  value={value}
+  className={buttonClassName}
+  disabled={disabled}
+  active={active}
+&amp;gt;
+  {children &amp;amp;&amp;amp;
+    !active &amp;amp;&amp;amp;
+    (typeof children === &apos;string&apos; ? &amp;lt;span&amp;gt;{children}&amp;lt;/span&amp;gt; : children)}
+&amp;lt;/button&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Adding long labels on their own lines&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;// labeled-line-markers.jsx
+&amp;lt;button
+  role=&quot;button&quot;
+  {...props}
+
+  value={value}
+  className={buttonClassName}
+
+  disabled={disabled}
+  active={active}
+&amp;gt;
+
+  {children &amp;amp;&amp;amp;
+    !active &amp;amp;&amp;amp;
+    (typeof children === &apos;string&apos; ? &amp;lt;span&amp;gt;{children}&amp;lt;/span&amp;gt; : children)}
+&amp;lt;/button&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Using diff-like syntax&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;+this line will be marked as inserted
+-this line will be marked as deleted
+this is a regular line
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;--- a/README.md
++++ b/README.md
+@@ -1,3 +1,4 @@
++this is an actual diff file
+-all contents will remain unmodified
+ no whitespace will be removed either
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Combining syntax highlighting with diff-like syntax&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;  function thisIsJavaScript() {
+    // This entire block gets highlighted as JavaScript,
+    // and we can still add diff markers to it!
+-   console.log(&apos;Old code to be removed&apos;)
++   console.log(&apos;New and shiny code!&apos;)
+  }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Marking individual text inside lines&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;function demo() {
+  // Mark any given text inside lines
+  return &apos;Multiple matches of the given text are supported&apos;;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Regular expressions&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;console.log(&apos;The words yes and yep will be marked.&apos;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Escaping forward slashes&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;echo &quot;Test&quot; &amp;gt; /home/test.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Selecting inline marker types (mark, ins, del)&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;function demo() {
+  console.log(&apos;These are inserted and deleted marker types&apos;);
+  // The return statement uses the default marker type
+  return true;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Word Wrap&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://expressive-code.com/key-features/word-wrap/&quot;&gt;Word Wrap&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Configuring word wrap per block&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;// Example with wrap
+function getLongString() {
+  return &apos;This is a very long string that will most probably not fit into the available space unless the container is extremely wide&apos;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;// Example with wrap=false
+function getLongString() {
+  return &apos;This is a very long string that will most probably not fit into the available space unless the container is extremely wide&apos;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Configuring indentation of wrapped lines&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;// Example with preserveIndent (enabled by default)
+function getLongString() {
+  return &apos;This is a very long string that will most probably not fit into the available space unless the container is extremely wide&apos;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;// Example with preserveIndent=false
+function getLongString() {
+  return &apos;This is a very long string that will most probably not fit into the available space unless the container is extremely wide&apos;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Collapsible Sections&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://expressive-code.com/plugins/collapsible-sections/&quot;&gt;Collapsible Sections&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// All this boilerplate setup code will be collapsed
+import { someBoilerplateEngine } from &apos;@example/some-boilerplate&apos;
+import { evenMoreBoilerplate } from &apos;@example/even-more-boilerplate&apos;
+
+const engine = someBoilerplateEngine(evenMoreBoilerplate())
+
+// This part of the code will be visible by default
+engine.doSomething(1, 2, 3, calcFn)
+
+function calcFn() {
+  // You can have multiple collapsed sections
+  const a = 1
+  const b = 2
+  const c = a + b
+
+  // This will remain visible
+  console.log(`Calculation result: ${a} + ${b} = ${c}`)
+  return c
+}
+
+// All this code until the end of the block will be collapsed again
+engine.closeConnection()
+engine.freeMemory()
+engine.shutdown({ reason: &apos;End of example boilerplate code&apos; })
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Line Numbers&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://expressive-code.com/plugins/line-numbers/&quot;&gt;Line Numbers&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Displaying line numbers per block&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;// This code block will show line numbers
+console.log(&apos;Greetings from line 2!&apos;)
+console.log(&apos;I am on line 3&apos;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;// Line numbers are disabled for this block
+console.log(&apos;Hello?&apos;)
+console.log(&apos;Sorry, do you know what line I am on?&apos;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;Changing the starting line number&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;console.log(&apos;Greetings from line 5!&apos;)
+console.log(&apos;I am on line 6&apos;)
+&lt;/code&gt;&lt;/pre&gt;
 </content:encoded></item><item><title>Continuous Delivery</title><link>https://leadership.qubitpi.org/posts/continuous-delivery/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/continuous-delivery/</guid><description>continuousdelivery.com</description><pubDate>Wed, 31 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Continuous delivery is an approach where teams release quality products frequently and predictably from source code
 repository to production in an automated fashion.&lt;/p&gt;
 &lt;h2&gt;What is Continuous Delivery&lt;/h2&gt;
