@@ -35,6 +35,8 @@ weight__) or inhibitory (__negative weight__)) of one neuron on another. In the 
 signal to the cell body where they all get summed. If the final sum is above a certain threshold, the neuron can fire,
 sending a spike along its axon. In the computational model, we assume that the precise timings of the spikes do not
 matter, and that only the frequency of the firing communicates information. Based on this rate code interpretation, we
-__model the firing rate of the neuron with an activation function $f$, which represents the frequency of the spikes
+__model the firing rate of the neuron with an activation function $f$__, which represents the frequency of the spikes
 along the axon. Historically, a common choice of activation function is the sigmoid function $σ$, since it takes a
 real-valued input (the signal strength after the sum) and squashes it to range between 0 and 1. 
+
+In machine learning, a neural network (also artificial neural network or neural net, abbreviated ANN or NN) is a computational model inspired by the structure and functions of biological neural networks.[1][2]
