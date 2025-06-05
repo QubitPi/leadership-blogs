@@ -177,7 +177,20 @@ architecture. Normally when we are working with neural networks, we are given a 
 below), then we process it with some hidden layers (green), and we produce a fixed sized output vector (blue). The
 left-most model in figure below is called &lt;strong&gt;Vanilla Neural Networks&lt;/strong&gt;, which receives a single input and produce one
 output. The rest of the models on the right are all &lt;strong&gt;Recurrent Neural Networks&lt;/strong&gt; that allow us to operate over
-sequences of input, output, or both at the same time.&lt;/p&gt;
+sequences of input, output, or both at the same time:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An example of &lt;strong&gt;one-to-many&lt;/strong&gt; model is image captioning where we are given a fixed sized image and produce a sequence
+of words that describe the content of that image through RNN&lt;/li&gt;
+&lt;li&gt;An example of &lt;strong&gt;many-to-one&lt;/strong&gt; task is sentiment classification in NLP where we are given a sequence of words of a&lt;/li&gt;
+&lt;li&gt;sentence and then classify what sentiment (e.g. positive or negative) that sentence is.&lt;/li&gt;
+&lt;li&gt;An example of &lt;strong&gt;many-to-many&lt;/strong&gt; task is machine translation in NLP, where we can have an RNN that takes a sequence of
+words of a sentence in English, and then this RNN is asked to produce a sequence of words of a sentence in German.&lt;/li&gt;
+&lt;li&gt;There is also a &lt;strong&gt;variation of many-to-many&lt;/strong&gt; task as shown in the last model in Figure below, where the model
+generates an output at every timestep. An example of this many-to-many task is video classification on a frame level
+where the model classifies every single frame of video with some number of classes. We should note that we don&apos;t want
+this prediction to only be a function of the current timestep (current frame of the video), but also all the timesteps
+(frames) that have come before this video.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;img src=&quot;./img/types.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;Forward Propagation Equations for RNN&lt;/h2&gt;
 &lt;p&gt;We now develop the forward propagation equations for the RNN. We assume the hyperbolic tangent activation function,
