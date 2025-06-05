@@ -172,6 +172,9 @@ tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
 $$&lt;/p&gt;
 &lt;p&gt;In practice, $g_2$ is constance, i.e. $g_2 = 1$&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;One great thing about the RNNs is that they offer a lot of flexibility on how we wire up the neural network
+architecture. Normally when we are working with neural networks, we are given a fixed sized input vector (red), then we process it with&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./img/types.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;Forward Propagation Equations for RNN&lt;/h2&gt;
 &lt;p&gt;We now develop the forward propagation equations for the RNN. We assume the hyperbolic tangent activation function,
 i.e. $tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$ and that the output is discrete, as if the RNN is used to predict
@@ -662,7 +665,7 @@ considered &quot;real&quot;.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;(To be continued...)&lt;/p&gt;
 &lt;p&gt;[^1]: &amp;lt;span class=&quot;chinese-text&quot;&amp;gt;&lt;a href=&quot;https://book.douban.com/subject/34793268/&quot;&gt;王阳明全集，辽海出版社&lt;/a&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
-</content:encoded></item><item><title>沟通的艺术</title><link>https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</guid><description>和女朋友分手了，两人已成定局，不必留恋，唯需感谢我的前任，让自己在这段关系中收获了成长，我发现，无论是男方还是女方，
+</content:encoded></item><item><title>沟通的艺术</title><link>https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</guid><description>和女朋友吵了一架，和好之后自己总结反思了一下这件事情，我发现，无论是男方还是女方，
 无论身处何处，何种人际关系，卓越的沟通能力是避免一切事与愿违结局的基本条件，因此我写下了这篇持续更新的文章 - 
 前车之鉴以忆往昔，后事之师以待来日
 </description><pubDate>Sun, 01 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;:::note[内容来源]&lt;/p&gt;
