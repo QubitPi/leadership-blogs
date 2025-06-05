@@ -33,8 +33,23 @@ $R_t$, The value of an arbitrary action $a$, denoted $q_*(a)$, is the expected r
 
 $$
 
-q_*(a) = \mathop{{}\mathbb{E}}[R_t|A_t = a]
+q_*(a) = \mathbb{E}[R_t|A_t = a]
 
 $$
+
+If we know the value of each action, then it would be trivial to solve the _$k$-armed bandit problem_: we would always
+select the action with the highest value. We do not know, however, the action values with certainly in reality, although
+we may have estimates. We denote the estimated value of action $a$ at time step $t$ as $Q_t(a)$. We would like $Q_t(a)$
+to be close to q_*(a).
+
+If we maintain estimates of the action values, then at any time step there is at least one action whose estimated value
+is greatest. We call these the _greedy_ actions. When we select one of these actions, we say that we are _exploiting_
+our current knowledge of the values of the actions. If instead we select one of the non-greedy actions, then we say we
+are _exploring_, because this enables us to improve our estimate of the non-greedy action's value. Exploitation is the
+right thing to do to maximize the expected reward on the one step, but exploration may produce the greater total reward
+in the long run.
+
+Given that exploring and exploiting is not possible in any single action, systematic methods are used to balance the
+exploration and exploitation. This is the basic idea behind reinforcement learning.
 
 :::
