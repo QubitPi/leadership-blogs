@@ -2,9 +2,10 @@
 title: Machine Learning
 published: 2025-06-05
 description: |
-  Machine Learning is to me is the transcendentalization of my love of Software Engineering. Having years of careers in
-  Software industry, I have more or less personalized my software as an important career friend of mine. It cannot be
-  abandoned in my life; it cannot be mistreated; and it can learn itself as a "human being"
+  Machine Learning is to me is the transcendentalization of my combined passion toward Software Engineering and Data
+  Analytics. While Artificial Intelligence (AI) is a broad field encompassing the creation of machines that can perform
+  tasks that typically require human intelligence, Machine Learning (ML) is a specific subset of AI focused on enabling
+  machines to learn from data. Given that distinction, this posts is NOT about AI, but Machine Learning in general.
 image: cover.png
 tags: [Technology]
 category: English
@@ -69,8 +70,5 @@ measure $P$, it its performance at tasks in $T$, as measured by $P$, improves wi
 
 :::
 
-In general, to have a well-defined learning problem, 3 features have to be identified: 
-
-1. the class of tasks
-2. the measure of performance to be improved
-3. the source of experience
+The problem of [inducing general functions from specific training examples](#approximation-theory) is central to
+learning. 
