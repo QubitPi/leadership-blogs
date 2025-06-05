@@ -105,7 +105,11 @@ In practice, $g_2$ is constance, i.e. $g_2 = 1$
 :::
 
 One great thing about the RNNs is that they offer a lot of flexibility on how we wire up the neural network
-architecture. Normally when we are working with neural networks, we are given a fixed sized input vector (red), then we process it with
+architecture. Normally when we are working with neural networks, we are given a fixed sized input vector (red boxes
+below), then we process it with some hidden layers (green), and we produce a fixed sized output vector (blue). The
+left-most model in figure below is called __Vanilla Neural Networks__, which receives a single input and produce one
+output. The rest of the models on the right are all __Recurrent Neural Networks__ that allow us to operate over
+sequences of input, output, or both at the same time.
 
 ![](./img/types.png)
 
