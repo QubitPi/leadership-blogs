@@ -41,3 +41,5 @@ real-valued input (the signal strength after the sum) and squashes it to range b
 
 Neural Network Architectures
 ----------------------------
+
+(to be continued...)
