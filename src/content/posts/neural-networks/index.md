@@ -25,7 +25,6 @@ cartoon drawing of a biological neuron (left) and a common mathematical model (r
 
 ![](./neuron-model.png)
 
-
 Each neuron receives input signals from its __dendrites__ and produces output signals along its (single) __axon__. The 
 axon eventually branches out and connects via synapses to dendrites of other neurons. In the computational model of a
 neuron, the signals that travel along the axons (e.g. $x_0$) interact multiplicatively (e.g. $w_0x_0$) with the

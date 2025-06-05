@@ -125,6 +125,8 @@ sequences of input, output, or both at the same time:
 
 ![](./img/types.png)
 
+
+
 Forward Propagation Equations for RNN
 -------------------------------------
 

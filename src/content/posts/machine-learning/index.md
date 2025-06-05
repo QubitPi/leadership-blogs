@@ -1,0 +1,40 @@
+---
+title: Machine Learning
+published: 2025-06-05
+description: |
+  
+image: cover.png
+tags: [Technology]
+category: English
+draft: false
+---
+
+Approximation Theory
+--------------------
+
+The purpose of studying Approximation Theory is to better understand the
+[Universal Approximation Theorem](https://en.wikipedia.org/wiki/Universal_approximation_theorem), which defines the
+limits (or unbounded potential) of AI and Machine Learning on what Neural Networks can learn to solve real-life
+problems. Approximation Theory is the foundation of Machine Learning and its usefulness is brought to life by the
+advancement of contemporary computing power. For example, Approximation Theory says an approximated function exists by
+Math theorem but does not indicate how to reach that approximation. Artificial Neural Network, trained by Big Data,
+reaches that optimal function. Approximation theory is the proof of why AI or Machine Learning works.
+
+:::tip[K-Armed Bandit Problem: Reinforcement Learning as an Example of Approximation]
+
+Consider the following learning problem. We are faced repeatedly with a choice among $k$ different options, or actions.
+After each choice we receive a numerical reward chosen from a stationary probability distribution that depends on the
+action we selected. Our objective is to maximize the expected total reward over some time period, for example, over
+1000 action selections, or _time steps_. This is the original form of the _$k$-armed bandit problem_
+
+Mathematically, each of the $k$ actions has an expected or mean reward given that one action is selected; let us call
+this the _value_ of that action. We denote the action selected on time step $t$ as $A_t$ and the corresponding reward as
+$R_t$, The value of an arbitrary action $a$, denoted $q_*(a)$, is the expected reward given that $a$ is selected:
+
+$$
+
+q_*(a) = \mathop{{}\mathbb{E}}[R_t|A_t = a]
+
+$$
+
+:::
