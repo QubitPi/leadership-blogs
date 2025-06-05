@@ -129,7 +129,8 @@ matter, and that only the frequency of the firing communicates information. Base
 &lt;strong&gt;model the firing rate of the neuron with an activation function $f$&lt;/strong&gt;, which represents the frequency of the spikes
 along the axon. Historically, a common choice of activation function is the sigmoid function $σ$, since it takes a
 real-valued input (the signal strength after the sum) and squashes it to range between 0 and 1.&lt;/p&gt;
-&lt;p&gt;In machine learning, a neural network (also artificial neural network or neural net, abbreviated ANN or NN) is a computational model inspired by the structure and functions of biological neural networks.[1][2]&lt;/p&gt;
+&lt;h2&gt;Neural Network Architectures&lt;/h2&gt;
+&lt;p&gt;(to be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>Introduction to Recurrent Neural Networks (RNNs)</title><link>https://leadership.qubitpi.org/posts/rnn/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/rnn/</guid><description>I was reading the Foreword section of the book &quot;Natural Language Processing with Transformers, Revised Edition&quot; and
 stumbled upon this paper &quot;Attention is All You Need&quot;. &quot;Recurrent neural networks&quot; popped out as the very first words
 in the paper&apos;s introduction. This was why I draw my attention to the topics RNN and, hence, this blog.
