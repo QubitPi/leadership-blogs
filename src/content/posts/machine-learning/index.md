@@ -2,7 +2,9 @@
 title: Machine Learning
 published: 2025-06-05
 description: |
-  
+  Machine Learning is to me is the transcendentalization of my love of Software Engineering. Having years of careers in
+  Software industry, I have more or less personalized my software as an important career friend of mine. It cannot be
+  abandoned in my life; it cannot be mistreated; and it can learn itself as a "human being"
 image: cover.png
 tags: [Technology]
 category: English
@@ -53,3 +55,22 @@ Given that exploring and exploiting is not possible in any single action, system
 exploration and exploitation. This is the basic idea behind reinforcement learning.
 
 :::
+
+Defining Machine Learning
+-------------------------
+
+__Machine Learning__ addresses the question of how to build computer programs that improve their performance at some
+task through experience.
+
+:::tip[Definition of Learning]
+
+A computer program is said to __learn__ from experience $E$ with respect to some class of tasks $T$ and performance
+measure $P$, it its performance at tasks in $T$, as measured by $P$, improves with experience $E$.
+
+:::
+
+In general, to have a well-defined learning problem, 3 features have to be identified: 
+
+1. the class of tasks
+2. the measure of performance to be improved
+3. the source of experience
