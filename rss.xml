@@ -106,6 +106,29 @@ efficiencies. Ethical fading, however, is a people problem.&lt;/p&gt;
 a culture in which their people can work toward the short-term goals while also considering the morality, ethics and
 wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 &lt;p&gt;[^1]: Sinek, Simon (2019). &lt;a href=&quot;https://dokumen.pub/the-infinite-game.html&quot;&gt;&lt;em&gt;The Infinite Game&lt;/em&gt;&lt;/a&gt;. Portfolio. ISBN 073521350X.&lt;/p&gt;
+</content:encoded></item><item><title>Machine Learning - Neural Networks</title><link>https://leadership.qubitpi.org/posts/neural-networks/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/neural-networks/</guid><description>I was having trouble studying RNN as the starting-point topic of ML and, after descent amount of trouble with
+understanding its concepts, realized that having a solid understanding to it&apos;s roots, i.e. Neural Networks, is a
+prerequisite.
+</description><pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The area of Neural Networks has originally been primarily inspired by the goal of modeling biological neural systems,
+but has since diverged and become a matter of engineering and achieving good results in Machine Learning tasks.
+Therefore, the Neural Networks and AI in general is essentially the discipline of Machine Learning&lt;/p&gt;
+&lt;h2&gt;Biological Motivation and Connections&lt;/h2&gt;
+&lt;p&gt;The basic computational unit of the brain is a &lt;strong&gt;neuron&lt;/strong&gt;. Approximately 86 billion neurons can be found in the human
+nervous system and they are connected with approximately $10^{14}$ - $10^{15}$ synapses. The diagram below shows a
+cartoon drawing of a biological neuron (left) and a common mathematical model (right).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./neuron-model.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Each neuron receives input signals from its &lt;strong&gt;dendrites&lt;/strong&gt; and produces output signals along its (single) &lt;strong&gt;axon&lt;/strong&gt;. The
+axon eventually branches out and connects via synapses to dendrites of other neurons. In the computational model of a
+neuron, the signals that travel along the axons (e.g. $x_0$) interact multiplicatively (e.g. $w_0x_0$) with the
+dendrites of the other neuron based on the synaptic strength at that synapse (e.g. $w_0$). The idea is that the synaptic
+strengths (the weights $w$) are learnable and control the strength of influence (and its direction: excitory (&lt;strong&gt;positive
+weight&lt;/strong&gt;) or inhibitory (&lt;strong&gt;negative weight&lt;/strong&gt;)) of one neuron on another. In the basic model, the dendrites carry the
+signal to the cell body where they all get summed. If the final sum is above a certain threshold, the neuron can fire,
+sending a spike along its axon. In the computational model, we assume that the precise timings of the spikes do not
+matter, and that only the frequency of the firing communicates information. Based on this rate code interpretation, we
+__model the firing rate of the neuron with an activation function $f$, which represents the frequency of the spikes
+along the axon. Historically, a common choice of activation function is the sigmoid function $σ$, since it takes a
+real-valued input (the signal strength after the sum) and squashes it to range between 0 and 1.&lt;/p&gt;
 </content:encoded></item><item><title>Introduction to Recurrent Neural Networks (RNNs)</title><link>https://leadership.qubitpi.org/posts/rnn/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/rnn/</guid><description>I was reading the Foreword section of the book &quot;Natural Language Processing with Transformers, Revised Edition&quot; and
 stumbled upon this paper &quot;Attention is All You Need&quot;. &quot;Recurrent neural networks&quot; popped out as the very first words
 in the paper&apos;s introduction. This was why I draw my attention to the topics RNN and, hence, this blog.
