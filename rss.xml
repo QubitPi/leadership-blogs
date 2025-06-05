@@ -173,7 +173,11 @@ $$&lt;/p&gt;
 &lt;p&gt;In practice, $g_2$ is constance, i.e. $g_2 = 1$&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;One great thing about the RNNs is that they offer a lot of flexibility on how we wire up the neural network
-architecture. Normally when we are working with neural networks, we are given a fixed sized input vector (red), then we process it with&lt;/p&gt;
+architecture. Normally when we are working with neural networks, we are given a fixed sized input vector (red boxes
+below), then we process it with some hidden layers (green), and we produce a fixed sized output vector (blue). The
+left-most model in figure below is called &lt;strong&gt;Vanilla Neural Networks&lt;/strong&gt;, which receives a single input and produce one
+output. The rest of the models on the right are all &lt;strong&gt;Recurrent Neural Networks&lt;/strong&gt; that allow us to operate over
+sequences of input, output, or both at the same time.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./img/types.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;Forward Propagation Equations for RNN&lt;/h2&gt;
 &lt;p&gt;We now develop the forward propagation equations for the RNN. We assume the hyperbolic tangent activation function,
