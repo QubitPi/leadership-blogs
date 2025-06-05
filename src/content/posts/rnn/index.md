@@ -109,7 +109,19 @@ architecture. Normally when we are working with neural networks, we are given a 
 below), then we process it with some hidden layers (green), and we produce a fixed sized output vector (blue). The
 left-most model in figure below is called __Vanilla Neural Networks__, which receives a single input and produce one
 output. The rest of the models on the right are all __Recurrent Neural Networks__ that allow us to operate over
-sequences of input, output, or both at the same time.
+sequences of input, output, or both at the same time:
+
+- An example of __one-to-many__ model is image captioning where we are given a fixed sized image and produce a sequence
+  of words that describe the content of that image through RNN 
+- An example of __many-to-one__ task is sentiment classification in NLP where we are given a sequence of words of a
+- sentence and then classify what sentiment (e.g. positive or negative) that sentence is. 
+- An example of __many-to-many__ task is machine translation in NLP, where we can have an RNN that takes a sequence of
+  words of a sentence in English, and then this RNN is asked to produce a sequence of words of a sentence in German.
+- There is also a __variation of many-to-many__ task as shown in the last model in Figure below, where the model
+  generates an output at every timestep. An example of this many-to-many task is video classification on a frame level
+  where the model classifies every single frame of video with some number of classes. We should note that we don't want
+  this prediction to only be a function of the current timestep (current frame of the video), but also all the timesteps
+  (frames) that have come before this video.
 
 ![](./img/types.png)
 
