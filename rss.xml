@@ -106,9 +106,10 @@ efficiencies. Ethical fading, however, is a people problem.&lt;/p&gt;
 a culture in which their people can work toward the short-term goals while also considering the morality, ethics and
 wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 &lt;p&gt;[^1]: Sinek, Simon (2019). &lt;a href=&quot;https://dokumen.pub/the-infinite-game.html&quot;&gt;&lt;em&gt;The Infinite Game&lt;/em&gt;&lt;/a&gt;. Portfolio. ISBN 073521350X.&lt;/p&gt;
-</content:encoded></item><item><title>Machine Learning</title><link>https://leadership.qubitpi.org/posts/machine-learning/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/machine-learning/</guid><description>Machine Learning is to me is the transcendentalization of my love of Software Engineering. Having years of careers in
-Software industry, I have more or less personalized my software as an important career friend of mine. It cannot be
-abandoned in my life; it cannot be mistreated; and it can learn itself as a &quot;human being&quot;
+</content:encoded></item><item><title>Machine Learning</title><link>https://leadership.qubitpi.org/posts/machine-learning/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/machine-learning/</guid><description>Machine Learning is to me is the transcendentalization of my combined passion toward Software Engineering and Data
+Analytics. While Artificial Intelligence (AI) is a broad field encompassing the creation of machines that can perform
+tasks that typically require human intelligence, Machine Learning (ML) is a specific subset of AI focused on enabling
+machines to learn from data. Given that distinction, this posts is NOT about AI, but Machine Learning in general.
 </description><pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Approximation Theory&lt;/h2&gt;
 &lt;p&gt;The purpose of studying Approximation Theory is to better understand the
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Universal_approximation_theorem&quot;&gt;Universal Approximation Theorem&lt;/a&gt;, which defines the
@@ -148,12 +149,8 @@ task through experience.&lt;/p&gt;
 &lt;p&gt;A computer program is said to &lt;strong&gt;learn&lt;/strong&gt; from experience $E$ with respect to some class of tasks $T$ and performance
 measure $P$, it its performance at tasks in $T$, as measured by $P$, improves with experience $E$.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
-&lt;p&gt;In general, to have a well-defined learning problem, 3 features have to be identified:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;the class of tasks&lt;/li&gt;
-&lt;li&gt;the measure of performance to be improved&lt;/li&gt;
-&lt;li&gt;the source of experience&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;The problem of &lt;a href=&quot;#approximation-theory&quot;&gt;inducing general functions from specific training examples&lt;/a&gt; is central to
+learning.&lt;/p&gt;
 </content:encoded></item><item><title>Machine Learning - Neural Networks</title><link>https://leadership.qubitpi.org/posts/neural-networks/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/neural-networks/</guid><description>I was having trouble studying RNN as the starting-point topic of ML and, after descent amount of trouble with
 understanding its concepts, realized that having a solid understanding to it&apos;s roots, i.e. Neural Networks, is a
 prerequisite.
