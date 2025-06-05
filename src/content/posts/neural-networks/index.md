@@ -39,4 +39,5 @@ __model the firing rate of the neuron with an activation function $f$__, which r
 along the axon. Historically, a common choice of activation function is the sigmoid function $σ$, since it takes a
 real-valued input (the signal strength after the sum) and squashes it to range between 0 and 1. 
 
-In machine learning, a neural network (also artificial neural network or neural net, abbreviated ANN or NN) is a computational model inspired by the structure and functions of biological neural networks.[1][2]
+Neural Network Architectures
+----------------------------
