@@ -104,6 +104,11 @@ In practice, $g_2$ is constance, i.e. $g_2 = 1$
 
 :::
 
+One great thing about the RNNs is that they offer a lot of flexibility on how we wire up the neural network
+architecture. Normally when we are working with neural networks, we are given a fixed sized input vector (red), then we process it with
+
+![](./img/types.png)
+
 Forward Propagation Equations for RNN
 -------------------------------------
 
