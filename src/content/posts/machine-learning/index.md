@@ -79,6 +79,4 @@ Machine Learning and Data Mining often employ the same methods and overlap signi
 focuses on prediction, based on _known_ properties learned from the training data, data mining focuses on the discovery
 of (previously) _unknown_ properties in the data (this is the analysis step of knowledge discovery in databases)
 
-
-
 :::

@@ -59,7 +59,7 @@ export const profileConfig: ProfileConfig = {
   links: [
     {
       name: 'Paion Data',
-      icon: 'fa6-brands:bluesky',       // Visit https://icones.js.org/ for icon codes
+      icon: 'material-symbols:graph-5', // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`
       url: 'https://paion-data.com',
