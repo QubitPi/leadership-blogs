@@ -44,7 +44,7 @@ $$
 If we know the value of each action, then it would be trivial to solve the _$k$-armed bandit problem_: we would always
 select the action with the highest value. We do not know, however, the action values with certainly in reality, although
 we may have estimates. We denote the estimated value of action $a$ at time step $t$ as $Q_t(a)$. We would like $Q_t(a)$
-to be close to q_*(a).
+to be close to $q_*(a)$.
 
 If we maintain estimates of the action values, then at any time step there is at least one action whose estimated value
 is greatest. We call these the _greedy_ actions. When we select one of these actions, we say that we are _exploiting_
