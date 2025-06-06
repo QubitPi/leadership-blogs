@@ -132,7 +132,7 @@ $R_t$, The value of an arbitrary action $a$, denoted $q_*(a)$, is the expected r
 &lt;p&gt;If we know the value of each action, then it would be trivial to solve the &lt;em&gt;$k$-armed bandit problem&lt;/em&gt;: we would always
 select the action with the highest value. We do not know, however, the action values with certainly in reality, although
 we may have estimates. We denote the estimated value of action $a$ at time step $t$ as $Q_t(a)$. We would like $Q_t(a)$
-to be close to q_*(a).&lt;/p&gt;
+to be close to $q_*(a)$.&lt;/p&gt;
 &lt;p&gt;If we maintain estimates of the action values, then at any time step there is at least one action whose estimated value
 is greatest. We call these the &lt;em&gt;greedy&lt;/em&gt; actions. When we select one of these actions, we say that we are &lt;em&gt;exploiting&lt;/em&gt;
 our current knowledge of the values of the actions. If instead we select one of the non-greedy actions, then we say we
