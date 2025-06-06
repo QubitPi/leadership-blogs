@@ -72,3 +72,13 @@ measure $P$, it its performance at tasks in $T$, as measured by $P$, improves wi
 
 The problem of [inducing general functions from specific training examples](#approximation-theory) is central to
 learning. 
+
+:::tip[Machine Learning v.s. Data Mining]
+
+Machine Learning and Data Mining often employ the same methods and overlap significantly, but while machine learning
+focuses on prediction, based on _known_ properties learned from the training data, data mining focuses on the discovery
+of (previously) _unknown_ properties in the data (this is the analysis step of knowledge discovery in databases)
+
+
+
+:::
