@@ -151,6 +151,11 @@ measure $P$, it its performance at tasks in $T$, as measured by $P$, improves wi
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;The problem of &lt;a href=&quot;#approximation-theory&quot;&gt;inducing general functions from specific training examples&lt;/a&gt; is central to
 learning.&lt;/p&gt;
+&lt;p&gt;:::tip[Machine Learning v.s. Data Mining]&lt;/p&gt;
+&lt;p&gt;Machine Learning and Data Mining often employ the same methods and overlap significantly, but while machine learning
+focuses on prediction, based on &lt;em&gt;known&lt;/em&gt; properties learned from the training data, data mining focuses on the discovery
+of (previously) &lt;em&gt;unknown&lt;/em&gt; properties in the data (this is the analysis step of knowledge discovery in databases)&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 </content:encoded></item><item><title>Machine Learning - Neural Networks</title><link>https://leadership.qubitpi.org/posts/neural-networks/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/neural-networks/</guid><description>I was having trouble studying RNN as the starting-point topic of ML and, after descent amount of trouble with
 understanding its concepts, realized that having a solid understanding to it&apos;s roots, i.e. Neural Networks, is a
 prerequisite.
