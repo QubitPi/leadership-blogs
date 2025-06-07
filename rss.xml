@@ -199,11 +199,12 @@ considered &quot;real&quot;.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h2&gt;Logic&lt;/h2&gt;
 &lt;h3&gt;Deductive Logic&lt;/h3&gt;
-&lt;p&gt;Over the centuries, a variety of systems of deductive logic have been developed. One of the oldest is &lt;em&gt;Euclid&apos;s
-Elements&lt;/em&gt;, the axiomatization of plane geometry developed around 300 BCE in classical Greece. All of the truths or
-theorems of plane geometry can be derived from the five fundamental assumptions or axioms of Euclid&apos;s system. Many have
-attempted to axiomatize other areas of knowledge, including many of the sciences and many areas of mathematics. For
-example, &lt;a href=&quot;https://en.wikipedia.org/wiki/Arithmetices_principia,_nova_methodo_exposita&quot;&gt;Giuseppe Peano successfully axiomatized arithmetic in 1889&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Over the centuries, a variety of systems of deductive logic have been developed. One of the oldest is
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Euclid%27s_Elements&quot;&gt;&lt;em&gt;Euclid&apos;s Elements&lt;/em&gt;&lt;/a&gt;, the axiomatization of plane geometry developed
+around 300 BCE in classical Greece. All of the truths or theorems of plane geometry can be derived from the five
+fundamental assumptions or axioms of Euclid&apos;s system. Many have attempted to axiomatize other areas of knowledge,
+including many of the sciences and many areas of mathematics. For example,
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Arithmetices_principia,_nova_methodo_exposita&quot;&gt;Giuseppe Peano successfully axiomatized arithmetic in 1889&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;:::tip[The Five Fundamental Axioms of Euclid&apos;s Elements]&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&amp;lt;span class=&quot;greek-text&quot;&amp;gt;᾿Ηιτήσθω ἀπὸ παντὸς σημείου ἐπὶ πᾶν σημεῖον εὐθεῖαν γραμμὴν ἀγαγεῖν.&amp;lt;/span&amp;gt;&lt;/li&gt;
@@ -211,7 +212,8 @@ example, &lt;a href=&quot;https://en.wikipedia.org/wiki/Arithmetices_principia,_
 &lt;li&gt;&amp;lt;span class=&quot;greek-text&quot;&amp;gt;Καὶ παντὶ κέντρῳ καὶ διαστήματι κύκλον γράφεσθαι.&amp;lt;/span&amp;gt;&lt;/li&gt;
 &lt;li&gt;&amp;lt;span class=&quot;greek-text&quot;&amp;gt;Καὶ πάσας τὰς ὀρθὰς γωνίας ἴσας ἀλλήλαις εἶναι.&amp;lt;/span&amp;gt;&lt;/li&gt;
 &lt;li&gt;&amp;lt;span class=&quot;greek-text&quot;&amp;gt;Καὶ ἐὰν εἰς δύο εὐθείας εὐθεῖα ἐμπίπτουσα τὰς ἐντὸς καὶ ἐπὶ τὰ αὐτὰ μέρη γωνίας δύο ὀρθῶν
-ἐλάσσονας ποιῇ, ἐκβαλλομένας τὰς δύο εὐθείας ἐπ᾿ ἄπειρον συμπίπτειν, ἐφ᾿ ἃ μέρη εἰσὶν αἱ τῶν δύο ὀρθῶν ἐλάσσονες.&amp;lt;/span&amp;gt;&lt;/li&gt;
+ἐλάσσονας ποιῇ, ἐκβαλλομένας τὰς δύο εὐθείας ἐπ᾿ ἄπειρον συμπίπτειν, ἐφ᾿ ἃ μέρη εἰσὶν αἱ τῶν δύο ὀρθῶν
+ἐλάσσονες.&amp;lt;/span&amp;gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Most of the theorems appearing in the Elements were not discovered by Euclid himself, but were the work of earlier Greek
 mathematicians such as &lt;a href=&quot;https://en.wikipedia.org/wiki/Pythagoras&quot;&gt;Pythagoras&lt;/a&gt; (and his school),
