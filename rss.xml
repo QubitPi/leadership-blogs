@@ -240,7 +240,8 @@ between them is an important skill that is useful in a wide range of theoretical
 &lt;li&gt;An &lt;strong&gt;argument&lt;/strong&gt; is a set of two or more sentences, one of which is designated as the conclusion and the others as the
 &lt;em&gt;premises&lt;/em&gt; (English sentences).&lt;/li&gt;
 &lt;li&gt;An argument is &lt;strong&gt;logically valid&lt;/strong&gt; if and only if it is not possible for all the premises to be true and the
-conclusion false. An argument is &lt;em&gt;logically invalid&lt;/em&gt; if and only if it is not logically valid.&lt;/li&gt;
+conclusion false. An argument is &lt;em&gt;logically invalid&lt;/em&gt; if and only if it is not logically valid. In this sense, a
+logically valid argument is &lt;strong&gt;truth-preserving&lt;/strong&gt; (always taking one from truth to another truth, never falsehood)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;(To be continued...)&lt;/p&gt;
