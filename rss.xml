@@ -198,7 +198,7 @@ considered &quot;real&quot;.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h2&gt;Logic&lt;/h2&gt;
-&lt;h3&gt;Deductive Logic&lt;/h3&gt;
+&lt;h3&gt;Deductive Logic [^2]&lt;/h3&gt;
 &lt;p&gt;Over the centuries, a variety of systems of deductive logic have been developed. One of the oldest is
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Euclid%27s_Elements&quot;&gt;&lt;em&gt;Euclid&apos;s Elements&lt;/em&gt;&lt;/a&gt;, the axiomatization of plane geometry developed
 around 300 BCE in classical Greece. All of the truths or theorems of plane geometry can be derived from the five
@@ -228,7 +228,8 @@ arranging these theorems in a logical manner.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;(To be continued...)&lt;/p&gt;
-&lt;p&gt;[^1]: &amp;lt;span class=&quot;chinese-text&quot;&amp;gt;&lt;a href=&quot;https://book.douban.com/subject/34793268/&quot;&gt;王阳明全集，辽海出版社&lt;/a&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
+&lt;p&gt;[^1]: &amp;lt;span class=&quot;chinese-text&quot;&amp;gt;&lt;a href=&quot;https://book.douban.com/subject/34793268/&quot;&gt;王阳明全集，辽海出版社&lt;/a&gt;&amp;lt;/span&amp;gt;
+[^2]: Bergmann, Merrie, James Moor, and Jack Nelson. &lt;a href=&quot;http://files.farka.eu/pub/The%20Logic%20Book,%206E%20%5BPDF%5D%20%5BStormRG%5D/The%20Logic%20Book,%20Sixth%20Edition%20-%20Merrie%20Bergmann.pdf&quot;&gt;&lt;em&gt;The Logic Book&lt;/em&gt;&lt;/a&gt;. 6th ed. New York, NY: McGraw-Hill, 2008. ISBN: 9780073535630.&lt;/p&gt;
 </content:encoded></item><item><title>Machine Learning</title><link>https://leadership.qubitpi.org/posts/machine-learning/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/machine-learning/</guid><description>Machine Learning is to me is the transcendentalization of my combined passion toward Software Engineering and Data
 Analytics. While Artificial Intelligence (AI) is a broad field encompassing the creation of machines that can perform
 tasks that typically require human intelligence, Machine Learning (ML) is a specific subset of AI focused on enabling
