@@ -8,7 +8,7 @@ category: English
 draft: false 
 ---
 
-<iframe width="100%" height="468" src="https://www.youtube.com/watch?v=8sjA90hvnQ0" title="NonViolent Communication by Marshal Rosenberg: Animated Book Summary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/8sjA90hvnQ0" title="NonViolent Communication by Marshal Rosenberg: Animated Book Summary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Why Marshall Started to Think Differently
 -----------------------------------------
@@ -85,7 +85,7 @@ The reading of this book shall incorporate an important principle in mind - it's
 communication skills, it's more about appreciating the Jewish culture, a history that seeks, embrace, and promote peace
 for the world.
 
-<iframe width="100%" height="468" src="https://www.youtube.com/watch?v=8sjA90hvnQ0" title="Christianity from Judaism to Constantine: Crash Course World History #11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/TG55ErfdaeY" title="Christianity from Judaism to Constantine: Crash Course World History #11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Connect to Compassionate Nature
 -------------------------------
