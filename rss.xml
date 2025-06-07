@@ -235,7 +235,7 @@ pass only if she completes all the homework&quot; if we want to reason well abou
 the concepts that we explore here are abstract concepts. Learning to think about abstract concepts and the relations
 between them is an important skill that is useful in a wide range of theoretical and applied disciplines.&lt;/p&gt;
 &lt;p&gt;Now let&apos;s explore the core concepts of deductive logic, starting with basic definitions:&lt;/p&gt;
-&lt;p&gt;:::tip[Definitions]&lt;/p&gt;
+&lt;p&gt;:::note[Definitions]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;An &lt;strong&gt;argument&lt;/strong&gt; is a set of two or more sentences, one of which is designated as the conclusion and the others as the
 &lt;em&gt;premises&lt;/em&gt; (English sentences).&lt;/li&gt;
