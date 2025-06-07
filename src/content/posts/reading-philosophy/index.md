@@ -144,7 +144,7 @@ theorems of plane geometry can be derived from the 5 fundamental assumptions or 
 attempted to axiomatize other areas of knowledge, including many of the sciences and many areas of mathematics. For
 example, [Giuseppe Peano successfully axiomatized arithmetic in 1889](https://en.wikipedia.org/wiki/Arithmetices_principia,_nova_methodo_exposita).
 
-:::tip
+:::tip[Euclid's Elements]
 
 Most of the theorems appearing in the Elements were not discovered by Euclid himself, but were the work of earlier Greek
 mathematicians such as [Pythagoras](https://en.wikipedia.org/wiki/Pythagoras) (and his school),
