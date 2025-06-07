@@ -8,7 +8,7 @@ category: English
 draft: false 
 ---
 
-<iframe width="100%" height="468" src="https://www.youtube.com/watch?v=8sjA90hvnQ0" title="NonViolent Communication by Marshal Rosenberg : Animated Book Summary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="468" src="https://www.youtube.com/watch?v=8sjA90hvnQ0" title="NonViolent Communication by Marshal Rosenberg: Animated Book Summary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Why Marshall Started to Think Differently
 -----------------------------------------
