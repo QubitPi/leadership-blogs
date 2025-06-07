@@ -213,7 +213,7 @@ including many of the sciences and many areas of mathematics. For example,
 &lt;li&gt;&amp;lt;span class=&quot;greek-text&quot;&amp;gt;Καὶ πάσας τὰς ὀρθὰς γωνίας ἴσας ἀλλήλαις εἶναι.&amp;lt;/span&amp;gt;&lt;/li&gt;
 &lt;li&gt;&amp;lt;span class=&quot;greek-text&quot;&amp;gt;Καὶ ἐὰν εἰς δύο εὐθείας εὐθεῖα ἐμπίπτουσα τὰς ἐντὸς καὶ ἐπὶ τὰ αὐτὰ μέρη γωνίας δύο ὀρθῶν
 ἐλάσσονας ποιῇ, ἐκβαλλομένας τὰς δύο εὐθείας ἐπ᾿ ἄπειρον συμπίπτειν, ἐφ᾿ ἃ μέρη εἰσὶν αἱ τῶν δύο ὀρθῶν
-ἐλάσσονες.&amp;lt;/span&amp;gt;&lt;/li&gt;
+ἐλάσσονες.&amp;lt;/span&amp;gt; [^3]&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Most of the theorems appearing in the Elements were not discovered by Euclid himself, but were the work of earlier Greek
 mathematicians such as &lt;a href=&quot;https://en.wikipedia.org/wiki/Pythagoras&quot;&gt;Pythagoras&lt;/a&gt; (and his school),
@@ -229,7 +229,8 @@ arranging these theorems in a logical manner.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;(To be continued...)&lt;/p&gt;
 &lt;p&gt;[^1]: &amp;lt;span class=&quot;chinese-text&quot;&amp;gt;&lt;a href=&quot;https://book.douban.com/subject/34793268/&quot;&gt;王阳明全集，辽海出版社&lt;/a&gt;&amp;lt;/span&amp;gt;
-[^2]: Bergmann, Merrie, James Moor, and Jack Nelson. &lt;a href=&quot;http://files.farka.eu/pub/The%20Logic%20Book,%206E%20%5BPDF%5D%20%5BStormRG%5D/The%20Logic%20Book,%20Sixth%20Edition%20-%20Merrie%20Bergmann.pdf&quot;&gt;&lt;em&gt;The Logic Book&lt;/em&gt;&lt;/a&gt;. 6th ed. New York, NY: McGraw-Hill, 2008. ISBN: 9780073535630.&lt;/p&gt;
+[^2]: Bergmann, Merrie, James Moor, and Jack Nelson. &lt;a href=&quot;http://files.farka.eu/pub/The%20Logic%20Book,%206E%20%5BPDF%5D%20%5BStormRG%5D/The%20Logic%20Book,%20Sixth%20Edition%20-%20Merrie%20Bergmann.pdf&quot;&gt;&lt;em&gt;The Logic Book&lt;/em&gt;&lt;/a&gt;. 6th ed. New York, NY: McGraw-Hill, 2008. ISBN: 9780073535630.
+[^3]: &lt;a href=&quot;https://farside.ph.utexas.edu/Books/Euclid/Elements.pdf&quot;&gt;The University of Texas at Austin offers a PDF of Richard Fitzpatrick&apos;s version&lt;/a&gt;&lt;/p&gt;
 </content:encoded></item><item><title>Machine Learning</title><link>https://leadership.qubitpi.org/posts/machine-learning/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/machine-learning/</guid><description>Machine Learning is to me is the transcendentalization of my combined passion toward Software Engineering and Data
 Analytics. While Artificial Intelligence (AI) is a broad field encompassing the creation of machines that can perform
 tasks that typically require human intelligence, Machine Learning (ML) is a specific subset of AI focused on enabling
