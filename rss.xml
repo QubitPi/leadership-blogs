@@ -200,7 +200,15 @@ considered &quot;real&quot;.&lt;/p&gt;
 &lt;h2&gt;Logic&lt;/h2&gt;
 &lt;h3&gt;Deductive Logic&lt;/h3&gt;
 &lt;p&gt;Over the centuries, a variety of systems of deductive logic have been developed. One of the oldest is &lt;em&gt;Euclid&apos;s
-Elements&lt;/em&gt;, the axiomatization of plane geometry developed around 300 BCE in classical Greece.&lt;/p&gt;
+Elements&lt;/em&gt;, the axiomatization of plane geometry developed around 300 BCE in classical Greece. All of the truths or
+theorems of plane geometry can be derived from the 5 fundamental assumptions or axioms of Euclid’s system. Many have
+attempted to axiomatize other areas of knowledge, including many of the sciences and many areas of mathematics. For
+example, &lt;a href=&quot;https://en.wikipedia.org/wiki/Arithmetices_principia,_nova_methodo_exposita&quot;&gt;Giuseppe Peano successfully axiomatized arithmetic in 1889&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;:::tip&lt;/p&gt;
+&lt;p&gt;Most of the theorems appearing in the Elements were not discovered by Euclid himself, but were the work of earlier Greek
+mathematicians such as &lt;a href=&quot;https://en.wikipedia.org/wiki/Pythagoras&quot;&gt;Pythagoras&lt;/a&gt; (and his school), &lt;a href=&quot;https://en.wikipedia.org/wiki/Hippocrates_of_Chios&quot;&gt;Hippocrates of Chios&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Theaetetus_(mathematician)&quot;&gt;Theaetetus of Athens&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Eudoxus_of_Cnidus&quot;&gt;Eudoxus of Cnidos&lt;/a&gt;.
+However, Euclid is generally credited with arranging these theorems in a logical manner&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;(To be continued...)&lt;/p&gt;
 &lt;p&gt;[^1]: &amp;lt;span class=&quot;chinese-text&quot;&amp;gt;&lt;a href=&quot;https://book.douban.com/subject/34793268/&quot;&gt;王阳明全集，辽海出版社&lt;/a&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content:encoded></item><item><title>Machine Learning</title><link>https://leadership.qubitpi.org/posts/machine-learning/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/machine-learning/</guid><description>Machine Learning is to me is the transcendentalization of my combined passion toward Software Engineering and Data
