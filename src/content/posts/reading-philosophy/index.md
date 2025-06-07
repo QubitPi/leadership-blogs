@@ -146,6 +146,13 @@ example, [Giuseppe Peano successfully axiomatized arithmetic in 1889](https://en
 
 :::tip[Euclid's Elements]
 
+1. <span class="greek-text">᾿Ηιτήσθω ἀπὸ παντὸς σημείου ἐπὶ πᾶν σημεῖον εὐθεῖαν γραμμὴν ἀγαγεῖν.</span>
+2. <span class="greek-text">Καὶ πεπερασμένην εὐθεῖαν κατὰ τὸ συνεχὲς ἐπ᾿ εὐθείας ἐκβαλεῖν.</span>
+3. <span class="greek-text">Καὶ παντὶ κέντρῳ καὶ διαστήματι κύκλον γράφεσθαι.</span>
+4. <span class="greek-text">Καὶ πάσας τὰς ὀρθὰς γωνίας ἴσας ἀλλήλαις εἶναι.</span>
+5. <span class="greek-text">Καὶ ἐὰν εἰς δύο εὐθείας εὐθεῖα ἐμπίπτουσα τὰς ἐντὸς καὶ ἐπὶ τὰ αὐτὰ μέρη γωνίας δύο ὀρθῶν
+   ἐλάσσονας ποιῇ, ἐκβαλλομένας τὰς δύο εὐθείας ἐπ᾿ ἄπειρον συμπίπτειν, ἐφ᾿ ἃ μέρη εἰσὶν αἱ τῶν δύο ὀρθῶν ἐλάσσονες.</span>
+
 Most of the theorems appearing in the Elements were not discovered by Euclid himself, but were the work of earlier Greek
 mathematicians such as [Pythagoras](https://en.wikipedia.org/wiki/Pythagoras) (and his school),
 [Hippocrates of Chios](https://en.wikipedia.org/wiki/Hippocrates_of_Chios),
