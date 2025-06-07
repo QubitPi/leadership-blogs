@@ -227,6 +227,13 @@ arranging these theorems in a logical manner.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;http://users.ntua.gr/dimour/euclid/&quot;&gt;Euclid&apos;s Elements, Home Page. The original Greek text, Books 13&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;Studying deductive logic by learning to symbolize natural language sentences (such as English sentences) in a formal
+language, one becomes more aware and more appreciative of the importance of the structure and complexities of natural
+languages. The specific words that we use have a direct bearing on whether a piece of reasoning is valid or invalid. For
+example, it is essential to distinguish between &quot;Roberta will pass if she completes all the homework&quot; and &quot;Roberta will
+pass only if she completes all the homework&quot; if we want to reason well about Roberta&apos;s prospects for passing. Finally,
+the concepts that we explore here are abstract concepts. Learning to think about abstract concepts and the relations
+between them is an important skill that is useful in a wide range of theoretical and applied disciplines.&lt;/p&gt;
 &lt;p&gt;(To be continued...)&lt;/p&gt;
 &lt;p&gt;[^1]: &amp;lt;span class=&quot;chinese-text&quot;&amp;gt;&lt;a href=&quot;https://book.douban.com/subject/34793268/&quot;&gt;王阳明全集，辽海出版社&lt;/a&gt;&amp;lt;/span&amp;gt;
 [^2]: Bergmann, Merrie, James Moor, and Jack Nelson. &lt;a href=&quot;http://files.farka.eu/pub/The%20Logic%20Book,%206E%20%5BPDF%5D%20%5BStormRG%5D/The%20Logic%20Book,%20Sixth%20Edition%20-%20Merrie%20Bergmann.pdf&quot;&gt;&lt;em&gt;The Logic Book&lt;/em&gt;&lt;/a&gt;. 6th ed. New York, NY: McGraw-Hill, 2008. ISBN: 978-0-07-803841-9.
