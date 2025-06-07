@@ -1,7 +1,7 @@
 ---
 title: Why is Philosophy so Pretentious?
 published: 2025-05-29
-updated: 2025-06-01
+updated: 2025-06-07
 description: |
   People who are interested in Philosophy but not a Philosophy major doesn't like the overly complicated style of
   writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
@@ -33,6 +33,8 @@ Philosophy ('love of wisdom' in Ancient Greek) is a systematic study of general 
 topics like existence, reason, knowledge, value, mind, and language. It is a rational and critical inquiry that reflects
 on its methods and assumptions. Philosophical questions can be grouped into several branches.
 [Metaphysics](#metaphysics), [Epistemology](#epistemology), logic, and ethics are sometimes listed as the main branches.
+
+<iframe width="100%" height="468" src="https://www.youtube.com/embed/1A_CAkYt3GY" title="What is Philosophy?: Crash Course Philosophy #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Epistemology
 ------------
@@ -130,6 +132,16 @@ Wang Yangming (<span class="chinese-text">王阳明</span> )'s thought has been 
 - <span class="chinese-text">“理”全在心“心”，“理”化生宇宙天地万物</span> [^1]
 
 :::
+
+Logic
+-----
+
+### Deductive Logic
+
+Over the centuries, a variety of systems of deductive logic have been developed. One of the oldest is _Euclid's
+Elements_, the axiomatization of plane geometry developed around 300 BCE in classical Greece.
+
+
 
 (To be continued...)
 
