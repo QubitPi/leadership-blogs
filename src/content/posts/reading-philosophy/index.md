@@ -147,8 +147,16 @@ example, [Giuseppe Peano successfully axiomatized arithmetic in 1889](https://en
 :::tip
 
 Most of the theorems appearing in the Elements were not discovered by Euclid himself, but were the work of earlier Greek
-mathematicians such as [Pythagoras](https://en.wikipedia.org/wiki/Pythagoras) (and his school), [Hippocrates of Chios](https://en.wikipedia.org/wiki/Hippocrates_of_Chios), [Theaetetus of Athens](https://en.wikipedia.org/wiki/Theaetetus_(mathematician)), and [Eudoxus of Cnidos](https://en.wikipedia.org/wiki/Eudoxus_of_Cnidus).
-However, Euclid is generally credited with arranging these theorems in a logical manner
+mathematicians such as [Pythagoras](https://en.wikipedia.org/wiki/Pythagoras) (and his school),
+[Hippocrates of Chios](https://en.wikipedia.org/wiki/Hippocrates_of_Chios),
+[Theaetetus of Athens](https://en.wikipedia.org/wiki/Theaetetus_(mathematician)), and
+[Eudoxus of Cnidos](https://en.wikipedia.org/wiki/Eudoxus_of_Cnidus). However, Euclid is generally credited with
+arranging these theorems in a logical manner.
+
+The original Ancient Greek text of Euclid's Elements can be found at:
+
+- [The University of Texas at Austin offers a PDF of Richard Fitzpatrick's version](https://farside.ph.utexas.edu/Books/Euclid/Elements.pdf)
+- [Euclid's Elements, Home Page. The original Greek text, Books 13](http://users.ntua.gr/dimour/euclid/)
 
 :::
 
