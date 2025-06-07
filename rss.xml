@@ -201,7 +201,7 @@ considered &quot;real&quot;.&lt;/p&gt;
 &lt;h3&gt;Deductive Logic [^2]&lt;/h3&gt;
 &lt;p&gt;Over the centuries, a variety of systems of deductive logic have been developed. One of the oldest is
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Euclid%27s_Elements&quot;&gt;&lt;em&gt;Euclid&apos;s Elements&lt;/em&gt;&lt;/a&gt;, the axiomatization of plane geometry developed
-around 300 BCE in classical Greece. All of the truths or theorems of plane geometry can be derived from the five
+around 300 BCE in classical Greece. All of the truths or theorems of plane geometry can be derived from the &lt;em&gt;five&lt;/em&gt;
 fundamental assumptions or axioms of Euclid&apos;s system. Many have attempted to axiomatize other areas of knowledge,
 including many of the sciences and many areas of mathematics. For example,
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Arithmetices_principia,_nova_methodo_exposita&quot;&gt;Giuseppe Peano successfully axiomatized arithmetic in 1889&lt;/a&gt;.&lt;/p&gt;
@@ -229,7 +229,7 @@ arranging these theorems in a logical manner.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;(To be continued...)&lt;/p&gt;
 &lt;p&gt;[^1]: &amp;lt;span class=&quot;chinese-text&quot;&amp;gt;&lt;a href=&quot;https://book.douban.com/subject/34793268/&quot;&gt;王阳明全集，辽海出版社&lt;/a&gt;&amp;lt;/span&amp;gt;
-[^2]: Bergmann, Merrie, James Moor, and Jack Nelson. &lt;a href=&quot;http://files.farka.eu/pub/The%20Logic%20Book,%206E%20%5BPDF%5D%20%5BStormRG%5D/The%20Logic%20Book,%20Sixth%20Edition%20-%20Merrie%20Bergmann.pdf&quot;&gt;&lt;em&gt;The Logic Book&lt;/em&gt;&lt;/a&gt;. 6th ed. New York, NY: McGraw-Hill, 2008. ISBN: 9780073535630.
+[^2]: Bergmann, Merrie, James Moor, and Jack Nelson. &lt;a href=&quot;http://files.farka.eu/pub/The%20Logic%20Book,%206E%20%5BPDF%5D%20%5BStormRG%5D/The%20Logic%20Book,%20Sixth%20Edition%20-%20Merrie%20Bergmann.pdf&quot;&gt;&lt;em&gt;The Logic Book&lt;/em&gt;&lt;/a&gt;. 6th ed. New York, NY: McGraw-Hill, 2008. ISBN: 978-0-07-803841-9.
 [^3]: &lt;a href=&quot;https://farside.ph.utexas.edu/Books/Euclid/Elements.pdf&quot;&gt;The University of Texas at Austin offers a PDF of Richard Fitzpatrick&apos;s version&lt;/a&gt;&lt;/p&gt;
 </content:encoded></item><item><title>Machine Learning</title><link>https://leadership.qubitpi.org/posts/machine-learning/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/machine-learning/</guid><description>Machine Learning is to me is the transcendentalization of my combined passion toward Software Engineering and Data
 Analytics. While Artificial Intelligence (AI) is a broad field encompassing the creation of machines that can perform
