@@ -139,9 +139,18 @@ Logic
 ### Deductive Logic
 
 Over the centuries, a variety of systems of deductive logic have been developed. One of the oldest is _Euclid's
-Elements_, the axiomatization of plane geometry developed around 300 BCE in classical Greece.
+Elements_, the axiomatization of plane geometry developed around 300 BCE in classical Greece. All of the truths or
+theorems of plane geometry can be derived from the 5 fundamental assumptions or axioms of Euclid’s system. Many have
+attempted to axiomatize other areas of knowledge, including many of the sciences and many areas of mathematics. For
+example, [Giuseppe Peano successfully axiomatized arithmetic in 1889](https://en.wikipedia.org/wiki/Arithmetices_principia,_nova_methodo_exposita).
 
+:::tip
 
+Most of the theorems appearing in the Elements were not discovered by Euclid himself, but were the work of earlier Greek
+mathematicians such as [Pythagoras](https://en.wikipedia.org/wiki/Pythagoras) (and his school), [Hippocrates of Chios](https://en.wikipedia.org/wiki/Hippocrates_of_Chios), [Theaetetus of Athens](https://en.wikipedia.org/wiki/Theaetetus_(mathematician)), and [Eudoxus of Cnidos](https://en.wikipedia.org/wiki/Eudoxus_of_Cnidus).
+However, Euclid is generally credited with arranging these theorems in a logical manner
+
+:::
 
 (To be continued...)
 
