@@ -90,6 +90,8 @@ for the world.
 Connect to Compassionate Nature
 -------------------------------
 
+![](./book-cover.png)
+
 The language, according to Marshall, plays the key role to help people stay connected to their compassionate nature.
 This is a language technique called NVC (nonviolent communication). 4 Components of NVC are
 
