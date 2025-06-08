@@ -203,6 +203,7 @@ imagine those as three 2d-matrices stacked over each other (one for each color),
 to 255. A &lt;a href=&quot;https://en.wikipedia.org/wiki/Grayscale&quot;&gt;grayscale&lt;/a&gt; image, on the other hand, has just one channel. We will
 only consider grayscale images, so we will have a single 2d matrix representing an image. The value of each pixel in the
 matrix will range from 0 to 255 - zero indicating black and 255 indicating white.&lt;/p&gt;
+&lt;h3&gt;The Convolution Step&lt;/h3&gt;
 &lt;p&gt;(to be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
