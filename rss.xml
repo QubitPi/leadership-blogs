@@ -149,7 +149,8 @@ types of neurons, each with different properties. The dendrites in biological ne
 computations. The synapses are not just a single weight, they are a complex non-linear dynamical system. The exact
 timing of the output spikes in many systems is known to be important, suggesting that the rate code approximation may
 not hold. Due to all these and many other simplifications, be prepared to hear groaning sounds from anyone with some
-neuroscience background if we draw analogies between Neural Networks and real brains. See this review (pdf), or more recently this review if you are interested.&lt;/p&gt;
+neuroscience background if we draw analogies between Neural Networks and real brains. See this
+&lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0959438814000130&quot;&gt;review&lt;/a&gt; if people are interested.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h2&gt;Neural Network Architectures&lt;/h2&gt;
 &lt;h3&gt;Layer-Wise Organization - Neural Networks as Neurons in Graphs&lt;/h3&gt;
