@@ -212,6 +212,7 @@ the mathematical details of Convolution here, but will try to understand how it 
 values are only 0 and 1 (note that for a grayscale image, pixel values range from 0 to 255, the green matrix below is a
 special case where pixel values are only 0 and 1):&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./5by5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Also, consider another 3 x 3 matrix as shown below:&lt;/p&gt;
 &lt;p&gt;(to be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
