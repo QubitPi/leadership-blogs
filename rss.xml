@@ -113,7 +113,8 @@ prerequisite.
 but has since diverged and become a matter of engineering and achieving good results in Machine Learning tasks.
 Therefore, the Neural Networks and AI in general is essentially the discipline of Machine Learning&lt;/p&gt;
 &lt;h2&gt;Biological Motivation and Connections&lt;/h2&gt;
-&lt;p&gt;Historically, digital computers such as the von Neumann model operate via the execution of explicit instructions with access to memory by a number of processors. Some neural networks, on the other hand, originated from efforts to model information processing in biological systems through the framework of connectionism. Unlike the von Neumann model, connectionist computing does not separate memory and processing.&lt;/p&gt;
+&lt;p&gt;Historically, digital computers such as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Von_Neumann_model&quot;&gt;von Neumann model&lt;/a&gt; operate
+via the execution of explicit instructions with access to memory by a number of processors. Some neural networks, on the other hand, originated from efforts to model information processing in biological systems through the framework of connectionism. Unlike the von Neumann model, connectionist computing does not separate memory and processing.&lt;/p&gt;
 &lt;p&gt;The basic computational unit of the brain is a &lt;strong&gt;neuron&lt;/strong&gt;. Approximately 86 billion neurons can be found in the human
 nervous system and they are connected with approximately $10^{14}$ - $10^{15}$ synapses. The diagram below shows a
 cartoon drawing of a biological neuron (left) and a common mathematical model (right).&lt;/p&gt;
