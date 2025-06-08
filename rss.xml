@@ -219,7 +219,10 @@ special case where pixel values are only 0 and 1):&lt;/p&gt;
 &lt;p&gt;We slide the orange matrix over our original image (green) by 1 pixel (also called &lt;strong&gt;stride&lt;/strong&gt;) and for every position,
 we compute element wise multiplication (between the two matrices) and add the multiplication outputs to get the final
 integer which forms a single element of the output matrix (pink). Note that the 3×3 matrix sees only a part of the input
-image in each stride.&lt;/p&gt;
+image in each stride. In CNN terminology, the 3×3 matrix is called a &lt;strong&gt;filter&lt;/strong&gt; or &lt;strong&gt;kernel&lt;/strong&gt; or &lt;strong&gt;feature detector&lt;/strong&gt;
+and the matrix formed by sliding the filter over the image and computing the dot product is called the &lt;strong&gt;Convolved
+Feature&lt;/strong&gt; or &lt;strong&gt;Activation Map&lt;/strong&gt; or the &lt;strong&gt;Feature Map&lt;/strong&gt;. It is important to note that filters acts as feature detectors
+from the original input image.&lt;/p&gt;
 &lt;p&gt;(to be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
