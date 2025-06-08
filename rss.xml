@@ -136,7 +136,7 @@ firing the signal&lt;/p&gt;
 &lt;li&gt;Any mental state can be described as a $n$-dimensional vector of numeric activation values over neural units in a
 network.&lt;/li&gt;
 &lt;li&gt;Memory and learning are created by modifying the &apos;weights&apos; of the connections between neural units, generally
-represented as an $(n \time m)$ matrix. The weights are adjusted according to some learning rule or algorithm&lt;/li&gt;
+represented as an $(n \times m)$ matrix. The weights are adjusted according to some learning rule or algorithm&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
