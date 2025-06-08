@@ -208,6 +208,9 @@ matrix will range from 0 to 255 - zero indicating black and 255 indicating white
 purpose of convolution in case of a ConvNet is to extract features from the input image. Convolution preserves the
 spatial relationship between pixels by learning image features using small squares of input data. We will not go into
 the mathematical details of Convolution here, but will try to understand how it works over images.&lt;/p&gt;
+&lt;p&gt;As we discussed above, every image can be considered as a matrix of pixel values. Consider a 5 x 5 image whose pixel
+values are only 0 and 1 (note that for a grayscale image, pixel values range from 0 to 255, the green matrix below is a
+special case where pixel values are only 0 and 1):&lt;/p&gt;
 &lt;p&gt;(to be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
