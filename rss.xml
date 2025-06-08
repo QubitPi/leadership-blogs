@@ -223,6 +223,8 @@ image in each stride. In CNN terminology, the 3×3 matrix is called a &lt;strong
 and the matrix formed by sliding the filter over the image and computing the dot product is called the &lt;strong&gt;Convolved
 Feature&lt;/strong&gt; or &lt;strong&gt;Activation Map&lt;/strong&gt; or the &lt;strong&gt;Feature Map&lt;/strong&gt;. It is important to note that filters acts as feature detectors
 from the original input image.&lt;/p&gt;
+&lt;p&gt;It is evident from the animation above that different values of the filter matrix will produce different Feature Maps
+for the same input image. As an example, consider the following input image:&lt;/p&gt;
 &lt;p&gt;(to be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
