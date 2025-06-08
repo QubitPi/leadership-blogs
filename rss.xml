@@ -182,7 +182,10 @@ neuroscience background if we draw analogies between Neural Networks and real br
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h2&gt;Neural Network Architectures&lt;/h2&gt;
 &lt;h3&gt;Layer-Wise Organization - Neural Networks as Neurons in Graphs&lt;/h3&gt;
-&lt;p&gt;Neural Networks are modeled as collections of neurons that are connected in an acyclic graph.&lt;/p&gt;
+&lt;p&gt;Neural Networks are modeled as collections of neurons that are connected in an acyclic graph. In other words, the
+outputs of some neurons can become inputs to other neurons. Cycles are not allowed since that would imply an infinite
+loop in the forward pass of a network. Instead of an amorphous blobs of connected neurons, Neural Network models are
+often organized into distinct layers of neurons.&lt;/p&gt;
 &lt;p&gt;(to be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
