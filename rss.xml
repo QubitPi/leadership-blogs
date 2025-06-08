@@ -118,14 +118,15 @@ via the execution of explicit instructions with access to memory by a number of 
 other hand, originated from efforts to model information processing in biological systems through the framework of
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Connectionism&quot;&gt;connectionism&lt;/a&gt;. Unlike the von Neumann model, connectionist computing does
 not separate memory and processing.&lt;/p&gt;
-&lt;p&gt;:::tip[&lt;a href=&quot;https://en.wikipedia.org/wiki/Connectionism&quot;&gt;Basic Principles of Connectionism&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;:::tip[Basic Principles of Connectionism]&lt;/p&gt;
 &lt;p&gt;The central connectionist principle is that mental phenomena can be described by interconnected networks of simple and
 often uniform units. The form of the connections and the units can vary from model to model. For example, units in the
 network could represent neurons and the connections could represent synapses, as in the human brain.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Activation function&lt;/strong&gt;: Internal states of any network change over time due to neurons sending a signal to a
 succeeding layer of neurons in the case of a feedforward network, or to a previous layer in the case of a recurrent
-network.&lt;/li&gt;
+network. &lt;em&gt;The activation function defines under what circumstances will a neuron send a signal outward to other
+neurons&lt;/em&gt;. This can be a function of probability whose&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;The basic computational unit of the brain is a &lt;strong&gt;neuron&lt;/strong&gt;. Approximately 86 billion neurons can be found in the human
