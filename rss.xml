@@ -215,6 +215,7 @@ special case where pixel values are only 0 and 1):&lt;/p&gt;
 &lt;p&gt;Also, consider another 3 x 3 matrix as shown below:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./3by3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Then, the Convolution of the 5 x 5 image and the 3 x 3 matrix can be computed as shown in the animation below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./convolution.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;(to be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
