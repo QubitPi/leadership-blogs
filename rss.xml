@@ -127,6 +127,7 @@ network could represent neurons and the connections could represent synapses, as
 succeeding layer of neurons in the case of a feedforward network, or to a previous layer in the case of a recurrent
 network. &lt;em&gt;The activation function defines under what circumstances will a neuron send a signal outward to other
 neurons&lt;/em&gt;. This can be a function of probability whose range describes the probability of the neuron firing the signal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory and learning&lt;/strong&gt;:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;The basic computational unit of the brain is a &lt;strong&gt;neuron&lt;/strong&gt;. Approximately 86 billion neurons can be found in the human
