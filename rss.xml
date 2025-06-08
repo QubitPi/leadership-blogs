@@ -133,6 +133,8 @@ firing the signal&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Memory and learning&lt;/strong&gt;: Neural networks follow two basic principles:&lt;/p&gt;
 &lt;ol&gt;
+&lt;li&gt;Any mental state can be described as a $n$-dimensional vector of numeric activation values over neural units in a
+network.&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
