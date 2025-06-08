@@ -119,7 +119,9 @@ other hand, originated from efforts to model information processing in biologica
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Connectionism&quot;&gt;connectionism&lt;/a&gt;. Unlike the von Neumann model, connectionist computing does
 not separate memory and processing.&lt;/p&gt;
 &lt;p&gt;:::tip[&lt;a href=&quot;https://en.wikipedia.org/wiki/Connectionism&quot;&gt;Basic Principles of Connectionism&lt;/a&gt;]&lt;/p&gt;
-&lt;p&gt;The central connectionist principle is that mental phenomena can be described by interconnected networks of simple and often uniform units. The form of the connections and the units can vary from model to model. For example, units in the network could represent neurons and the connections could represent synapses, as in the human brain. This principle has been seen as an alternative to GOFAI and the classical theories of mind based on symbolic computation, but the extent to which the two approaches are compatible has been the subject of much debate since their inception&lt;/p&gt;
+&lt;p&gt;The central connectionist principle is that mental phenomena can be described by interconnected networks of simple and
+often uniform units. The form of the connections and the units can vary from model to model. For example, units in the
+network could represent neurons and the connections could represent synapses, as in the human brain. This principle has been seen as an alternative to GOFAI and the classical theories of mind based on symbolic computation, but the extent to which the two approaches are compatible has been the subject of much debate since their inception&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;The basic computational unit of the brain is a &lt;strong&gt;neuron&lt;/strong&gt;. Approximately 86 billion neurons can be found in the human
 nervous system and they are connected with approximately $10^{14}$ - $10^{15}$ synapses. The diagram below shows a
