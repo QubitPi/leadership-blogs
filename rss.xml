@@ -123,18 +123,11 @@ not separate memory and processing.&lt;/p&gt;
 often uniform units. The form of the connections and the units can vary from model to model. For example, units in the
 network could represent neurons and the connections could represent synapses, as in the human brain.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Activation function&lt;/strong&gt;: Internal states of any network change over time due to neurons sending a signal to a
+&lt;li&gt;&lt;strong&gt;Activation function&lt;/strong&gt;: Internal states of any network change over time due to neurons sending a signal to a
 succeeding layer of neurons in the case of a feedforward network, or to a previous layer in the case of a recurrent
 network. &lt;em&gt;The activation function defines under what circumstances will a neuron send a signal outward to other
-neurons&lt;/em&gt;. This can be a function of probability whose range describes the probability of the neuron firing the signal&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Memory and learning&lt;/strong&gt;: Neural networks follow two basic principles:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
+neurons&lt;/em&gt;. This can be a function of probability whose range describes the probability of the neuron firing the signal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory and learning&lt;/strong&gt;:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;The basic computational unit of the brain is a &lt;strong&gt;neuron&lt;/strong&gt;. Approximately 86 billion neurons can be found in the human
