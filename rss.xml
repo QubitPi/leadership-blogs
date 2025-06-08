@@ -143,7 +143,7 @@ non-linearity (or activation function), in this case the sigmoid&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
 &lt;p&gt;\sigma(x) = \frac{1}{1 + e^{-x}}&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
-&lt;p&gt;:::caution[Coarse model]&lt;/p&gt;
+&lt;p&gt;:::warning[Coarse model]&lt;/p&gt;
 &lt;p&gt;It&apos;s important to stress that this model of a biological neuron is very coarse. For example, there are many different
 types of neurons, each with different properties. The dendrites in biological neurons perform complex nonlinear
 computations. The synapses are not just a single weight, they are a complex non-linear dynamical system. The exact
