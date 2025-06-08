@@ -197,7 +197,10 @@ everyday objects, humans and animals. Lately, &lt;em&gt;ConvNets have been effec
 &lt;h3&gt;An Image is a Matrix of Pixel Values&lt;/h3&gt;
 &lt;p&gt;Essentially, every image can be represented as a matrix of pixel values.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./image-matrix.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Channel is a conventional term used to refer to a certain component of an image. An image from a standard digital camera will have three channels – red, green and blue – you can imagine those as three 2d-matrices stacked over each other (one for each color), each having pixel values in the range 0 to 255.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Channel_(digital_image)&quot;&gt;Channel&lt;/a&gt; is a conventional term used to refer to a certain
+component of an image. An image from a standard digital camera will have three channels - red, green and blue - we can
+imagine those as three 2d-matrices stacked over each other (one for each color), each having pixel values in the range 0
+to 255.&lt;/p&gt;
 &lt;p&gt;(to be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
