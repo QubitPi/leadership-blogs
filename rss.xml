@@ -202,7 +202,11 @@ paper titled
 published in 2009.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h3&gt;Nonrepresentative Training Data&lt;/h3&gt;
-&lt;p&gt;In order to generalize well, it is crucial that our training data be representative of the new cases we want to generalize to. This is true whether we use instance-based learning or model-based learning and is often harder than it sounds: if the sample is too small, we will have &lt;strong&gt;sampling noise&lt;/strong&gt; (i.e., non-representative data as a result of chance), but even very large samples can be non-representative if the sampling method is flawed. This is called &lt;strong&gt;sampling bias&lt;/strong&gt;. The Jupyter notebook below gives us an example:&lt;/p&gt;
+&lt;p&gt;In order to generalize well, it is crucial that our training data be representative of the new cases we want to
+generalize to. This is true whether we use instance-based learning or model-based learning and is often harder than it
+sounds: if the sample is too small, we will have &lt;strong&gt;sampling noise&lt;/strong&gt; (i.e., non-representative data as a result of
+chance), but even very large samples can be non-representative if the sampling method is flawed. This is called
+&lt;strong&gt;sampling bias&lt;/strong&gt;. The Jupyter notebook below gives us an example:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://colab.research.google.com/github/QubitPi/handson-ml3/blob/main/01_the_machine_learning_landscape.ipynb%22&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/Open%20in%20Colab-968dd8?style=for-the-badge&amp;amp;logo=googlecolab&amp;amp;logoColor=white&amp;amp;labelColor=2e2e59&quot; alt=&quot;badge&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Overfitting the Training Data&lt;/h3&gt;
 &lt;p&gt;Say we are visiting a foreign country and the taxi driver rips us off. We might be tempted to say that &lt;em&gt;all&lt;/em&gt; taxi
