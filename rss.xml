@@ -195,7 +195,6 @@ everyday objects, humans and animals. Lately,
 &lt;a href=&quot;#convolutional-neural-networks-for-nlp&quot;&gt;ConvNets have been effective in several Natural Language Processing tasks&lt;/a&gt;
 (such as sentence classification) as well.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;img/cnn-example-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h3&gt;An Image is a Matrix of Pixel Values&lt;/h3&gt;
 &lt;p&gt;Essentially, every image can be represented as a matrix of pixel values.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;img/image-matrix.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Channel_(digital_image)&quot;&gt;Channel&lt;/a&gt; is a conventional term used to refer to a certain
@@ -204,7 +203,7 @@ imagine those as three 2d-matrices stacked over each other (one for each color),
 to 255. A &lt;a href=&quot;https://en.wikipedia.org/wiki/Grayscale&quot;&gt;grayscale&lt;/a&gt; image, on the other hand, has just one channel. We will
 only consider grayscale images, so we will have a single 2d matrix representing an image. The value of each pixel in the
 matrix will range from 0 to 255 - zero indicating black and 255 indicating white.&lt;/p&gt;
-&lt;h3&gt;The Convolution Step&lt;/h3&gt;
+&lt;h3&gt;Convolution Step&lt;/h3&gt;
 &lt;p&gt;ConvNets derive their name from the &lt;a href=&quot;http://en.wikipedia.org/wiki/Convolution&quot;&gt;&quot;convolution&quot; operator&lt;/a&gt;. The primary
 purpose of convolution in case of a ConvNet is to extract features from the input image. Convolution preserves the
 spatial relationship between pixels by learning image features using small squares of input data. We will not go into
@@ -220,7 +219,7 @@ special case where pixel values are only 0 and 1):&lt;/p&gt;
 &lt;p&gt;We slide the orange matrix over our original image (green) by 1 pixel (also called &lt;strong&gt;stride&lt;/strong&gt;) and for every position,
 we compute element wise multiplication (between the two matrices) and add the multiplication outputs to get the final
 integer which forms a single element of the output matrix (pink). Note that the 3×3 matrix sees only a part of the input
-image in each stride. In CNN terminology, the 3×3 matrix is called a &lt;strong&gt;filter&lt;/strong&gt; or _&lt;a href=&quot;https://en.wikipedia.org/wiki/Kernel_(image_processing)&quot;&gt;&lt;em&gt;kernel&lt;/em&gt;_&lt;/a&gt; or &lt;strong&gt;feature detector&lt;/strong&gt;
+image in each stride. In CNN terminology, the 3×3 matrix is called a &lt;strong&gt;filter&lt;/strong&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/Kernel_(image_processing)&quot;&gt;&lt;strong&gt;kernel&lt;/strong&gt;&lt;/a&gt; or &lt;strong&gt;feature detector&lt;/strong&gt;
 and the matrix formed by sliding the filter over the image and computing the dot product is called the &lt;strong&gt;Convolved
 Feature&lt;/strong&gt; or &lt;strong&gt;Activation Map&lt;/strong&gt; or the &lt;strong&gt;Feature Map&lt;/strong&gt;. It is important to note that filters acts as feature detectors
 from the original input image.&lt;/p&gt;
@@ -246,7 +245,7 @@ to control the size of the feature maps. Adding zero-padding is also called &lt;
 zero-padding would be a &lt;em&gt;narrow convolution&lt;/em&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;The Pooling Step&lt;/h3&gt;
+&lt;h3&gt;Pooling Step&lt;/h3&gt;
 &lt;p&gt;Spatial Pooling (also called subsampling or downsampling) reduces the dimensionality of each feature map but retains the most important information. Spatial Pooling can be of different types: Max, Average, Sum etc.&lt;/p&gt;
 &lt;p&gt;In case of Max Pooling, we define a spatial neighborhood (for example, a 2×2 window) and take the largest element from the rectified feature map within that window. Instead of taking the largest element we could also take the average (Average Pooling) or sum of all elements in that window. In practice, Max Pooling has been shown to work better.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./img/pooling.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
@@ -258,6 +257,8 @@ zero-padding would be a &lt;em&gt;narrow convolution&lt;/em&gt;.&lt;/p&gt;
 &lt;li&gt;helps us arrive at an almost scale invariant representation of our image. This is very powerful since we can detect
 objects in an image no matter where they are located&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3&gt;Architecture&lt;/h3&gt;
+&lt;p&gt;A convolutional neural network consists of an input layer, hidden layers and an output layer. In a convolutional neural network, the hidden layers include one or more layers that perform &lt;a href=&quot;#convolution-step&quot;&gt;convolutions&lt;/a&gt;. This is followed by other layers such as &lt;a href=&quot;#pooling-step&quot;&gt;pooling&lt;/a&gt; layers, fully connected layers, and normalization layers&lt;/p&gt;
 &lt;h3&gt;Convolutional Neural Networks for NLP&lt;/h3&gt;
 &lt;p&gt;(to be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>沟通的艺术</title><link>https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</guid><description>和女朋友吵了一架，和好之后自己总结反思了一下这件事情，我发现，无论是男方还是女方，
