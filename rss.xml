@@ -210,7 +210,9 @@ chance), but even very large samples can be non-representative if the sampling m
 &lt;h3&gt;Overfitting the Training Data&lt;/h3&gt;
 &lt;p&gt;Say we are visiting a foreign country and the taxi driver rips us off. We might be tempted to say that &lt;em&gt;all&lt;/em&gt; taxi
 drivers in that country are thieves. Overgeneralizing is something that we humans do all too often, and unfortunately
-machines can fall into the same trap if we are not careful. In machine learning this is called &lt;strong&gt;overfitting&lt;/strong&gt;: it means that the model performs well on the training data, but it does not generalize well. See an accompanying Jupyter notebook example that illustrate such phenomenon and its possible solutions &lt;a href=&quot;https://colab.research.google.com/github/QubitPi/handson-ml3/blob/master/01_the_machine_learning_landscape.ipynb%22&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/Open%20in%20Colab-968dd8?style=for-the-badge&amp;amp;logo=googlecolab&amp;amp;logoColor=white&amp;amp;labelColor=2e2e59&quot; alt=&quot;badge&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+machines can fall into the same trap if we are not careful. In machine learning this is called &lt;strong&gt;overfitting&lt;/strong&gt;: it means
+that the model performs well on the training data, but it does not generalize well. See an accompanying Jupyter notebook
+example that illustrate such phenomenon and its possible solutions &lt;a href=&quot;https://colab.research.google.com/github/QubitPi/handson-ml3/blob/master/01_the_machine_learning_landscape.ipynb%22&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/Open%20in%20Colab-968dd8?style=for-the-badge&amp;amp;logo=googlecolab&amp;amp;logoColor=white&amp;amp;labelColor=2e2e59&quot; alt=&quot;badge&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Underfitting the Training Data&lt;/h3&gt;
 &lt;p&gt;Underfitting is the opposite of overfitting: it occurs when our model is too simple to learn the underlying structure of
 the data. For example, a linear model of life satisfaction is prone to underfit; reality is just more complex than the
