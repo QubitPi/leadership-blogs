@@ -275,6 +275,7 @@ together. The resulting one-dimensional vector will have a size equal to the pro
 example, a $5 \times 5 \times 2$ tensor has the flattened vector with size of $5 \times 5 \times 2 = 50$, which is the
 number of neurons of the FCN input layers.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./img/cnn-architecture.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h3&gt;Convolutional Neural Networks for NLP&lt;/h3&gt;
 </content:encoded></item><item><title>沟通的艺术</title><link>https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</guid><description>和女朋友吵了一架，和好之后自己总结反思了一下这件事情，我发现，无论是男方还是女方，
 无论身处何处，何种人际关系，卓越的沟通能力是避免一切事与愿违结局的基本条件，因此我写下了这篇持续更新的文章 - 
