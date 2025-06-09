@@ -197,7 +197,7 @@ everyday objects, humans and animals. Lately,
 &lt;p&gt;&lt;img src=&quot;img/cnn-example-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h3&gt;An Image is a Matrix of Pixel Values&lt;/h3&gt;
 &lt;p&gt;Essentially, every image can be represented as a matrix of pixel values.&lt;/p&gt;
-&lt;p&gt;&amp;lt;img align=&quot;center&quot; src=&quot;img/image-matrix.gif&quot;&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;img align=&quot;center&quot; src=&quot;./img/image-matrix.gif&quot;&amp;gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;img/image-matrix.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Channel_(digital_image)&quot;&gt;Channel&lt;/a&gt; is a conventional term used to refer to a certain
 component of an image. An image from a standard digital camera will have three channels - red, green and blue - we can
