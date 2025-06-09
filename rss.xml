@@ -184,7 +184,7 @@ email.&lt;/p&gt;
 using a similarity measure to compare them to the learned examples (or a subset of them).&lt;/p&gt;
 &lt;h4&gt;Model-Based Learning&lt;/h4&gt;
 &lt;p&gt;Another way to generalize from a set of examples is to build a model of these examples and then use that model to make
-&lt;em&gt;predictions&lt;/em&gt;. This is called &lt;em&gt;model-based learning&lt;/em&gt;: &lt;a href=&quot;https://colab.research.google.com/github/QubitPi/handson-ml3/blob/master/01_the_machine_learning_landscape.ipynb%22&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/Open%20in%20Colab-968dd8?style=for-the-badge&amp;amp;logo=googlecolab&amp;amp;logoColor=white&amp;amp;labelColor=2e2e59&quot; alt=&quot;Google Colab badge&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;em&gt;predictions&lt;/em&gt;. This is called &lt;em&gt;model-based learning&lt;/em&gt;: &lt;a href=&quot;https://colab.research.google.com/github/QubitPi/handson-ml3/blob/master/01_the_machine_learning_landscape.ipynb%22&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/Open%20in%20Colab-968dd8?style=for-the-badge&amp;amp;logo=googlecolab&amp;amp;logoColor=white&amp;amp;labelColor=2e2e59&quot; alt=&quot;Google Colab badge&quot; /&gt;&lt;/a&gt; &amp;lt;span class=&quot;badge&quot;&amp;gt;New&amp;lt;/span&amp;gt;&lt;/p&gt;
 &lt;h2&gt;Main Challenges of Machine Learning&lt;/h2&gt;
 &lt;h3&gt;Insufficient Quantity of Training Data&lt;/h3&gt;
 &lt;p&gt;It takes a lot of data for most machine learning algorithms to work properly. Even for very simple problems we typically
@@ -233,6 +233,11 @@ new cases is called the &lt;strong&gt;generalization error&lt;/strong&gt; (or ou
 we get an estimate of this error. This value tells us how well the model will perform on instances it has never seen
 before. If the training error is low but the generalization error is high, it means that the model is overfitting the
 training data for example.&lt;/p&gt;
+&lt;p&gt;:::tip&lt;/p&gt;
+&lt;p&gt;It is common to use 80% of the data for training and hold out 20% for testing. However, this depends on the size of the
+dataset: if it contains 10 million instances, then holding out 1% means the test set will contain 100,000 instances,
+probably more than enough to get a good estimate of the generalization error.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 </content:encoded></item><item><title>Machine Learning - Neural Networks</title><link>https://leadership.qubitpi.org/posts/neural-networks/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/neural-networks/</guid><description>I was having trouble studying RNN as the starting-point topic of ML and, after descent amount of trouble with
 understanding its concepts, realized that having a solid understanding to it&apos;s roots, i.e. Neural Networks, is a
 prerequisite.
