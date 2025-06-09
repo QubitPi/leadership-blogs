@@ -246,8 +246,11 @@ zero-padding would be a &lt;em&gt;narrow convolution&lt;/em&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3&gt;Pooling Step&lt;/h3&gt;
-&lt;p&gt;Spatial Pooling (also called subsampling or downsampling) reduces the dimensionality of each feature map but retains the most important information. Spatial Pooling can be of different types: Max, Average, Sum etc.&lt;/p&gt;
-&lt;p&gt;In case of Max Pooling, we define a spatial neighborhood (for example, a 2×2 window) and take the largest element from the rectified feature map within that window. Instead of taking the largest element we could also take the average (Average Pooling) or sum of all elements in that window. In practice, Max Pooling has been shown to work better.&lt;/p&gt;
+&lt;p&gt;Spatial Pooling (also called subsampling or downsampling) reduces the dimensionality of each feature map but retains the
+most important information. Spatial Pooling can be of different types: Max, Average, Sum etc.&lt;/p&gt;
+&lt;p&gt;In case of Max Pooling, we define a spatial neighborhood (for example, a 2×2 window) and take the largest element from
+the rectified feature map within that window. Instead of taking the largest element we could also take the average
+(Average Pooling) or sum of all elements in that window. In practice, Max Pooling has been shown to work better.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./img/pooling.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Pooling&lt;/p&gt;
 &lt;ul&gt;
@@ -257,10 +260,10 @@ zero-padding would be a &lt;em&gt;narrow convolution&lt;/em&gt;.&lt;/p&gt;
 &lt;li&gt;helps us arrive at an almost scale invariant representation of our image. This is very powerful since we can detect
 objects in an image no matter where they are located&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3&gt;Fully Connected Layer&lt;/h3&gt;
 &lt;h3&gt;Architecture&lt;/h3&gt;
 &lt;p&gt;A convolutional neural network consists of an input layer, hidden layers and an output layer. In a convolutional neural network, the hidden layers include one or more layers that perform &lt;a href=&quot;#convolution-step&quot;&gt;convolutions&lt;/a&gt;. This is followed by other layers such as &lt;a href=&quot;#pooling-step&quot;&gt;pooling&lt;/a&gt; layers, fully connected layers, and normalization layers&lt;/p&gt;
 &lt;h3&gt;Convolutional Neural Networks for NLP&lt;/h3&gt;
-&lt;p&gt;(to be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>沟通的艺术</title><link>https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</guid><description>和女朋友吵了一架，和好之后自己总结反思了一下这件事情，我发现，无论是男方还是女方，
 无论身处何处，何种人际关系，卓越的沟通能力是避免一切事与愿违结局的基本条件，因此我写下了这篇持续更新的文章 - 
 前车之鉴以忆往昔，后事之师以待来日
