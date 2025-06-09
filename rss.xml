@@ -224,7 +224,7 @@ represented as an $(n \times m)$ matrix. The weights are adjusted according to s
 &lt;p&gt;The basic computational unit of the brain is a &lt;strong&gt;neuron&lt;/strong&gt;. Approximately 86 billion neurons can be found in the human
 nervous system and they are connected with approximately $10^{14}$ - $10^{15}$ synapses. The diagram below shows a
 cartoon drawing of a biological neuron (left) and a common mathematical model (right).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./neuron-model.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;img/neuron-model.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Each neuron receives input signals from its &lt;strong&gt;dendrites&lt;/strong&gt; and produces output signals along its (single) &lt;strong&gt;axon&lt;/strong&gt;. The
 axon eventually branches out and connects via synapses to dendrites of other neurons.&lt;/p&gt;
 &lt;p&gt;In the computational model of a neuron, the signals that travel along the axons (e.g. $x_0$) interact multiplicatively
@@ -268,15 +268,15 @@ often organized into distinct layers of neurons.&lt;/p&gt;
 &lt;p&gt;Convolutional Neural Networks (&lt;strong&gt;ConvNets&lt;/strong&gt; or &lt;strong&gt;CNNs&lt;/strong&gt;) are a category of Neural Networks that have proven very
 effective in areas such as image recognition and classification. ConvNets have been successful in identifying faces,
 objects and traffic signs apart from powering vision in robots and self-driving cars.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./cnn-example-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;img/cnn-example-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;In the figure above, a ConvNet is able to recognize scenes and the system is able to suggest relevant captions (&quot;a
 soccer player is kicking a soccer ball&quot;) while figure below shows an example of ConvNets being used for recognizing
 everyday objects, humans and animals. Lately, &lt;em&gt;ConvNets have been effective in several Natural Language Processing tasks
 (such as sentence classification) as well&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./cnn-example-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;img/cnn-example-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h3&gt;An Image is a Matrix of Pixel Values&lt;/h3&gt;
 &lt;p&gt;Essentially, every image can be represented as a matrix of pixel values.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./image-matrix.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;img/image-matrix.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Channel_(digital_image)&quot;&gt;Channel&lt;/a&gt; is a conventional term used to refer to a certain
 component of an image. An image from a standard digital camera will have three channels - red, green and blue - we can
 imagine those as three 2d-matrices stacked over each other (one for each color), each having pixel values in the range 0
@@ -291,11 +291,11 @@ the mathematical details of Convolution here, but will try to understand how it 
 &lt;p&gt;As we discussed above, every image can be considered as a matrix of pixel values. Consider a 5 x 5 image whose pixel
 values are only 0 and 1 (note that for a grayscale image, pixel values range from 0 to 255, the green matrix below is a
 special case where pixel values are only 0 and 1):&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./5by5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;img/5by5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Also, consider another 3 x 3 matrix as shown below:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./3by3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;img/3by3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Then, the Convolution of the 5 x 5 image and the 3 x 3 matrix can be computed as shown in the animation below:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./convolution.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;img/convolution.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We slide the orange matrix over our original image (green) by 1 pixel (also called &lt;strong&gt;stride&lt;/strong&gt;) and for every position,
 we compute element wise multiplication (between the two matrices) and add the multiplication outputs to get the final
 integer which forms a single element of the output matrix (pink). Note that the 3×3 matrix sees only a part of the input
@@ -305,7 +305,7 @@ Feature&lt;/strong&gt; or &lt;strong&gt;Activation Map&lt;/strong&gt; or the &lt
 from the original input image.&lt;/p&gt;
 &lt;p&gt;It is evident from the animation above that different values of the filter matrix will produce different Feature Maps
 for the same input image. As an example, consider the following input image:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;img/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;(to be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
