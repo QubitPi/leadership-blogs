@@ -106,6 +106,102 @@ efficiencies. Ethical fading, however, is a people problem.&lt;/p&gt;
 a culture in which their people can work toward the short-term goals while also considering the morality, ethics and
 wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 &lt;p&gt;[^1]: Sinek, Simon (2019). &lt;a href=&quot;https://dokumen.pub/the-infinite-game.html&quot;&gt;&lt;em&gt;The Infinite Game&lt;/em&gt;&lt;/a&gt;. Portfolio. ISBN 073521350X.&lt;/p&gt;
+</content:encoded></item><item><title>Machine Learning</title><link>https://leadership.qubitpi.org/posts/machine-learning/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/machine-learning/</guid><description>Machine Learning is to me is the transcendentalization of my combined passion toward Software Engineering and Data
+Analytics. While Artificial Intelligence (AI) is a broad field encompassing the creation of machines that can perform
+tasks that typically require human intelligence, Machine Learning (ML) is a specific subset of AI focused on enabling
+machines to learn from data. Given that distinction, this posts is NOT about AI, but Machine Learning in general.
+</description><pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Approximation Theory&lt;/h2&gt;
+&lt;p&gt;The purpose of studying Approximation Theory is to better understand the
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Universal_approximation_theorem&quot;&gt;Universal Approximation Theorem&lt;/a&gt;, which defines the
+limits (or unbounded potential) of AI and Machine Learning on what Neural Networks can learn to solve real-life
+problems. Approximation Theory is the foundation of Machine Learning and its usefulness is brought to life by the
+advancement of contemporary computing power. For example, Approximation Theory says an approximated function exists by
+Math theorem but does not indicate how to reach that approximation. Artificial Neural Network, trained by Big Data,
+reaches that optimal function. Approximation theory is the proof of why AI or Machine Learning works.&lt;/p&gt;
+&lt;p&gt;:::tip[K-Armed Bandit Problem: Reinforcement Learning as an Example of Approximation]&lt;/p&gt;
+&lt;p&gt;Consider the following learning problem. We are faced repeatedly with a choice among $k$ different options, or actions.
+After each choice we receive a numerical reward chosen from a stationary probability distribution that depends on the
+action we selected. Our objective is to maximize the expected total reward over some time period, for example, over
+1000 action selections, or &lt;em&gt;time steps&lt;/em&gt;. This is the original form of the &lt;em&gt;$k$-armed bandit problem&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Mathematically, each of the $k$ actions has an expected or mean reward given that one action is selected; let us call
+this the &lt;em&gt;value&lt;/em&gt; of that action. We denote the action selected on time step $t$ as $A_t$ and the corresponding reward as
+$R_t$, The value of an arbitrary action $a$, denoted $q_*(a)$, is the expected reward given that $a$ is selected:&lt;/p&gt;
+&lt;p&gt;$$&lt;/p&gt;
+&lt;p&gt;q_*(a) = \mathbb{E}[R_t|A_t = a]&lt;/p&gt;
+&lt;p&gt;$$&lt;/p&gt;
+&lt;p&gt;If we know the value of each action, then it would be trivial to solve the &lt;em&gt;$k$-armed bandit problem&lt;/em&gt;: we would always
+select the action with the highest value. We do not know, however, the action values with certainly in reality, although
+we may have estimates. We denote the estimated value of action $a$ at time step $t$ as $Q_t(a)$. We would like $Q_t(a)$
+to be close to $q_*(a)$.&lt;/p&gt;
+&lt;p&gt;If we maintain estimates of the action values, then at any time step there is at least one action whose estimated value
+is greatest. We call these the &lt;em&gt;greedy&lt;/em&gt; actions. When we select one of these actions, we say that we are &lt;em&gt;exploiting&lt;/em&gt;
+our current knowledge of the values of the actions. If instead we select one of the non-greedy actions, then we say we
+are &lt;em&gt;exploring&lt;/em&gt;, because this enables us to improve our estimate of the non-greedy action&apos;s value. Exploitation is the
+right thing to do to maximize the expected reward on the one step, but exploration may produce the greater total reward
+in the long run.&lt;/p&gt;
+&lt;p&gt;Given that exploring and exploiting is not possible in any single action, systematic methods are used to balance the
+exploration and exploitation. This is the basic idea behind reinforcement learning.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;h2&gt;Defining Machine Learning&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Machine Learning&lt;/strong&gt; addresses the question of how to build computer programs that improve their performance at some
+task through experience.&lt;/p&gt;
+&lt;p&gt;:::tip[Definition of Learning]&lt;/p&gt;
+&lt;p&gt;A computer program is said to &lt;strong&gt;learn&lt;/strong&gt; from experience/data $E$ with respect to some class of tasks $T$ and performance
+measure $P$, it its performance at tasks in $T$, as measured by $P$, improves with experience $E$.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;The problem of &lt;a href=&quot;#approximation-theory&quot;&gt;inducing general functions from specific training examples&lt;/a&gt; is central to
+learning.&lt;/p&gt;
+&lt;p&gt;:::tip[Machine Learning v.s. Data Mining]&lt;/p&gt;
+&lt;p&gt;Machine Learning and Data Mining often employ the same methods and overlap significantly, but while machine learning
+focuses on prediction, based on &lt;em&gt;known&lt;/em&gt; properties learned from the training data, &lt;a href=&quot;https://github.com/QubitPi/data-mining&quot;&gt;data mining&lt;/a&gt; focuses on the
+discovery of (previously) &lt;em&gt;unknown&lt;/em&gt; properties in the data (this is the analysis step of knowledge discovery in
+databases)&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;There are so many different types of machine learning systems that it is useful to classify them in broad categories,
+based on the following criteria:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How they are supervised during training (supervised, unsupervised, semi-supervised, self-supervised, and others)&lt;/li&gt;
+&lt;li&gt;Whether or not they can learn incrementally on the fly (online versus batch learning)&lt;/li&gt;
+&lt;li&gt;Whether they work by simply comparing new data points to known data points, or instead by detecting patterns in the
+training data and building a predictive model, much like scientists do (instance-based versus model-based learning)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Instance-Based v.s. Model-Based Learning&lt;/h3&gt;
+&lt;p&gt;One more way to categorize machine learning systems is by how they &lt;em&gt;generalize&lt;/em&gt;. Most machine learning tasks are about
+making predictions. This means that given a number of training examples, the system needs to be able to make good
+predictions for (generalize to) examples it has never seen before. Having a good performance measure on the training
+data is good, but insufficient; the true goal is to perform well on new instances.&lt;/p&gt;
+&lt;p&gt;There are 2 main approaches to generalization:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;#instance-based-learning&quot;&gt;instance-based learning&lt;/a&gt;, and&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#model-based-learning&quot;&gt;model-based learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Instance-Based Learning&lt;/h4&gt;
+&lt;p&gt;Possibly the most trivial form of learning is simply to learn by heart. A spam email detection would measure the
+similarity between two emails. A (very basic) similarity measure between two emails could be to count the number of
+words they have in common. The system would flag an email as spam if it has many words in common with a known spam
+email.&lt;/p&gt;
+&lt;p&gt;This is called &lt;em&gt;instance-based learning&lt;/em&gt;: the system learns the examples by heart, then generalizes to new cases by
+using a similarity measure to compare them to the learned examples (or a subset of them).&lt;/p&gt;
+&lt;h4&gt;Model-Based Learning&lt;/h4&gt;
+&lt;p&gt;Another way to generalize from a set of examples is to build a model of these examples and then use that model to make
+&lt;em&gt;predictions&lt;/em&gt;. This is called &lt;em&gt;model-based learning&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Main Challenges of Machine Learning&lt;/h2&gt;
+&lt;h3&gt;Insufficient Quantity of Training Data&lt;/h3&gt;
+&lt;p&gt;It takes a lot of data for most machine learning algorithms to work properly. Even for very simple problems we typically
+need thousands of examples, and for complex problems such as image or speech recognition we may need millions of
+examples.&lt;/p&gt;
+&lt;p&gt;:::important[The Unreasonable Effectiveness of Data]&lt;/p&gt;
+&lt;p&gt;In a &lt;a href=&quot;https://dl.acm.org/doi/10.3115/1073012.1073017&quot;&gt;famous paper&lt;/a&gt; published in 2001, Microsoft researchers Michele
+Banko and Eric Brill showed that very different machine learning algorithms, including fairly simple ones, performed
+almost identically well on a complex problem of natural language disambiguation once they were given enough data&lt;/p&gt;
+&lt;p&gt;As the authors put it, &quot;these results suggest that we may want to reconsider the trade-off between spending time and
+money on algorithm development versus spending it on corpus development&quot;.&lt;/p&gt;
+&lt;p&gt;The idea that data matters more than algorithms for complex problems was further popularized by Peter Norvig et al. in a
+paper titled
+&quot;&lt;a href=&quot;https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf&quot;&gt;The Unreasonable Effectiveness of Data&lt;/a&gt;&quot;,
+published in 2009.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;h3&gt;Nonrepresentative Training Data&lt;/h3&gt;
 </content:encoded></item><item><title>Machine Learning - Neural Networks</title><link>https://leadership.qubitpi.org/posts/neural-networks/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/neural-networks/</guid><description>I was having trouble studying RNN as the starting-point topic of ML and, after descent amount of trouble with
 understanding its concepts, realized that having a solid understanding to it&apos;s roots, i.e. Neural Networks, is a
 prerequisite.
@@ -517,56 +613,6 @@ logically valid argument is &lt;strong&gt;truth-preserving&lt;/strong&gt; (alway
 &lt;p&gt;[^1]: &amp;lt;span class=&quot;chinese-text&quot;&amp;gt;&lt;a href=&quot;https://book.douban.com/subject/34793268/&quot;&gt;王阳明全集，辽海出版社&lt;/a&gt;&amp;lt;/span&amp;gt;
 [^2]: Bergmann, Merrie, James Moor, and Jack Nelson. &lt;a href=&quot;http://files.farka.eu/pub/The%20Logic%20Book,%206E%20%5BPDF%5D%20%5BStormRG%5D/The%20Logic%20Book,%20Sixth%20Edition%20-%20Merrie%20Bergmann.pdf&quot;&gt;&lt;em&gt;The Logic Book&lt;/em&gt;&lt;/a&gt;. 6th ed. New York, NY: McGraw-Hill, 2008. ISBN: 978-0-07-803841-9.
 [^3]: &lt;a href=&quot;https://farside.ph.utexas.edu/Books/Euclid/Elements.pdf&quot;&gt;The University of Texas at Austin offers a PDF of Richard Fitzpatrick&apos;s version&lt;/a&gt;&lt;/p&gt;
-</content:encoded></item><item><title>Machine Learning</title><link>https://leadership.qubitpi.org/posts/machine-learning/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/machine-learning/</guid><description>Machine Learning is to me is the transcendentalization of my combined passion toward Software Engineering and Data
-Analytics. While Artificial Intelligence (AI) is a broad field encompassing the creation of machines that can perform
-tasks that typically require human intelligence, Machine Learning (ML) is a specific subset of AI focused on enabling
-machines to learn from data. Given that distinction, this posts is NOT about AI, but Machine Learning in general.
-</description><pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Approximation Theory&lt;/h2&gt;
-&lt;p&gt;The purpose of studying Approximation Theory is to better understand the
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Universal_approximation_theorem&quot;&gt;Universal Approximation Theorem&lt;/a&gt;, which defines the
-limits (or unbounded potential) of AI and Machine Learning on what Neural Networks can learn to solve real-life
-problems. Approximation Theory is the foundation of Machine Learning and its usefulness is brought to life by the
-advancement of contemporary computing power. For example, Approximation Theory says an approximated function exists by
-Math theorem but does not indicate how to reach that approximation. Artificial Neural Network, trained by Big Data,
-reaches that optimal function. Approximation theory is the proof of why AI or Machine Learning works.&lt;/p&gt;
-&lt;p&gt;:::tip[K-Armed Bandit Problem: Reinforcement Learning as an Example of Approximation]&lt;/p&gt;
-&lt;p&gt;Consider the following learning problem. We are faced repeatedly with a choice among $k$ different options, or actions.
-After each choice we receive a numerical reward chosen from a stationary probability distribution that depends on the
-action we selected. Our objective is to maximize the expected total reward over some time period, for example, over
-1000 action selections, or &lt;em&gt;time steps&lt;/em&gt;. This is the original form of the &lt;em&gt;$k$-armed bandit problem&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Mathematically, each of the $k$ actions has an expected or mean reward given that one action is selected; let us call
-this the &lt;em&gt;value&lt;/em&gt; of that action. We denote the action selected on time step $t$ as $A_t$ and the corresponding reward as
-$R_t$, The value of an arbitrary action $a$, denoted $q_*(a)$, is the expected reward given that $a$ is selected:&lt;/p&gt;
-&lt;p&gt;$$&lt;/p&gt;
-&lt;p&gt;q_*(a) = \mathbb{E}[R_t|A_t = a]&lt;/p&gt;
-&lt;p&gt;$$&lt;/p&gt;
-&lt;p&gt;If we know the value of each action, then it would be trivial to solve the &lt;em&gt;$k$-armed bandit problem&lt;/em&gt;: we would always
-select the action with the highest value. We do not know, however, the action values with certainly in reality, although
-we may have estimates. We denote the estimated value of action $a$ at time step $t$ as $Q_t(a)$. We would like $Q_t(a)$
-to be close to $q_*(a)$.&lt;/p&gt;
-&lt;p&gt;If we maintain estimates of the action values, then at any time step there is at least one action whose estimated value
-is greatest. We call these the &lt;em&gt;greedy&lt;/em&gt; actions. When we select one of these actions, we say that we are &lt;em&gt;exploiting&lt;/em&gt;
-our current knowledge of the values of the actions. If instead we select one of the non-greedy actions, then we say we
-are &lt;em&gt;exploring&lt;/em&gt;, because this enables us to improve our estimate of the non-greedy action&apos;s value. Exploitation is the
-right thing to do to maximize the expected reward on the one step, but exploration may produce the greater total reward
-in the long run.&lt;/p&gt;
-&lt;p&gt;Given that exploring and exploiting is not possible in any single action, systematic methods are used to balance the
-exploration and exploitation. This is the basic idea behind reinforcement learning.&lt;/p&gt;
-&lt;p&gt;:::&lt;/p&gt;
-&lt;h2&gt;Defining Machine Learning&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Machine Learning&lt;/strong&gt; addresses the question of how to build computer programs that improve their performance at some
-task through experience.&lt;/p&gt;
-&lt;p&gt;:::tip[Definition of Learning]&lt;/p&gt;
-&lt;p&gt;A computer program is said to &lt;strong&gt;learn&lt;/strong&gt; from experience $E$ with respect to some class of tasks $T$ and performance
-measure $P$, it its performance at tasks in $T$, as measured by $P$, improves with experience $E$.&lt;/p&gt;
-&lt;p&gt;:::&lt;/p&gt;
-&lt;p&gt;The problem of &lt;a href=&quot;#approximation-theory&quot;&gt;inducing general functions from specific training examples&lt;/a&gt; is central to
-learning.&lt;/p&gt;
-&lt;p&gt;:::tip[Machine Learning v.s. Data Mining]&lt;/p&gt;
-&lt;p&gt;Machine Learning and Data Mining often employ the same methods and overlap significantly, but while machine learning
-focuses on prediction, based on &lt;em&gt;known&lt;/em&gt; properties learned from the training data, data mining focuses on the discovery
-of (previously) &lt;em&gt;unknown&lt;/em&gt; properties in the data (this is the analysis step of knowledge discovery in databases)&lt;/p&gt;
-&lt;p&gt;:::&lt;/p&gt;
 </content:encoded></item><item><title>Introduction to Recurrent Neural Networks (RNNs)</title><link>https://leadership.qubitpi.org/posts/rnn/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/rnn/</guid><description>I was reading the Foreword section of the book &quot;Natural Language Processing with Transformers, Revised Edition&quot; and
 stumbled upon this paper &quot;Attention is All You Need&quot;. &quot;Recurrent neural networks&quot; popped out as the very first words
 in the paper&apos;s introduction. This was why I draw my attention to the topics RNN and, hence, this blog.
