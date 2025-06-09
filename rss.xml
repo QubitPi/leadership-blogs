@@ -267,10 +267,13 @@ layers such as &lt;a href=&quot;#pooling-step&quot;&gt;pooling&lt;/a&gt; layers 
 &lt;p&gt;After several convolutional and max pooling layers, the final classification is done via fully connected layers. Neurons
 in a fully connected layer have connections to neurons in the previous layer. The input to this fully connected layer
 is a one-dimensional vector, which is the flattened output of the convolutional/pooling layers.&lt;/p&gt;
-&lt;p&gt;:::important[How was the output of convolutional/pooling layers flattened for fully connected layer?]&lt;/p&gt;
+&lt;p&gt;:::important[What does the flattening look like?]&lt;/p&gt;
 &lt;p&gt;In a Convolutional Neural Network (CNN), the input to the fully connected network (FCN) is the output of the final
 convolutional layer or pooling layer. This input is typically a 3-dimensional tensor with height, width, and depth
-representing the extracted features.&lt;/p&gt;
+representing the extracted features. The flattening on this 3D tensor is essentially &quot;unfolding&quot; all the dimensions
+together. The resulting one-dimensional vector will have a size equal to the product of the original dimensions. For
+example, a $5 \times 5 \times 2$ tensor has the flattened vector with size of $5 \times 5 \times 2 = 50$, which is the
+number of neurons of the FCN input layers.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h3&gt;Convolutional Neural Networks for NLP&lt;/h3&gt;
 </content:encoded></item><item><title>沟通的艺术</title><link>https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</guid><description>和女朋友吵了一架，和好之后自己总结反思了一下这件事情，我发现，无论是男方还是女方，
