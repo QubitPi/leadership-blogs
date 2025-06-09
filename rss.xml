@@ -288,7 +288,13 @@ rows of the matrix (words). Thus, the &quot;width&quot; of our filters is usuall
 height, or &lt;strong&gt;region size&lt;/strong&gt;, may vary, but sliding windows over 2-5 words at a time is typical. Putting all the above
 together, a Convolutional Neural Network for NLP may look like this:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./img/nlp-cnn.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Illustration of a Convolutional Neural Network (CNN) architecture for sentence classification. Here we depict three filter region sizes: 2, 3 and 4, each of which has 2 filters. Every filter performs convolution on the sentence matrix and generates (variable-length) feature maps. Then 1-max pooling is performed over each map, i.e., the largest number from each feature map is recorded. Thus a univariate feature vector is generated from all six maps, and these 6 features are concatenated to form a feature vector for the penultimate layer. The final softmax layer then receives this feature vector as input and uses it to classify the sentence; here we assume binary classification and hence depict two possible output states.&lt;/p&gt;
+&lt;p&gt;In the illustration of this Convolutional Neural Network (CNN) architecture for sentence classification above, we depict
+three filter region sizes: 2, 3 and 4, each of which has 2 filters. Every filter performs convolution on the sentence
+matrix and generates (variable-length) feature maps. Then 1-max pooling is performed over each map, i.e., the largest
+number from each feature map is recorded. Thus a univariate feature vector is generated from all six maps, and these 6
+features are concatenated to form a feature vector for the penultimate layer. The final softmax layer then receives this
+feature vector as input and uses it to classify the sentence; here we assume binary classification and hence depict two
+possible output states.&lt;/p&gt;
 </content:encoded></item><item><title>沟通的艺术</title><link>https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</guid><description>和女朋友吵了一架，和好之后自己总结反思了一下这件事情，我发现，无论是男方还是女方，
 无论身处何处，何种人际关系，卓越的沟通能力是避免一切事与愿违结局的基本条件，因此我写下了这篇持续更新的文章 - 
 前车之鉴以忆往昔，后事之师以待来日
