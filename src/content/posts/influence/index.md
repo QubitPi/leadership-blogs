@@ -64,6 +64,20 @@ disagreeable to be in a state of obligation. It weighs heavily on us and demands
 we may be willing to agree to perform a larger favor than we received, merely to relieve ourselves of the psychological
 burden of debt.
 
+Commitment and Consistency
+--------------------------
+
+Desire for consistency has been a central motivation of our behaviors, because a high degree of consistency is normally
+associated with personal and intellectual strength while inconsistency is commonly thought to be an undesirable
+personality trait. It is at the heart of logic, rationality, stability, and honesty.
+
+On the other hand, this highly-valued good personal consistency can be disastrous when it occurs unthinkinly. First, it
+offers a shortcut through the density of modern life. Once we have made up our minds about an issue, stubborn
+consistency allows us a very appealing luxury: We really don't have to think hard about the issue anymore. We need only
+believe or do whatever is consistent with our earlier decision. We do so the allure of such a luxury allows us a
+convenient, relatively, effortless, and efficient method for dealing with complex daily environments that make severe
+demands on our mental energies and capacities. 
+
 Principle of Social Proof
 -------------------------
 
