@@ -457,6 +457,36 @@ probably more than enough to get a good estimate of the generalization error.&lt
 &lt;h2&gt;Large Language Model (LLM)&lt;/h2&gt;
 &lt;h3&gt;RAG &amp;amp; GraphRAG&lt;/h3&gt;
 &lt;h4&gt;What Is Retrieval-Augmented Generation (RAG)?&lt;/h4&gt;
+&lt;p&gt;Engaging in a conversation with a company&apos;s AI assistant can be frustrating. Chatbots give themselves away by returning
+generic responses that often don&apos;t answer the question. This is because Large language models (LLMs), like OpenAI&apos;s GPT
+models, excel at general language tasks but have trouble answering specific questions for several reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LLMs have a broad knowledge base but often lack in-depth industry- or organization-specific context.&lt;/li&gt;
+&lt;li&gt;LLMs may generate responses that are incorrect, known as hallucinations.&lt;/li&gt;
+&lt;li&gt;LLMs lack explainability, as they can&apos;t verify, trace, or cite sources.&lt;/li&gt;
+&lt;li&gt;An LLM&apos;s knowledge is based on static training data that doesn&apos;t update with real-time information.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This doesn&apos;t have to be the case. Imagine a different scenario: interacting with a chatbot that provides detailed,
+precise responses. This chatbot sounds like a human with deep institutional knowledge about the company and its products
+and policies. This chatbot is actually helpful. The second scenario is possible through a machine learning approach
+called &lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt; (&lt;strong&gt;RAG&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;RAG is a technique that enhances Large Language Model (LLM) responses by retrieving source information from external
+data stores to augment generated responses. These data stores, including databases, documents, or websites, may contain
+domain-specific, proprietary data that enable the LLM to locate and summarize specific, contextual information beyond
+the data the LLM was trained on.&lt;/p&gt;
+&lt;p&gt;RAG applications are becoming the industry standard for organizations that want smarter generative AI applications. With
+RAG, we can reduce hallucination, provide explainability, draw upon the most recent data, and expand the range of what
+our LLM can answer. As we improve the quality and specificity of its response, we also &lt;strong&gt;create a better user
+experience&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4&gt;How Does RAG Work?&lt;/h4&gt;
+&lt;p&gt;At a high level, the RAG architecture involves three key processes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;understanding queries&lt;/li&gt;
+&lt;li&gt;retrieving information, and&lt;/li&gt;
+&lt;li&gt;generating responses&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;./rag.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h4&gt;GraphRAG&lt;/h4&gt;
 &lt;p&gt;Rather than using documents as a source to vectorize and retrieve from,
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Knowledge_graph&quot;&gt;Knowledge Graphs&lt;/a&gt; can be used. One can start with a set of documents,
 books, or other bodies of text, and convert them to a knowledge graph using one of many methods, including language models. Once the knowledge graph is created, subgraphs can be vectorized, stored in a vector database, and used for retrieval as in plain RAG. The advantage here is that graphs has more recognizable structure than strings of text and this structure can help retrieve more relevant facts for generation. Sometimes this approach is called GraphRAG&lt;/p&gt;
