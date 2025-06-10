@@ -493,14 +493,17 @@ organization&apos;s internal data.&lt;/li&gt;
 &lt;p&gt;&lt;img src=&quot;./rag.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Before implementing an RAG application, it&apos;s important to clean up our data to make it easy for the RAG application to
 quickly search and retrieve relevant information. This process is called &lt;strong&gt;data indexing&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Frameworks like LangChain make it easy to build RAG applications by providing a unified interface to connect LLMs to
-external databases via APIs.
+&lt;p&gt;Frameworks like &lt;a href=&quot;https://python.langchain.com/docs/tutorials/rag/&quot;&gt;LangChain make it easy to build RAG applications&lt;/a&gt; by
+providing a unified interface to connect LLMs to external databases via APIs.
 &lt;a href=&quot;https://neo4j.com/blog/developer/langchain-library-full-support-neo4j-vector-index/&quot;&gt;Neo4j vector index&lt;/a&gt; on the
 LangChain library helps simplify the indexing process.&lt;/p&gt;
 &lt;h4&gt;GraphRAG&lt;/h4&gt;
 &lt;p&gt;Rather than using documents as a source to vectorize and retrieve from,
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Knowledge_graph&quot;&gt;Knowledge Graphs&lt;/a&gt; can be used. One can start with a set of documents,
-books, or other bodies of text, and convert them to a knowledge graph using one of many methods, including language models. Once the knowledge graph is created, subgraphs can be vectorized, stored in a vector database, and used for retrieval as in plain RAG. The advantage here is that graphs has more recognizable structure than strings of text and this structure can help retrieve more relevant facts for generation. Sometimes this approach is called GraphRAG&lt;/p&gt;
+&lt;a href=&quot;https://learn-graphrag.qubitpi.org/&quot;&gt;Knowledge Graphs&lt;/a&gt; can be used. One can start with a set of documents,
+books, or other bodies of text, and convert them to a knowledge graph using one of many methods, including language
+models. Once the knowledge graph is created, subgraphs can be vectorized, stored in a vector database, and used for
+retrieval as in plain RAG. The advantage here is that graphs has more recognizable structure than strings of text and
+this structure can help retrieve more relevant facts for generation. This approach is called &lt;strong&gt;GraphRAG&lt;/strong&gt;&lt;/p&gt;
 </content:encoded></item><item><title>Machine Learning - Neural Networks</title><link>https://leadership.qubitpi.org/posts/neural-networks/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/neural-networks/</guid><description>I was having trouble studying RNN as the starting-point topic of ML and, after descent amount of trouble with
 understanding its concepts, realized that having a solid understanding to it&apos;s roots, i.e. Neural Networks, is a
 prerequisite.
