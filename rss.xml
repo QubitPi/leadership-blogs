@@ -454,63 +454,11 @@ training data for example.&lt;/p&gt;
 dataset: if it contains 10 million instances, then holding out 1% means the test set will contain 100,000 instances,
 probably more than enough to get a good estimate of the generalization error.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
-&lt;h2&gt;Large Language Model (LLM)&lt;/h2&gt;
-&lt;h3&gt;RAG &amp;amp; GraphRAG&lt;/h3&gt;
-&lt;h4&gt;What Is Retrieval-Augmented Generation (RAG)?&lt;/h4&gt;
-&lt;p&gt;Engaging in a conversation with a company&apos;s AI assistant can be frustrating. Chatbots give themselves away by returning
-generic responses that often don&apos;t answer the question. This is because Large language models (LLMs), like OpenAI&apos;s GPT
-models, excel at general language tasks but have trouble answering specific questions for several reasons:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;LLMs have a broad knowledge base but often lack in-depth industry- or organization-specific context.&lt;/li&gt;
-&lt;li&gt;LLMs may generate responses that are incorrect, known as hallucinations.&lt;/li&gt;
-&lt;li&gt;LLMs lack explainability, as they can&apos;t verify, trace, or cite sources.&lt;/li&gt;
-&lt;li&gt;An LLM&apos;s knowledge is based on static training data that doesn&apos;t update with real-time information.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This doesn&apos;t have to be the case. Imagine a different scenario: interacting with a chatbot that provides detailed,
-precise responses. This chatbot sounds like a human with deep institutional knowledge about the company and its products
-and policies. This chatbot is actually helpful. The second scenario is possible through a machine learning approach
-called &lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt; (&lt;strong&gt;RAG&lt;/strong&gt;).&lt;/p&gt;
-&lt;p&gt;RAG is a technique that enhances Large Language Model (LLM) responses by retrieving source information from external
-data stores to augment generated responses. These data stores, including databases, documents, or websites, may contain
-domain-specific, proprietary data that enable the LLM to locate and summarize specific, contextual information beyond
-the data the LLM was trained on.&lt;/p&gt;
-&lt;p&gt;RAG applications are becoming the industry standard for organizations that want smarter generative AI applications. With
-RAG, we can reduce hallucination, provide explainability, draw upon the most recent data, and expand the range of what
-our LLM can answer. As we improve the quality and specificity of its response, we also &lt;strong&gt;create a better user
-experience&lt;/strong&gt;.&lt;/p&gt;
-&lt;h4&gt;How Does RAG Work?&lt;/h4&gt;
-&lt;p&gt;At a high level, the RAG architecture involves 3 key processes:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;understanding queries&lt;/strong&gt;: the process begins when a user asks a question. The query goes through the LLM API to the
-RAG application, which analyzes it to understand the user&apos;s intent and determine what information to look for.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;retrieving information&lt;/strong&gt;: the application uses advanced algorithms to find the most relevant pieces of information
-in the company&apos;s database. These algorithms match vector embeddings based on semantic similarity to identify the
-information that can best answer the user&apos;s question.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;generating responses&lt;/strong&gt;: the application combines the retrieved information with the user&apos;s original prompt to
-create a more detailed and context-rich prompt. It then uses the new prompt to generate a response tailored to the
-organization&apos;s internal data.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src=&quot;./rag.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Before implementing an RAG application, it&apos;s important to clean up our data to make it easy for the RAG application to
-quickly search and retrieve relevant information. This process is called &lt;strong&gt;data indexing&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Frameworks like &lt;a href=&quot;https://python.langchain.com/docs/tutorials/rag/&quot;&gt;LangChain make it easy to build RAG applications&lt;/a&gt; by
-providing a unified interface to connect LLMs to external databases via APIs.
-&lt;a href=&quot;https://neo4j.com/blog/developer/langchain-library-full-support-neo4j-vector-index/&quot;&gt;Neo4j vector index&lt;/a&gt; on the
-LangChain library helps simplify the indexing process.&lt;/p&gt;
-&lt;h4&gt;GraphRAG&lt;/h4&gt;
-&lt;p&gt;Rather than using documents as a source to vectorize and retrieve from,
-&lt;a href=&quot;https://learn-graphrag.qubitpi.org/&quot;&gt;Knowledge Graphs&lt;/a&gt; can be used. One can start with a set of documents,
-books, or other bodies of text, and convert them to a knowledge graph using one of many methods, including language
-models. Once the knowledge graph is created, subgraphs can be vectorized, stored in a vector database, and used for
-retrieval as in plain RAG. The advantage here is that graphs has more recognizable structure than strings of text and
-this structure can help retrieve more relevant facts for generation. This approach is called &lt;strong&gt;GraphRAG&lt;/strong&gt;&lt;/p&gt;
-</content:encoded></item><item><title>Machine Learning - Neural Networks</title><link>https://leadership.qubitpi.org/posts/neural-networks/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/neural-networks/</guid><description>I was having trouble studying RNN as the starting-point topic of ML and, after descent amount of trouble with
-understanding its concepts, realized that having a solid understanding to it&apos;s roots, i.e. Neural Networks, is a
-prerequisite.
-</description><pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The area of Neural Networks has originally been primarily inspired by the goal of modeling biological neural systems,
+&lt;h2&gt;Neural Networks&lt;/h2&gt;
+&lt;p&gt;The area of Neural Networks has originally been primarily inspired by the goal of modeling biological neural systems,
 but has since diverged and become a matter of engineering and achieving good results in Machine Learning tasks.
 Therefore, the Neural Networks and AI in general is essentially the discipline of Machine Learning&lt;/p&gt;
-&lt;h2&gt;Biological Motivation and Connections&lt;/h2&gt;
+&lt;h3&gt;Biological Motivation and Connections&lt;/h3&gt;
 &lt;p&gt;Historically, digital computers such as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Von_Neumann_model&quot;&gt;von Neumann model&lt;/a&gt; operate
 via the execution of explicit instructions with access to memory by a number of processors. Some neural networks, on the
 other hand, originated from efforts to model information processing in biological systems through the framework of
@@ -582,7 +530,7 @@ neuroscience background if we draw analogies between Neural Networks and real br
 outputs of some neurons can become inputs to other neurons. Cycles are not allowed since that would imply an infinite
 loop in the forward pass of a network. Instead of an amorphous blobs of connected neurons, Neural Network models are
 often organized into distinct layers of neurons.&lt;/p&gt;
-&lt;h2&gt;Convolutional Neural Networks (CNNs)&lt;/h2&gt;
+&lt;h3&gt;Convolutional Neural Networks (CNNs)&lt;/h3&gt;
 &lt;p&gt;Convolutional Neural Networks (&lt;strong&gt;ConvNets&lt;/strong&gt; or &lt;strong&gt;CNNs&lt;/strong&gt;) are a category of Neural Networks that have proven very
 effective in areas such as image recognition and classification. ConvNets have been successful in identifying faces,
 objects and traffic signs apart from powering vision in robots and self-driving cars.&lt;/p&gt;
@@ -601,7 +549,7 @@ imagine those as three 2d-matrices stacked over each other (one for each color),
 to 255. A &lt;a href=&quot;https://en.wikipedia.org/wiki/Grayscale&quot;&gt;grayscale&lt;/a&gt; image, on the other hand, has just one channel. We will
 only consider grayscale images, so we will have a single 2d matrix representing an image. The value of each pixel in the
 matrix will range from 0 to 255 - zero indicating black and 255 indicating white.&lt;/p&gt;
-&lt;h3&gt;Convolution Step&lt;/h3&gt;
+&lt;h4&gt;Convolution Step&lt;/h4&gt;
 &lt;p&gt;ConvNets derive their name from the &lt;a href=&quot;http://en.wikipedia.org/wiki/Convolution&quot;&gt;&quot;convolution&quot; operator&lt;/a&gt;. The primary
 purpose of convolution in case of a ConvNet is to extract features from the input image. Convolution preserves the
 spatial relationship between pixels by learning image features using small squares of input data. We will not go into
@@ -643,7 +591,7 @@ to control the size of the feature maps. Adding zero-padding is also called &lt;
 zero-padding would be a &lt;em&gt;narrow convolution&lt;/em&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;Pooling Step&lt;/h3&gt;
+&lt;h4&gt;Pooling Step&lt;/h4&gt;
 &lt;p&gt;Spatial Pooling (also called subsampling or downsampling) reduces the dimensionality of each feature map but retains the
 most important information. Spatial Pooling can be of different types: Max, Average, Sum etc.&lt;/p&gt;
 &lt;p&gt;In case of Max Pooling, we define a spatial neighborhood (for example, a 2×2 window) and take the largest element from
@@ -658,7 +606,7 @@ the rectified feature map within that window. Instead of taking the largest elem
 &lt;li&gt;helps us arrive at an almost scale invariant representation of our image. This is very powerful since we can detect
 objects in an image no matter where they are located&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Architecture&lt;/h3&gt;
+&lt;h4&gt;Architecture&lt;/h4&gt;
 &lt;p&gt;A convolutional neural network consists of an input layer, hidden layers and an output layer. In a convolutional neural
 network, the hidden layers include one or more layers that perform &lt;a href=&quot;#convolution-step&quot;&gt;convolutions&lt;/a&gt; followed by other
 layers such as &lt;a href=&quot;#pooling-step&quot;&gt;pooling&lt;/a&gt; layers and fully connected layers&lt;/p&gt;
@@ -674,7 +622,7 @@ example, a $5 \times 5 \times 2$ tensor has the flattened vector with size of $5
 number of neurons of the FCN input layers.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./img/cnn-architecture.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h3&gt;Convolutional Neural Networks for NLP&lt;/h3&gt;
+&lt;h4&gt;Convolutional Neural Networks for NLP&lt;/h4&gt;
 &lt;p&gt;Instead of image pixels, the input to most NLP tasks are sentences or documents represented as a matrix. Each row of the
 matrix corresponds to one token, typically a word, but it could be a character. That is, each row is vector that
 represents a word. Typically, these vectors are word embeddings (low-dimensional representations) like
@@ -693,7 +641,57 @@ number from each feature map is recorded. Thus a univariate feature vector is ge
 features are concatenated to form a feature vector for the penultimate layer. The final softmax layer then receives this
 feature vector as input and uses it to classify the sentence; here we assume binary classification and hence depict two
 possible output states.&lt;/p&gt;
-&lt;h2&gt;Graph Neural Network&lt;/h2&gt;
+&lt;h3&gt;Graph Neural Network&lt;/h3&gt;
+&lt;h2&gt;Large Language Model (LLM)&lt;/h2&gt;
+&lt;h3&gt;RAG &amp;amp; GraphRAG&lt;/h3&gt;
+&lt;h4&gt;What Is Retrieval-Augmented Generation (RAG)?&lt;/h4&gt;
+&lt;p&gt;Engaging in a conversation with a company&apos;s AI assistant can be frustrating. Chatbots give themselves away by returning
+generic responses that often don&apos;t answer the question. This is because Large language models (LLMs), like OpenAI&apos;s GPT
+models, excel at general language tasks but have trouble answering specific questions for several reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LLMs have a broad knowledge base but often lack in-depth industry- or organization-specific context.&lt;/li&gt;
+&lt;li&gt;LLMs may generate responses that are incorrect, known as hallucinations.&lt;/li&gt;
+&lt;li&gt;LLMs lack explainability, as they can&apos;t verify, trace, or cite sources.&lt;/li&gt;
+&lt;li&gt;An LLM&apos;s knowledge is based on static training data that doesn&apos;t update with real-time information.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This doesn&apos;t have to be the case. Imagine a different scenario: interacting with a chatbot that provides detailed,
+precise responses. This chatbot sounds like a human with deep institutional knowledge about the company and its products
+and policies. This chatbot is actually helpful. The second scenario is possible through a machine learning approach
+called &lt;strong&gt;Retrieval-Augmented Generation&lt;/strong&gt; (&lt;strong&gt;RAG&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;RAG is a technique that enhances Large Language Model (LLM) responses by retrieving source information from external
+data stores to augment generated responses. These data stores, including databases, documents, or websites, may contain
+domain-specific, proprietary data that enable the LLM to locate and summarize specific, contextual information beyond
+the data the LLM was trained on.&lt;/p&gt;
+&lt;p&gt;RAG applications are becoming the industry standard for organizations that want smarter generative AI applications. With
+RAG, we can reduce hallucination, provide explainability, draw upon the most recent data, and expand the range of what
+our LLM can answer. As we improve the quality and specificity of its response, we also &lt;strong&gt;create a better user
+experience&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4&gt;How Does RAG Work?&lt;/h4&gt;
+&lt;p&gt;At a high level, the RAG architecture involves 3 key processes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;understanding queries&lt;/strong&gt;: the process begins when a user asks a question. The query goes through the LLM API to the
+RAG application, which analyzes it to understand the user&apos;s intent and determine what information to look for.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;retrieving information&lt;/strong&gt;: the application uses advanced algorithms to find the most relevant pieces of information
+in the company&apos;s database. These algorithms match vector embeddings based on semantic similarity to identify the
+information that can best answer the user&apos;s question.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;generating responses&lt;/strong&gt;: the application combines the retrieved information with the user&apos;s original prompt to
+create a more detailed and context-rich prompt. It then uses the new prompt to generate a response tailored to the
+organization&apos;s internal data.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;img/rag.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Before implementing an RAG application, it&apos;s important to clean up our data to make it easy for the RAG application to
+quickly search and retrieve relevant information. This process is called &lt;strong&gt;data indexing&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Frameworks like &lt;a href=&quot;https://python.langchain.com/docs/tutorials/rag/&quot;&gt;LangChain make it easy to build RAG applications&lt;/a&gt; by
+providing a unified interface to connect LLMs to external databases via APIs.
+&lt;a href=&quot;https://neo4j.com/blog/developer/langchain-library-full-support-neo4j-vector-index/&quot;&gt;Neo4j vector index&lt;/a&gt; on the
+LangChain library helps simplify the indexing process.&lt;/p&gt;
+&lt;h4&gt;GraphRAG&lt;/h4&gt;
+&lt;p&gt;Rather than using documents as a source to vectorize and retrieve from,
+&lt;a href=&quot;https://learn-graphrag.qubitpi.org/&quot;&gt;Knowledge Graphs&lt;/a&gt; can be used. One can start with a set of documents,
+books, or other bodies of text, and convert them to a knowledge graph using one of many methods, including language
+models. Once the knowledge graph is created, subgraphs can be vectorized, stored in a vector database, and used for
+retrieval as in plain RAG. The advantage here is that graphs has more recognizable structure than strings of text and
+this structure can help retrieve more relevant facts for generation. This approach is called &lt;strong&gt;GraphRAG&lt;/strong&gt;&lt;/p&gt;
 </content:encoded></item><item><title>沟通的艺术</title><link>https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</guid><description>和女朋友吵了一架，和好之后自己总结反思了一下这件事情，我发现，无论是男方还是女方，
 无论身处何处，何种人际关系，卓越的沟通能力是避免一切事与愿违结局的基本条件，因此我写下了这篇持续更新的文章 - 
 前车之鉴以忆往昔，后事之师以待来日
