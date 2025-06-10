@@ -309,14 +309,14 @@ domain-specific, proprietary data that enable the LLM to locate and summarize sp
 the data the LLM was trained on.</p><p>RAG applications are becoming the industry standard for organizations that want smarter generative AI applications. With
 RAG, we can reduce hallucination, provide explainability, draw upon the most recent data, and expand the range of what
 our LLM can answer. As we improve the quality and specificity of its response, we also <strong>create a better user
-experience</strong>.</p></section><section><h4 id="how-does-rag-work">How Does RAG Work?<a class="anchor" href="#how-does-rag-work"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h4><p>At a high level, the RAG architecture involves three key processes:</p><ol>
-<li>understanding queries: the process begins when a user asks a question. The query goes through the LLM API to the RAG
-application, which analyzes it to understand the user’s intent and determine what information to look for.</li>
-<li>retrieving information: the application uses advanced algorithms to find the most relevant pieces of information in
-the company’s database. These algorithms match vector embeddings based on semantic similarity to identify the
+experience</strong>.</p></section><section><h4 id="how-does-rag-work">How Does RAG Work?<a class="anchor" href="#how-does-rag-work"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h4><p>At a high level, the RAG architecture involves 3 key processes:</p><ol>
+<li><strong>understanding queries</strong>: the process begins when a user asks a question. The query goes through the LLM API to the
+RAG application, which analyzes it to understand the user’s intent and determine what information to look for.</li>
+<li><strong>retrieving information</strong>: the application uses advanced algorithms to find the most relevant pieces of information
+in the company’s database. These algorithms match vector embeddings based on semantic similarity to identify the
 information that can best answer the user’s question.</li>
-<li>generating responses: the application combines the retrieved information with the user’s original prompt to create a
-more detailed and context-rich prompt. It then uses the new prompt to generate a response tailored to the
+<li><strong>generating responses</strong>: the application combines the retrieved information with the user’s original prompt to
+create a more detailed and context-rich prompt. It then uses the new prompt to generate a response tailored to the
 organization’s internal data.</li>
 </ol><p><img  width="768" height="402" loading="lazy" decoding="async" src="/_astro/rag.De9vPKtz_Z1NXAyG.webp" ></p><p>Before implementing an RAG application, it’s important to clean up our data to make it easy for the RAG application to
 quickly search and retrieve relevant information. This process is called <strong>data indexing</strong>.</p><p>Frameworks like LangChain make it easy to build RAG applications by providing a unified interface to connect LLMs to

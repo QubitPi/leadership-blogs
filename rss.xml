@@ -479,15 +479,15 @@ RAG, we can reduce hallucination, provide explainability, draw upon the most rec
 our LLM can answer. As we improve the quality and specificity of its response, we also &lt;strong&gt;create a better user
 experience&lt;/strong&gt;.&lt;/p&gt;
 &lt;h4&gt;How Does RAG Work?&lt;/h4&gt;
-&lt;p&gt;At a high level, the RAG architecture involves three key processes:&lt;/p&gt;
+&lt;p&gt;At a high level, the RAG architecture involves 3 key processes:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;understanding queries: the process begins when a user asks a question. The query goes through the LLM API to the RAG
-application, which analyzes it to understand the user&apos;s intent and determine what information to look for.&lt;/li&gt;
-&lt;li&gt;retrieving information: the application uses advanced algorithms to find the most relevant pieces of information in
-the company&apos;s database. These algorithms match vector embeddings based on semantic similarity to identify the
+&lt;li&gt;&lt;strong&gt;understanding queries&lt;/strong&gt;: the process begins when a user asks a question. The query goes through the LLM API to the
+RAG application, which analyzes it to understand the user&apos;s intent and determine what information to look for.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;retrieving information&lt;/strong&gt;: the application uses advanced algorithms to find the most relevant pieces of information
+in the company&apos;s database. These algorithms match vector embeddings based on semantic similarity to identify the
 information that can best answer the user&apos;s question.&lt;/li&gt;
-&lt;li&gt;generating responses: the application combines the retrieved information with the user&apos;s original prompt to create a
-more detailed and context-rich prompt. It then uses the new prompt to generate a response tailored to the
+&lt;li&gt;&lt;strong&gt;generating responses&lt;/strong&gt;: the application combines the retrieved information with the user&apos;s original prompt to
+create a more detailed and context-rich prompt. It then uses the new prompt to generate a response tailored to the
 organization&apos;s internal data.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img src=&quot;./rag.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
