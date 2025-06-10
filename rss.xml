@@ -454,6 +454,12 @@ training data for example.&lt;/p&gt;
 dataset: if it contains 10 million instances, then holding out 1% means the test set will contain 100,000 instances,
 probably more than enough to get a good estimate of the generalization error.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
+&lt;h2&gt;Large Language Model (LLM)&lt;/h2&gt;
+&lt;h3&gt;RAG &amp;amp; GraphRAG&lt;/h3&gt;
+&lt;h4&gt;What Is Retrieval-Augmented Generation (RAG)?&lt;/h4&gt;
+&lt;p&gt;Rather than using documents as a source to vectorize and retrieve from,
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Knowledge_graph&quot;&gt;Knowledge Graphs&lt;/a&gt; can be used. One can start with a set of documents,
+books, or other bodies of text, and convert them to a knowledge graph using one of many methods, including language models. Once the knowledge graph is created, subgraphs can be vectorized, stored in a vector database, and used for retrieval as in plain RAG. The advantage here is that graphs has more recognizable structure than strings of text and this structure can help retrieve more relevant facts for generation. Sometimes this approach is called GraphRAG&lt;/p&gt;
 </content:encoded></item><item><title>Machine Learning - Neural Networks</title><link>https://leadership.qubitpi.org/posts/neural-networks/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/neural-networks/</guid><description>I was having trouble studying RNN as the starting-point topic of ML and, after descent amount of trouble with
 understanding its concepts, realized that having a solid understanding to it&apos;s roots, i.e. Neural Networks, is a
 prerequisite.
@@ -643,6 +649,7 @@ number from each feature map is recorded. Thus a univariate feature vector is ge
 features are concatenated to form a feature vector for the penultimate layer. The final softmax layer then receives this
 feature vector as input and uses it to classify the sentence; here we assume binary classification and hence depict two
 possible output states.&lt;/p&gt;
+&lt;h2&gt;Graph Neural Network&lt;/h2&gt;
 </content:encoded></item><item><title>沟通的艺术</title><link>https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/%E6%B2%9F%E9%80%9A%E7%9A%84%E8%89%BA%E6%9C%AF/</guid><description>和女朋友吵了一架，和好之后自己总结反思了一下这件事情，我发现，无论是男方还是女方，
 无论身处何处，何种人际关系，卓越的沟通能力是避免一切事与愿违结局的基本条件，因此我写下了这篇持续更新的文章 - 
 前车之鉴以忆往昔，后事之师以待来日
