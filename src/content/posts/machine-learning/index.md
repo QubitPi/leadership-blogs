@@ -1,7 +1,7 @@
 ---
 title: Machine Learning
 published: 2025-06-05
-updated: 2025-06-10
+updated: 2025-06-11
 description: |
   Machine Learning is to me is the transcendentalization of my combined passion toward Software Engineering and Data
   Analytics. While Artificial Intelligence (AI) is a broad field encompassing the creation of machines that can perform
@@ -116,7 +116,7 @@ using a similarity measure to compare them to the learned examples (or a subset 
 #### Model-Based Learning
 
 Another way to generalize from a set of examples is to build a model of these examples and then use that model to make
-_predictions_. This is called _model-based learning_ [![Google Colab badge]](https://colab.research.google.com/github/QubitPi/handson-ml3/blob/master/01_the_machine_learning_landscape.ipynb") 
+_predictions_. This is called _model-based learning_ <a href="https://colab.research.google.com/github/QubitPi/machine-learning/blob/master/01_the_machine_learning_landscape.ipynb" class="google-colab-link" style="color: white; text-decoration: none; margin: 0 5px 0 1px" target="_blank">Explore in Colab</a> <a href="https://kaggle.com/kernels/welcome?src=https://github.com/QubitPi/machine-learning/blob/master/01_the_machine_learning_landscape.ipynb" class="kaggle-link" style="color: white; text-decoration: none; margin: 0 1px 0 5px" target="_blank">Explore in Kaggle</a>
 
 Main Challenges of Machine Learning
 -----------------------------------
@@ -145,7 +145,9 @@ published in 2009.
 
 ### Nonrepresentative Training Data
 
-This section comes with an accompanying Jupyter notebook [![badge][Google Colab badge]](https://colab.research.google.com/github/QubitPi/handson-ml3/blob/master/01_the_machine_learning_landscape.ipynb") In order to generalize well, it is crucial that our training data be representative of the new cases we want to
+<a href="https://colab.research.google.com/github/QubitPi/machine-learning/blob/master/01_the_machine_learning_landscape.ipynb" class="google-colab-link" style="color: white; text-decoration: none; margin: 0 5px 0 1px" target="_blank">Explore in Colab</a> <a href="https://kaggle.com/kernels/welcome?src=https://github.com/QubitPi/machine-learning/blob/master/01_the_machine_learning_landscape.ipynb" class="kaggle-link" style="color: white; text-decoration: none; margin: 0 1px 0 5px" target="_blank">Explore in Kaggle</a>
+
+In order to generalize well, it is crucial that our training data be representative of the new cases we want to
 generalize to. This is true whether we use instance-based learning or model-based learning and is often harder than it
 sounds: if the sample is too small, we will have __sampling noise__ (i.e., non-representative data as a result of
 chance), but even very large samples can be non-representative if the sampling method is flawed. This is called
@@ -153,11 +155,13 @@ __sampling bias__.
 
 ### Overfitting the Training Data
 
+<a href="https://colab.research.google.com/github/QubitPi/machine-learning/blob/master/01_the_machine_learning_landscape.ipynb" class="google-colab-link" style="color: white; text-decoration: none; margin: 0 5px 0 1px" target="_blank">Explore in Colab</a> <a href="https://kaggle.com/kernels/welcome?src=https://github.com/QubitPi/machine-learning/blob/master/01_the_machine_learning_landscape.ipynb" class="kaggle-link" style="color: white; text-decoration: none; margin: 0 1px 0 5px" target="_blank">Explore in Kaggle</a>
+
 Say we are visiting a foreign country and the taxi driver rips us off. We might be tempted to say that _all_ taxi
 drivers in that country are thieves. Overgeneralizing is something that we humans do all too often, and unfortunately
 machines can fall into the same trap if we are not careful. In machine learning this is called __overfitting__: it means
 that the model performs well on the training data, but it does not generalize well. See an accompanying Jupyter notebook
-example that illustrate such phenomenon and its possible solutions [![badge][Google Colab badge]](https://colab.research.google.com/github/QubitPi/handson-ml3/blob/master/01_the_machine_learning_landscape.ipynb")
+example that illustrate such phenomenon and its possible solutions
 
 ### Underfitting the Training Data
 
