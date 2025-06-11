@@ -145,7 +145,7 @@ exploration and exploitation. This is the basic idea behind reinforcement learni
 &lt;h2&gt;Defining Machine Learning&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Machine Learning&lt;/strong&gt; addresses the question of how to build computer programs that improve their performance at some
 task through experience.&lt;/p&gt;
-&lt;p&gt;:::kokomi[Definition of Learning]&lt;/p&gt;
+&lt;p&gt;:::tip[Definition of Learning]&lt;/p&gt;
 &lt;p&gt;A computer program is said to &lt;strong&gt;learn&lt;/strong&gt; from experience/data $E$ with respect to some class of tasks $T$ and performance
 measure $P$, it its performance at tasks in $T$, as measured by $P$, improves with experience $E$.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
@@ -190,7 +190,7 @@ using a similarity measure to compare them to the learned examples (or a subset 
 &lt;p&gt;It takes a lot of data for most machine learning algorithms to work properly. Even for very simple problems we typically
 need thousands of examples, and for complex problems such as image or speech recognition we may need millions of
 examples.&lt;/p&gt;
-&lt;p&gt;:::important[The Unreasonable Effectiveness of Data]&lt;/p&gt;
+&lt;p&gt;:::kokomi[The Unreasonable Effectiveness of Data]&lt;/p&gt;
 &lt;p&gt;In a &lt;a href=&quot;https://dl.acm.org/doi/10.3115/1073012.1073017&quot;&gt;famous paper&lt;/a&gt; published in 2001, Microsoft researchers Michele
 Banko and Eric Brill showed that very different machine learning algorithms, including fairly simple ones, performed
 almost identically well on a complex problem of natural language disambiguation once they were given enough data&lt;/p&gt;
@@ -401,7 +401,7 @@ layers such as &lt;a href=&quot;#pooling-step&quot;&gt;pooling&lt;/a&gt; layers 
 &lt;p&gt;After several convolutional and max pooling layers, the final classification is done via fully connected layers. Neurons
 in a fully connected layer have connections to neurons in the previous layer. The input to this fully connected layer
 is a one-dimensional vector, which is the flattened output of the convolutional/pooling layers.&lt;/p&gt;
-&lt;p&gt;:::important[What does the flattening look like?]&lt;/p&gt;
+&lt;p&gt;:::kokomi[What does the flattening look like?]&lt;/p&gt;
 &lt;p&gt;In a Convolutional Neural Network (CNN), the input to the fully connected network (FCN) is the output of the final
 convolutional layer or pooling layer. This input is typically a 3-dimensional tensor with height, width, and depth
 representing the extracted features. The flattening on this 3D tensor is essentially &quot;unfolding&quot; all the dimensions
