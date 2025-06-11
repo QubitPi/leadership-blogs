@@ -1403,10 +1403,10 @@ between them is an important skill that is useful in a wide range of theoretical
 &lt;p&gt;An argument is &lt;strong&gt;logically valid&lt;/strong&gt; if and only if it is not possible for all the premises to be true and the
 conclusion false. An argument is &lt;em&gt;logically invalid&lt;/em&gt; if and only if it is not logically valid. In this sense, a
 logically valid argument is &lt;strong&gt;truth-preserving&lt;/strong&gt; (always taking one from truth to another truth, never falsehood)&lt;/p&gt;
-&lt;p&gt;:::caution[Special Case]&lt;/p&gt;
+&lt;p&gt;::::::caution[Special Case]&lt;/p&gt;
 &lt;p&gt;An argument whose conclusion is logically true is logically valid no matter what premises it has, because it will
 never lead us from truths to a falsehood&lt;/p&gt;
-&lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;::::::&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;An argument is &lt;strong&gt;logically sound&lt;/strong&gt; if and only if it is logically valid and all of its premises are true.&lt;/p&gt;
