@@ -187,15 +187,23 @@ Now let's explore the core concepts of deductive logic, starting with basic defi
   conclusion false. An argument is _logically invalid_ if and only if it is not logically valid. In this sense, a
   logically valid argument is __truth-preserving__ (always taking one from truth to another truth, never falsehood)
 
-  ::::::caution[Special Case]
+:::tip[Corollary]
 
-  An argument whose conclusion is logically true is logically valid no matter what premises it has, because it will
-  never lead us from truths to a falsehood
+An argument whose conclusion is logically true is logically valid no matter what premises it has, because it will
+never lead us from truths to a falsehood
 
-  ::::::
+:::
 
 - An argument is __logically sound__ if and only if it is logically valid and all of its premises are true.
 - A sentence is __logically true__ if and only if it is not possible for the sentence to be false
+
+  ::::::tip[Corollary]
+
+  Every logically true sentence is entailed by every set of sentences, including the empty set, because it is not
+  possible for the sentence to be false
+
+  ::::::
+
 - A sentence is __logically false__ if and only if it is not possible for the sentence to be true
 - A sentence is __logically indeterminate__ if and only if it is neither logically true nor logically false
 - Sentences _p_ and _q_ are __Logically equivalent__ if and only if it is not possible for one of these sentences to be
