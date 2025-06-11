@@ -120,6 +120,7 @@ export default defineConfig({
 				{
 					components: {
 						github: GithubCardComponent,
+                        kokomi: (x, y) => AdmonitionComponent(x, y, "kokomi"),
 						note: (x, y) => AdmonitionComponent(x, y, "note"),
 						tip: (x, y) => AdmonitionComponent(x, y, "tip"),
 						important: (x, y) => AdmonitionComponent(x, y, "important"),

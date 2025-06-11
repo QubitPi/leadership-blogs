@@ -127,7 +127,7 @@ It takes a lot of data for most machine learning algorithms to work properly. Ev
 need thousands of examples, and for complex problems such as image or speech recognition we may need millions of
 examples.
 
-:::important[The Unreasonable Effectiveness of Data]
+:::kokomi[The Unreasonable Effectiveness of Data]
 
 In a [famous paper](https://dl.acm.org/doi/10.3115/1073012.1073017) published in 2001, Microsoft researchers Michele
 Banko and Eric Brill showed that very different machine learning algorithms, including fairly simple ones, performed
@@ -394,7 +394,7 @@ After several convolutional and max pooling layers, the final classification is 
 in a fully connected layer have connections to neurons in the previous layer. The input to this fully connected layer
 is a one-dimensional vector, which is the flattened output of the convolutional/pooling layers.
 
-:::important[What does the flattening look like?]
+:::kokomi[What does the flattening look like?]
 
 In a Convolutional Neural Network (CNN), the input to the fully connected network (FCN) is the output of the final
 convolutional layer or pooling layer. This input is typically a 3-dimensional tensor with height, width, and depth
