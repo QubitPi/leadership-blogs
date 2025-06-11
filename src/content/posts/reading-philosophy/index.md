@@ -23,7 +23,7 @@ The primary source of this post is _Wikipedia_ unless otherwise cited.
 
 It is an interesting assumption that people without background in academic Philosophy think that one have to read the
 primary sources with verify little hand holding. Studying both Physics and Philosophy, I have literally never in my life
-met someone that tries to access Physics by reading the primary academic literature. 
+met someone that tries to access Physics by reading the primary academic literature.
 
 Literally nobody interested in Physics starts by trying to read Newton's principia.  If one is interested in Philosophy
 and doesn't have any training in it, why not start with Philosophy textbooks just like how we study Physics in college?
@@ -182,10 +182,20 @@ Now let's explore the core concepts of deductive logic, starting with basic defi
 :::note[Definitions]
 
 - An __argument__ is a set of two or more sentences, one of which is designated as the conclusion and the others as the
-_premises_ (English sentences).
+  _premises_ (English sentences).
 - An argument is __logically valid__ if and only if it is not possible for all the premises to be true and the
   conclusion false. An argument is _logically invalid_ if and only if it is not logically valid. In this sense, a
   logically valid argument is __truth-preserving__ (always taking one from truth to another truth, never falsehood)
+- An argument is __logically sound__ if and only if it is logically valid and all of its premises are true.
+- A sentence is __logically true__ if and only if it is not possible for the sentence to be false
+- A sentence is __logically false__ if and only if it is not possible for the sentence to be true
+- A sentence is __logically indeterminate__ if and only if it is neither logically true nor logically false
+- Sentences _p_ and _q_ are __Logically equivalent__ if and only if it is not possible for one of these sentences to be
+  true while the other sentence is false
+- A set of sentences is __logically consistence__ if and only if it is possible for all the members of that set to be
+  true
+- A set of sentences __logically entails__ a sentence if and only if it is impossible for the members of the set to be
+  true and that sentence false
 
 :::
 
