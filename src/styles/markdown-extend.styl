@@ -20,6 +20,16 @@
         mask-position: center
         mask-repeat: no-repeat
         transform: translateY(-0.0625rem)
+    &.bdm-kokomi
+      .bdm-title
+        color: var(--admonitions-color-kokomi)
+
+        &:before
+          background: var(--admonitions-color-kokomi)
+          mask-image: url("https://github.com/QubitPi/QubitPi/blob/master/img/%E5%BF%83%E6%B5%B7-admonition.png?raw=true")
+
+      &:before
+        background: var(--admonitions-color-kokomi)
     &.bdm-tip
       .bdm-title
         color: var(--admonitions-color-tip)

@@ -64,7 +64,7 @@ Defining Machine Learning
 __Machine Learning__ addresses the question of how to build computer programs that improve their performance at some
 task through experience.
 
-:::tip[Definition of Learning]
+:::kokomi[Definition of Learning]
 
 A computer program is said to __learn__ from experience/data $E$ with respect to some class of tasks $T$ and performance
 measure $P$, it its performance at tasks in $T$, as measured by $P$, improves with experience $E$.

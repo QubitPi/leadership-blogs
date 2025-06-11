@@ -47,6 +47,7 @@ A static blog template built with [Astro](https://astro.build).
       in [config](./src/config.ts)
     - [x] Blog Order: Blogs are sorted by `updated` date
     - [x] Images in Markdown is always centered
+    - [x] [珊瑚宫心海主题博客](https://leadership.qubitpi.org/posts/machine-learning/)
 
 ## 🚀 Getting Started
 
