@@ -145,7 +145,7 @@ exploration and exploitation. This is the basic idea behind reinforcement learni
 &lt;h2&gt;Defining Machine Learning&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Machine Learning&lt;/strong&gt; addresses the question of how to build computer programs that improve their performance at some
 task through experience.&lt;/p&gt;
-&lt;p&gt;:::tip[Definition of Learning]&lt;/p&gt;
+&lt;p&gt;:::kokomi[Definition of Learning]&lt;/p&gt;
 &lt;p&gt;A computer program is said to &lt;strong&gt;learn&lt;/strong&gt; from experience/data $E$ with respect to some class of tasks $T$ and performance
 measure $P$, it its performance at tasks in $T$, as measured by $P$, improves with experience $E$.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
