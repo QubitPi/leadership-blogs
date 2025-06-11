@@ -1395,21 +1395,42 @@ between them is an important skill that is useful in a wide range of theoretical
 &lt;p&gt;Now let&apos;s explore the core concepts of deductive logic, starting with basic definitions:&lt;/p&gt;
 &lt;p&gt;:::note[Definitions]&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;An &lt;strong&gt;argument&lt;/strong&gt; is a set of two or more sentences, one of which is designated as the conclusion and the others as the
-&lt;em&gt;premises&lt;/em&gt; (English sentences).&lt;/li&gt;
-&lt;li&gt;An argument is &lt;strong&gt;logically valid&lt;/strong&gt; if and only if it is not possible for all the premises to be true and the
+&lt;li&gt;
+&lt;p&gt;An &lt;strong&gt;argument&lt;/strong&gt; is a set of two or more sentences, one of which is designated as the conclusion and the others as the
+&lt;em&gt;premises&lt;/em&gt; (English sentences).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;An argument is &lt;strong&gt;logically valid&lt;/strong&gt; if and only if it is not possible for all the premises to be true and the
 conclusion false. An argument is &lt;em&gt;logically invalid&lt;/em&gt; if and only if it is not logically valid. In this sense, a
-logically valid argument is &lt;strong&gt;truth-preserving&lt;/strong&gt; (always taking one from truth to another truth, never falsehood)&lt;/li&gt;
-&lt;li&gt;An argument is &lt;strong&gt;logically sound&lt;/strong&gt; if and only if it is logically valid and all of its premises are true.&lt;/li&gt;
-&lt;li&gt;A sentence is &lt;strong&gt;logically true&lt;/strong&gt; if and only if it is not possible for the sentence to be false&lt;/li&gt;
-&lt;li&gt;A sentence is &lt;strong&gt;logically false&lt;/strong&gt; if and only if it is not possible for the sentence to be true&lt;/li&gt;
-&lt;li&gt;A sentence is &lt;strong&gt;logically indeterminate&lt;/strong&gt; if and only if it is neither logically true nor logically false&lt;/li&gt;
-&lt;li&gt;Sentences &lt;em&gt;p&lt;/em&gt; and &lt;em&gt;q&lt;/em&gt; are &lt;strong&gt;Logically equivalent&lt;/strong&gt; if and only if it is not possible for one of these sentences to be
-true while the other sentence is false&lt;/li&gt;
-&lt;li&gt;A set of sentences is &lt;strong&gt;logically consistence&lt;/strong&gt; if and only if it is possible for all the members of that set to be
-true&lt;/li&gt;
-&lt;li&gt;A set of sentences &lt;strong&gt;logically entails&lt;/strong&gt; a sentence if and only if it is impossible for the members of the set to be
-true and that sentence false&lt;/li&gt;
+logically valid argument is &lt;strong&gt;truth-preserving&lt;/strong&gt; (always taking one from truth to another truth, never falsehood)&lt;/p&gt;
+&lt;p&gt;:::caution[Special Case]&lt;/p&gt;
+&lt;p&gt;An argument whose conclusion is logically true is logically valid no matter what premises it has&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;An argument is &lt;strong&gt;logically sound&lt;/strong&gt; if and only if it is logically valid and all of its premises are true.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A sentence is &lt;strong&gt;logically true&lt;/strong&gt; if and only if it is not possible for the sentence to be false&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A sentence is &lt;strong&gt;logically false&lt;/strong&gt; if and only if it is not possible for the sentence to be true&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A sentence is &lt;strong&gt;logically indeterminate&lt;/strong&gt; if and only if it is neither logically true nor logically false&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sentences &lt;em&gt;p&lt;/em&gt; and &lt;em&gt;q&lt;/em&gt; are &lt;strong&gt;Logically equivalent&lt;/strong&gt; if and only if it is not possible for one of these sentences to be
+true while the other sentence is false&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A set of sentences is &lt;strong&gt;logically consistence&lt;/strong&gt; if and only if it is possible for all the members of that set to be
+true&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A set of sentences &lt;strong&gt;logically entails&lt;/strong&gt; a sentence if and only if it is impossible for the members of the set to be
+true and that sentence false&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;(To be continued...)&lt;/p&gt;
