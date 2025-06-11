@@ -1,3 +1,18 @@
+.google-colab-link {
+    display: inline;
+    background-color: #968dd8;
+    color: white;
+    border-radius: 0.75rem;
+    text-decoration: none;
+}
+.kaggle-link {
+    display: inline;
+    background-color: #f6d4cb;
+    color: white;
+    border-radius: 0.75rem;
+    text-decoration: none;
+}
+
 .custom-md {
     h1 {
         @apply text-3xl;
@@ -24,7 +39,7 @@
         underline decoration-[var(--link-underline)] decoration-1 decoration-dashed underline-offset-4;
         box-decoration-break: clone;
         -webkit-box-decoration-break: clone;
-    
+
         &:hover, &:active {
             @apply decoration-transparent;
             background: var(--btn-plain-bg-hover);
@@ -116,5 +131,5 @@
         overflow-x: auto;
         margin: 1em 0;
     }
-    
+
 }
