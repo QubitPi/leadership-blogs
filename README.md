@@ -27,9 +27,12 @@ A static blog template built with [Astro](https://astro.build).
 - [x] [Markdown extended features](https://github.com/saicaca/fuwari?tab=readme-ov-file#-markdown-extended-syntax)
 - [x] Table of contents
 - [x] RSS feed
-- [x] ([This fork]()) Per-post font customization:
+- [x] [This fork]()
 
-    - [x] Poppins (Default global font)
+  - Per-post font customization:
+
+    - [x] Changes global font to __Poppins__, a widely used font for web due to its versatility, modern aesthetic, and good
+      readability
     - [x] [庞中华行楷 for Chinese](https://www.fonts101.com/fonts/view/Script/62094/US_Declaration) ([example post](https://leadership.qubitpi.org/posts/%E5%AD%99%E5%AD%90%E5%85%B5%E6%B3%95%E8%AE%A1%E7%AF%87%E7%AC%AC%E4%B8%80/))
     - [x] [DX Red Mailbox Bold for Korean](https://www.fonts101.com/fonts/view/Script/62094/US_Declaration) ([example post](https://leadership.qubitpi.org/posts/%EB%82%98%EC%9D%98-%EC%95%84%EC%A0%80%EC%94%A8/))
     - [x] [US Declaration](https://www.fonts101.com/fonts/view/Script/62094/US_Declaration) ([example post](https://leadership.qubitpi.org/posts/declaration-of-independence/))
@@ -42,11 +45,22 @@ A static blog template built with [Astro](https://astro.build).
         - displaying styled German text in a non-German post:  `<span class="german-text">Die Metaphysik der Sitten</span>`
         - displaying styled Greek text in a non-Greek post: `<span class="greek-text">ἐπιστήμη</span>`
 
-    - [x] Top Blog: One blog, such as [this one](https://leadership.qubitpi.org/posts/infinite-game/), can be set to
-      always comes as the first blog on the first page. To do so, set the `topBlog` to the title of the desired top blog
-      in [config](./src/config.ts)
-    - [x] Blog Order: Blogs are sorted by `updated` date
-    - [x] Images in Markdown is always centered
+  - [x] Top Blog: One blog, such as [this one](https://leadership.qubitpi.org/posts/infinite-game/), can be set to
+    always comes as the first blog on the first page. To do so, set the `topBlog` to the title of the desired top blog
+    in [config](./src/config.ts)
+  - [x] Blog Order: Blogs are sorted by `updated` date
+  - [x] Images in Markdown is always centered
+  - [x] Genshin [Kokomi style](https://www.color-hex.com/color-palette/1024275) admonition:
+
+    ```markdown
+    :::kokomi[My Admonition Title]
+    
+    my admonition
+    
+    :::
+    ```
+    
+    ![Kokomi admonition example](./kokomi-admonition.png "Error loading kokomi-admonition.png")
 
 ## 🚀 Getting Started
 
