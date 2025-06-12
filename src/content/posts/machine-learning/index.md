@@ -554,13 +554,34 @@ sequences of input, output, or both at the same time:
 - sentence and then classify what sentiment (e.g. positive or negative) that sentence is.
 - An example of __many-to-many__ task is machine translation in NLP, where we can have an RNN that takes a sequence of
   words of a sentence in English, and then this RNN is asked to produce a sequence of words of a sentence in German.
-- There is also a __variation of many-to-many__ task as shown in the last model in Figure below, where the model
+- There is also a __variation of many-to-many__ task as shown in the last model in figure below, where the model
   generates an output at every timestep. An example of this many-to-many task is video classification on a frame level
   where the model classifies every single frame of video with some number of classes. We should note that we don't want
   this prediction to only be a function of the current timestep (current frame of the video), but also all the timesteps
   (frames) that have come before this video.
 
 ![](./img/types.png)
+
+:::tip
+
+A [CNN](#convolutional-neural-networks-cnns) learns to recognize patterns across __space__. So a CNN will learn to
+recognize components of an image (e.g., lines, curves, etc.) and then learn to combine these components to recognize
+larger structures (e.g., faces, objects, etc.)
+
+A RNN will similarly learn to recognize patterns across __time__. So a RNN that is trained to translate text might learn
+that "dog" should be translated differently if preceded by the word "hot".
+
+The mechanism by which the two kinds of NNs represent these patterns is different, however. In the case of a CNN, we are
+looking for the same patterns on all the different subfields of the image. In the case of a RNN we are (in the simplest
+case) feeding the hidden layers from the previous step as an additional input into the next step. While the RNN builds
+up memory in this process, it is not looking for the same patterns over different slices of time in the same way that a
+CNN is looking for the same patterns over different regions of space.
+
+It should be noted that "time" and "space" here shouldn't be taken too literally. We could run a RNN on a single image
+for image captioning, for instance, and the meaning of "time" would simply be the order in which different parts of the
+image are processed. So objects initially processed will inform the captioning of later objects processed.
+
+:::
 
 ### Forward Propagation Equations for RNN
 
