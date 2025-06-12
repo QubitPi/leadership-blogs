@@ -545,8 +545,9 @@ One great thing about the RNNs is that they offer a lot of flexibility on how we
 architecture. Normally when we are working with neural networks, we are given a fixed sized input vector (red boxes
 below), then we process it with some hidden layers (green), and we produce a fixed sized output vector (blue). The
 left-most model in figure below is the [__Vanilla Neural Networks__](#architecture), which receives a single input and
-produce one output (_The green box in between actually represents __layers__ of neurons_). The rest of the models on the right are all __Recurrent Neural Networks__ that allow us to operate
-over sequences of input, output, or both at the same time:
+produce one output (_The green box in between actually represents __layers__ of neurons_). The rest of the models on the
+right are all __Recurrent Neural Networks__ that allow us to operate over sequences of input, output, or both at the
+same time:
 
 - An example of __one-to-many__ model is image captioning where we are given a fixed sized image and produce a sequence
   of words that describe the content of that image through RNN
@@ -580,6 +581,15 @@ CNN is looking for the same patterns over different regions of space.
 It should be noted that "time" and "space" here shouldn't be taken too literally. We could run a RNN on a single image
 for image captioning, for instance, and the meaning of "time" would simply be the order in which different parts of the
 image are processed. So objects initially processed will inform the captioning of later objects processed.
+
+:::
+
+The sequence regime of operation is much more powerful compared to fixed networks that are doomed from the get-go by a
+fixed number of computational steps. Moreover, as we’ll see in a bit, RNNs combine the input vector with their state vector with a fixed (but learned) function to produce a new state vector. This can in programming terms be interpreted as running a fixed program with certain inputs and some internal variables. Viewed this way, RNNs essentially describe programs. In fact, it is known that [RNNs are Turing-Complete](http://binds.cs.umass.edu/papers/1995_Siegelmann_Science.pdf) in the sense that they can simulate arbitrary programs (with proper weights).
+
+:::kokomi[Space → Time v.s. Function → Program]
+
+If training vanilla neural nets is optimization over functions, training recurrent nets is optimization over programs.
 
 :::
 
