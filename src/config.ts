@@ -69,6 +69,16 @@ export const profileConfig: ProfileConfig = {
       icon: 'fa6-brands:github-alt',
       url: 'https://github.com/Qubitpi',
     },
+    {
+        name: '原神',
+        icon: 'simple-icons:mihoyo',
+        url: 'https://enka.network/u/MyFavoriteCharacters',
+    },
+    {
+        name: 'YouTube',
+        icon: 'fa6-brands:youtube',
+        url: 'https://www.youtube.com/@wilhelm-tiger',
+    },
   ],
 }
 
