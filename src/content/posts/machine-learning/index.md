@@ -610,6 +610,20 @@ rnn = RNN()
 y = rnn.step(x) # x is an input vector, y is the RNN's output vector
 ```
 
+This is where RNN starts to model the notion of "memory": The RNN class has some internal state that is updated
+every time `step()` is called. In the simplest case this state consists of a single hidden vector `h`:
+
+```python
+class RNN:
+    # ...
+    def step(self, x):
+        # update the hidden state
+        self.h = np.tanh(np.dot(self.W_hh, self.h) + np.dot(self.W_xh, x))
+        # compute the output vector
+        y = np.dot(self.W_hy, self.h)
+        return y
+```
+
 ### Forward Propagation Equations for RNN
 
 We now develop the forward propagation equations for the RNN. We assume the hyperbolic tangent activation function,
