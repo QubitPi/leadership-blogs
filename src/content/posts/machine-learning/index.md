@@ -585,7 +585,11 @@ image are processed. So objects initially processed will inform the captioning o
 :::
 
 The sequence regime of operation is much more powerful compared to fixed networks that are doomed from the get-go by a
-fixed number of computational steps. Moreover, as we’ll see in a bit, RNNs combine the input vector with their state vector with a fixed (but learned) function to produce a new state vector. This can in programming terms be interpreted as running a fixed program with certain inputs and some internal variables. Viewed this way, RNNs essentially describe programs. In fact, it is known that [RNNs are Turing-Complete](http://binds.cs.umass.edu/papers/1995_Siegelmann_Science.pdf) in the sense that they can simulate arbitrary programs (with proper weights).
+fixed number of computational steps. Moreover, as we’ll see in a bit, RNNs combine the input vector with their state
+vector with a fixed (but learned) function to produce a new state vector. This can in programming terms be interpreted
+as running a fixed program with certain inputs and some internal variables. Viewed this way, RNNs essentially describe
+programs. In fact, it is known that [RNNs are Turing-Complete](http://binds.cs.umass.edu/papers/1995_Siegelmann_Science.pdf)
+in the sense that they can simulate arbitrary programs (with proper weights).
 
 :::kokomi[Space → Time v.s. Function → Program]
 
