@@ -512,34 +512,7 @@ element is a character such as "e" and sequence is a string like "hell"
 ![](img/rnn.png)
 
 Each function $f$ is a network unit containing 2 perceptrons. One perceptron computes the "history" like $h_1$, $h_2$,
-$h_3$. Its formula is very similar to that of perceptron:
-
-$$
-h^{(t)} = g_1\left( W_{hh}h^{(t - 1)} + W_{xh}x^{(t)} + b_h \right)
-$$
-
-where $t$ is the index of the "black boxes" shown above. In our example of "hell", $t \in \{ 1, 2, 3, 4 \}$.
-
-The other perceptron computes the output like 'e', 'l', 'l', 'o'. We call those value $y$ which is given by
-
-$$
-o^{(t)} = g_2\left( W_{yh}h^{(t)} + b_o \right)
-$$
-
-:::tip[What are $g_1$ and $g_2$?]
-
-They are __activation functions__ which are used to change the linear function in a perceptron to a non-linear function.
-Please refer to _Machine Learning_ by Mitchell, Tom M. (1997), Paperback (page 96) for why we bump it to non-linear
-
-A typical activation function for $g_1$ is $tanh$:
-
-$$
-tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
-$$
-
-In practice, $g_2$ is constance, i.e. $g_2 = 1$
-
-:::
+$h_3$.
 
 One great thing about the RNNs is that they offer a lot of flexibility on how we wire up the neural network
 architecture. Normally when we are working with neural networks, we are given a fixed sized input vector (red boxes
@@ -623,6 +596,36 @@ class RNN:
         y = np.dot(self.W_hy, self.h)
         return y
 ```
+
+The step function above specifies the forward pass of RNN. There are 3 parameters $W_hh$, $W_xh$, and $W_hy$. The hidden
+vector, or more generally the hidden state, is defined by
+
+$$
+h^{(t)} = g_1\left( W_{hh}h^{(t - 1)} + W_{xh}x^{(t)} + b_h \right)
+$$
+
+where $t$ is the index of the "black boxes" shown above. In our example of "hell", $t \in \{ 1, 2, 3, 4 \}$.
+
+The other perceptron computes the output like 'e', 'l', 'l', 'o'. We call those value $y$ which is given by
+
+$$
+o^{(t)} = g_2\left( W_{yh}h^{(t)} + b_o \right)
+$$
+
+:::tip[What are $g_1$ and $g_2$?]
+
+They are __activation functions__ which are used to change the linear function in a perceptron to a non-linear function.
+Please refer to _Machine Learning_ by Mitchell, Tom M. (1997), Paperback (page 96) for why we bump it to non-linear
+
+A typical activation function for $g_1$ is $tanh$:
+
+$$
+tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
+$$
+
+In practice, $g_2$ is constance, i.e. $g_2 = 1$
+
+:::
 
 ### Forward Propagation Equations for RNN
 
