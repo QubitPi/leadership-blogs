@@ -604,9 +604,20 @@ $$
 h^{(t)} = g_1\left( W_{hh}h^{(t - 1)} + W_{xh}x^{(t)} + b_h \right)
 $$
 
-where $t$ is the index of the "black boxes" shown above. In our example of "hell", $t \in \{ 1, 2, 3, 4 \}$.
+where $t$ is the index of the "black boxes" shown earlier. In our example of "hell", $t \in \{ 1, 2, 3, 4 \}$. The
+hidden state $h$ is usually initialized with zero vector (simulating "no memory at all"). There are 2 terms inside the
+$g_1$:
 
-The other perceptron computes the output like 'e', 'l', 'l', 'o'. We call those value $y$ which is given by
+1. one term based on the previous hidden state $W_{hh}h^{(t - 1)}$, and
+2. the other term based on the current input $W_{xh}x^{(t)}$
+
+In the program above we use numpy `np.dot` which is a matrix multiplication. The 2 terms interact with addition.
+
+We initialize matrices $W_hh$, $W_xh$, and $W_hy$ with random numbers and the bulk of work during training goes into
+finding the matrices that gives rise to the desirable behavior, as measured with some [loss function](#loss-function-of-rnn)
+that expresses our preferences to what kind of output `y` we would like to see in response to our input sequence `x`
+
+The value $y$ is given by
 
 $$
 o^{(t)} = g_2\left( W_{yh}h^{(t)} + b_o \right)
@@ -623,9 +634,22 @@ $$
 tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
 $$
 
+which squashes the activations to the range $[0, 1]$
+
 In practice, $g_2$ is constance, i.e. $g_2 = 1$
 
 :::
+
+We get RNNs as neural networks if we stack up as follows:
+
+```python
+y1 = rnn1.step(x)
+y = rnn2.step(y1)
+```
+
+In other words we have two separate RNNs: One RNN is receiving the input vectors and the second RNN is receiving the
+output of the first RNN as its input. Except neither of these RNNs know or care - it’s all just vectors coming in and
+going out, and some gradients flowing through each module during backpropagation.
 
 ### Forward Propagation Equations for RNN
 
