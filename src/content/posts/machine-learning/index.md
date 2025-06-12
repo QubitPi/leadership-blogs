@@ -440,6 +440,15 @@ features are concatenated to form a feature vector for the penultimate layer. Th
 feature vector as input and uses it to classify the sentence; here we assume binary classification and hence depict two
 possible output states.
 
+What about the nice intuitions we had for Computer Vision? Location Invariance and local Compositionality made intuitive
+sense for images, but not so much for NLP. We probably do care a lot where in the sentence a word appears (Except for
+Latin). Pixels close to each other are likely to be semantically related (part of the same object), but the same isn't
+always true for words. In many languages, parts of phrases could be separated by several other words. The compositional
+aspect isn't obvious either. Clearly, words compose in some ways, like an adjective modifying a noun, but how exactly
+this works what higher level representations actually "mean" isn’t as obvious as in the Computer Vision case. Given all
+this, [Recurrent Neural Networks](#recurrent-neural-networks-rnns) make more intuitive sense. They resemble how we
+process language, or at least how we think we process language: Reading sequentially from left to right.
+
 Recurrent Neural Networks (RNNs)
 --------------------------------
 
