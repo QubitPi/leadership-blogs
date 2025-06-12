@@ -1,7 +1,7 @@
 ---
 title: Why is Philosophy so Pretentious?
 published: 2025-05-29
-updated: 2025-06-07
+updated: 2025-06-12
 description: |
   People who are interested in Philosophy but not a Philosophy major doesn't like the overly complicated style of
   writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
@@ -179,7 +179,7 @@ between them is an important skill that is useful in a wide range of theoretical
 
 Now let's explore the core concepts of deductive logic, starting with basic definitions:
 
-:::note[Definitions]
+#### Definitions
 
 - An __argument__ is a set of two or more sentences, one of which is designated as the conclusion and the others as the
   _premises_ (English sentences).
@@ -187,12 +187,12 @@ Now let's explore the core concepts of deductive logic, starting with basic defi
   conclusion false. An argument is _logically invalid_ if and only if it is not logically valid. In this sense, a
   logically valid argument is __truth-preserving__ (always taking one from truth to another truth, never falsehood)
 
-::::::tip[Corollary]
+  :::tip[Corollary]
 
-An argument whose conclusion is logically true is logically valid no matter what premises it has, because it will
-never lead us from truths to a falsehood
+  An argument whose conclusion is logically true is logically valid no matter what premises it has, because it will
+  never lead us from truths to a falsehood
 
-::::::
+  :::
 
 - An argument is __logically sound__ if and only if it is logically valid and all of its premises are true.
 - A sentence is __logically true__ if and only if it is not possible for the sentence to be false
@@ -205,16 +205,12 @@ never lead us from truths to a falsehood
 - A set of sentences __logically entails__ a sentence if and only if it is impossible for the members of the set to be
   true and that sentence false
 
-::::::tip[Corollary]
+  :::tip[Corollary]
 
-Every logically true sentence is entailed by every set of sentences, including the empty set, because it is not
-possible for the sentence to be false
+  Every logically true sentence is entailed by every set of sentences, including the empty set, because it is not
+  possible for the sentence to be false
 
-::::::
-
-:::
-
-(To be continued...)
+  :::
 
 [categories of being]: https://en.wikipedia.org/wiki/Categories_(Aristotle)
 
