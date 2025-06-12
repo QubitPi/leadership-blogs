@@ -722,7 +722,11 @@ for image captioning, for instance, and the meaning of &quot;time&quot; would si
 image are processed. So objects initially processed will inform the captioning of later objects processed.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;The sequence regime of operation is much more powerful compared to fixed networks that are doomed from the get-go by a
-fixed number of computational steps. Moreover, as we’ll see in a bit, RNNs combine the input vector with their state vector with a fixed (but learned) function to produce a new state vector. This can in programming terms be interpreted as running a fixed program with certain inputs and some internal variables. Viewed this way, RNNs essentially describe programs. In fact, it is known that &lt;a href=&quot;http://binds.cs.umass.edu/papers/1995_Siegelmann_Science.pdf&quot;&gt;RNNs are Turing-Complete&lt;/a&gt; in the sense that they can simulate arbitrary programs (with proper weights).&lt;/p&gt;
+fixed number of computational steps. Moreover, as we’ll see in a bit, RNNs combine the input vector with their state
+vector with a fixed (but learned) function to produce a new state vector. This can in programming terms be interpreted
+as running a fixed program with certain inputs and some internal variables. Viewed this way, RNNs essentially describe
+programs. In fact, it is known that &lt;a href=&quot;http://binds.cs.umass.edu/papers/1995_Siegelmann_Science.pdf&quot;&gt;RNNs are Turing-Complete&lt;/a&gt;
+in the sense that they can simulate arbitrary programs (with proper weights).&lt;/p&gt;
 &lt;p&gt;:::kokomi[Space → Time v.s. Function → Program]&lt;/p&gt;
 &lt;p&gt;If training vanilla neural nets is optimization over functions, training recurrent nets is optimization over programs.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
