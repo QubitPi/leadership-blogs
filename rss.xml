@@ -572,8 +572,8 @@ objects in an image no matter where they are located&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Architecture&lt;/h4&gt;
 &lt;p&gt;A convolutional neural network consists of an input layer, hidden layers and an output layer. In a convolutional neural
-network, the hidden layers include one or more layers that perform &lt;a href=&quot;#convolution-step&quot;&gt;convolutions&lt;/a&gt; followed by other
-layers such as &lt;a href=&quot;#pooling-step&quot;&gt;pooling&lt;/a&gt; layers and fully connected layers&lt;/p&gt;
+network, &lt;strong&gt;the hidden layers include one or more layers that perform &lt;a href=&quot;#convolution-step&quot;&gt;convolutions&lt;/a&gt; followed by other
+layers such as &lt;a href=&quot;#pooling-step&quot;&gt;pooling&lt;/a&gt; layers and fully connected layers&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;After several convolutional and max pooling layers, the final classification is done via fully connected layers. Neurons
 in a fully connected layer have connections to neurons in the previous layer. The input to this fully connected layer
 is a one-dimensional vector, which is the flattened output of the convolutional/pooling layers.&lt;/p&gt;
@@ -688,9 +688,9 @@ $$&lt;/p&gt;
 &lt;p&gt;One great thing about the RNNs is that they offer a lot of flexibility on how we wire up the neural network
 architecture. Normally when we are working with neural networks, we are given a fixed sized input vector (red boxes
 below), then we process it with some hidden layers (green), and we produce a fixed sized output vector (blue). The
-left-most model in figure below is called &lt;strong&gt;Vanilla Neural Networks&lt;/strong&gt;, which receives a single input and produce one
-output. The rest of the models on the right are all &lt;strong&gt;Recurrent Neural Networks&lt;/strong&gt; that allow us to operate over
-sequences of input, output, or both at the same time:&lt;/p&gt;
+left-most model in figure below is the &lt;a href=&quot;#architecture&quot;&gt;&lt;strong&gt;Vanilla Neural Networks&lt;/strong&gt;&lt;/a&gt;, which receives a single input and
+produce one output (&lt;em&gt;The green box in between actually represents &lt;strong&gt;layers&lt;/strong&gt; of neurons&lt;/em&gt;). The rest of the models on the right are all &lt;strong&gt;Recurrent Neural Networks&lt;/strong&gt; that allow us to operate
+over sequences of input, output, or both at the same time:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;An example of &lt;strong&gt;one-to-many&lt;/strong&gt; model is image captioning where we are given a fixed sized image and produce a sequence
 of words that describe the content of that image through RNN&lt;/li&gt;
