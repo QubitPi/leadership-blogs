@@ -586,6 +586,15 @@ example, a $5 \times 5 \times 2$ tensor has the flattened vector with size of $5
 number of neurons of the FCN input layers.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./img/cnn-architecture.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;There are two aspects of this computation worth paying attention to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Location Invariance&lt;/strong&gt;: Let&apos;s say we want to classify whether or not there&apos;s an elephant in an image. Because we are
+sliding our filters over the whole image we don&apos;t really care where the elephant occurs. In practice,
+&lt;a href=&quot;#pooling-step&quot;&gt;pooling&lt;/a&gt; also gives us invariance to translation, rotation and scaling.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compositionality&lt;/strong&gt;: Each filter composes a local patch of lower-level features into higher-level representation.
+That&apos;s why CNNs are so powerful in Computer Vision. It makes intuitive sense that you build edges from pixels, shapes
+from edges, and more complex objects from shapes.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h4&gt;Convolutional Neural Networks for NLP&lt;/h4&gt;
 &lt;p&gt;Instead of image pixels, the input to most NLP tasks are sentences or documents represented as a matrix. Each row of the
 matrix corresponds to one token, typically a word, but it could be a character. That is, each row is vector that
