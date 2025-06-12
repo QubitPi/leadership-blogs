@@ -1,7 +1,7 @@
 ---
 title: Machine Learning
 published: 2025-06-05
-updated: 2025-06-11
+updated: 2025-06-12
 description: |
   Machine Learning is to me is the transcendentalization of my combined passion toward Software Engineering and Data
   Analytics. While Artificial Intelligence (AI) is a broad field encompassing the creation of machines that can perform
@@ -406,6 +406,15 @@ number of neurons of the FCN input layers.
 :::
 
 ![](./img/cnn-architecture.png)
+
+There are two aspects of this computation worth paying attention to: 
+
+1. __Location Invariance__: Let's say we want to classify whether or not there's an elephant in an image. Because we are
+   sliding our filters over the whole image we don't really care where the elephant occurs. In practice,
+   [pooling](#pooling-step) also gives us invariance to translation, rotation and scaling.
+2. __Compositionality__: Each filter composes a local patch of lower-level features into higher-level representation.
+   That's why CNNs are so powerful in Computer Vision. It makes intuitive sense that you build edges from pixels, shapes
+   from edges, and more complex objects from shapes.
 
 #### Convolutional Neural Networks for NLP
 
