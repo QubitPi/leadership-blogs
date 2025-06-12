@@ -728,8 +728,17 @@ as running a fixed program with certain inputs and some internal variables. View
 programs. In fact, it is known that &lt;a href=&quot;http://binds.cs.umass.edu/papers/1995_Siegelmann_Science.pdf&quot;&gt;RNNs are Turing-Complete&lt;/a&gt;
 in the sense that they can simulate arbitrary programs (with proper weights).&lt;/p&gt;
 &lt;p&gt;:::kokomi[Space → Time v.s. Function → Program]&lt;/p&gt;
-&lt;p&gt;If training vanilla neural nets is optimization over functions, training recurrent nets is optimization over programs.&lt;/p&gt;
+&lt;p&gt;If training &lt;a href=&quot;#convolutional-neural-networks-cnns&quot;&gt;vanilla neural nets&lt;/a&gt; is optimization over functions, training
+recurrent nets is optimization over programs.&lt;/p&gt;
+&lt;p&gt;If our data is not in form of sequences, we can still formulate and train powerful models that learn to process it
+sequentially. We&apos;re learning stateful programs that process our fixed-sized data.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;At the core, RNNs accept an input vector &lt;code&gt;x&lt;/code&gt; and give us an output vector &lt;code&gt;y&lt;/code&gt;. This output vector&apos;s contents are
+influenced not only by the input we just fed in, but also on the entire history of inputs we&apos;ve fed in from the past.
+The RNN&apos;s API consists of a single step function:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;rnn = RNN()
+y = rnn.step(x) # x is an input vector, y is the RNN&apos;s output vector
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3&gt;Forward Propagation Equations for RNN&lt;/h3&gt;
 &lt;p&gt;We now develop the forward propagation equations for the RNN. We assume the hyperbolic tangent activation function,
 i.e. $tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$ and that the output is discrete, as if the RNN is used to predict
