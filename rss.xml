@@ -667,24 +667,7 @@ function gets invoked repeatedly for each element of the sequence. In the case o
 element is a character such as &quot;e&quot; and sequence is a string like &quot;hell&quot;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;img/rnn.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Each function $f$ is a network unit containing 2 perceptrons. One perceptron computes the &quot;history&quot; like $h_1$, $h_2$,
-$h_3$. Its formula is very similar to that of perceptron:&lt;/p&gt;
-&lt;p&gt;$$
-h^{(t)} = g_1\left( W_{hh}h^{(t - 1)} + W_{xh}x^{(t)} + b_h \right)
-$$&lt;/p&gt;
-&lt;p&gt;where $t$ is the index of the &quot;black boxes&quot; shown above. In our example of &quot;hell&quot;, $t \in { 1, 2, 3, 4 }$.&lt;/p&gt;
-&lt;p&gt;The other perceptron computes the output like &apos;e&apos;, &apos;l&apos;, &apos;l&apos;, &apos;o&apos;. We call those value $y$ which is given by&lt;/p&gt;
-&lt;p&gt;$$
-o^{(t)} = g_2\left( W_{yh}h^{(t)} + b_o \right)
-$$&lt;/p&gt;
-&lt;p&gt;:::tip[What are $g_1$ and $g_2$?]&lt;/p&gt;
-&lt;p&gt;They are &lt;strong&gt;activation functions&lt;/strong&gt; which are used to change the linear function in a perceptron to a non-linear function.
-Please refer to &lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), Paperback (page 96) for why we bump it to non-linear&lt;/p&gt;
-&lt;p&gt;A typical activation function for $g_1$ is $tanh$:&lt;/p&gt;
-&lt;p&gt;$$
-tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
-$$&lt;/p&gt;
-&lt;p&gt;In practice, $g_2$ is constance, i.e. $g_2 = 1$&lt;/p&gt;
-&lt;p&gt;:::&lt;/p&gt;
+$h_3$.&lt;/p&gt;
 &lt;p&gt;One great thing about the RNNs is that they offer a lot of flexibility on how we wire up the neural network
 architecture. Normally when we are working with neural networks, we are given a fixed sized input vector (red boxes
 below), then we process it with some hidden layers (green), and we produce a fixed sized output vector (blue). The
@@ -750,6 +733,43 @@ every time &lt;code&gt;step()&lt;/code&gt; is called. In the simplest case this 
         y = np.dot(self.W_hy, self.h)
         return y
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The step function above specifies the forward pass of RNN. There are 3 parameters $W_hh$, $W_xh$, and $W_hy$. The hidden
+vector, or more generally the hidden state, is defined by&lt;/p&gt;
+&lt;p&gt;$$
+h^{(t)} = g_1\left( W_{hh}h^{(t - 1)} + W_{xh}x^{(t)} + b_h \right)
+$$&lt;/p&gt;
+&lt;p&gt;where $t$ is the index of the &quot;black boxes&quot; shown earlier. In our example of &quot;hell&quot;, $t \in { 1, 2, 3, 4 }$. The
+hidden state $h$ is usually initialized with zero vector (simulating &quot;no memory at all&quot;). There are 2 terms inside the
+$g_1$:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;one term based on the previous hidden state $W_{hh}h^{(t - 1)}$, and&lt;/li&gt;
+&lt;li&gt;the other term based on the current input $W_{xh}x^{(t)}$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In the program above we use numpy &lt;code&gt;np.dot&lt;/code&gt; which is a matrix multiplication. The 2 terms interact with addition.&lt;/p&gt;
+&lt;p&gt;We initialize matrices $W_hh$, $W_xh$, and $W_hy$ with random numbers and the bulk of work during training goes into
+finding the matrices that gives rise to the desirable behavior, as measured with some &lt;a href=&quot;#loss-function-of-rnn&quot;&gt;loss function&lt;/a&gt;
+that expresses our preferences to what kind of output &lt;code&gt;y&lt;/code&gt; we would like to see in response to our input sequence &lt;code&gt;x&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The value $y$ is given by&lt;/p&gt;
+&lt;p&gt;$$
+o^{(t)} = g_2\left( W_{yh}h^{(t)} + b_o \right)
+$$&lt;/p&gt;
+&lt;p&gt;:::tip[What are $g_1$ and $g_2$?]&lt;/p&gt;
+&lt;p&gt;They are &lt;strong&gt;activation functions&lt;/strong&gt; which are used to change the linear function in a perceptron to a non-linear function.
+Please refer to &lt;em&gt;Machine Learning&lt;/em&gt; by Mitchell, Tom M. (1997), Paperback (page 96) for why we bump it to non-linear&lt;/p&gt;
+&lt;p&gt;A typical activation function for $g_1$ is $tanh$:&lt;/p&gt;
+&lt;p&gt;$$
+tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}
+$$&lt;/p&gt;
+&lt;p&gt;which squashes the activations to the range $[0, 1]$&lt;/p&gt;
+&lt;p&gt;In practice, $g_2$ is constance, i.e. $g_2 = 1$&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;We get RNNs as neural networks if we stack up as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;y1 = rnn1.step(x)
+y = rnn2.step(y1)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In other words we have two separate RNNs: One RNN is receiving the input vectors and the second RNN is receiving the
+output of the first RNN as its input. Except neither of these RNNs know or care - it’s all just vectors coming in and
+going out, and some gradients flowing through each module during backpropagation.&lt;/p&gt;
 &lt;h3&gt;Forward Propagation Equations for RNN&lt;/h3&gt;
 &lt;p&gt;We now develop the forward propagation equations for the RNN. We assume the hyperbolic tangent activation function,
 i.e. $tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$ and that the output is discrete, as if the RNN is used to predict
