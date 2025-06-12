@@ -739,6 +739,17 @@ The RNN&apos;s API consists of a single step function:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;rnn = RNN()
 y = rnn.step(x) # x is an input vector, y is the RNN&apos;s output vector
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is where RNN starts to model the notion of &quot;memory&quot;: The RNN class has some internal state that is updated
+every time &lt;code&gt;step()&lt;/code&gt; is called. In the simplest case this state consists of a single hidden vector &lt;code&gt;h&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;class RNN:
+    # ...
+    def step(self, x):
+        # update the hidden state
+        self.h = np.tanh(np.dot(self.W_hh, self.h) + np.dot(self.W_xh, x))
+        # compute the output vector
+        y = np.dot(self.W_hy, self.h)
+        return y
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3&gt;Forward Propagation Equations for RNN&lt;/h3&gt;
 &lt;p&gt;We now develop the forward propagation equations for the RNN. We assume the hyperbolic tangent activation function,
 i.e. $tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$ and that the output is discrete, as if the RNN is used to predict
