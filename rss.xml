@@ -698,13 +698,28 @@ of words that describe the content of that image through RNN&lt;/li&gt;
 &lt;li&gt;sentence and then classify what sentiment (e.g. positive or negative) that sentence is.&lt;/li&gt;
 &lt;li&gt;An example of &lt;strong&gt;many-to-many&lt;/strong&gt; task is machine translation in NLP, where we can have an RNN that takes a sequence of
 words of a sentence in English, and then this RNN is asked to produce a sequence of words of a sentence in German.&lt;/li&gt;
-&lt;li&gt;There is also a &lt;strong&gt;variation of many-to-many&lt;/strong&gt; task as shown in the last model in Figure below, where the model
+&lt;li&gt;There is also a &lt;strong&gt;variation of many-to-many&lt;/strong&gt; task as shown in the last model in figure below, where the model
 generates an output at every timestep. An example of this many-to-many task is video classification on a frame level
 where the model classifies every single frame of video with some number of classes. We should note that we don&apos;t want
 this prediction to only be a function of the current timestep (current frame of the video), but also all the timesteps
 (frames) that have come before this video.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&quot;./img/types.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;:::tip&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&quot;#convolutional-neural-networks-cnns&quot;&gt;CNN&lt;/a&gt; learns to recognize patterns across &lt;strong&gt;space&lt;/strong&gt;. So a CNN will learn to
+recognize components of an image (e.g., lines, curves, etc.) and then learn to combine these components to recognize
+larger structures (e.g., faces, objects, etc.)&lt;/p&gt;
+&lt;p&gt;A RNN will similarly learn to recognize patterns across &lt;strong&gt;time&lt;/strong&gt;. So a RNN that is trained to translate text might learn
+that &quot;dog&quot; should be translated differently if preceded by the word &quot;hot&quot;.&lt;/p&gt;
+&lt;p&gt;The mechanism by which the two kinds of NNs represent these patterns is different, however. In the case of a CNN, we are
+looking for the same patterns on all the different subfields of the image. In the case of a RNN we are (in the simplest
+case) feeding the hidden layers from the previous step as an additional input into the next step. While the RNN builds
+up memory in this process, it is not looking for the same patterns over different slices of time in the same way that a
+CNN is looking for the same patterns over different regions of space.&lt;/p&gt;
+&lt;p&gt;It should be noted that &quot;time&quot; and &quot;space&quot; here shouldn&apos;t be taken too literally. We could run a RNN on a single image
+for image captioning, for instance, and the meaning of &quot;time&quot; would simply be the order in which different parts of the
+image are processed. So objects initially processed will inform the captioning of later objects processed.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;h3&gt;Forward Propagation Equations for RNN&lt;/h3&gt;
 &lt;p&gt;We now develop the forward propagation equations for the RNN. We assume the hyperbolic tangent activation function,
 i.e. $tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$ and that the output is discrete, as if the RNN is used to predict
