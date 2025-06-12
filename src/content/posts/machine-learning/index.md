@@ -452,6 +452,13 @@ process language, or at least how we think we process language: Reading sequenti
 Recurrent Neural Networks (RNNs)
 --------------------------------
 
+A glaring limitation of Vanilla Neural Networks (and also [Convolutional Networks](#convolutional-neural-networks-cnns))
+is that their API is too constrained. They accept a fixed-sized vector as input (e.g. an image) and produce a
+fixed-sized vector as output (e.g. probabilities of different classes). In addition, these models perform this mapping
+using a fixed amount of computational steps (e.g. the number of layers in the model). The core reason that recurrent
+nets are more exciting is that they allow us to operate over sequences of vectors: Sequences in the input, the output,
+or in the most general case both. We will illustrate this now
+
 ### Introduction
 
 We all heard of this buz word "LLM" (Large Language Model). But let's put that aside for just a second and look at a
