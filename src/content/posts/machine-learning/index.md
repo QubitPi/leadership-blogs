@@ -387,8 +387,8 @@ Pooling
 #### Architecture
 
 A convolutional neural network consists of an input layer, hidden layers and an output layer. In a convolutional neural
-network, the hidden layers include one or more layers that perform [convolutions](#convolution-step) followed by other
-layers such as [pooling](#pooling-step) layers and fully connected layers
+network, __the hidden layers include one or more layers that perform [convolutions](#convolution-step) followed by other
+layers such as [pooling](#pooling-step) layers and fully connected layers__
 
 After several convolutional and max pooling layers, the final classification is done via fully connected layers. Neurons
 in a fully connected layer have connections to neurons in the previous layer. The input to this fully connected layer
@@ -544,9 +544,9 @@ In practice, $g_2$ is constance, i.e. $g_2 = 1$
 One great thing about the RNNs is that they offer a lot of flexibility on how we wire up the neural network
 architecture. Normally when we are working with neural networks, we are given a fixed sized input vector (red boxes
 below), then we process it with some hidden layers (green), and we produce a fixed sized output vector (blue). The
-left-most model in figure below is called __Vanilla Neural Networks__, which receives a single input and produce one
-output. The rest of the models on the right are all __Recurrent Neural Networks__ that allow us to operate over
-sequences of input, output, or both at the same time:
+left-most model in figure below is the [__Vanilla Neural Networks__](#architecture), which receives a single input and
+produce one output (_The green box in between actually represents __layers__ of neurons_). The rest of the models on the right are all __Recurrent Neural Networks__ that allow us to operate
+over sequences of input, output, or both at the same time:
 
 - An example of __one-to-many__ model is image captioning where we are given a fixed sized image and produce a sequence
   of words that describe the content of that image through RNN
