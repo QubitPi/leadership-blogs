@@ -593,9 +593,22 @@ in the sense that they can simulate arbitrary programs (with proper weights).
 
 :::kokomi[Space → Time v.s. Function → Program]
 
-If training vanilla neural nets is optimization over functions, training recurrent nets is optimization over programs.
+If training [vanilla neural nets](#convolutional-neural-networks-cnns) is optimization over functions, training
+recurrent nets is optimization over programs.
+
+If our data is not in form of sequences, we can still formulate and train powerful models that learn to process it
+sequentially. We're learning stateful programs that process our fixed-sized data.
 
 :::
+
+At the core, RNNs accept an input vector `x` and give us an output vector `y`. This output vector's contents are
+influenced not only by the input we just fed in, but also on the entire history of inputs we've fed in from the past. 
+The RNN's API consists of a single step function:
+
+```python
+rnn = RNN()
+y = rnn.step(x) # x is an input vector, y is the RNN's output vector
+```
 
 ### Forward Propagation Equations for RNN
 
