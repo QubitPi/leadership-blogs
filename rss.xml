@@ -133,14 +133,14 @@ today, have couple of options that seem to have no dramatic differences for me:&
 preferences, but an objective consideration on &lt;strong&gt;practicality&lt;/strong&gt;&lt;/em&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Do I know the language for using that framework?&lt;/li&gt;
-&lt;li&gt;If I choose to learn, do I have enough time?&lt;/li&gt;
-&lt;li&gt;What&apos;s the long term benefits of that choice, such as CI/CD support and community support?&lt;/li&gt;
+&lt;li&gt;If I need to learn before I can use the framework, do I have enough time?&lt;/li&gt;
+&lt;li&gt;What&apos;s the long term benefits of that choice, such as CI/CD and community support?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This also applies to team:&lt;/p&gt;
+&lt;p&gt;This also applies to a software engineering team:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Does the dev team has a member portfoli that konws the language better for that framework?&lt;/li&gt;
-&lt;li&gt;Does the team have enough time given the business constraint?&lt;/li&gt;
-&lt;li&gt;What&apos;s the long term benefits of that choice, such as CI/CD support and community support?&lt;/li&gt;
+&lt;li&gt;Does the team have a member portfolio that demonstrates high proficiency over the language of that framework?&lt;/li&gt;
+&lt;li&gt;Does the team have enough time to deliver the business goal with that framework on board?&lt;/li&gt;
+&lt;li&gt;Will ths software achieve good maintainability and extensibility in the long run?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This leads me to think about &lt;em&gt;Software Architect&lt;/em&gt; beyond the scope of technology. Or more general, if I am leading a
 tech team, what are things I must consider beyond technologies?&lt;/p&gt;
