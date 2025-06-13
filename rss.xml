@@ -367,10 +367,20 @@ certain customer nuances. If possible, try to understand the nature of where cha
 flexibility into the designs to accommodate these changes if it is not overly expensive. Otherwise, seek to hold off on
 implementing new features until customer feedback is available.&lt;/p&gt;
 &lt;p&gt;:::warning&lt;/p&gt;
-&lt;p&gt;Unfortunately, when software is being built, only a limited amount of vari- ability and flexibility can be realized. Indecisiveness that leads to significant rework will burn precious development dollars and needs to be kept to a minimum.&lt;/p&gt;
+&lt;p&gt;Unfortunately, when software is being built, only a limited amount of variability and flexibility can be realized.
+Indecisiveness that leads to significant rework will burn precious development dollars and needs to be kept to a
+minimum.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
-&lt;p&gt;Therefore Take the time to document decisions along the way. Ensure that the decision log is properly distributed so that there are no surprises. The key to success is proper expectations setting and transparency.&lt;/p&gt;
-&lt;h3&gt;The Mythical Man-Month&lt;/h3&gt;
+&lt;p&gt;Therefore Take the time to document decisions along the way. Ensure that the decision log is properly distributed so
+that there are no surprises. The key to success is proper expectations setting and transparency.&lt;/p&gt;
+&lt;p&gt;The way we deal with multiple alternatives among group of people also demonstrate how an architect can be flexible.
+Whenever you need to present alternatives as part of making a decision, whether to executives, business partners, or
+even your kids, your ability to clearly articulate which options are available and which option you would recommend will
+produce a great starting point for a conversation. Don&apos;t be afraid to recommend the solution you want; you will often
+get what you wish for. Be willing to defend your choice and show that you have really thought through the decision, but
+be supportive of others who choose options that don&apos;t match your recommendation. If someone does choose an option that
+you did not recommend, move forward and own the decision as if you made it. At the same time, &lt;em&gt;make sure the decision
+maker understands the consequences of that decision (e.g., delays, cost)&lt;/em&gt;.&lt;/p&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
 stated. For example, reading Newton&apos;s principia feels struggling for really understanding the work not because the
