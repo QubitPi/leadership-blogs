@@ -162,19 +162,23 @@ architectural approach.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;The key to pragmatic architecture is to manage through scope management, risk management, and communication:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./img/triangle.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;For example, suppose you have a new project proposal that absolutely, positively must ship on a specific date in four months because of a trade show,
-and there is a limited budget to get it done. The project will deliver a key
-strategic advantage for your company over your competitors.&lt;/p&gt;
+&lt;p&gt;For example, suppose you have a new project proposal that absolutely, positively must ship on a specific date in four
+months because of a trade show, and there is a limited budget to get it done. The project will deliver a key strategic
+advantage for your company over your competitors.&lt;/p&gt;
 &lt;p&gt;The challenge is that three competing architectural approaches are available:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;The first approach would require the use of some new open-source technologies that your company has no experience with&lt;/li&gt;
-&lt;li&gt;The second approach would require you to build the solution primarily from the ground
-up - a mostly greenfield development project, except that it will need to be
-integrated with several of your legacy systems&lt;/li&gt;
-&lt;li&gt;The third approach would
-require you to hack a solution into the current legacy system, and would
-likely be fragile under heavy use.&lt;/li&gt;
+&lt;li&gt;The first approach would require the use of some new open-source technologies that your company has no experience
+with&lt;/li&gt;
+&lt;li&gt;The second approach would require you to build the solution primarily from the ground up - a mostly
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Greenfield_project#Software_development&quot;&gt;greenfield development project&lt;/a&gt;, except that
+it will need to be integrated with several of your legacy systems&lt;/li&gt;
+&lt;li&gt;The third approach would require you to hack a solution into the current legacy system, and would likely be fragile
+under heavy use.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;You have three days to come up with a final decision; complete cost estimates, resource needs estimates, risks estimates
+(and their mitigation plans), and key assumptions; and review the proposal with all affected parties. On the fourth day,
+you will present your plan to the executives, who will be looking to dive deep into any area they like and ensure that
+the plan of attack is solid.&lt;/p&gt;
 &lt;h3&gt;The Mythical Man-Month&lt;/h3&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
