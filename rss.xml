@@ -210,6 +210,17 @@ addressed as part of an iteration or as part of a spike (time-bounded proof of c
 &lt;p&gt;Architectural Spiking is running a small technical experiment, building working software to prove or disprove
 feasibility or a specific hypothesis. Spikes are throw away code they are not integrated into released products,
 they are used to prove or disprove a theory.&lt;/p&gt;
+&lt;p&gt;A &lt;em&gt;time-bounded&lt;/em&gt; Architectural spikes can be applied when key decisions need to be made with respect to the
+&lt;a href=&quot;#risk-management&quot;&gt;feasibility&lt;/a&gt; of a particular architectural approach in order to gain insight into the potential
+route to take. To ensure a successful spike, follow these guidelines:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand the key elements that require investigation&lt;/li&gt;
+&lt;li&gt;Avoid implementing a complete solution&lt;/li&gt;
+&lt;li&gt;Don&apos;t ship it to production&lt;/li&gt;
+&lt;li&gt;Document your results and recommendations because other groups will find this information helpful&lt;/li&gt;
+&lt;li&gt;For implementation, pick those people who are willing to dive into murky, uncharted waters and get tasks done with
+minimal help&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -321,6 +332,16 @@ following questions:&lt;/p&gt;
 &lt;li&gt;Will the quality of the project be affected materially?&lt;/li&gt;
 &lt;li&gt;Are all key stakeholders commiteed to this change&amp;gt; If not, why?&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4&gt;Type of Risks&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;New technology failing to deliver as planned&lt;/li&gt;
+&lt;li&gt;A dependent project failing to deliver&lt;/li&gt;
+&lt;li&gt;Financial challenge that requires you to do with less&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These likely risks and your ability to plan how to address them and which alternatives must be considered if and when
+they happen will dramatically affect your ability to succeed on a regular basis. If you are able to deliver on your
+promises even under dire circumstances, you will gain the reputation you need to be able to advance further up in the
+organization&lt;/p&gt;
 &lt;h3&gt;Communication&lt;/h3&gt;
 &lt;h3&gt;The Mythical Man-Month&lt;/h3&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
