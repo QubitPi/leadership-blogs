@@ -1,7 +1,7 @@
 ---
 title: Reading Notes of "INFLUENCE The Psychology of Persuasion"
 published: 2025-06-09
-updated: 2025-06-10
+updated: 2025-06-13
 description: |
   Just what are the factors that cause one person to say yes to another person? Which techniques by others most
   effectively use these factors to bring about such compliance? Why it is that a request stated in a certain way will be
@@ -108,9 +108,10 @@ burden of debt.
 Commitment and Consistency
 --------------------------
 
-Desire for consistency has been a central motivation of our behaviors, because a high degree of consistency is normally
-associated with personal and intellectual strength while inconsistency is commonly thought to be an undesirable
-personality trait. It is at the heart of logic, rationality, stability, and honesty.
+Motivated by the human tendency for continuous commitment, People's desire for consistency has been a central motivation
+of our behaviors, because a high degree of consistency is normally associated with personal and intellectual strength
+while inconsistency is commonly thought to be an undesirable personality trait. It is at the heart of logic,
+rationality, stability, and honesty.
 
 On the other hand, this highly-valued good personal consistency can be disastrous when it occurs unthinkinly. First, it
 offers a shortcut through the density of modern life. Once we have made up our minds about an issue, stubborn
@@ -123,7 +124,12 @@ any other rational opposing view. In this case, automatic consistency shields us
 thoughts.
 
 Such consistency can also be exploited by those who would prefer that we not think too much in response to their
-requests for our compliance
+requests for our compliance. The author mentions the example of toy companies' strategy to boost post-Christmas sales.
+Normally, people over-spend during Christmas season which resulted in low sales during post-Christmas period. The toy
+companies did the trick with pre-Christmas TV advertisement that shows attractive Christmas toys for children. The
+parents would normally promis the advertised toy as Christmas gift for them. But later they _undersupply_ the stores
+with these toys and substitute them with other toys of equal values and re-advertise those toys that have gotten the
+parents to promise. In the end, the toy companies make double-money with the substitutes and the original toys.
 
 Principle of Social Proof
 -------------------------
