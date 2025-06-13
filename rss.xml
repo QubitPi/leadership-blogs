@@ -187,19 +187,27 @@ really help drive the ROI for this project and allow it to meet or exceed the fi
 project. If your pet technologies will truly help the business better meet its needs, then by all means consider them.
 Here are some starting points to evaluate your pet technologies:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Work with business team to determine feature priority&lt;/strong&gt;: figuring out how to properly sequence the feature
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Work with business team to determine feature priority&lt;/strong&gt;: figuring out how to properly sequence the feature
 development of a particular project can be tricky business. Some infrastructure tasks will likely be needed to
 implement the flashy new feature that provides the new sales capabilities that will nearly market itself. Taking time
 to partner with the business can help prioritize the &quot;must have&quot; features and allow you to work through the real
-dependencies so that the value can be delivered as quickly as possible to the business.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Learn to live with ambiguity&lt;/strong&gt;: As an architect, you will always have a need for more information to make a more
+dependencies so that the value can be delivered as quickly as possible to the business.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Learn to live with ambiguity&lt;/strong&gt;: As an architect, you will always have a need for more information to make a more
 precise decision about the architecture for a particular project. No matter how many details you seek, there will
 always be a level of ambiguity in the decision-making process. Develop a sense of when you have &lt;em&gt;sufficient&lt;/em&gt;
 information to make a reasonably calculated approach to allow a project to move forward with known assumptions and
 risks. Over time, you will develop a sixth sense for areas you need to investigate more fully or to document as a
-project assumption or risk.&lt;/li&gt;
+project assumption or risk.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;On approach to deal with ambiguity is using Agile process, which will help you focus on the areas that need to be
+addressed now, while allowing some ambiguous parts of the project to live in the backlog until they need to be
+addressed as part of an iteration or as part of a spike (time-bounded proof of concept).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;As an architect, you will always have a need for more information to make a more precise decision about the architecture for a particular project. No matter how many details you seek, there will always be a level of ambiguity in the decision-making process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Risk Management&lt;/h3&gt;
 &lt;h3&gt;Communication&lt;/h3&gt;
 &lt;h3&gt;The Mythical Man-Month&lt;/h3&gt;
