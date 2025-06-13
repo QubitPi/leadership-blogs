@@ -160,7 +160,8 @@ projects to reality (the tactical). That is, project dates, feasibility, financi
 and leverage capabilities or possibilities all need to be part of the mix in determining the &quot;best&quot; steps for the
 architectural approach.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
-&lt;p&gt;The key to pragmatic architecture is to manage through scope management, risk management, and communication:&lt;/p&gt;
+&lt;p&gt;The key to pragmatic architecture is to manage through &lt;a href=&quot;#scope-management&quot;&gt;scope management&lt;/a&gt;,
+&lt;a href=&quot;#risk-management&quot;&gt;risk management&lt;/a&gt;, and &lt;a href=&quot;#communication&quot;&gt;communication&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./img/triangle.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;For example, suppose you have a new project proposal that absolutely, positively must ship on a specific date in four
 months because of a trade show, and there is a limited budget to get it done. The project will deliver a key strategic
@@ -179,6 +180,25 @@ under heavy use.&lt;/li&gt;
 (and their mitigation plans), and key assumptions; and review the proposal with all affected parties. On the fourth day,
 you will present your plan to the executives, who will be looking to dive deep into any area they like and ensure that
 the plan of attack is solid.&lt;/p&gt;
+&lt;h3&gt;Scope Management&lt;/h3&gt;
+&lt;p&gt;Although you may have your pet priorities for a project (those really cool new technologies or features that are just
+looking for a project to fund their implementation), you need to consider the business needs to help determine what will
+really help drive the ROI for this project and allow it to meet or exceed the financial expectations attached to the
+project. If your pet technologies will truly help the business better meet its needs, then by all means consider them.
+Here are some starting points to evaluate your pet technologies:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Work with business team to determine feature priority&lt;/strong&gt;: figuring out how to properly sequence the feature
+development of a particular project can be tricky business. Some infrastructure tasks will likely be needed to
+implement the flashy new feature that provides the new sales capabilities that will nearly market itself. Taking time
+to partner with the business can help prioritize the &quot;must have&quot; features and allow you to work through the real
+dependencies so that the value can be delivered as quickly as possible to the business.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learn to live with ambiguity&lt;/strong&gt;: As an architect, you will always have a need for more information to make a more
+precise decision about the architecture for a particular project. No matter how many details you seek, there will
+always be a level of ambiguity in the decision-making process.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As an architect, you will always have a need for more information to make a more precise decision about the architecture for a particular project. No matter how many details you seek, there will always be a level of ambiguity in the decision-making process.&lt;/p&gt;
+&lt;h3&gt;Risk Management&lt;/h3&gt;
+&lt;h3&gt;Communication&lt;/h3&gt;
 &lt;h3&gt;The Mythical Man-Month&lt;/h3&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
