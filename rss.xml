@@ -372,7 +372,7 @@ implementing new features until customer feedback is available.&lt;/p&gt;
 Indecisiveness that leads to significant rework will burn precious development dollars and needs to be kept to a
 minimum.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
-&lt;p&gt;Therefore Take the time to document decisions along the way. Ensure that the decision log is properly distributed so
+&lt;p&gt;Therefore take the time to document decisions along the way. Ensure that the decision log is properly distributed so
 that there are no surprises. The key to success is proper expectations setting and transparency.&lt;/p&gt;
 &lt;p&gt;The way we deal with multiple alternatives among group of people also demonstrate how an architect can be flexible.
 Whenever you need to present alternatives as part of making a decision, whether to executives, business partners, or
