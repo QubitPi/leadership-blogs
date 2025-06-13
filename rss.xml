@@ -359,6 +359,17 @@ have to wait for another day&lt;/li&gt;
 &lt;li&gt;Identify whether automated parts of the process can be manually done (at least for a while)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Communication&lt;/h3&gt;
+&lt;h4&gt;Being Flexible as Architect&lt;/h4&gt;
+&lt;p&gt;A certain amount of flexibility is needed during the implementation of a project. You need to clearly communicate in
+which areas of the project there is some flexibility in terms of approach or features. Or sometimes, the business may be
+a bit tentative or unsure of what the right answer is or may not have done the necessary field studies to understand
+certain customer nuances. If possible, try to understand the nature of where changes may be required, and build
+flexibility into the designs to accommodate these changes if it is not overly expensive. Otherwise, seek to hold off on
+implementing new features until customer feedback is available.&lt;/p&gt;
+&lt;p&gt;:::warning&lt;/p&gt;
+&lt;p&gt;Unfortunately, when software is being built, only a limited amount of vari- ability and flexibility can be realized. Indecisiveness that leads to significant rework will burn precious development dollars and needs to be kept to a minimum.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;Therefore Take the time to document decisions along the way. Ensure that the decision log is properly distributed so that there are no surprises. The key to success is proper expectations setting and transparency.&lt;/p&gt;
 &lt;h3&gt;The Mythical Man-Month&lt;/h3&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
