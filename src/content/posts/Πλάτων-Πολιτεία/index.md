@@ -2,7 +2,7 @@
 title: Πολιτεία
 published: 2024-12-10
 description: ἀναγινώσκειν σημειώσεις Πλάτων Πολιτεία
-image: cover.png
+image: cover.gif
 tags: [Philosophy]
 category: Ancient Greek
 draft: false
