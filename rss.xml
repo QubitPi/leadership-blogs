@@ -108,7 +108,7 @@ wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 &lt;p&gt;[^1]: Sinek, Simon (2019). &lt;a href=&quot;https://dokumen.pub/the-infinite-game.html&quot;&gt;&lt;em&gt;The Infinite Game&lt;/em&gt;&lt;/a&gt;. Portfolio. ISBN 073521350X.&lt;/p&gt;
 </content:encoded></item><item><title>Non-technical Aspects of A Software Architect</title><link>https://leadership.qubitpi.org/posts/architect/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/architect/</guid><pubDate>Fri, 13 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;One day I stumbled upon a Reddit post where someone asked &lt;a href=&quot;https://www.reddit.com/r/SpringBoot/comments/1fb6sn7/spring_ai_use_cases/&quot;&gt;whether Spring AI really outperforms Python-based webservices&lt;/a&gt;. An interesting answer caught my attention:&lt;/p&gt;
 &lt;p&gt;:::kokomi[&lt;a href=&quot;https://www.reddit.com/r/SpringBoot/comments/1fb6sn7/comment/lm5c8i1/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;On Spring AI&lt;/a&gt;]&lt;/p&gt;
-&lt;p&gt;_This is just a new library giving you functionality that has long been available in Python.&lt;/p&gt;
+&lt;p&gt;&quot;This is just a new library giving you functionality that has long been available in Python.&lt;/p&gt;
 &lt;p&gt;The answer to whether to choose it or a Python microservice will be the same as choosing a language for any other
 application. Does the product development team know Python or Java better? Which language will have greater advantages
 in a particular application?&lt;/p&gt;
@@ -118,9 +118,9 @@ better CI/CD, observability, libraries and various tools for Java applications. 
 libraries) will finally allow us to create decent production-ready GenAI applications.&lt;/p&gt;
 &lt;p&gt;However, if I had to make a simple tool that I could run locally to provide some assistance using AI, I would probably
 choose Python. Creating a Spring Boot application would take much longer and be more tedious to run.&lt;/p&gt;
-&lt;p&gt;Of course, in other companies it may look different._&lt;/p&gt;
+&lt;p&gt;Of course, in other companies it may look different&quot;.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
-&lt;p&gt;I was trying to design a RAG pipeline on that day and I, like everyone else in a world of so many competing choices
+&lt;p&gt;I was trying to design a RAG pipeline on that day and I, like everyone else in a world of so many alternative choices
 today, have couple of options that seem to have no dramatic differences for me:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://llamaindex.qubitpi.org/&quot;&gt;LlamaIndex&lt;/a&gt;&lt;/li&gt;
@@ -129,8 +129,8 @@ today, have couple of options that seem to have no dramatic differences for me:&
 &lt;li&gt;TxtAI&lt;/li&gt;
 &lt;li&gt;etc.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;What is my pick? The Reddit post answer above pointed me the answer: this is not a question of personal preferences, but
-an objective consideration on practicality:&lt;/p&gt;
+&lt;p&gt;What is my pick? The Reddit post answer above pointed me to the right direction: this is not a question of personal
+preferences, but an objective consideration on &lt;em&gt;practicality&lt;/em&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Do I know the language for using that framework?&lt;/li&gt;
 &lt;li&gt;If I choose to learn, do I have enough time?&lt;/li&gt;
@@ -142,13 +142,12 @@ an objective consideration on practicality:&lt;/p&gt;
 &lt;li&gt;Does the team have enough time given the business constraint?&lt;/li&gt;
 &lt;li&gt;What&apos;s the long term benefits of that choice, such as CI/CD support and community support?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This leads me to a think Software Architect beyond the scope of technology. Or more general, if I am leading a tech
-team, what are things I must learn beyond technologies?&lt;/p&gt;
-&lt;p&gt;So I searched only and found to be a good starting point: &lt;em&gt;&lt;a href=&quot;https://www.amazon.com/More-Essential-Skills-Software-Architects/dp/032190947X&quot;&gt;12 Essential Skills for Software Architects&lt;/a&gt;&lt;/em&gt; by Dave Hendricksen
+&lt;p&gt;This leads me to think about &lt;em&gt;Software Architect&lt;/em&gt; beyond the scope of technology. Or more general, if I am leading a
+tech team, what are things I must consider beyond technologies?&lt;/p&gt;
+&lt;p&gt;So I searched and found this book to be a good starting point: &lt;em&gt;&lt;a href=&quot;https://www.amazon.com/More-Essential-Skills-Software-Architects/dp/032190947X&quot;&gt;12 Essential Skills for Software Architects&lt;/a&gt;&lt;/em&gt; by Dave Hendricksen
 (&lt;a href=&quot;https://github.com/rambhawan/Computer-Compiler-Lang/blob/master/12%20Essential%20Skills%20for%20Software%20Architects.pdf&quot;&gt;PDF&lt;/a&gt;)
-whose chapter 11 directly addresses my concerns above.&lt;/p&gt;
+whose chapter 11 directly addresses my concerns above. The chapter 11 was about how to bring &lt;a href=&quot;#pragmatism&quot;&gt;pragmatism&lt;/a&gt; to the everyday world of software architecture.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;img/12-skills-cover.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;The chapter 11 was about how to bring &lt;a href=&quot;#pragmatism&quot;&gt;pragmatism&lt;/a&gt; to the everyday world of software architecture.&lt;/p&gt;
 &lt;h2&gt;Pragmatism&lt;/h2&gt;
 &lt;p&gt;Pragmatism is the dose of reality that needs to be mixed into the daily decisions related to architecture. It is easy to
 dream of architectural ivory towers, elegant designs, and a universe devoid of financial constraints. However, the job
