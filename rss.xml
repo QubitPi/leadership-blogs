@@ -202,14 +202,29 @@ information to make a reasonably calculated approach to allow a project to move 
 risks. Over time, you will develop a sixth sense for areas you need to investigate more fully or to document as a
 project assumption or risk.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;On approach to deal with ambiguity is using Agile process, which will help you focus on the areas that need to be
+&lt;li&gt;
+&lt;p&gt;On approach to deal with ambiguity is using Agile process, which will help you focus on the areas that need to be
 addressed now, while allowing some ambiguous parts of the project to live in the backlog until they need to be
-addressed as part of an iteration or as part of a spike (time-bounded proof of concept).&lt;/li&gt;
+addressed as part of an iteration or as part of a spike (time-bounded proof of concept).&lt;/p&gt;
+&lt;p&gt;:::tip[Architectural Spike]&lt;/p&gt;
+&lt;p&gt;Architectural Spiking is running a small technical experiment, building working software to prove or disprove
+feasibility or a specific hypothesis. Spikes are throw away code they are not integrated into released products,
+they are used to prove or disprove a theory.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Risk Management&lt;/h3&gt;
 &lt;p&gt;Rarely in a project will a known risk jump out and bite you. Instead, it is always the unknown, undiscovered risk that comes out of nowhere and derails a proj- ect. If at all possible, spend time early on in the discovery phase of project estimation to identify, document, and mitigate as many of these potential risks as possible.&lt;/p&gt;
+&lt;p&gt;When choosing among broad set of possible technologies for an architectural approach, you need to take the following
+considerations into account:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Which resources will implement the system? Do they need any training? Are they familiar with the architectural
+approach being suggested?&lt;/li&gt;
+&lt;li&gt;Has this architectural pattern been implemented previously in your company? In the industry?&lt;/li&gt;
+&lt;li&gt;Whi&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Communication&lt;/h3&gt;
 &lt;h3&gt;The Mythical Man-Month&lt;/h3&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
