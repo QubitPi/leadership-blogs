@@ -206,7 +206,7 @@ project assumption or risk.&lt;/p&gt;
 &lt;p&gt;On approach to deal with ambiguity is using Agile process, which will help you focus on the areas that need to be
 addressed now, while allowing some ambiguous parts of the project to live in the backlog until they need to be
 addressed as part of an iteration or as part of a spike (time-bounded proof of concept).&lt;/p&gt;
-&lt;p&gt;:::tip[Architectural Spike]&lt;/p&gt;
+&lt;p&gt;:::tip[&lt;a href=&quot;https://cloud-architecture.io/architecture/architectural-spiking/&quot;&gt;Architectural Spike&lt;/a&gt;]&lt;/p&gt;
 &lt;p&gt;Architectural Spiking is running a small technical experiment, building working software to prove or disprove
 feasibility or a specific hypothesis. Spikes are throw away code they are not integrated into released products,
 they are used to prove or disprove a theory.&lt;/p&gt;
@@ -220,10 +220,84 @@ they are used to prove or disprove a theory.&lt;/p&gt;
 &lt;p&gt;When choosing among broad set of possible technologies for an architectural approach, you need to take the following
 considerations into account:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Which resources will implement the system? Do they need any training? Are they familiar with the architectural
-approach being suggested?&lt;/li&gt;
-&lt;li&gt;Has this architectural pattern been implemented previously in your company? In the industry?&lt;/li&gt;
-&lt;li&gt;Whi&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which resources will implement the system? Do they need any training? Are they familiar with the architectural
+approach being suggested?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Has this architectural pattern been implemented previously in your company? In the industry?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which architectural spikes may be needed to remove any high-level risks?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What kind of licensig needs to be procured? Do you know what the costs for this licensing will be? Has anyone worked
+with the company that is issuing the license? If not, it will be more difficult to bring the tool in. Are you willing
+to go to bat for this tool if you are challenged by executives? (Choose your battles wisely.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Are there special hardware needs? Has your company used this hardware vendor before? Can you execute this project on
+the cloud?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Do you understand the nature of scaling the solution from&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;an application server perspective&lt;/li&gt;
+&lt;li&gt;a database perspective&lt;/li&gt;
+&lt;li&gt;a network perspective&lt;/li&gt;
+&lt;li&gt;a storage device perspective&lt;/li&gt;
+&lt;li&gt;a queuing perspective&lt;/li&gt;
+&lt;li&gt;a caching perspective&lt;/li&gt;
+&lt;li&gt;etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Will you need to scale up or scale out?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Do you have or can you build the appropriate tools that will enable your to monitor the system?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Have you accounted for any reporting needs?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Do you understand how to build, deploy, and test the solution?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Are there any legal or regularoty issues you need to address?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Do patents or other intellectual property need to be secured or developed for the development work that will occur?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Does this development effort need any special research and development?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Do you understand when this project needs to be delivered?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Are you able to structure the project across multiple organizations in a manner that minimizes coupling between the
+groups and maximizes cohesion within the groups?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Do you understand the projected ROI for this project and the elements that will enable this ROI to be delivered?
+(What promises are being made to the field when this product gets delivered? Can you deliver on those promises?)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which alternatives have you considered? Why were some rejected?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Which future projects are in the pipeline that will build upon this project as stratigic infrastructure?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How does this project align with the company&apos;s strategic long-term goals?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Does the project need to interact with any key software packages? Do any key software interfaces need to be
+implemented?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Do any key data exchange formats need to be handled? Canyoucontemplateatleastonereasonabledesignandimplemen- tation approach?
+Do you understand key alternatives? (If some aspect of the project fundamentally fails, what are the alternatives—do you have a good Plan B?) When during the project does a particular path need to be determined?&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Communication&lt;/h3&gt;
 &lt;h3&gt;The Mythical Man-Month&lt;/h3&gt;
