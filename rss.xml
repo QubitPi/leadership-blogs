@@ -216,9 +216,11 @@ they are used to prove or disprove a theory.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Risk Management&lt;/h3&gt;
-&lt;p&gt;Rarely in a project will a known risk jump out and bite you. Instead, it is always the unknown, undiscovered risk that comes out of nowhere and derails a proj- ect. If at all possible, spend time early on in the discovery phase of project estimation to identify, document, and mitigate as many of these potential risks as possible.&lt;/p&gt;
-&lt;p&gt;When choosing among broad set of possible technologies for an architectural approach, you need to take the following
-considerations into account:&lt;/p&gt;
+&lt;p&gt;Bringing in new things is fun, but trying to get them operationalized is nearly always a challenge. One way to increase
+the feasibility of a project is to minimize the number of new things you are injecting into the organization or to
+sequence the changes such that you allow your project to incorporate the changes in a stable manner. When choosing among
+broad set of possible technologies for an architectural approach, you need to take the following considerations into
+account:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Which resources will implement the system? Do they need any training? Are they familiar with the architectural
@@ -295,8 +297,14 @@ groups and maximizes cohesion within the groups?&lt;/p&gt;
 implemented?&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Do any key data exchange formats need to be handled? Canyoucontemplateatleastonereasonabledesignandimplemen- tation approach?
-Do you understand key alternatives? (If some aspect of the project fundamentally fails, what are the alternatives—do you have a good Plan B?) When during the project does a particular path need to be determined?&lt;/p&gt;
+&lt;p&gt;Do any key data exchange formats need to be handled?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Can you contemplate at least one reasonable design and implementation approach?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Do you understand key alternatives? (If some aspect of the project fundamentally fails, what are the alternatives - do
+you have a good Plan B?) When during the project does a particular path need to be determined?&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Communication&lt;/h3&gt;
