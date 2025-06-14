@@ -1,7 +1,7 @@
 ---
 title: 沟通的艺术
 published: 2025-06-01
-updated: 2025-06-08
+updated: 2025-06-14
 description: |
   和女朋友吵了一架，和好之后自己总结反思了一下这件事情，我发现，无论是男方还是女方，
   无论身处何处，何种人际关系，卓越的沟通能力是避免一切事与愿违结局的基本条件，因此我写下了这篇持续更新的文章 - 
@@ -79,9 +79,7 @@ font: PangZhonghuaXingKai
    可以用自己头发的视角来看待自己：__“昨天跟我约会的那根头发，今天已经被冲进下水道了”__
 
 2. 洞见真相
-
 3. 痛苦和失败
-
 
 ## <div class="english-text">Communication Between Couple</div>
 
