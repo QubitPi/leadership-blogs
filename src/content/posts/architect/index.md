@@ -1,6 +1,11 @@
 ---
 title: The Non-Technical Aspects of A Software Architect
 published: 2025-06-13
+updated: 2025-06-16
+description: |
+  Architect is a tricky spot between technical and managerial careers. While technologists sees this position as the
+  top of tech gurus, it is in fact a particular type of management role where neither normal manager nor top technical 
+  personnel fit, because both top technical skills and executive skills are assumed
 image: cover.png
 tags: [Management]
 category: English
@@ -269,3 +274,36 @@ get what you wish for. Be willing to defend your choice and show that you have r
 be supportive of others who choose options that don't match your recommendation. If someone does choose an option that
 you did not recommend, move forward and own the decision as if you made it. At the same time, _make sure the decision
 maker understands the consequences of that decision (e.g., delays, cost)_.
+
+The Duality Nature of Architect - Technical and Managerial
+----------------------------------------------------------
+
+As I described in the blog cover, architect is not about reaching the top of technical skills, but a mental shift toward
+a new skill sets while keep growing as what a technical person.
+
+### The Technical Ceiling
+
+One of the challenges that the very best technology folks (the gurus - the ones you go to when you have a difficult
+problem that must be solved and solved right) often have is that they are often a complete pain to deal with. Their
+approach and means of interacting are completely focused on correctness to the minutest detail.
+
+The "technical glass ceiling" of those technology folks is simply missing soft skills. These skills can be learned,
+although in most cases, the missing knowledge is usually filled in through a focused effort to change.
+
+![](./img/tech-ceiling.png)
+
+For people filling more senior positions, detailed technical skills are useful, but the balance begins to shift toward
+their ability to successfully interact with others, to get things done, and to sell their viewpoint. From technologists'
+point of view, the simple fact that the solution they are bringing forward is technically pure should be sufficient to
+win its acceptance. They often believe that the solution should stand on its own without any sales required, and that
+everyone should simply admire the beauty of the solution. Sometimes a technical person will fail to perceive that for
+any project, a wide range of factors need to be taken into account. The product needs to deliver the best possible
+return on investment (ROI) to those who are footing the bill. This often means squeezing in more functionality that may
+not be "perfect", but is, in fact, good enough at a cost that enables enough money to be made and in a time frame to
+meet market needs. Often competing products are being developed, and the organization needs to be first to market to
+gain the market leadership position that will enable it to charge a premium price for its product.
+
+- Choosing relationships over correctness
+- Learning to delegate
+- Realizing that life is reflexive
+- Acting as though words are seeds
