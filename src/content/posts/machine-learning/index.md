@@ -284,11 +284,13 @@ The problem is that we measured the generalization error multiple times on the t
 hyperparameters to produce the best model for that particular set. This means the model is unlikely to perform as well
 on new data. A common solution to this problem is called __holdout validation__:  simply hold out part of the training
 set to evaluate several candidate models and select the best one. The new held-out set is called the __3️⃣ validation
-set__ (or the development set, or dev set). More specifically, we train multiple models with various hyperparameters on
-the reduced training set (i.e., the full training set minus the validation set), and we select the model that performs
-best on the validation set. After this holdout validation process, we train the best model on the full training set
-(including the validation set), and this gives us the final model. Lastly, we evaluate this final model on the test set
-to get an estimate of the generalization error.
+set__ (or the development set, or dev set). The steps are:
+
+1. train multiple models with various hyperparameters on the reduced training set (i.e., the full training set minus the
+   validation set)
+2. select the model that performs best on the validation set.
+3. train the best model on the full training set (including the validation set), which gives us the final model.
+4. evaluate this final model on the test set to get an estimate of the generalization error
 
 Neural Networks
 ---------------
