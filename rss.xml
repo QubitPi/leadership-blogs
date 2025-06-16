@@ -478,7 +478,7 @@ databases)&lt;/p&gt;
 based on the following criteria:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;How they are supervised during training (&lt;a href=&quot;#supervised-unsupervised-semi-supervised-self-supervised-reinforcement-learning&quot;&gt;supervised, unsupervised, semi-supervised, self-supervised&lt;/a&gt;, and others)&lt;/li&gt;
-&lt;li&gt;Whether or not they can learn incrementally on the fly (online versus batch learning)&lt;/li&gt;
+&lt;li&gt;Whether or not they can learn incrementally on the fly (&lt;a href=&quot;#online-vs-batch-learning&quot;&gt;online v.s. batch learning&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Whether they work by simply comparing new data points to known data points, or instead by detecting patterns in the
 training data and building a predictive model, much like scientists do (
 &lt;a href=&quot;#instance-based-vs-model-based-learning&quot;&gt;instance-based v.s. model-based learning&lt;/a&gt;)&lt;/li&gt;
@@ -498,6 +498,16 @@ select and perform actions, and get &lt;em&gt;rewards&lt;/em&gt; or &lt;em&gt;pe
 strategy, called a &lt;strong&gt;policy&lt;/strong&gt;, to get the most reward over time. A policy defines what action the agent should choose
 when it is in a given situation.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3&gt;Online v.s. Batch Learning&lt;/h3&gt;
+&lt;h4&gt;Batch learning&lt;/h4&gt;
+&lt;p&gt;In batch learning, the system is trained using all the available data. This will generally take a lot of time and
+computing resources, so it is typically done offline. First the system is trained, and then it is launched into
+production and runs without learning anymore; it just applies what it has learned. This is called &lt;em&gt;offline learning&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The batch learning can be automated fairly easily when it needs a new round of training with new data:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./img/batch-learning.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Unfortunately, a model&apos;s performance tends to decay slowly over time, simply because the world continues to evolve while
+the model remains unchanged. This phenomenon is often called &lt;strong&gt;model rot&lt;/strong&gt; or &lt;strong&gt;data drift&lt;/strong&gt; ⚠️. The solution is to
+regularly retrain the model on up-to-date data. How often we need to do that depends on the use case&lt;/p&gt;
 &lt;h3&gt;Instance-Based v.s. Model-Based Learning&lt;/h3&gt;
 &lt;p&gt;One more way to categorize machine learning systems is by how they &lt;em&gt;generalize&lt;/em&gt;. Most machine learning tasks are about
 making predictions. This means that given a number of training examples, the system needs to be able to make good
