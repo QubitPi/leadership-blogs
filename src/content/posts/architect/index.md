@@ -319,5 +319,12 @@ gain the market leadership position that will enable it to charge a premium pric
   are present. If it proves to be safe, they are willing to begin bringing out their best and brightest ideas.
 
 - Learning to delegate
+
+  A key concept that enables this evolution to occur is allowing others to help determine the solution in order to
+  trigger their sense of ownership.
+
+  Architects usually can only suggest ideas; they do not have direct management authority, unlike directors and
+  managers. This forces them to have to _sell_ their architectural approaches.
+
 - Realizing that life is reflexive
 - Acting as though words are seeds
