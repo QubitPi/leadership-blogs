@@ -141,6 +141,21 @@ A model's performance tends to decay slowly over time, simply because the world 
 remains unchanged. This phenomenon is often called __model rot__ or __data drift__ ⚠️. The solution is to regularly
 retrain the model on up-to-date data. How often we need to do that depends on the use case
 
+#### Online Learning
+
+In online learning, we train the system incrementally by feeding it data instances sequentially, either individually or
+in small groups called mini-batches. Each learning step is fast and cheap, so the system can learn about new data on
+the fly, as it arrives
+
+![](./img/online-learning.png)
+
+One important parameter of online learning systems is how fast they should adapt to changing data: this is called the
+__learning rate__ (not to be confused with _learning rate_ as a hyperparameter). If we set a high learning rate, then
+our system will rapidly adapt to new data, but it will also tend to quickly forget the old data (for example, a spam 
+filter would then flag only the latest kinds of spam). Conversely, if we set a low learning rate, the system will have
+more inertia; that is, it will learn more slowly, but it will also be less sensitive to noise in the new data or to
+sequences of nonrepresentative data points (outliers).
+
 ### Instance-Based v.s. Model-Based Learning
 
 One more way to categorize machine learning systems is by how they _generalize_. Most machine learning tasks are about
