@@ -156,6 +156,15 @@ filter would then flag only the latest kinds of spam). Conversely, if we set a l
 more inertia; that is, it will learn more slowly, but it will also be less sensitive to noise in the new data or to
 sequences of nonrepresentative data points (outliers).
 
+:::kokomi[Practical Online Learning]
+
+A big challenge with online learning is that if bad data is fed to the system, the system's performance will decline,
+possibly quickly. To reduce this risk, we need to monitor our system closely and promptly switch learning off (and
+possibly revert to a previously working state) if we detect a drop in performance. We may also want to monitor the input
+data and react to abnormal data; for example, using an anomaly detection algorithm
+
+:::
+
 ### Instance-Based v.s. Model-Based Learning
 
 One more way to categorize machine learning systems is by how they _generalize_. Most machine learning tasks are about
