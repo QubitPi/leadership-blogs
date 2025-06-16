@@ -303,7 +303,7 @@ not be "perfect", but is, in fact, good enough at a cost that enables enough mon
 meet market needs. Often competing products are being developed, and the organization needs to be first to market to
 gain the market leadership position that will enable it to charge a premium price for its product.
 
-- Balancing relationships and correctness
+- _Balancing relationships and correctness_
 
   From a software development and engineering perspective, we are trained to look for defects (imperfections) and to
   remove these flaws quickly (we have all kinds of ways to deal with this task: pair programming, unit tests, functional
@@ -318,7 +318,7 @@ gain the market leadership position that will enable it to charge a premium pric
   ideas. The first few ideas that people throw out are ONLY "safe" ideas. They are testing the waters to see if sharks
   are present. If it proves to be safe, they are willing to begin bringing out their best and brightest ideas.
 
-- Learning to delegate
+- _Learning to delegate_
 
   A key concept that enables this evolution to occur is allowing others to help determine the solution in order to
   trigger their sense of ownership.
