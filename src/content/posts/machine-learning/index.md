@@ -255,8 +255,8 @@ Testing and Validating
 The only way to know how well a model will generalize to new cases is to actually try it out on new cases. One way to do
 that is to split our data into two sets:
 
-1. the training set, and
-2. the test set
+1. the __1️⃣ training set__, and
+2. the __2️⃣ test set__
 
 As these names imply, we train our model using the training set, and we test it using the test set. The error rate on
 new cases is called the __generalization error__ (or out-of-sample error), and by evaluating the model on the test set,
@@ -271,6 +271,24 @@ dataset: if it contains 10 million instances, then holding out 1% means the test
 probably more than enough to get a good estimate of the generalization error.
 
 :::
+
+In another situation, suppose we are hesitating between 2 candidate models. How do we decide between them? One option is
+to train both and compare how well they generalize using the test set. Suppose further that the linear model generalizes
+better, but we want to apply some regularization to avoid overfitting. The question is, how do we choose the value of
+the regularization hyperparameter? One option is to train 100 different models using 100 different values for this
+hyperparameter. Finally we launch the model with the best hyperparameter value which produces the smallest
+generalization error of 5% into production, but unfortunately it does not perform as well as expected and produces 15%
+errors. What just happened?
+
+The problem is that we measured the generalization error multiple times on the test set, and we adapted the model and
+hyperparameters to produce the best model for that particular set. This means the model is unlikely to perform as well
+on new data. A common solution to this problem is called __holdout validation__:  simply hold out part of the training
+set to evaluate several candidate models and select the best one. The new held-out set is called the __3️⃣ validation
+set__ (or the development set, or dev set). More specifically, we train multiple models with various hyperparameters on
+the reduced training set (i.e., the full training set minus the validation set), and we select the model that performs
+best on the validation set. After this holdout validation process, we train the best model on the full training set
+(including the validation set), and this gives us the final model. Lastly, we evaluate this final model on the test set
+to get an estimate of the generalization error.
 
 Neural Networks
 ---------------
