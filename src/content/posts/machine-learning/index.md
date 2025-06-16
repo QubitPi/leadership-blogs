@@ -120,9 +120,26 @@ The batch learning can be automated fairly easily when it needs a new round of t
 
 ![](./img/batch-learning.png)
 
-Unfortunately, a model's performance tends to decay slowly over time, simply because the world continues to evolve while
-the model remains unchanged. This phenomenon is often called __model rot__ or __data drift__ ⚠️. The solution is to
-regularly retrain the model on up-to-date data. How often we need to do that depends on the use case
+:::kokomi[Practical Batch Learning]
+
+Automated batch learning is simple and often works fine, ___but___
+
+- training using the full set of data can take many hours, so we would typically train a new system only every 24 hours
+  or even just weekly. If our system needs to adapt to rapidly changing data (e.g., to predict stock prices), then we
+  need a more reactive solution.
+- training on the full set of data requires a lot of computing resources (CPU, memory space, disk space, disk I/O,
+  network I/O, etc.). If we have a lot of data and we automate your system to train from scratch every day, it will end
+  up costing us a lot of money. If the amount of data is huge, it may even be impossible to use a batch learning
+  algorithm.
+- if our system needs to be able to learn autonomously and it has limited resources (e.g., a smartphone application or a
+  rover on Mars), then carrying around large amounts of training data and taking up a lot of resources to train for
+  hours every day is a showstopper.
+
+:::
+
+A model's performance tends to decay slowly over time, simply because the world continues to evolve while the model
+remains unchanged. This phenomenon is often called __model rot__ or __data drift__ ⚠️. The solution is to regularly
+retrain the model on up-to-date data. How often we need to do that depends on the use case
 
 ### Instance-Based v.s. Model-Based Learning
 
