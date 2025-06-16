@@ -308,7 +308,15 @@ gain the market leadership position that will enable it to charge a premium pric
   From a software development and engineering perspective, we are trained to look for defects (imperfections) and to
   remove these flaws quickly (we have all kinds of ways to deal with this task: pair programming, unit tests, functional
   tests, stress tests, code reviews, and so on). The challenge lies in the indisputable fact that people are not
-  software: We don't need to drive out their imperfections. 
+  software: We don't need to drive out their imperfections. Instead, we seek to maintain integrity and authenticity with
+  the other side, to provide valuable insights when appropriate, and to offer for other sot learn in a relatively quiet
+  manner. The best guide is to have other people's best interests at heart and to user our best judgment to figure out
+  how to proceed
+
+  The dynamics is that everyone loves to talk and have their ideas be added into the ecosystem. Once our resources, i.e.
+  programmers, are willing to contribute, they will begin taking ownership and will be willing to contribute even more
+  ideas. The first few ideas that people throw out are ONLY "safe" ideas. They are testing the waters to see if sharks
+  are present. If it proves to be safe, they are willing to begin bringing out their best and brightest ideas.
 
 - Learning to delegate
 - Realizing that life is reflexive
