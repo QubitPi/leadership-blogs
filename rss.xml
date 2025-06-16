@@ -523,6 +523,23 @@ hours every day is a showstopper.&lt;/li&gt;
 &lt;p&gt;A model&apos;s performance tends to decay slowly over time, simply because the world continues to evolve while the model
 remains unchanged. This phenomenon is often called &lt;strong&gt;model rot&lt;/strong&gt; or &lt;strong&gt;data drift&lt;/strong&gt; ⚠️. The solution is to regularly
 retrain the model on up-to-date data. How often we need to do that depends on the use case&lt;/p&gt;
+&lt;h4&gt;Online Learning&lt;/h4&gt;
+&lt;p&gt;In online learning, we train the system incrementally by feeding it data instances sequentially, either individually or
+in small groups called mini-batches. Each learning step is fast and cheap, so the system can learn about new data on
+the fly, as it arrives&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./img/online-learning.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;One important parameter of online learning systems is how fast they should adapt to changing data: this is called the
+&lt;strong&gt;learning rate&lt;/strong&gt; (not to be confused with &lt;em&gt;learning rate&lt;/em&gt; as a hyperparameter). If we set a high learning rate, then
+our system will rapidly adapt to new data, but it will also tend to quickly forget the old data (for example, a spam
+filter would then flag only the latest kinds of spam). Conversely, if we set a low learning rate, the system will have
+more inertia; that is, it will learn more slowly, but it will also be less sensitive to noise in the new data or to
+sequences of nonrepresentative data points (outliers).&lt;/p&gt;
+&lt;p&gt;:::kokomi[Practical Online Learning]&lt;/p&gt;
+&lt;p&gt;A big challenge with online learning is that if bad data is fed to the system, the system&apos;s performance will decline,
+possibly quickly. To reduce this risk, we need to monitor our system closely and promptly switch learning off (and
+possibly revert to a previously working state) if we detect a drop in performance. We may also want to monitor the input
+data and react to abnormal data; for example, using an anomaly detection algorithm&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;h3&gt;Instance-Based v.s. Model-Based Learning&lt;/h3&gt;
 &lt;p&gt;One more way to categorize machine learning systems is by how they &lt;em&gt;generalize&lt;/em&gt;. Most machine learning tasks are about
 making predictions. This means that given a number of training examples, the system needs to be able to make good
