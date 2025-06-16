@@ -407,7 +407,7 @@ meet market needs. Often competing products are being developed, and the organiz
 gain the market leadership position that will enable it to charge a premium price for its product.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Balancing relationships and correctness&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Balancing relationships and correctness&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;From a software development and engineering perspective, we are trained to look for defects (imperfections) and to
 remove these flaws quickly (we have all kinds of ways to deal with this task: pair programming, unit tests, functional
 tests, stress tests, code reviews, and so on). The challenge lies in the indisputable fact that people are not
@@ -421,7 +421,7 @@ ideas. The first few ideas that people throw out are ONLY &quot;safe&quot; ideas
 are present. If it proves to be safe, they are willing to begin bringing out their best and brightest ideas.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Learning to delegate&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Learning to delegate&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;A key concept that enables this evolution to occur is allowing others to help determine the solution in order to
 trigger their sense of ownership.&lt;/p&gt;
 &lt;p&gt;Architects usually can only suggest ideas; they do not have direct management authority, unlike directors and
