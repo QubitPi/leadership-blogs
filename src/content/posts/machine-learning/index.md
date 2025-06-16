@@ -87,7 +87,7 @@ There are so many different types of machine learning systems that it is useful 
 based on the following criteria:
 
 - How they are supervised during training ([supervised, unsupervised, semi-supervised, self-supervised](#supervised-unsupervised-semi-supervised-self-supervised-reinforcement-learning), and others)
-- Whether or not they can learn incrementally on the fly (online versus batch learning)
+- Whether or not they can learn incrementally on the fly ([online v.s. batch learning](#online-vs-batch-learning))
 - Whether they work by simply comparing new data points to known data points, or instead by detecting patterns in the
   training data and building a predictive model, much like scientists do (
   [instance-based v.s. model-based learning](#instance-based-vs-model-based-learning))
@@ -107,6 +107,22 @@ main categories are
   select and perform actions, and get _rewards_ or _penalties_ in return. It must then learn by itself what is the best
   strategy, called a __policy__, to get the most reward over time. A policy defines what action the agent should choose
   when it is in a given situation.
+
+### Online v.s. Batch Learning
+
+#### Batch learning
+
+In batch learning, the system is trained using all the available data. This will generally take a lot of time and
+computing resources, so it is typically done offline. First the system is trained, and then it is launched into
+production and runs without learning anymore; it just applies what it has learned. This is called _offline learning_.
+
+The batch learning can be automated fairly easily when it needs a new round of training with new data:
+
+![](./img/batch-learning.png)
+
+Unfortunately, a model's performance tends to decay slowly over time, simply because the world continues to evolve while
+the model remains unchanged. This phenomenon is often called __model rot__ or __data drift__ ⚠️. The solution is to
+regularly retrain the model on up-to-date data. How often we need to do that depends on the use case
 
 ### Instance-Based v.s. Model-Based Learning
 
