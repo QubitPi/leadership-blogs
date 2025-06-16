@@ -303,7 +303,13 @@ not be "perfect", but is, in fact, good enough at a cost that enables enough mon
 meet market needs. Often competing products are being developed, and the organization needs to be first to market to
 gain the market leadership position that will enable it to charge a premium price for its product.
 
-- Choosing relationships over correctness
+- Balancing relationships and correctness
+
+  From a software development and engineering perspective, we are trained to look for defects (imperfections) and to
+  remove these flaws quickly (we have all kinds of ways to deal with this task: pair programming, unit tests, functional
+  tests, stress tests, code reviews, and so on). The challenge lies in the indisputable fact that people are not
+  software: We don't need to drive out their imperfections. 
+
 - Learning to delegate
 - Realizing that life is reflexive
 - Acting as though words are seeds

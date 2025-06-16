@@ -1,7 +1,7 @@
 ---
 title: Machine Learning
 published: 2025-06-05
-updated: 2025-06-12
+updated: 2025-06-16
 description: |
   Machine Learning is to me is the transcendentalization of my combined passion toward Software Engineering and Data
   Analytics. While Artificial Intelligence (AI) is a broad field encompassing the creation of machines that can perform
@@ -86,10 +86,27 @@ databases)
 There are so many different types of machine learning systems that it is useful to classify them in broad categories,
 based on the following criteria:
 
-- How they are supervised during training (supervised, unsupervised, semi-supervised, self-supervised, and others)
+- How they are supervised during training ([supervised, unsupervised, semi-supervised, self-supervised](#supervised-unsupervised-semi-supervised-self-supervised-reinforcement-learning), and others)
 - Whether or not they can learn incrementally on the fly (online versus batch learning)
 - Whether they work by simply comparing new data points to known data points, or instead by detecting patterns in the
-  training data and building a predictive model, much like scientists do (instance-based versus model-based learning)
+  training data and building a predictive model, much like scientists do (
+  [instance-based v.s. model-based learning](#instance-based-vs-model-based-learning))
+
+### Supervised, Unsupervised, Semi-Supervised, Self-Supervised, Reinforcement Learning
+
+Machine learning systems can be classified according to the amount and type of supervision they get during training. The
+main categories are
+
+- __Supervised learning__: the training set we feed to the algorithm includes the desired solutions, called __labels__.
+  A typical supervised learning task is _classification_, such as spam detector in email
+- __Unsupervised learning__: the training data is unlabeled. _Clustering and 2D/3D Visualization_ are examples.
+- __Semi-supervised learning__: when labeling data is time-consuming and we end up having some labeled instances and
+  some unlabeled, simi-supervised learning can deal with this situation.
+- __Self-supervised learning__: generate a fully labeled dataset from a fully unlabeled one
+- __Reinforcement learning__: the learning system, called an __agent__ in this context, can observe the environment,
+  select and perform actions, and get _rewards_ or _penalties_ in return. It must then learn by itself what is the best
+  strategy, called a __policy__, to get the most reward over time. A policy defines what action the agent should choose
+  when it is in a given situation.
 
 ### Instance-Based v.s. Model-Based Learning
 
