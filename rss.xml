@@ -628,11 +628,14 @@ errors. What just happened?&lt;/p&gt;
 hyperparameters to produce the best model for that particular set. This means the model is unlikely to perform as well
 on new data. A common solution to this problem is called &lt;strong&gt;holdout validation&lt;/strong&gt;:  simply hold out part of the training
 set to evaluate several candidate models and select the best one. The new held-out set is called the &lt;strong&gt;3️⃣ validation
-set&lt;/strong&gt; (or the development set, or dev set). More specifically, we train multiple models with various hyperparameters on
-the reduced training set (i.e., the full training set minus the validation set), and we select the model that performs
-best on the validation set. After this holdout validation process, we train the best model on the full training set
-(including the validation set), and this gives us the final model. Lastly, we evaluate this final model on the test set
-to get an estimate of the generalization error.&lt;/p&gt;
+set&lt;/strong&gt; (or the development set, or dev set). The steps are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;train multiple models with various hyperparameters on the reduced training set (i.e., the full training set minus the
+validation set)&lt;/li&gt;
+&lt;li&gt;select the model that performs best on the validation set.&lt;/li&gt;
+&lt;li&gt;train the best model on the full training set (including the validation set), which gives us the final model.&lt;/li&gt;
+&lt;li&gt;evaluate this final model on the test set to get an estimate of the generalization error&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;Neural Networks&lt;/h2&gt;
 &lt;p&gt;The area of Neural Networks has originally been primarily inspired by the goal of modeling biological neural systems,
 but has since diverged and become a matter of engineering and achieving good results in Machine Learning tasks.
