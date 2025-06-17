@@ -309,6 +309,23 @@ set__ (or the development set, or dev set). The steps are:
 3. train the best model on the full training set (including the validation set), which gives us the final model.
 4. evaluate this final model on the test set to get an estimate of the generalization error
 
+Machine Learning Project Checklist
+----------------------------------
+
+<a href="https://colab.research.google.com/github/QubitPi/machine-learning/blob/master/02_end_to_end_machine_learning_project.ipynb" class="google-colab-link" style="color: white; text-decoration: none; margin: 0 5px 0 1px" target="_blank">Explore in Colab</a> <a href="https://kaggle.com/kernels/welcome?src=https://github.com/QubitPi/machine-learning/blob/master/02_end_to_end_machine_learning_project.ipynb" class="kaggle-link" style="color: white; text-decoration: none; margin: 0 1px 0 5px" target="_blank">Explore in Kaggle</a>
+
+As a well-organized data scientist, the first thing we should do before any serious business project is to pull out our
+machine learning project checklist which can guide us through our machine learning projects in 8 main steps:
+
+1. Frame the problem and look at the bit picture
+2. Get the data
+3. Explore the data to gain insights
+4. Prepare the data to better expose the underlying data patterns to machine learning algorithms
+5. Explore many different models and shortlist the best ones
+6. Fine-tune our models and combine them into a solution
+7. Present solution
+8. Launch, monitor, and maintain the system
+
 Neural Networks
 ---------------
 
