@@ -664,6 +664,20 @@ validation set)&lt;/li&gt;
 &lt;li&gt;train the best model on the full training set (including the validation set), which gives us the final model.&lt;/li&gt;
 &lt;li&gt;evaluate this final model on the test set to get an estimate of the generalization error&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h2&gt;Machine Learning Project Checklist&lt;/h2&gt;
+&lt;p&gt;&amp;lt;a href=&quot;https://colab.research.google.com/github/QubitPi/machine-learning/blob/master/02_end_to_end_machine_learning_project.ipynb&quot; class=&quot;google-colab-link&quot; style=&quot;color: white; text-decoration: none; margin: 0 5px 0 1px&quot; target=&quot;_blank&quot;&amp;gt;Explore in Colab&amp;lt;/a&amp;gt; &amp;lt;a href=&quot;https://kaggle.com/kernels/welcome?src=https://github.com/QubitPi/machine-learning/blob/master/02_end_to_end_machine_learning_project.ipynb&quot; class=&quot;kaggle-link&quot; style=&quot;color: white; text-decoration: none; margin: 0 1px 0 5px&quot; target=&quot;_blank&quot;&amp;gt;Explore in Kaggle&amp;lt;/a&amp;gt;&lt;/p&gt;
+&lt;p&gt;As a well-organized data scientist, the first thing we should do before any serious business project is to pull out our
+machine learning project checklist which can guide us through our machine learning projects in 8 main steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Frame the problem and look at the bit picture&lt;/li&gt;
+&lt;li&gt;Get the data&lt;/li&gt;
+&lt;li&gt;Explore the data to gain insights&lt;/li&gt;
+&lt;li&gt;Prepare the data to better expose the underlying data patterns to machine learning algorithms&lt;/li&gt;
+&lt;li&gt;Explore many different models and shortlist the best ones&lt;/li&gt;
+&lt;li&gt;Fine-tune our models and combine them into a solution&lt;/li&gt;
+&lt;li&gt;Present solution&lt;/li&gt;
+&lt;li&gt;Launch, monitor, and maintain the system&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h2&gt;Neural Networks&lt;/h2&gt;
 &lt;p&gt;The area of Neural Networks has originally been primarily inspired by the goal of modeling biological neural systems,
 but has since diverged and become a matter of engineering and achieving good results in Machine Learning tasks.
