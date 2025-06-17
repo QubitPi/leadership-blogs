@@ -440,7 +440,22 @@ criticism is a personal attack rather than an evaluation of the work.&lt;/p&gt;
 Analytics. While Artificial Intelligence (AI) is a broad field encompassing the creation of machines that can perform
 tasks that typically require human intelligence, Machine Learning (ML) is a specific subset of AI focused on enabling
 machines to learn from data. Given that distinction, this posts is NOT about AI, but Machine Learning in general.
-</description><pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Approximation Theory&lt;/h2&gt;
+</description><pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;:::kokomi[Working with Real Data]&lt;/p&gt;
+&lt;p&gt;Machine Learning is about inferencing values from data. Studying about machine learning, therefore, comes out best by
+experimenting with real-world data, not artificial datasets. Fortunately, there are thousands of open datasets to
+choose from, ranging across all sorts of domains. Here are a few places we can look at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.openml.org/&quot;&gt;OpenML.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://paperswithcode.com/datasets&quot;&gt;PapersWithCode.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://archive.ics.uci.edu/&quot;&gt;UC Irvine Machine Learning Repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.tensorflow.org/datasets&quot;&gt;TensorFlow Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/datasets&quot;&gt;Kaggle Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://registry.opendata.aws/&quot;&gt;Amazon AWS Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://dataportals.org&quot;&gt;DataPortals.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research&quot;&gt;Wikipedia&apos;s list of machine learning datasets&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;h2&gt;Approximation Theory&lt;/h2&gt;
 &lt;p&gt;The purpose of studying Approximation Theory is to better understand the
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Universal_approximation_theorem&quot;&gt;Universal Approximation Theorem&lt;/a&gt;, which defines the
 limits (or unbounded potential) of AI and Machine Learning on what Neural Networks can learn to solve real-life
