@@ -355,7 +355,7 @@ There is a complete end-to-end notebook project that demonstrate this process - 
    - Explain why this solution achieves the business objective 
    - Describe what worked and what didn't
    - List assumptions and system's limitations
-   - Ensure
+   - Ensure keys findings are communicated through beautiful visualizations or easy-to-remember statements
 
 9. Launch, monitor, and maintain the system
 
