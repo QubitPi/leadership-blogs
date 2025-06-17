@@ -326,5 +326,8 @@ gain the market leadership position that will enable it to charge a premium pric
   Architects usually can only suggest ideas; they do not have direct management authority, unlike directors and
   managers. This forces them to have to _sell_ their architectural approaches.
 
-- Realizing that life is reflexive
+- _Realizing that life is reflexive_
+
+  When we are receiving negative feedback about something we have done and care about passionately
+
 - Acting as though words are seeds
