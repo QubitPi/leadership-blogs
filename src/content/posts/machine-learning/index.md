@@ -13,6 +13,23 @@ category: English
 draft: false
 ---
 
+:::kokomi[Working with Real Data]
+
+Machine Learning is about inferencing values from data. Studying about machine learning, therefore, comes out best by
+experimenting with real-world data, not artificial datasets. Fortunately, there are thousands of open datasets to
+choose from, ranging across all sorts of domains. Here are a few places we can look at:
+
+- [OpenML.org](https://www.openml.org/)
+- [PapersWithCode.com](https://paperswithcode.com/datasets)
+- [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/)
+- [TensorFlow Datasets](https://www.tensorflow.org/datasets)
+- [Kaggle Datasets](https://www.kaggle.com/datasets)
+- [Amazon AWS Datasets](https://registry.opendata.aws/)
+- [DataPortals.org](https://dataportals.org)
+- [Wikipedia's list of machine learning datasets](https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research)
+
+:::
+
 Approximation Theory
 --------------------
 
