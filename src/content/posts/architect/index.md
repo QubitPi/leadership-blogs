@@ -1,7 +1,7 @@
 ---
 title: The Non-Technical Aspects of A Software Architect
 published: 2025-06-13
-updated: 2025-06-16
+updated: 2025-06-17
 description: |
   Architect is a tricky spot between technical and managerial careers. While technologists sees this position as the
   top of tech gurus, it is in fact a particular type of management role where neither normal manager nor top technical 
@@ -328,6 +328,7 @@ gain the market leadership position that will enable it to charge a premium pric
 
 - _Realizing that life is reflexive_
 
-  When we are receiving negative feedback about something we have done and care about passionately
+  When we are receiving negative feedback about something we have done and care about passionately, we may act as if the
+  criticism is a personal attack rather than an evaluation of the work. 
 
 - Acting as though words are seeds
