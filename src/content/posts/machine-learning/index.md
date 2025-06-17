@@ -321,7 +321,8 @@ There is a complete end-to-end notebook project that demonstrate this process - 
 
 :::
 
-1. Frame the problem and look at the bit picture
+1. __Document everything along the way__
+2. Frame the problem and look at the bit picture
 
    1. Define the objective in business terms
    2. How will the solution be used?
@@ -336,7 +337,7 @@ There is a complete end-to-end notebook project that demonstrate this process - 
    11. List the assumptions we or others have made so far
    12. Verify assumptions if possible
 
-2. Get the data
+3. Get the data
 
    :::tip
 
@@ -344,12 +345,19 @@ There is a complete end-to-end notebook project that demonstrate this process - 
 
    :::
 
-3. Explore the data to gain insights
-4. Prepare the data to better expose the underlying data patterns to machine learning algorithms
-5. Explore many different models and shortlist the best ones
-6. Fine-tune our models and combine them into a solution
-7. Present solution
-8. Launch, monitor, and maintain the system
+4. Explore the data to gain insights
+5. Prepare the data to better expose the underlying data patterns to machine learning algorithms
+6. Explore many different models and shortlist the best ones
+7. Fine-tune our models and combine them into a solution
+8. Present solution
+
+   - Make sure the big picture is hightlighted first 
+   - Explain why this solution achieves the business objective 
+   - Describe what worked and what didn't
+   - List assumptions and system's limitations
+   - Ensure
+
+9. Launch, monitor, and maintain the system
 
 Neural Networks
 ---------------
