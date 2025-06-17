@@ -333,6 +333,13 @@ machine learning project checklist which can guide us through our machine learni
    12. Verify assumptions if possible
 
 2. Get the data
+
+   :::tip
+
+   Automate as much as possible so we can get fresh data easily
+
+   :::
+
 3. Explore the data to gain insights
 4. Prepare the data to better expose the underlying data patterns to machine learning algorithms
 5. Explore many different models and shortlist the best ones
