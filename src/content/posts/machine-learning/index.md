@@ -318,6 +318,20 @@ As a well-organized data scientist, the first thing we should do before any seri
 machine learning project checklist which can guide us through our machine learning projects in 8 main steps:
 
 1. Frame the problem and look at the bit picture
+
+   1. Define the objective in business terms
+   2. How will the solution be used?
+   3. What are the current solutions/workarounds (if any)?
+   4. How should this problem to framed (i.e. supervised/unsupervised, online/offline, etc.)?
+   5. How should performance be measured
+   6. Is the performance measure aligned with business objective?
+   7. What would be the minimum performance needed to reach the business objective?
+   8. What are comparable problems? Can we reuse experience or tools?
+   9. Is human expertise available?
+   10. How would we solve the problem manually?
+   11. List the assumptions we or others have made so far
+   12. Verify assumptions if possible
+
 2. Get the data
 3. Explore the data to gain insights
 4. Prepare the data to better expose the underlying data patterns to machine learning algorithms
