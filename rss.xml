@@ -318,7 +318,7 @@ SL:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Sentential Connectives&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$\thicksim$ (tilde)&lt;/li&gt;
-&lt;li&gt;&amp;amp; (ampersand)&lt;/li&gt;
+&lt;li&gt;$&amp;amp;$ (ampersand)&lt;/li&gt;
 &lt;li&gt;$\vee$ (wedge)&lt;/li&gt;
 &lt;li&gt;$\supset$ (horseshoe)&lt;/li&gt;
 &lt;li&gt;$\equiv$ (triple bar)&lt;/li&gt;
@@ -330,6 +330,12 @@ SL:&lt;/p&gt;
 &lt;li&gt;Every sentence letter of SL is a sentence of SL&lt;/li&gt;
 &lt;li&gt;If $\boldsymbol{P}$ is a sentence of SL, then $\boldsymbol{\thicksim P}$ is a sentence of SL&lt;/li&gt;
 &lt;li&gt;If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} &amp;amp; \boldsymbol{Q})$ is a
+sentence of SL&lt;/li&gt;
+&lt;li&gt;If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \vee \boldsymbol{Q})$ is a
+sentence of SL&lt;/li&gt;
+&lt;li&gt;If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \supset \boldsymbol{Q})$ is a
+sentence of SL&lt;/li&gt;
+&lt;li&gt;If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \equiv \boldsymbol{Q})$ is a
 sentence of SL&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
