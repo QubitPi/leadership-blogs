@@ -243,8 +243,8 @@ language.
 
 :::note[Convention]
 
-We will use the boldface _capital_ letters "$\boldsymbol{P}$", "\boldsymbol{Q}", "\boldsymbol{R}", "\boldsymbol{S}" with
-or without subscripts as in
+We will use the boldface _capital_ letters "$\boldsymbol{P}$", "$\boldsymbol{Q}$", "$\boldsymbol{R}$",
+"$\boldsymbol{S}$" with or without subscripts as in
 
 $$
 
@@ -256,6 +256,19 @@ as __metavariables__ ranging over expressions of object language. These variable
 part of the metalanguage.
 
 :::
+
+We now begin introducing formal language of Sentential Logic (__SL__), starting with the specification of the syntax of
+SL:
+
+- __Sentence Letters__: the capital Roman letters 'A' through 'Z', with or without positive integer subscripts
+- __Sentential Connectives__
+
+  - ~ (tilde)
+  - & (ampersand)
+  - ∨ (wedge)
+  - ⊃ (horseshoe)
+  - (triple bar)
+
 
 ### Semantics (of Sentential Logic)
 
