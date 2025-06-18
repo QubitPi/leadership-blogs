@@ -236,7 +236,23 @@ syntax of English, and every other natural language, is enormously complex. Fort
 is simple, straightforward, and easily learned.
 
 When we use a language to talk about a language, we are using that language as a __metalanguage__, and the language that
-we are talking about is the __object language__.
+we are talking about is the __object language__. For example, in a German class the instructor uses English to talk
+about German, and in this instance English is the metalanguage and German is the object language. When a grammar
+instructor uses English to talk about the rules of English grammar English is both the metalanguage and the object
+language.
+
+:::note[Convention]
+
+We will use the boldface _capital_ letters "$\boldsymbol{P}$", "\boldsymbol{Q}", "\boldsymbol{R}", "\boldsymbol{S}" with
+or without subscripts as in
+
+$$
+
+\boldsymbol{P} \boldsymbol{P_1} \boldsymbol{Q_3}
+
+$$
+
+:::
 
 ### Semantics (of Sentential Logic)
 
