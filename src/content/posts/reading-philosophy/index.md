@@ -1,7 +1,7 @@
 ---
 title: Why is Philosophy so Pretentious?
 published: 2025-05-29
-updated: 2025-06-12
+updated: 2025-06-18
 description: |
   People who are interested in Philosophy but not a Philosophy major doesn't like the overly complicated style of
   writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
@@ -200,8 +200,23 @@ Now let's explore the core concepts of deductive logic, starting with basic defi
 - A sentence is __logically indeterminate__ if and only if it is neither logically true nor logically false
 - Sentences _p_ and _q_ are __Logically equivalent__ if and only if it is not possible for one of these sentences to be
   true while the other sentence is false
+
+  :::tip[Corollary]
+
+  - All logically true sentences are logically equivalent
+  - All logically false sentences are logically equivalent
+
+  :::
+
 - A set of sentences is __logically consistence__ if and only if it is possible for all the members of that set to be
   true
+
+  :::tip[Corollary]
+
+  An argument whose premises form logically inconsistent sets is logically valid but never logically sound. 
+
+  :::
+
 - A set of sentences __logically entails__ a sentence if and only if it is impossible for the members of the set to be
   true and that sentence false
 
