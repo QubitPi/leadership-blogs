@@ -227,6 +227,19 @@ Now let's explore the core concepts of deductive logic, starting with basic defi
 
   :::
 
+### Syntax (of Sentential Logic)
+
+The __syntax__ of a language specifies the basic expressions of a language and the rules that determine which
+combinations of those expressions count as sentences of the language. The syntax of a language does not specify how the
+sentences of the language are to be interpreted; that is a matter for [semantics](#semantics-of-sentential-logic). The
+syntax of English, and every other natural language, is enormously complex. Fortunately, the syntax of Sentential Logic
+is simple, straightforward, and easily learned.
+
+When we use a language to talk about a language, we are using that language as a __metalanguage__, and the language that
+we are talking about is the __object language__.
+
+### Semantics (of Sentential Logic)
+
 [categories of being]: https://en.wikipedia.org/wiki/Categories_(Aristotle)
 
 [^1]: <span class="chinese-text">[王阳明全集，辽海出版社](https://book.douban.com/subject/34793268/)</span>
