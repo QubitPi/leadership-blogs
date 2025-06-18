@@ -283,7 +283,6 @@ SL:
      sentence of SL
   7. Nothing is a sentence of SL unless it can be formed by repeated application of 1 - 6
 
-
 ### Semantics (of Sentential Logic)
 
 [categories of being]: https://en.wikipedia.org/wiki/Categories_(Aristotle)
