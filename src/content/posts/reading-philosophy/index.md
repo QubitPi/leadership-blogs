@@ -265,9 +265,9 @@ SL:
 
   - ~ (tilde)
   - & (ampersand)
-  - ∨ (wedge)
-  - ⊃ (horseshoe)
-  - (triple bar)
+  - $\vee$ (wedge)
+  - $\supset$ (horseshoe)
+  - $\equiv$ (triple bar)
 
 
 ### Semantics (of Sentential Logic)
