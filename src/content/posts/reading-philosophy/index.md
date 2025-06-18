@@ -252,6 +252,9 @@ $$
 
 $$
 
+as __metavariables__ ranging over expressions of object language. These variables are termed "meta" because they are
+part of the metalanguage.
+
 :::
 
 ### Semantics (of Sentential Logic)
