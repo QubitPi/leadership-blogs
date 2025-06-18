@@ -263,11 +263,18 @@ SL:
 - __Sentence Letters__: the capital Roman letters 'A' through 'Z', with or without positive integer subscripts
 - __Sentential Connectives__
 
-  - ~ (tilde)
+  - $\thicksim$ (tilde)
   - & (ampersand)
   - $\vee$ (wedge)
   - $\supset$ (horseshoe)
   - $\equiv$ (triple bar)
+
+- __Sentence of SL__
+
+  1. Every sentence letter of SL is a sentence of SL
+  2. If $\boldsymbol{P}$ is a sentence of SL, then $\boldsymbol{\thicksim P}$ is a sentence of SL
+  3. If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \& \boldsymbol{Q})$ is a
+     sentence of SL
 
 
 ### Semantics (of Sentential Logic)
