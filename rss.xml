@@ -295,7 +295,17 @@ sentences of the language are to be interpreted; that is a matter for &lt;a href
 syntax of English, and every other natural language, is enormously complex. Fortunately, the syntax of Sentential Logic
 is simple, straightforward, and easily learned.&lt;/p&gt;
 &lt;p&gt;When we use a language to talk about a language, we are using that language as a &lt;strong&gt;metalanguage&lt;/strong&gt;, and the language that
-we are talking about is the &lt;strong&gt;object language&lt;/strong&gt;.&lt;/p&gt;
+we are talking about is the &lt;strong&gt;object language&lt;/strong&gt;. For example, in a German class the instructor uses English to talk
+about German, and in this instance English is the metalanguage and German is the object language. When a grammar
+instructor uses English to talk about the rules of English grammar English is both the metalanguage and the object
+language.&lt;/p&gt;
+&lt;p&gt;:::note[Convention]&lt;/p&gt;
+&lt;p&gt;We will use the boldface &lt;em&gt;capital&lt;/em&gt; letters &quot;$\boldsymbol{P}$&quot;, &quot;\boldsymbol{Q}&quot;, &quot;\boldsymbol{R}&quot;, &quot;\boldsymbol{S}&quot; with
+or without subscripts as in&lt;/p&gt;
+&lt;p&gt;$$&lt;/p&gt;
+&lt;p&gt;\boldsymbol{P} \boldsymbol{P_1} \boldsymbol{Q_3}&lt;/p&gt;
+&lt;p&gt;$$&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;h3&gt;Semantics (of Sentential Logic)&lt;/h3&gt;
 &lt;p&gt;[^1]: &amp;lt;span class=&quot;chinese-text&quot;&amp;gt;&lt;a href=&quot;https://book.douban.com/subject/34793268/&quot;&gt;王阳明全集，辽海出版社&lt;/a&gt;&amp;lt;/span&amp;gt;
 [^2]: Bergmann, Merrie, James Moor, and Jack Nelson. &lt;a href=&quot;http://files.farka.eu/pub/The%20Logic%20Book,%206E%20%5BPDF%5D%20%5BStormRG%5D/The%20Logic%20Book,%20Sixth%20Edition%20-%20Merrie%20Bergmann.pdf&quot;&gt;&lt;em&gt;The Logic Book&lt;/em&gt;&lt;/a&gt;. 6th ed. New York, NY: McGraw-Hill, 2008. ISBN: 978-0-07-803841-9.
