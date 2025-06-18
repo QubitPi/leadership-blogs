@@ -275,12 +275,13 @@ SL:
   2. If $\boldsymbol{P}$ is a sentence of SL, then $\boldsymbol{\thicksim P}$ is a sentence of SL
   3. If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \& \boldsymbol{Q})$ is a
      sentence of SL
-  3. If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \vee \boldsymbol{Q})$ is a
+  4. If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \vee \boldsymbol{Q})$ is a
      sentence of SL
-  3. If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \supset \boldsymbol{Q})$ is a
+  5. If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \supset \boldsymbol{Q})$ is a
      sentence of SL
-  3. If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \equiv \boldsymbol{Q})$ is a
+  6. If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \equiv \boldsymbol{Q})$ is a
      sentence of SL
+  7. Nothing is a sentence of SL unless it can be formed by repeated application of 1 - 6
 
 
 ### Semantics (of Sentential Logic)
