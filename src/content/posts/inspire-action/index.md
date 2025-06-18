@@ -1,7 +1,7 @@
 ---
 title: How Great Leaders Inspire Action
 published: 2024-08-14
-updated: 2025-05-19
+updated: 2025-06-18
 description: |
   Simon Sinek has a simple but powerful model for inspirational leadership -- starting with a golden circle and the
   question: "Why?" His examples include Apple, Martin Luther King Jr. and the Wright Brothers ...
