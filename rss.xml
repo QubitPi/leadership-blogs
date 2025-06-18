@@ -288,6 +288,15 @@ possible for the sentence to be false&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3&gt;Syntax (of Sentential Logic)&lt;/h3&gt;
+&lt;p&gt;The &lt;strong&gt;syntax&lt;/strong&gt; of a language specifies the basic expressions of a language and the rules that determine which
+combinations of those expressions count as sentences of the language. The syntax of a language does not specify how the
+sentences of the language are to be interpreted; that is a matter for &lt;a href=&quot;#semantics-of-sentential-logic&quot;&gt;semantics&lt;/a&gt;. The
+syntax of English, and every other natural language, is enormously complex. Fortunately, the syntax of Sentential Logic
+is simple, straightforward, and easily learned.&lt;/p&gt;
+&lt;p&gt;When we use a language to talk about a language, we are using that language as a &lt;strong&gt;metalanguage&lt;/strong&gt;, and the language that
+we are talking about is the &lt;strong&gt;object language&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;Semantics (of Sentential Logic)&lt;/h3&gt;
 &lt;p&gt;[^1]: &amp;lt;span class=&quot;chinese-text&quot;&amp;gt;&lt;a href=&quot;https://book.douban.com/subject/34793268/&quot;&gt;王阳明全集，辽海出版社&lt;/a&gt;&amp;lt;/span&amp;gt;
 [^2]: Bergmann, Merrie, James Moor, and Jack Nelson. &lt;a href=&quot;http://files.farka.eu/pub/The%20Logic%20Book,%206E%20%5BPDF%5D%20%5BStormRG%5D/The%20Logic%20Book,%20Sixth%20Edition%20-%20Merrie%20Bergmann.pdf&quot;&gt;&lt;em&gt;The Logic Book&lt;/em&gt;&lt;/a&gt;. 6th ed. New York, NY: McGraw-Hill, 2008. ISBN: 978-0-07-803841-9.
 [^3]: &lt;a href=&quot;https://farside.ph.utexas.edu/Books/Euclid/Elements.pdf&quot;&gt;The University of Texas at Austin offers a PDF of Richard Fitzpatrick&apos;s version&lt;/a&gt;&lt;/p&gt;
