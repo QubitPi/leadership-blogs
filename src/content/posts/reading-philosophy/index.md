@@ -264,7 +264,7 @@ SL:
 - __Sentential Connectives__
 
   - $\thicksim$ (tilde)
-  - & (ampersand)
+  - $\&$ (ampersand)
   - $\vee$ (wedge)
   - $\supset$ (horseshoe)
   - $\equiv$ (triple bar)
@@ -274,6 +274,12 @@ SL:
   1. Every sentence letter of SL is a sentence of SL
   2. If $\boldsymbol{P}$ is a sentence of SL, then $\boldsymbol{\thicksim P}$ is a sentence of SL
   3. If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \& \boldsymbol{Q})$ is a
+     sentence of SL
+  3. If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \vee \boldsymbol{Q})$ is a
+     sentence of SL
+  3. If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \supset \boldsymbol{Q})$ is a
+     sentence of SL
+  3. If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \equiv \boldsymbol{Q})$ is a
      sentence of SL
 
 
