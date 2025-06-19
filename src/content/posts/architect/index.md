@@ -1,7 +1,7 @@
 ---
 title: The Non-Technical Aspects of A Software Architect
 published: 2025-06-13
-updated: 2025-06-17
+updated: 2025-06-19
 description: |
   Architect is a tricky spot between technical and managerial careers. While technologists sees this position as the
   top of tech gurus, it is in fact a particular type of management role where neither normal manager nor top technical 
@@ -301,7 +301,8 @@ any project, a wide range of factors need to be taken into account. The product 
 return on investment (ROI) to those who are footing the bill. This often means squeezing in more functionality that may
 not be "perfect", but is, in fact, good enough at a cost that enables enough money to be made and in a time frame to
 meet market needs. Often competing products are being developed, and the organization needs to be first to market to
-gain the market leadership position that will enable it to charge a premium price for its product.
+gain the market leadership position that will enable it to charge a premium price for its product. Those factors on
+humans interactions include:
 
 - _Balancing relationships and correctness_
 
@@ -324,11 +325,25 @@ gain the market leadership position that will enable it to charge a premium pric
   trigger their sense of ownership.
 
   Architects usually can only suggest ideas; they do not have direct management authority, unlike directors and
-  managers. This forces them to have to _sell_ their architectural approaches.
+  managers. This forces them to have to _sell_ their architectural approaches. If the other side is a bad ass, the
+  advice below doesn't help, but in other case:
+
+  - Listen
+  - Don't defend
+  - Be gracious
+
+  because if we respond with anything other than gracious acceptance, we are asking for non-gracious behavior in
+  response.. 
 
 - _Realizing that life is reflexive_
 
   When we are receiving negative feedback about something we have done and care about passionately, we may act as if the
   criticism is a personal attack rather than an evaluation of the work. 
 
-- Acting as though words are seeds
+- _Word matters_
+
+  - Don't speak negatively about someone
+  - Look for opportunities to build relationships
+  - Learn to speak and hear words that emphasize the positive
+
+- _Integrity & Honesty_
