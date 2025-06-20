@@ -294,7 +294,7 @@ SL:
      sentence of SL
   7. Nothing is a sentence of SL unless it can be formed by repeated application of 1 - 6
 
-:::warning[The followings are not sentences of SL, although they look very much are]
+:::warning[The followings are not sentences of SL, although they look like very much are]
 
 - $B\ \&\ D$ - no parenthesis as definition 3 above requires
 - $\vee A$ - no left operand as definition 4 requires
