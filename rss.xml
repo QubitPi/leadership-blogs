@@ -313,7 +313,7 @@ SL:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Sentence Letters&lt;/strong&gt;: the capital Roman letters &apos;A&apos; through &apos;Z&apos;, with or without positive integer subscripts&lt;/p&gt;
-&lt;p&gt;:::danger&lt;/p&gt;
+&lt;p&gt;:::caution&lt;/p&gt;
 &lt;p&gt;Although both are denoted by capital letters, expressions (bolded $\boldsymbol{P}$ ) and sentences (regular $P$) are
 not the same. Expressions can be a sentences but not always.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
