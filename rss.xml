@@ -321,11 +321,14 @@ like $P$) are not the same. Expressions can be a sentences but not always.&lt;/p
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Sentential Connectives&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;$\thicksim$ (tilde)&lt;/li&gt;
-&lt;li&gt;$&amp;amp;$ (ampersand)&lt;/li&gt;
-&lt;li&gt;$\vee$ (wedge)&lt;/li&gt;
-&lt;li&gt;$\supset$ (horseshoe)&lt;/li&gt;
-&lt;li&gt;$\equiv$ (triple bar)&lt;/li&gt;
+&lt;li&gt;$\thicksim$ (Negation)&lt;/li&gt;
+&lt;li&gt;$&amp;amp;$ (Conjunction) - In $(\boldsymbol{P} &amp;amp; \boldsymbol{Q})$, $\boldsymbol{P}$ and $\boldsymbol{Q}$ are called
+&lt;strong&gt;conjuncts&lt;/strong&gt; of the conjunction&lt;/li&gt;
+&lt;li&gt;$\vee$ (Disjunction) - In $(\boldsymbol{P} \vee \boldsymbol{Q})$, $\boldsymbol{P}$ and $\boldsymbol{Q}$ are called
+&lt;strong&gt;disjuncts&lt;/strong&gt; of the conjunction&lt;/li&gt;
+&lt;li&gt;$\supset$ (Material Conditionals) - In $(\boldsymbol{P} \supset \boldsymbol{Q})$,$\boldsymbol{P}$ is called
+&lt;strong&gt;antecedent&lt;/strong&gt; and $\boldsymbol{P}$ &lt;strong&gt;consequent&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;$\equiv$ (Material Biconditionals)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
