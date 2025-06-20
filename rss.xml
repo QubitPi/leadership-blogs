@@ -314,8 +314,8 @@ SL:&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Sentence Letters&lt;/strong&gt;: the capital Roman letters &apos;A&apos; through &apos;Z&apos;, with or without positive integer subscripts&lt;/p&gt;
 &lt;p&gt;:::caution&lt;/p&gt;
-&lt;p&gt;Although both are denoted by capital letters, expressions (bolded $\boldsymbol{P}$ ) and sentences (regular $P$) are
-not the same. Expressions can be a sentences but not always.&lt;/p&gt;
+&lt;p&gt;Although both are denoted by capital letters, expressions (bolded such as $\boldsymbol{P}$) and sentences (regular
+like $P$) are not the same. Expressions can be a sentences but not always.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -329,7 +329,7 @@ not the same. Expressions can be a sentences but not always.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Sentence of SL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sentence of SL&lt;/strong&gt;, the definition&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Every sentence letter of SL is a sentence of SL&lt;/li&gt;
 &lt;li&gt;If $\boldsymbol{P}$ is a sentence of SL, then $\boldsymbol{\thicksim P}$ is a sentence of SL&lt;/li&gt;
@@ -345,6 +345,15 @@ sentence of SL&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;:::warning[The followings are not sentences of SL, although they look very much are]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$B &amp;amp; D$ - no parenthesis as definition 3 above requires&lt;/li&gt;
+&lt;li&gt;$\vee A$ - no left operand as definition 4 requires&lt;/li&gt;
+&lt;li&gt;$(BC \supset D)$ - $BC$ is not a sentence by definition&lt;/li&gt;
+&lt;li&gt;$(B \subset (C \vee D))$ - $\subset$ is not a symbol of SL&lt;/li&gt;
+&lt;li&gt;$(\boldsymbol{P} \equiv \boldsymbol{Q})$ - neither $\boldsymbol{P}$ nor $\boldsymbol{Q}$ is a sentence of SL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;h3&gt;Semantics (of Sentential Logic)&lt;/h3&gt;
 &lt;p&gt;[^1]: &amp;lt;span class=&quot;chinese-text&quot;&amp;gt;&lt;a href=&quot;https://book.douban.com/subject/34793268/&quot;&gt;王阳明全集，辽海出版社&lt;/a&gt;&amp;lt;/span&amp;gt;
 [^2]: Bergmann, Merrie, James Moor, and Jack Nelson. &lt;a href=&quot;http://files.farka.eu/pub/The%20Logic%20Book,%206E%20%5BPDF%5D%20%5BStormRG%5D/The%20Logic%20Book,%20Sixth%20Edition%20-%20Merrie%20Bergmann.pdf&quot;&gt;&lt;em&gt;The Logic Book&lt;/em&gt;&lt;/a&gt;. 6th ed. New York, NY: McGraw-Hill, 2008. ISBN: 978-0-07-803841-9.
