@@ -1,7 +1,7 @@
 ---
 title: Why is Philosophy so Pretentious?
 published: 2025-05-29
-updated: 2025-06-18
+updated: 2025-06-20
 description: |
   People who are interested in Philosophy but not a Philosophy major doesn't like the overly complicated style of
   writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
@@ -261,6 +261,14 @@ We now begin introducing formal language of Sentential Logic (__SL__), starting 
 SL:
 
 - __Sentence Letters__: the capital Roman letters 'A' through 'Z', with or without positive integer subscripts
+
+  :::danger
+
+  Although both are denoted by capital letters, expressions (bolded $\boldsymbol{P}$ ) and sentences (regular $P$) are
+  not the same. Expressions can be a sentences but not always.
+
+  :::
+
 - __Sentential Connectives__
 
   - $\thicksim$ (tilde)
