@@ -296,7 +296,7 @@ SL:
 
 :::warning[The followings are not sentences of SL, although they look very much are]
 
-- $B \& D$ - no parenthesis as definition 3 above requires
+- $B\ \&\ D$ - no parenthesis as definition 3 above requires
 - $\vee A$ - no left operand as definition 4 requires
 - $(BC \supset D)$ - $BC$ is not a sentence by definition
 - $(B \subset (C \vee D))$ - $\subset$ is not a symbol of SL
