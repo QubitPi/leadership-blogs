@@ -350,7 +350,7 @@ sentence of SL&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;:::warning[The followings are not sentences of SL, although they look very much are]&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;$B &amp;amp; D$ - no parenthesis as definition 3 above requires&lt;/li&gt;
+&lt;li&gt;$B\ &amp;amp;\ D$ - no parenthesis as definition 3 above requires&lt;/li&gt;
 &lt;li&gt;$\vee A$ - no left operand as definition 4 requires&lt;/li&gt;
 &lt;li&gt;$(BC \supset D)$ - $BC$ is not a sentence by definition&lt;/li&gt;
 &lt;li&gt;$(B \subset (C \vee D))$ - $\subset$ is not a symbol of SL&lt;/li&gt;
