@@ -271,11 +271,14 @@ SL:
 
 - __Sentential Connectives__
 
-  - $\thicksim$ (tilde)
-  - $\&$ (ampersand)
-  - $\vee$ (wedge)
-  - $\supset$ (horseshoe)
-  - $\equiv$ (triple bar)
+  - $\thicksim$ (Negation)
+  - $\&$ (Conjunction) - In $(\boldsymbol{P} \& \boldsymbol{Q})$, $\boldsymbol{P}$ and $\boldsymbol{Q}$ are called
+    __conjuncts__ of the conjunction
+  - $\vee$ (Disjunction) - In $(\boldsymbol{P} \vee \boldsymbol{Q})$, $\boldsymbol{P}$ and $\boldsymbol{Q}$ are called
+    __disjuncts__ of the conjunction
+  - $\supset$ (Material Conditionals) - In $(\boldsymbol{P} \supset \boldsymbol{Q})$,$\boldsymbol{P}$ is called
+    __antecedent__ and $\boldsymbol{P}$ __consequent__
+  - $\equiv$ (Material Biconditionals)
 
 - __Sentence of SL__, the definition
 
