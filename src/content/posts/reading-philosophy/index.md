@@ -264,8 +264,8 @@ SL:
 
   :::caution
 
-  Although both are denoted by capital letters, expressions (bolded $\boldsymbol{P}$ ) and sentences (regular $P$) are
-  not the same. Expressions can be a sentences but not always.
+  Although both are denoted by capital letters, expressions (bolded such as $\boldsymbol{P}$) and sentences (regular
+  like $P$) are not the same. Expressions can be a sentences but not always.
 
   :::
 
@@ -277,7 +277,7 @@ SL:
   - $\supset$ (horseshoe)
   - $\equiv$ (triple bar)
 
-- __Sentence of SL__
+- __Sentence of SL__, the definition
 
   1. Every sentence letter of SL is a sentence of SL
   2. If $\boldsymbol{P}$ is a sentence of SL, then $\boldsymbol{\thicksim P}$ is a sentence of SL
@@ -290,6 +290,16 @@ SL:
   6. If $\boldsymbol{P}$ and $\boldsymbol{Q}$ are sentences of SL, then $(\boldsymbol{P} \equiv \boldsymbol{Q})$ is a
      sentence of SL
   7. Nothing is a sentence of SL unless it can be formed by repeated application of 1 - 6
+
+:::warning[The followings are not sentences of SL, although they look very much are]
+
+- $B \& D$ - no parenthesis as definition 3 above requires
+- $\vee A$ - no left operand as definition 4 requires
+- $(BC \supset D)$ - $BC$ is not a sentence by definition
+- $(B \subset (C \vee D))$ - $\subset$ is not a symbol of SL
+- $(\boldsymbol{P} \equiv \boldsymbol{Q})$ - neither $\boldsymbol{P}$ nor $\boldsymbol{Q}$ is a sentence of SL
+
+:::
 
 ### Semantics (of Sentential Logic)
 
