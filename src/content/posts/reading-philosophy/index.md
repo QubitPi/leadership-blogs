@@ -262,7 +262,7 @@ SL:
 
 - __Sentence Letters__: the capital Roman letters 'A' through 'Z', with or without positive integer subscripts
 
-  :::danger
+  :::caution
 
   Although both are denoted by capital letters, expressions (bolded $\boldsymbol{P}$ ) and sentences (regular $P$) are
   not the same. Expressions can be a sentences but not always.
