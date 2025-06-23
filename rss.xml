@@ -4432,7 +4432,7 @@ reusable libraries possible that will last you from one project to the next and 
 its scope to the minimum, I would actually suggest considering duplicating a little bit here. And naturally write unit
 tests and make sure it&apos;s really thoroughly tested and reliable at what it&apos;s doing. This is only for the libraries that
 you really want to take the time to generalize to a point that goes far beyond a single project.&quot;&lt;/p&gt;
-</content:encoded></item><item><title>Software is not about Making it Work, but Making it Right</title><link>https://leadership.qubitpi.org/posts/software-is-about-making-it-right/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/software-is-about-making-it-right/</guid><pubDate>Sun, 23 Jun 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I have been told by one of my Yahoo! colleagues that I have an unusual way of designing and writing code. Over the last
+</content:encoded></item><item><title>Software is not about Making it Work, but Making it Right</title><link>https://leadership.qubitpi.org/posts/software-is-about-making-it-right/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/software-is-about-making-it-right/</guid><pubDate>Wed, 12 Jun 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I have been told by one of my Yahoo! colleagues that I have an unusual way of designing and writing code. Over the last
 7 years or so of my tech career, it&apos;s enabled me to have a lot of fun studying and applying rigorous principles of
 software design.&lt;/p&gt;
 &lt;p&gt;Do you know why classes should be small, while most people are frustrated by giant class design piled up with hundreds
