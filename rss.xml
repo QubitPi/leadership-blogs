@@ -107,8 +107,9 @@ a culture in which their people can work toward the short-term goals while also 
 wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 &lt;p&gt;[^1]: Sinek, Simon (2019). &lt;a href=&quot;https://dokumen.pub/the-infinite-game.html&quot;&gt;&lt;em&gt;The Infinite Game&lt;/em&gt;&lt;/a&gt;. Portfolio. ISBN 073521350X.&lt;/p&gt;
 </content:encoded></item><item><title>CHEF v.s. Ansible</title><link>https://leadership.qubitpi.org/posts/configuration-management/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/configuration-management/</guid><pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;In Business World&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Chef generally utilizes a &lt;a href=&quot;https://www.reddit.com/r/devops/comments/v6qowh/comment/ibiol0l/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;centralized&lt;/a&gt; management approach while Ansible operates primarily in a decentralized
-manner&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Chef generally utilizes a
+&lt;a href=&quot;https://www.reddit.com/r/devops/comments/v6qowh/comment/ibiol0l/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;centralized&lt;/a&gt;
+management approach while Ansible operates primarily in a decentralized manner&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Chef (Centralized):&lt;/p&gt;
