@@ -142,11 +142,11 @@ good choice for &lt;strong&gt;2C&lt;/strong&gt; business. Ansible&apos;s push-ba
 scalability, making it well-suited for large-scale, distributed environments like &lt;strong&gt;2B&lt;/strong&gt; business.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h2&gt;For Personal Project&lt;/h2&gt;
-&lt;p&gt;However, for personal provisioning, simplicity takes over everything. Bash and bats might just be more than enough. CHEF
-or Ansible could just be a waste of time and hours. Never switch to an over-kill technologies unless there is a real
-business need to do so (if our personal project someday becomes large and popular). &quot;Would like to&quot; on some new and cool
-technologies doesn&apos;t necessarily justify the extra work spent shoveling sand. Clarify our &quot;whys&quot; and the work will scope
-itself.&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1e1653m/comment/lcs4dkl/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;^1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;However, for personal provisioning, simplicity takes over everything. &lt;a href=&quot;https://bats.qubitpi.org/&quot;&gt;Bash and bats&lt;/a&gt; might
+just be more than enough. CHEF or Ansible could just be a waste of time and hours. Never switch to an over-kill
+technologies unless there is a real business need to do so (if our personal project someday becomes large and popular).
+&quot;Would like to&quot; on some new and cool technologies doesn&apos;t necessarily justify the extra work spent shoveling sand.&lt;br /&gt;
+Clarify our &quot;whys&quot; and the work will scope itself.&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1e1653m/comment/lcs4dkl/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;^1&lt;/a&gt;&lt;/p&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
 stated. For example, reading Newton&apos;s principia feels struggling for really understanding the work not because the
