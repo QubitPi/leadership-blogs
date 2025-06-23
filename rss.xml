@@ -106,6 +106,46 @@ efficiencies. Ethical fading, however, is a people problem.&lt;/p&gt;
 a culture in which their people can work toward the short-term goals while also considering the morality, ethics and
 wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 &lt;p&gt;[^1]: Sinek, Simon (2019). &lt;a href=&quot;https://dokumen.pub/the-infinite-game.html&quot;&gt;&lt;em&gt;The Infinite Game&lt;/em&gt;&lt;/a&gt;. Portfolio. ISBN 073521350X.&lt;/p&gt;
+</content:encoded></item><item><title>CHEF v.s. Ansible</title><link>https://leadership.qubitpi.org/posts/configuration-management/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/configuration-management/</guid><pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;In Business World&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Chef generally utilizes a &lt;a href=&quot;https://www.reddit.com/r/devops/comments/v6qowh/comment/ibiol0l/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;centralized&lt;/a&gt; management approach while Ansible operates primarily in a decentralized
+manner&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Chef (Centralized):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chef requires a Chef Server which acts as a central repository for configurations (cookbooks, recipes, etc.).&lt;/li&gt;
+&lt;li&gt;Chef Clients installed on managed nodes communicate with the Chef Server to pull configurations and apply them.&lt;/li&gt;
+&lt;li&gt;This structure ensures consistent configurations across the infrastructure, with the Chef Server acting as the
+&lt;em&gt;single source of truth&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ansible (Decentralized):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ansible uses a control node to push configurations or tasks directly to managed nodes using standard protocols like
+SSH or WinRM.&lt;/li&gt;
+&lt;li&gt;It does not require installing agents on managed nodes.&lt;/li&gt;
+&lt;li&gt;This decentralized approach allows for real-time updates and direct control over changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;:::note&lt;/p&gt;
+&lt;p&gt;Although&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ansible can be used for centralized configurations by managing all configurations from a central control point.&lt;/li&gt;
+&lt;li&gt;Chef offers a &quot;Chef Solo&quot; mode which is a decentralized, serverless mode, but it lacks the centralized data store and
+search capabilities of the Chef Server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Chef&apos;s centralized pull-based model provides &lt;strong&gt;more control&lt;/strong&gt; and visibility over our infrastructure, making it a very
+good choice for &lt;strong&gt;2C&lt;/strong&gt; business. Ansible&apos;s push-based non-centralized model offers &lt;strong&gt;greater flexibility&lt;/strong&gt; and
+scalability, making it well-suited for large-scale, distributed environments like &lt;strong&gt;2B&lt;/strong&gt; business.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;h2&gt;For Personal Project&lt;/h2&gt;
+&lt;p&gt;However, for personal provisioning, simplicity takes over everything. Bash and bats might just be more than enough. CHEF
+or Ansible could just be a waste of time and hours. Never switch to an over-kill technologies unless there is a real
+business need to do so (if our personal project someday becomes large and popular). &quot;Would like to&quot; on some new and cool
+technologies doesn&apos;t necessarily justify the extra work spent shoveling sand. Clarify our &quot;whys&quot; and the work will scope
+itself.&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1e1653m/comment/lcs4dkl/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;^1&lt;/a&gt;&lt;/p&gt;
 </content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
 stated. For example, reading Newton&apos;s principia feels struggling for really understanding the work not because the
@@ -4392,6 +4432,75 @@ reusable libraries possible that will last you from one project to the next and 
 its scope to the minimum, I would actually suggest considering duplicating a little bit here. And naturally write unit
 tests and make sure it&apos;s really thoroughly tested and reliable at what it&apos;s doing. This is only for the libraries that
 you really want to take the time to generalize to a point that goes far beyond a single project.&quot;&lt;/p&gt;
+</content:encoded></item><item><title>Software is not about Making it Work, but Making it Right</title><link>https://leadership.qubitpi.org/posts/software-is-about-making-it-right/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/software-is-about-making-it-right/</guid><pubDate>Sun, 23 Jun 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I have been told by one of my Yahoo! colleagues that I have an unusual way of designing and writing code. Over the last
+7 years or so of my tech career, it&apos;s enabled me to have a lot of fun studying and applying rigorous principles of
+software design.&lt;/p&gt;
+&lt;p&gt;Do you know why classes should be small, while most people are frustrated by giant class design piled up with hundreds
+of lines of code?&lt;/p&gt;
+&lt;p&gt;Do you know why we should write tests before a single line of production code is written?&lt;/p&gt;
+&lt;p&gt;Do you know why the root cause of a failed software is always a tiny deviation of a code standard that is often easily
+ignored by everybody?&lt;/p&gt;
+&lt;p&gt;By the end of this book, you&apos;ll know the answers to these and many other questions that have implications for your
+professional life and for the way you look at Software Engineering.&lt;/p&gt;
+&lt;p&gt;My goal, by the end of this book, is to help you fundamentally rethink what makes a good software. I hope to lead you
+there by presenting a wide range of proven practices that are in many cases quite powerful. Once you see how systematic
+approaches are applied in implementing software, I think you will begin to learn how to avoid common pitfalls in this
+area.&lt;/p&gt;
+&lt;p&gt;But before I tell you about those practical and useful industry standards on many aspects of Software Engineering, I
+feel it is important that I tell you about the origins of my somewhat over-stricted view and therefore of this book.
+Luckily, my introduction to this arena started with one of my Yahoo! colleague, Rick, who profoundly changed my outlook
+on Software Development and largely determined my future philosophy on Software Design.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/cdeszaq&quot;&gt;Rick&lt;/a&gt; was a Senior Software Engineer at Yahoo!. During my very early career period,
+however, I was at that time a recent graduate who just learned there was something called &quot;code review&quot; in this world
+few months ago.&lt;/p&gt;
+&lt;p&gt;In addition to the fascinating persona Rick presented about himself, what struck me most about him was his attitude to
+each details of the Software design and implementation. Many times, when I raised a question in front of him in office,
+he always replied with what I believed during that time extremely insightful answers. I was always happy to stand on his
+side.&lt;/p&gt;
+&lt;p&gt;But coming up with such thought match was not easy in the beginning.&lt;/p&gt;
+&lt;p&gt;On what would otherwise have been a normal weekday afternoon in the life of an 24-year-old Jiaqi, a little Slack message
+started to worry him:&lt;/p&gt;
+&lt;p&gt;&quot;Jiaqi, I just reviewed your
+&lt;a href=&quot;https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests&quot;&gt;PR&lt;/a&gt;.
+Looks much better. I left some new comments for you to look at. Let me know if you have any questions.&quot;&lt;/p&gt;
+&lt;p&gt;Me: &quot;(No way, Rick &lt;img src=&quot;https://user-images.githubusercontent.com/16126939/177282165-99a4ff14-7ca1-4a43-a806-4a7b6b600fa4.gif&quot; alt=&quot;35&quot; /&gt; Again??? You gotta be kidding me o_O)&quot;&lt;/p&gt;
+&lt;p&gt;I sent Rick a thank-you note via Slack and, then, jumped into that PR. No surprise, &lt;strong&gt;30+&lt;/strong&gt; code review comments:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&quot;Missing a period at the end of sentence&quot;&lt;/li&gt;
+&lt;li&gt;&quot;This line break is not necessary&quot;&lt;/li&gt;
+&lt;li&gt;&quot;The Javadoc of this class is a bit ambiguous; you don&apos;t want to lose all details when you read your code again in 6
+months&quot;&lt;/li&gt;
+&lt;li&gt;&quot;By design, this object should not be passed to the next business layer&quot;&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That was probably the 20th round of code review on a single PR (how many times did you ever get involved in a PR where
+people rejected your PR 20+ times?). It&apos;s not a bad PR to be honest with you. Regular feature change in about 500 lines
+of code. I think I did a good job on that.&lt;/p&gt;
+&lt;p&gt;...&lt;/p&gt;
+&lt;p&gt;Chris: &quot;How&apos;s everything going, Jiaqi? Work done already?&quot;&lt;/p&gt;
+&lt;p&gt;Me: &quot;Well... almost, except Rick just shot me another 30 comments. It&apos;ll probably take 2 hours&quot;&lt;/p&gt;
+&lt;p&gt;Chris: &quot;😊 Don&apos;t worry&quot;&lt;/p&gt;
+&lt;p&gt;Chris was my boss and he managed our team. He knew I was kinda green and needed more time to ramp up. But another 30
+comments on 20th review is probably a little bit of shock to him. I wish I could tell Chris &quot;I promise the code works
+now already. I&apos;m just trying to make Rick happy. You know, he is a perfectionism...&quot;&lt;/p&gt;
+&lt;p&gt;Hoping to end this little miserable infinity in the next code review, I continued to working on Rick&apos;s comment until I
+noticed one of his comments. It was more of like a &quot;little-design-change &amp;amp; code-style&quot; comment which didn&apos;t seem to
+change any code logic. But as I implement his proposed change, I spotted a bug.&lt;/p&gt;
+&lt;p&gt;I sat back and thought about it for a while...&lt;/p&gt;
+&lt;p&gt;Look, this was simply a design change which doesn&apos;t imply any change of logic, let alone a bug fix. But Rick&apos;s better
+design literally avoided a potentially serious bug that could annoy users in production environment.&lt;/p&gt;
+&lt;p&gt;&quot;This is amazing!&quot;. It&apos;s like getting a job promotion simply by improving your daily dress code. A change of attitude
+towards code design can make your code 100 times better!&lt;/p&gt;
+&lt;p&gt;All of a sudden, I changed my view on Rick&apos;s code review and I started to learn from his thoughts. When everyone was
+reluctant to ask for his review, I grabbed every chance and ask him to do that for me every day. He was also happy to
+teach me with those &quot;endless&quot; code review comments, but this did not diminish my enthusiasm. I was always able to learn
+something from his review comments. At the end of the day, &lt;strong&gt;I learned, from Rick, that Software Engineering is not
+about &quot;making it work&quot;. It&apos;s about &quot;making it right&quot;&lt;/strong&gt;. To make it right, I have to make it perfect and it is only
+through this way I am approving to myself that I love what I am doing. When I love it, I will make it good!&lt;/p&gt;
+&lt;p&gt;My new understanding - that Software Engineering is a branch of science that requires rigorous thinking to justify its
+applicability - lured me into the study of code review.&lt;/p&gt;
+&lt;p&gt;It is Rick who told me how perfectionism can shape your view and action in SWE and, also, the reason I put together
+this post&lt;/p&gt;
 </content:encoded></item><item><title>Continuous Delivery</title><link>https://leadership.qubitpi.org/posts/continuous-delivery/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/continuous-delivery/</guid><description>continuousdelivery.com</description><pubDate>Wed, 31 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Continuous delivery is an approach where teams release quality products frequently and predictably from source code
 repository to production in an automated fashion.&lt;/p&gt;
 &lt;h2&gt;What is Continuous Delivery&lt;/h2&gt;
