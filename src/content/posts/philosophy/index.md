@@ -1,7 +1,7 @@
 ---
 title: Why is Philosophy so Pretentious?
 published: 2025-05-29
-updated: 2025-06-20
+updated: 2025-06-30
 description: |
   People who are interested in Philosophy but not a Philosophy major doesn't like the overly complicated style of
   writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
@@ -136,7 +136,16 @@ Wang Yangming (<span class="chinese-text">王阳明</span> )'s thought has been 
 Logic
 -----
 
-### Deductive Logic [^2]
+:::note
+
+The content of this section mostly come from the [MIT's OCW](https://ocw.mit.edu/courses/24-241-logic-i-fall-2009/pages/readings/)
+reading materials - [_The Logic Book_](http://files.farka.eu/pub/The%20Logic%20Book,%206E%20%5BPDF%5D%20%5BStormRG%5D/The%20Logic%20Book,%20Sixth%20Edition%20-%20Merrie%20Bergmann.pdf), Bergmann, Merrie, James Moor, and Jack Nelson.. 6th ed. New York, NY: McGraw-Hill, 2008. ISBN: 978-0-07-803841-9:
+
+![](./img/logic-book.png)
+
+:::
+
+### Deductive Logic
 
 Over the centuries, a variety of systems of deductive logic have been developed. One of the oldest is
 [_Euclid's Elements_](https://en.wikipedia.org/wiki/Euclid%27s_Elements), the axiomatization of plane geometry developed
@@ -153,14 +162,14 @@ including many of the sciences and many areas of mathematics. For example,
 4. <span class="greek-text">Καὶ πάσας τὰς ὀρθὰς γωνίας ἴσας ἀλλήλαις εἶναι.</span>
 5. <span class="greek-text">Καὶ ἐὰν εἰς δύο εὐθείας εὐθεῖα ἐμπίπτουσα τὰς ἐντὸς καὶ ἐπὶ τὰ αὐτὰ μέρη γωνίας δύο ὀρθῶν
    ἐλάσσονας ποιῇ, ἐκβαλλομένας τὰς δύο εὐθείας ἐπ᾿ ἄπειρον συμπίπτειν, ἐφ᾿ ἃ μέρη εἰσὶν αἱ τῶν δύο ὀρθῶν
-   ἐλάσσονες.</span> [^3]
+   ἐλάσσονες.</span> [^2]
 
 Most of the theorems appearing in the Elements were not discovered by Euclid himself, but were the work of earlier Greek
 mathematicians such as [Pythagoras](https://en.wikipedia.org/wiki/Pythagoras) (and his school),
 [Hippocrates of Chios](https://en.wikipedia.org/wiki/Hippocrates_of_Chios),
 [Theaetetus of Athens](https://en.wikipedia.org/wiki/Theaetetus_(mathematician)), and
 [Eudoxus of Cnidos](https://en.wikipedia.org/wiki/Eudoxus_of_Cnidus). However, Euclid is generally credited with
-arranging these theorems in a logical manner.[^3]
+arranging these theorems in a logical manner.[^2]
 
 The original Ancient Greek text of Euclid's Elements can be found at:
 
@@ -309,5 +318,4 @@ SL:
 [categories of being]: https://en.wikipedia.org/wiki/Categories_(Aristotle)
 
 [^1]: <span class="chinese-text">[王阳明全集，辽海出版社](https://book.douban.com/subject/34793268/)</span>
-[^2]: Bergmann, Merrie, James Moor, and Jack Nelson. [_The Logic Book_](http://files.farka.eu/pub/The%20Logic%20Book,%206E%20%5BPDF%5D%20%5BStormRG%5D/The%20Logic%20Book,%20Sixth%20Edition%20-%20Merrie%20Bergmann.pdf). 6th ed. New York, NY: McGraw-Hill, 2008. ISBN: 978-0-07-803841-9.
-[^3]: [The University of Texas at Austin offers a PDF of Richard Fitzpatrick's version](https://farside.ph.utexas.edu/Books/Euclid/Elements.pdf)
+[^2]: [The University of Texas at Austin offers a PDF of Richard Fitzpatrick's version](https://farside.ph.utexas.edu/Books/Euclid/Elements.pdf)
