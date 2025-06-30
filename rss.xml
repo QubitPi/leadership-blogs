@@ -106,48 +106,7 @@ efficiencies. Ethical fading, however, is a people problem.&lt;/p&gt;
 a culture in which their people can work toward the short-term goals while also considering the morality, ethics and
 wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 &lt;p&gt;[^1]: Sinek, Simon (2019). &lt;a href=&quot;https://dokumen.pub/the-infinite-game.html&quot;&gt;&lt;em&gt;The Infinite Game&lt;/em&gt;&lt;/a&gt;. Portfolio. ISBN 073521350X.&lt;/p&gt;
-</content:encoded></item><item><title>CHEF v.s. Ansible</title><link>https://leadership.qubitpi.org/posts/configuration-management/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/configuration-management/</guid><pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;In Business World&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Chef generally utilizes a
-&lt;a href=&quot;https://www.reddit.com/r/devops/comments/v6qowh/comment/ibiol0l/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;centralized&lt;/a&gt;
-management approach while Ansible operates primarily in a decentralized manner&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Chef (Centralized):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chef requires a Chef Server which acts as a central repository for configurations (cookbooks, recipes, etc.).&lt;/li&gt;
-&lt;li&gt;Chef Clients installed on managed nodes communicate with the Chef Server to pull configurations and apply them.&lt;/li&gt;
-&lt;li&gt;This structure ensures consistent configurations across the infrastructure, with the Chef Server acting as the
-&lt;em&gt;single source of truth&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Ansible (Decentralized):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ansible uses a control node to push configurations or tasks directly to managed nodes using standard protocols like
-SSH or WinRM.&lt;/li&gt;
-&lt;li&gt;It does not require installing agents on managed nodes.&lt;/li&gt;
-&lt;li&gt;This decentralized approach allows for real-time updates and direct control over changes.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;:::note&lt;/p&gt;
-&lt;p&gt;Although&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ansible can be used for centralized configurations by managing all configurations from a central control point.&lt;/li&gt;
-&lt;li&gt;Chef offers a &quot;Chef Solo&quot; mode which is a decentralized, serverless mode, but it lacks the centralized data store and
-search capabilities of the Chef Server.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Chef&apos;s centralized pull-based model provides &lt;strong&gt;more control&lt;/strong&gt; and visibility over our infrastructure, making it a very
-good choice for &lt;strong&gt;2C&lt;/strong&gt; business. Ansible&apos;s push-based non-centralized model offers &lt;strong&gt;greater flexibility&lt;/strong&gt; and
-scalability, making it well-suited for large-scale, distributed environments like &lt;strong&gt;2B&lt;/strong&gt; business.&lt;/p&gt;
-&lt;p&gt;:::&lt;/p&gt;
-&lt;h2&gt;For Personal Project&lt;/h2&gt;
-&lt;p&gt;However, for personal provisioning, simplicity takes over everything. &lt;a href=&quot;https://bats.qubitpi.org/&quot;&gt;Bash and bats&lt;/a&gt; might
-just be more than enough. CHEF or Ansible could just be a waste of time and hours. Never switch to an over-kill
-technologies unless there is a real business need to do so (if our personal project someday becomes large and popular).
-&quot;Would like to&quot; on some new and cool technologies doesn&apos;t necessarily justify the extra work spent shoveling sand.&lt;br /&gt;
-Clarify our &quot;whys&quot; and the work will scope itself.&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1e1653m/comment/lcs4dkl/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;^1&lt;/a&gt;&lt;/p&gt;
-</content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/reading-philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/reading-philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
+</content:encoded></item><item><title>Why is Philosophy so Pretentious?</title><link>https://leadership.qubitpi.org/posts/philosophy/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/philosophy/</guid><description>People who are interested in Philosophy but not a Philosophy major doesn&apos;t like the overly complicated style of
 writing where everything is symbolic or metaphorical and have to dig for the meaning instead of it just being clearly
 stated. For example, reading Newton&apos;s principia feels struggling for really understanding the work not because the
 ideas in it are too complicated, but because reaching the ideas feels like going through a maze of unnecessary jargon
@@ -239,7 +198,12 @@ considered &quot;real&quot;.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h2&gt;Logic&lt;/h2&gt;
-&lt;h3&gt;Deductive Logic [^2]&lt;/h3&gt;
+&lt;p&gt;:::note&lt;/p&gt;
+&lt;p&gt;The content of this section mostly come from the &lt;a href=&quot;https://ocw.mit.edu/courses/24-241-logic-i-fall-2009/pages/readings/&quot;&gt;MIT&apos;s OCW&lt;/a&gt;
+reading materials - &lt;a href=&quot;http://files.farka.eu/pub/The%20Logic%20Book,%206E%20%5BPDF%5D%20%5BStormRG%5D/The%20Logic%20Book,%20Sixth%20Edition%20-%20Merrie%20Bergmann.pdf&quot;&gt;&lt;em&gt;The Logic Book&lt;/em&gt;&lt;/a&gt;, Bergmann, Merrie, James Moor, and Jack Nelson.. 6th ed. New York, NY: McGraw-Hill, 2008. ISBN: 978-0-07-803841-9:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./img/logic-book.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;h3&gt;Deductive Logic&lt;/h3&gt;
 &lt;p&gt;Over the centuries, a variety of systems of deductive logic have been developed. One of the oldest is
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Euclid%27s_Elements&quot;&gt;&lt;em&gt;Euclid&apos;s Elements&lt;/em&gt;&lt;/a&gt;, the axiomatization of plane geometry developed
 around 300 BCE in classical Greece. All of the truths or theorems of plane geometry can be derived from the &lt;em&gt;five&lt;/em&gt;
@@ -254,14 +218,14 @@ including many of the sciences and many areas of mathematics. For example,
 &lt;li&gt;&amp;lt;span class=&quot;greek-text&quot;&amp;gt;Καὶ πάσας τὰς ὀρθὰς γωνίας ἴσας ἀλλήλαις εἶναι.&amp;lt;/span&amp;gt;&lt;/li&gt;
 &lt;li&gt;&amp;lt;span class=&quot;greek-text&quot;&amp;gt;Καὶ ἐὰν εἰς δύο εὐθείας εὐθεῖα ἐμπίπτουσα τὰς ἐντὸς καὶ ἐπὶ τὰ αὐτὰ μέρη γωνίας δύο ὀρθῶν
 ἐλάσσονας ποιῇ, ἐκβαλλομένας τὰς δύο εὐθείας ἐπ᾿ ἄπειρον συμπίπτειν, ἐφ᾿ ἃ μέρη εἰσὶν αἱ τῶν δύο ὀρθῶν
-ἐλάσσονες.&amp;lt;/span&amp;gt; [^3]&lt;/li&gt;
+ἐλάσσονες.&amp;lt;/span&amp;gt; [^2]&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Most of the theorems appearing in the Elements were not discovered by Euclid himself, but were the work of earlier Greek
 mathematicians such as &lt;a href=&quot;https://en.wikipedia.org/wiki/Pythagoras&quot;&gt;Pythagoras&lt;/a&gt; (and his school),
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Hippocrates_of_Chios&quot;&gt;Hippocrates of Chios&lt;/a&gt;,
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Theaetetus_(mathematician)&quot;&gt;Theaetetus of Athens&lt;/a&gt;, and
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Eudoxus_of_Cnidus&quot;&gt;Eudoxus of Cnidos&lt;/a&gt;. However, Euclid is generally credited with
-arranging these theorems in a logical manner.[^3]&lt;/p&gt;
+arranging these theorems in a logical manner.[^2]&lt;/p&gt;
 &lt;p&gt;The original Ancient Greek text of Euclid&apos;s Elements can be found at:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://farside.ph.utexas.edu/Books/Euclid/Elements.pdf&quot;&gt;The University of Texas at Austin offers a PDF of Richard Fitzpatrick&apos;s version&lt;/a&gt;&lt;/li&gt;
@@ -400,8 +364,48 @@ sentence of SL&lt;/li&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;h3&gt;Semantics (of Sentential Logic)&lt;/h3&gt;
 &lt;p&gt;[^1]: &amp;lt;span class=&quot;chinese-text&quot;&amp;gt;&lt;a href=&quot;https://book.douban.com/subject/34793268/&quot;&gt;王阳明全集，辽海出版社&lt;/a&gt;&amp;lt;/span&amp;gt;
-[^2]: Bergmann, Merrie, James Moor, and Jack Nelson. &lt;a href=&quot;http://files.farka.eu/pub/The%20Logic%20Book,%206E%20%5BPDF%5D%20%5BStormRG%5D/The%20Logic%20Book,%20Sixth%20Edition%20-%20Merrie%20Bergmann.pdf&quot;&gt;&lt;em&gt;The Logic Book&lt;/em&gt;&lt;/a&gt;. 6th ed. New York, NY: McGraw-Hill, 2008. ISBN: 978-0-07-803841-9.
-[^3]: &lt;a href=&quot;https://farside.ph.utexas.edu/Books/Euclid/Elements.pdf&quot;&gt;The University of Texas at Austin offers a PDF of Richard Fitzpatrick&apos;s version&lt;/a&gt;&lt;/p&gt;
+[^2]: &lt;a href=&quot;https://farside.ph.utexas.edu/Books/Euclid/Elements.pdf&quot;&gt;The University of Texas at Austin offers a PDF of Richard Fitzpatrick&apos;s version&lt;/a&gt;&lt;/p&gt;
+</content:encoded></item><item><title>CHEF v.s. Ansible</title><link>https://leadership.qubitpi.org/posts/configuration-management/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/configuration-management/</guid><pubDate>Mon, 23 Jun 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;In Business World&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Chef generally utilizes a
+&lt;a href=&quot;https://www.reddit.com/r/devops/comments/v6qowh/comment/ibiol0l/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;centralized&lt;/a&gt;
+management approach while Ansible operates primarily in a decentralized manner&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Chef (Centralized):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chef requires a Chef Server which acts as a central repository for configurations (cookbooks, recipes, etc.).&lt;/li&gt;
+&lt;li&gt;Chef Clients installed on managed nodes communicate with the Chef Server to pull configurations and apply them.&lt;/li&gt;
+&lt;li&gt;This structure ensures consistent configurations across the infrastructure, with the Chef Server acting as the
+&lt;em&gt;single source of truth&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ansible (Decentralized):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ansible uses a control node to push configurations or tasks directly to managed nodes using standard protocols like
+SSH or WinRM.&lt;/li&gt;
+&lt;li&gt;It does not require installing agents on managed nodes.&lt;/li&gt;
+&lt;li&gt;This decentralized approach allows for real-time updates and direct control over changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;:::note&lt;/p&gt;
+&lt;p&gt;Although&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ansible can be used for centralized configurations by managing all configurations from a central control point.&lt;/li&gt;
+&lt;li&gt;Chef offers a &quot;Chef Solo&quot; mode which is a decentralized, serverless mode, but it lacks the centralized data store and
+search capabilities of the Chef Server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Chef&apos;s centralized pull-based model provides &lt;strong&gt;more control&lt;/strong&gt; and visibility over our infrastructure, making it a very
+good choice for &lt;strong&gt;2C&lt;/strong&gt; business. Ansible&apos;s push-based non-centralized model offers &lt;strong&gt;greater flexibility&lt;/strong&gt; and
+scalability, making it well-suited for large-scale, distributed environments like &lt;strong&gt;2B&lt;/strong&gt; business.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;h2&gt;For Personal Project&lt;/h2&gt;
+&lt;p&gt;However, for personal provisioning, simplicity takes over everything. &lt;a href=&quot;https://bats.qubitpi.org/&quot;&gt;Bash and bats&lt;/a&gt; might
+just be more than enough. CHEF or Ansible could just be a waste of time and hours. Never switch to an over-kill
+technologies unless there is a real business need to do so (if our personal project someday becomes large and popular).
+&quot;Would like to&quot; on some new and cool technologies doesn&apos;t necessarily justify the extra work spent shoveling sand.&lt;br /&gt;
+Clarify our &quot;whys&quot; and the work will scope itself.&lt;a href=&quot;https://www.reddit.com/r/devops/comments/1e1653m/comment/lcs4dkl/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button&quot;&gt;^1&lt;/a&gt;&lt;/p&gt;
 </content:encoded></item><item><title>The Non-Technical Aspects of A Software Architect</title><link>https://leadership.qubitpi.org/posts/architect/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/architect/</guid><description>Architect is a tricky spot between technical and managerial careers. While technologists sees this position as the
 top of tech gurus, it is in fact a particular type of management role where neither normal manager nor top technical 
 personnel fit, because both top technical skills and executive skills are assumed
