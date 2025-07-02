@@ -22,6 +22,7 @@ choose from, ranging across all sorts of domains. Here are a few places we can l
 - Natural Language Processing
 
   - [LibriSpeech ASR](https://www.openslr.org/12)
+  - [Common Voice dataset](https://huggingface.co/datasets/mozilla-foundation/common_voice_11_0)
 
 - [OpenML.org](https://www.openml.org/)
 - [PapersWithCode.com](https://paperswithcode.com/datasets)
