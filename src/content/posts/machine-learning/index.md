@@ -1,7 +1,7 @@
 ---
 title: Machine Learning
 published: 2025-06-05
-updated: 2025-06-19
+updated: 2025-07-02
 description: |
   Machine Learning is to me is the transcendentalization of my combined passion toward Software Engineering and Data
   Analytics. While Artificial Intelligence (AI) is a broad field encompassing the creation of machines that can perform
@@ -18,6 +18,10 @@ draft: false
 Machine Learning is about inferencing values from data. Studying about machine learning, therefore, comes out best by
 experimenting with real-world data, not artificial datasets. Fortunately, there are thousands of open datasets to
 choose from, ranging across all sorts of domains. Here are a few places we can look at:
+
+- Natural Language Processing
+
+  - [LibriSpeech ASR](https://www.openslr.org/12)
 
 - [OpenML.org](https://www.openml.org/)
 - [PapersWithCode.com](https://paperswithcode.com/datasets)
