@@ -83,6 +83,11 @@ propaganda often appealed to a sense of collective identity and purpose, fosteri
 Strict social controls were also implemented to ensure conformity and suppress dissent, further reinforcing the
 collective mindset
 
+### Suppression of Individualism
+
+The Nazi regime actively discouraged individualism and independent thought, particularly among those deemed
+"undesirable". Dissent was met with harsh punishment, including imprisonment and execution. This suppression of
+individual expression and critical thinking contributed to a culture of conformity and obedience to the state.
 
 Reading Notes of "INFLUENCE The Psychology of Persuasion"
 ---------------------------------------------------------
