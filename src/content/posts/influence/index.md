@@ -46,7 +46,9 @@ yell? How would someone committing the fundamental attribution error explain Jam
 is that Jamie is a mean, angry, or unfriendly person (traits). This is an internal or dispositional explanation.
 However, imagine that Jamie was just laid off from work due to company downsizing. Would your explanation for Jamie's
 behavior change? Your revised explanation might be that Jamie was frustrated and disappointed about being laid off and
-was therefore in a bad mood (state). This is now an external or situational explanation for Jamie's behavior
+was therefore in a bad mood (state). This is now an external or situational explanation for Jamie's behavior.
+
+In fact, research has shown that situational influences 
 
 :::
 
