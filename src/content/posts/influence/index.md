@@ -62,6 +62,18 @@ both situational and cultural influences on behaviors. The table below summarize
 |         Independent         |      Interdependent       |
 |   Analytic thinking style   |  Holistic thinking style  |
 
+Case Study - World War II Germany
+---------------------------------
+
+During World War II, Germany exhibited characteristics of a collectivist culture, particularly under the Nazi regime.
+While Germany is generally considered an individualistic culture today, the Nazi regime emphasized collective identity,
+national unity, and obedience to the state, prioritizing the needs of the nation above individual desires. This was
+achieved through propaganda, strict social control, and suppression of dissent.
+
+### Nazi Ideology and Collectivism
+
+
+
 
 Reading Notes of "INFLUENCE The Psychology of Persuasion"
 ---------------------------------------------------------
