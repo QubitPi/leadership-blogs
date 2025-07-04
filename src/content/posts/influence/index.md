@@ -72,20 +72,20 @@ While Germany is generally considered an individualistic culture today, the Nazi
 national unity, and obedience to the state, prioritizing the needs of the nation above individual desires. This was
 achieved through propaganda, strict social control, and suppression of dissent.
 
-### Nazi Ideology and Collectivism
+#### Nazi Ideology and Collectivism
 
 The Nazi regime promoted a strong sense of national identity and collective purpose, emphasizing the "Volksgemeinschaft"
 (people's community). This involved subordinating individual interests to the goals of the state, particularly in areas
 like military service, economic production, and racial purity.
 
-### Propaganda and Social Control
+#### Propaganda and Social Control
 
 The Nazi regime used extensive propaganda to shape public opinion, glorify the nation, and demonize its enemies. This
 propaganda often appealed to a sense of collective identity and purpose, fostering a sense of unity and shared destiny.
 Strict social controls were also implemented to ensure conformity and suppress dissent, further reinforcing the
 collective mindset
 
-### Suppression of Individualism
+#### Suppression of Individualism
 
 The Nazi regime actively discouraged individualism and independent thought, particularly among those deemed
 "undesirable". Dissent was met with harsh punishment, including imprisonment and execution. This suppression of
