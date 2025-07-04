@@ -15,6 +15,10 @@ draft: false
 Social psychologists examine how the presence of others impacts how a person behaves and reacts and believe that _a
 person's behavior is influenced by who else is present in a given situation and the composition of social groups_
 
+:::important[Base Assumption of Social Psychology]
+
+A person's behavior is influenced by who else is present in a given situation and the composition of social groups
+
 :::
 
 Reading Notes of "INFLUENCE The Psychology of Persuasion"
