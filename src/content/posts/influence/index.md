@@ -21,11 +21,12 @@ A person's behavior is influenced by who else is present in a given situation an
 
 :::
 
-Behavior is a product of both the situation (e.g., cultural influences, social roles, and the presence of
-bystanders) and of the person (e.g., personality characteristics). Subfields of psychology tend to focus on one
-influence or behavior over others. __Situationism__ is the view that our behavior and actions are determined by
-our immediate environment and surroundings. In contrast, __dispositionism__ holds that our behavior is
-determined by internal factors (personality traits and temperament of person)
+Behavior is a product of both the situation (e.g., cultural influences, social roles, and the presence of bystanders)
+and of the person (e.g., personality characteristics). Subfields of psychology tend to focus on one influence or
+behavior over others. __Situationism__ is the view that our behavior and actions are determined by our immediate
+environment and surroundings. In contrast, __dispositionism__ holds that our behavior is determined by internal factors
+(personality traits and temperament of person). Modern approaches to social psychology, however, take both the situation
+and the individual into account when studying human behavior
 
 Reading Notes of "INFLUENCE The Psychology of Persuasion"
 ---------------------------------------------------------
