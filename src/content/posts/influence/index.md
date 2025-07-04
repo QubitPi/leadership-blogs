@@ -76,6 +76,13 @@ The Nazi regime promoted a strong sense of national identity and collective purp
 (people's community). This involved subordinating individual interests to the goals of the state, particularly in areas
 like military service, economic production, and racial purity.
 
+### Propaganda and Social Control
+
+The Nazi regime used extensive propaganda to shape public opinion, glorify the nation, and demonize its enemies. This
+propaganda often appealed to a sense of collective identity and purpose, fostering a sense of unity and shared destiny.
+Strict social controls were also implemented to ensure conformity and suppress dissent, further reinforcing the
+collective mindset
+
 
 Reading Notes of "INFLUENCE The Psychology of Persuasion"
 ---------------------------------------------------------
