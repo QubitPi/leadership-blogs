@@ -28,6 +28,20 @@ environment and surroundings. In contrast, __dispositionism__ holds that our beh
 (personality traits and temperament of person). Modern approaches to social psychology, however, take both the situation
 and the individual into account when studying human behavior
 
+_In the U.S._, the predominant culture tends to favor a dispositional approach in explaining human behavior, because
+people there tend to think that people are in control of their own behaviors, and, therefore, any behavior change must
+be due to something internal, such as their personality, habits, or temperament. This is called __fundamental
+attribution error__
+
+:::important[Prevailing Implicit Assumption of Western Social Psychology]
+
+People tend to assume that the behavior of another person is a trait of that person, and to underestimate the power of
+the situation on the behavior of others. They tend to overemphasize internal factors as explanations - or attributions -
+for the behavior of other people and tend to fail to recognize when the behavior of another is due to situational
+variables, and thus to the person's state.
+
+:::
+
 Reading Notes of "INFLUENCE The Psychology of Persuasion"
 ---------------------------------------------------------
 
