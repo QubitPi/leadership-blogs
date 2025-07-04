@@ -48,9 +48,20 @@ However, imagine that Jamie was just laid off from work due to company downsizin
 behavior change? Your revised explanation might be that Jamie was frustrated and disappointed about being laid off and
 was therefore in a bad mood (state). This is now an external or situational explanation for Jamie's behavior.
 
-In fact, research has shown that situational influences 
-
 :::
+
+In contrast to the western countries's __individualistic culture__, the east Asia countries, Latin American, and African
+countries focus on the group more than on the individual, forming a __collectivistic culture__, which takes into account
+both situational and cultural influences on behaviors. The table below summarizes their differences:
+
+|   Individualistic Culture   |  Collectivistic Culture   |
+|:---------------------------:|:-------------------------:|
+|    Achievement oriented     |   Relationship oriented   |
+|      Focus on autonomy      |  Focus on group harmony   |
+|  Dispositional perspective  |  Situational perspective  |
+|         Independent         |      Interdependent       |
+|   Analytic thinking style   |  Holistic thinking style  |
+
 
 Reading Notes of "INFLUENCE The Psychology of Persuasion"
 ---------------------------------------------------------
