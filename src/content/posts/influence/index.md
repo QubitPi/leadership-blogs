@@ -72,7 +72,9 @@ achieved through propaganda, strict social control, and suppression of dissent.
 
 ### Nazi Ideology and Collectivism
 
-
+The Nazi regime promoted a strong sense of national identity and collective purpose, emphasizing the "Volksgemeinschaft"
+(people's community). This involved subordinating individual interests to the goals of the state, particularly in areas
+like military service, economic production, and racial purity.
 
 
 Reading Notes of "INFLUENCE The Psychology of Persuasion"
