@@ -28,6 +28,9 @@ environment and surroundings. In contrast, __dispositionism__ holds that our beh
 (personality traits and temperament of person). Modern approaches to social psychology, however, take both the situation
 and the individual into account when studying human behavior
 
+Fundamental Attribution Error
+-----------------------------
+
 _In the U.S._, the predominant culture tends to favor a dispositional approach in explaining human behavior, because
 people there tend to think that people are in control of their own behaviors, and, therefore, any behavior change must
 be due to something internal, such as their personality, habits, or temperament. This is called __fundamental
@@ -62,8 +65,7 @@ both situational and cultural influences on behaviors. The table below summarize
 |         Independent         |      Interdependent       |
 |   Analytic thinking style   |  Holistic thinking style  |
 
-Case Study - World War II Germany
----------------------------------
+### Case Study - World War II Germany
 
 During World War II, Germany exhibited characteristics of a collectivist culture, particularly under the Nazi regime.
 While Germany is generally considered an individualistic culture today, the Nazi regime emphasized collective identity,
