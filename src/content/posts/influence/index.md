@@ -40,6 +40,14 @@ the situation on the behavior of others. They tend to overemphasize internal fac
 for the behavior of other people and tend to fail to recognize when the behavior of another is due to situational
 variables, and thus to the person's state.
 
+For example, Jamie returns home from work, and opens the front door to a happy greeting from spouse Morgan who inquires
+how the day has been. Instead of returning the spouse's kind greeting, Jamie yells, "Leave me alone!" Why did Jamie
+yell? How would someone committing the fundamental attribution error explain Jamie's behavior? The most common response
+is that Jamie is a mean, angry, or unfriendly person (traits). This is an internal or dispositional explanation.
+However, imagine that Jamie was just laid off from work due to company downsizing. Would your explanation for Jamie's
+behavior change? Your revised explanation might be that Jamie was frustrated and disappointed about being laid off and
+was therefore in a bad mood (state). This is now an external or situational explanation for Jamie's behavior
+
 :::
 
 Reading Notes of "INFLUENCE The Psychology of Persuasion"
