@@ -1,7 +1,7 @@
 ---
 title: Social Psychology
 published: 2025-06-09
-updated: 2025-07-04
+updated: 2025-07-05
 description: |
   Just what are the factors that cause one person to say yes to another person? Which techniques by others most
   effectively use these factors to bring about such compliance? Why it is that a request stated in a certain way will be
