@@ -53,7 +53,9 @@ was therefore in a bad mood (state). This is now an external or situational expl
 
 :::
 
-In contrast to the western countries's __individualistic culture__, the east Asia countries, Latin American, and African
+Such a culture in western countries, such as the U.S. and UK, that focuses on individual achievement and autonomy is
+called __individualistic culture__, which has the greatest tendency to commit the fundamental attribution error. In
+contrast to the western countries's __individualistic culture__, the east Asia countries, Latin American, and African
 countries focus on the group more than on the individual, forming a __collectivistic culture__, which takes into account
 both situational and cultural influences on behaviors. The table below summarizes their differences:
 
