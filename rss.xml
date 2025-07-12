@@ -586,6 +586,104 @@ development models to deliver quality software&lt;/p&gt;
 to the main code. This maintains code quality and minimizes the number of bugs. Trunk-based development is a more open
 model since all developers have access to the main code. This enables teams to iterate quickly and implement
 &lt;a href=&quot;https://www.atlassian.com/continuous-delivery&quot;&gt;CI/CD&lt;/a&gt;.&lt;/p&gt;
+&lt;h5&gt;What is Trunk-Based Development&lt;/h5&gt;
+&lt;p&gt;Trunk-based development is a
+&lt;a href=&quot;https://www.atlassian.com/git/tutorials/what-is-version-control&quot;&gt;version control management&lt;/a&gt; practice where developers
+merge small, frequent updates to a  core &quot;trunk&quot; or main branch. It&apos;s a common practice among
+&lt;a href=&quot;https://www.atlassian.com/devops/what-is-devops&quot;&gt;DevOps&lt;/a&gt; teams and part of the
+&lt;a href=&quot;https://www.atlassian.com/devops/what-is-devops/devops-best-practices&quot;&gt;DevOps lifecycle&lt;/a&gt; since it streamlines merging
+and integration phases. In fact, trunk-based development is a required practice of CI/CD. Developers can create
+short-lived branches with a few small commits compared to other long-lived feature branching strategies. As codebase
+complexity and team size grow, trunk-based development helps keep production releases flowing.&lt;/p&gt;
+&lt;h5&gt;Gitflow vs. Trunk-Based Development&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&quot;&gt;Gitflow&lt;/a&gt; is an alternative Git branching
+model that uses long-lived feature branches and multiple primary branches. Gitflow has more, longer-lived branches and
+larger commits than trunk-based development. Under this model, developers create a feature branch and delay merging it
+to the main trunk branch until the feature is complete. These long-lived feature branches require more collaboration to
+merge as they have a higher risk of deviating from the trunk branch and introducing conflicting updates.&lt;/p&gt;
+&lt;p&gt;Gitflow also has separate primary branch lines for development, hotfixes, features, and releases. There are different
+strategies for merging commits between these branches. Since there are more branches to juggle and manage, there is
+often more complexity that requires additional planning sessions and review from the team.&lt;/p&gt;
+&lt;p&gt;Trunk-based development is far more simplified since it focuses on the main branch as the source of fixes and releases.
+In trunk-based development the main branch is assumed to always be stable, without issues, and ready to deploy.&lt;/p&gt;
+&lt;h5&gt;Benefits of Trunk-Based Development&lt;/h5&gt;
+&lt;p&gt;Trunk-based development is a required practice for
+&lt;a href=&quot;https://www.atlassian.com/continuous-delivery/continuous-integration&quot;&gt;continuous integration&lt;/a&gt;. If build and test
+processes are automated but developers work on isolated, lengthy feature branches that are infrequently integrated into
+a shared branch, continuous integration is not living up to its potential.&lt;/p&gt;
+&lt;p&gt;Trunk-based development eases the friction of code integration. When developers finish new work, they must merge the new
+code into the main branch. Yet they should not merge changes to the truck until they have verified that they can build
+successfully. During this phase, conflicts may arise if modifications have been made since the new work began. In
+particular, these conflicts are increasingly complex as development teams grow and the code base scales. This happens
+when developers create separate branches that deviate from the source branch and other developers are simultaneously
+merging overlapping code. Luckily, the trunk-based development model reduces these conflicts.&lt;/p&gt;
+&lt;h6&gt;Allows Continuous Code Integration&lt;/h6&gt;
+&lt;p&gt;In the trunk-based development model, there is a repository with a steady stream of commits flowing into the main
+branch. Adding an automated test suite and code coverage monitoring for this stream of commits enables continuous
+integration. When new code is merged into the trunk, automated integration and code coverage tests run to validate the
+code quality.&lt;/p&gt;
+&lt;h6&gt;Ensures Continuous Code Review&lt;/h6&gt;
+&lt;p&gt;The rapid, small commits of trunk-based development make code review a more efficient process. With small branches,
+developers can quickly see and review small changes. This is far easier compared to a long-lived feature branch where a
+reviewer reads pages of code or manually inspects a large surface area of code changes.&lt;/p&gt;
+&lt;h6&gt;Enables Consecutive Production Code Releases&lt;/h6&gt;
+&lt;p&gt;Teams should make frequent, daily merges to the main branch. Trunk-based development strives to keep the trunk branch
+&quot;green&quot;, meaning it&apos;s ready to deploy at any commit. Automated tests, code converge, and code reviews provides a
+trunk-based development project with the assurances it&apos;s ready to deploy to production at any time. This gives team
+agility to frequently deploy to production and set further goals of daily production releases.&lt;/p&gt;
+&lt;p&gt;:::note&lt;/p&gt;
+&lt;p&gt;As CI/CD grew in popularity, branching models were refined and optimized, leading to the rise of trunk-based
+development. Now, trunk-based development is a requirement of continuous integration. With continuous integration,
+developers perform trunk-based development in conjunction with automated tests that run after each committee to a
+trunk. This ensures the project works at all times.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;h5&gt;Trunk-Based Development Best Practices&lt;/h5&gt;
+&lt;p&gt;Trunk-based development ensures teams release code quickly and consistently. The following is a list of exercises and
+practices that will help refine your team&apos;s cadence and develop an optimized release schedule.&lt;/p&gt;
+&lt;h6&gt;Develop in Small Batches&lt;/h6&gt;
+&lt;p&gt;Trunk-based development follows a quick rhythm to deliver code to production. If trunk-based development was like music
+it would be a rapid staccato -- short, succinct notes in rapid succession, with the repository commits being the notes.
+&lt;strong&gt;Keeping commits and branches small&lt;/strong&gt; allows for a more rapid tempo of merges and deployments.&lt;/p&gt;
+&lt;p&gt;Small changes of a couple of commits or modification of a few lines of code minimize cognitive overhead. It&apos;s much
+easier for teams to have meaningful conversations and make quick decisions when reviewing a limited area of code versus
+a sprawling set of changes.&lt;/p&gt;
+&lt;h6&gt;Feature Flags&lt;/h6&gt;
+&lt;p&gt;Feature flags nicely compliment trunk-based development by enabling developers to wrap new changes in an inactive code
+path and activate it at a later time. This allows developers to forgo creating a separate repository feature branch and
+instead commit new feature code directly to the main branch within a feature flag path.&lt;/p&gt;
+&lt;h6&gt;Implement Comprehensive Automated Testing&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Automated testing is necessary for any modern software project intending to achieve CI/CD&lt;/strong&gt;. There are multiple types
+of automated tests that run at different stages of the release pipeline. Short running unit and integration tests are
+executed during development and upon code merge. Longer running, full stack, end-to-end tests are run in later pipeline
+phases against a full staging or production environment.&lt;/p&gt;
+&lt;p&gt;Automated tests help trunk-based development by maintaining a small batch rhythm as developers merge new commits. The
+automated test suite reviews the code for any issues and automatically approves or denies it. This helps developers
+rapidly create commits and run them through automated tests to see if they introduce any new issues.&lt;/p&gt;
+&lt;h6&gt;Perform Asynchronous Code Reviews&lt;/h6&gt;
+&lt;p&gt;In trunk-based development, code review should be performed immediately and not put into an asynchronous system for
+later review. Automated tests provide a layer of preemptive code review. When developers are ready to review a team
+member&apos;s pull request, they can first check that the automated tests passed and the code coverage has increased. This
+gives the reviewer immediate reassurance that the new code meets certain specifications. The reviewer can then focus on
+optimizations.&lt;/p&gt;
+&lt;h6&gt;Have Three or Fewer Active Branches in the Application&apos;s Code Repository&lt;/h6&gt;
+&lt;p&gt;Once a branch merges, it is best practice to delete it. &lt;strong&gt;A repository with a large amount of active branches has some
+unfortunate side effects&lt;/strong&gt;. While it can be beneficial for teams to see what work is in progress by examining active
+branches, this benefit is lost if there are stale and inactive branches still around. Some developers use Git user
+interfaces that may become unwieldy to work with when loading a large number of remote branches.&lt;/p&gt;
+&lt;h6&gt;Merge Branches to the Trunk at Least Once a Day&lt;/h6&gt;
+&lt;p&gt;High-performing, trunk-based development teams should close out and merge any open and merge-ready branches at least on
+a daily basis. This exercise helps keep rhythm and sets a cadence for release tracking. The team can then tag the main
+trunk at the end of day as a release commit, which has the helpful side effect of generating a daily agile release
+increment.&lt;/p&gt;
+&lt;h6&gt;Reduced Number of Code Freezes and Integration Phases&lt;/h6&gt;
+&lt;p&gt;&lt;strong&gt;Agile CI/CD teams shouldn&apos;t need planned code freezes or pauses for integration phases&lt;/strong&gt; -- although an organization
+may need them for other reasons. The &quot;continuous&quot; in CI/CD implies that updates are constantly flowing. Trunk-based
+development teams should try to avoid blocking code freezes and plan accordingly to ensure the release pipeline is not
+stalled.&lt;/p&gt;
+&lt;h6&gt;Build Fast and Execute Immediately&lt;/h6&gt;
+&lt;p&gt;In order to maintain a quick release cadence, build and test execution times should be optimized. CI/CD build tools
+should use caching layers where appropriate to avoid expensive computations for static. &lt;strong&gt;Tests should be optimized to
+use appropriate stubs for third-party services&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2&gt;GitHub Action&lt;/h2&gt;
 &lt;h3&gt;Why Should We Pin Our GitHub Actions by commit-hash&lt;/h3&gt;
 &lt;p&gt;Supply chain attacks are not something new; we have heard about them extensively, and the maximum we can do is mitigate
