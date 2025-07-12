@@ -754,8 +754,7 @@ jobs:
 Many developers rely on tools like Dependabot or Renovatebot to ensure that these actions stay up-to-date. However,
 using the release tag can pose a risk to our environment.
 
-Looking at a Scenario Where a Malicious Actor Gets Control
-----------------------------------------------------------
+#### Looking at a Scenario Where a Malicious Actor Gets Control
 
 Let's consider a scenario where a malicious actor gains control over the `actions/checkout` package. This compromised
 package can now potentially manipulate the entire CI process. It can access environment variables used by other jobs,
@@ -810,8 +809,7 @@ my old friend". This demonstrates how our environment can be exploited by manipu
 
 ![](./img/2.png)
 
-Solution
---------
+#### Solution
 
 Pinning an action to a full-length commit SHA is currently the only method to ensure the use of an action as an
 immutable release.
