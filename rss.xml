@@ -703,7 +703,7 @@ simple: commit-hash provides immutability, unlike tags which do not.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Many developers rely on tools like Dependabot or Renovatebot to ensure that these actions stay up-to-date. However,
 using the release tag can pose a risk to our environment.&lt;/p&gt;
-&lt;h2&gt;Looking at a Scenario Where a Malicious Actor Gets Control&lt;/h2&gt;
+&lt;h4&gt;Looking at a Scenario Where a Malicious Actor Gets Control&lt;/h4&gt;
 &lt;p&gt;Let&apos;s consider a scenario where a malicious actor gains control over the &lt;code&gt;actions/checkout&lt;/code&gt; package. This compromised
 package can now potentially manipulate the entire CI process. It can access environment variables used by other jobs,
 write to a shared directory that subsequent jobs process, make remote calls, inject malicious code into the production
@@ -745,7 +745,7 @@ git push origin main --tags
 &lt;p&gt;Consequently, if the action is executed again without any changes made to the source code, it will print &quot;Hello darkness
 my old friend&quot;. This demonstrates how our environment can be exploited by manipulating release tags.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./img/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;h2&gt;Solution&lt;/h2&gt;
+&lt;h4&gt;Solution&lt;/h4&gt;
 &lt;p&gt;Pinning an action to a full-length commit SHA is currently the only method to ensure the use of an action as an
 immutable release.&lt;/p&gt;
 &lt;p&gt;:::note[Quoting the OSSF Scorecard]&lt;/p&gt;
