@@ -106,9 +106,9 @@ efficiencies. Ethical fading, however, is a people problem.&lt;/p&gt;
 a culture in which their people can work toward the short-term goals while also considering the morality, ethics and
 wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 &lt;p&gt;[^1]: Sinek, Simon (2019). &lt;a href=&quot;https://dokumen.pub/the-infinite-game.html&quot;&gt;&lt;em&gt;The Infinite Game&lt;/em&gt;&lt;/a&gt;. Portfolio. ISBN 073521350X.&lt;/p&gt;
-</content:encoded></item><item><title>Continuous Delivery</title><link>https://leadership.qubitpi.org/posts/continuous-delivery/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/continuous-delivery/</guid><description>continuousdelivery.com</description><pubDate>Wed, 31 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Continuous delivery is an approach where teams release quality products frequently and predictably from source code
-repository to production in an automated fashion.&lt;/p&gt;
-&lt;h2&gt;What is Continuous Delivery&lt;/h2&gt;
+</content:encoded></item><item><title>Continuous Delivery</title><link>https://leadership.qubitpi.org/posts/continuous-delivery/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/continuous-delivery/</guid><description>Continuous delivery is an approach where teams release quality products frequently and predictably from source code
+repository to production in an automated fashion.
+</description><pubDate>Wed, 31 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;What is Continuous Delivery&lt;/h2&gt;
 &lt;p&gt;Continuous Delivery is the ability to get changes of all types - including new features, configuration changes, bug
 fixes and experiments - into production, or into the hands of users, &lt;em&gt;safely&lt;/em&gt; and &lt;em&gt;quickly&lt;/em&gt; in a &lt;em&gt;sustainable&lt;/em&gt; way.&lt;/p&gt;
 &lt;p&gt;The goal of continuous delivery is to make deployments - whether of a large-scale distributed system, a complex
