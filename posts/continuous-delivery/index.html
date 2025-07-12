@@ -506,7 +506,11 @@ deployment consists of tens of lines of code or a few configuration settings, it
 cause analysis and restore service in the case of an incident. Furthermore, because we practice the deployment
 process so frequently, we’re forced to simplify and automate it which further reduces risk.</li>
 </ol></section></section>
-<section><h2 id="deploying-vs-releasing">Deploying v.s. Releasing<a class="anchor" href="#deploying-vs-releasing"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><section><h3 id="what-is-deployment">What is Deployment<a class="anchor" href="#what-is-deployment"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h3><p>Deployment involves moving software from one controlled environment to another. <strong>An environment is a subset of IT
+<section><h2 id="deploying-vs-releasing">Deploying v.s. Releasing<a class="anchor" href="#deploying-vs-releasing"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><section><h3 id="what-is-software-release">What is Software Release<a class="anchor" href="#what-is-software-release"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h3><p>A release is <strong>a collection of one or more new or changed services or service components deployed into the live
+environment as a result of one or more changes</strong></p><p>In other words, a release makes services and features available to users. More often than not,
+<a href="https://www.bmc.com/blogs/devops-release-management/">release management</a> is more of a business responsibility than a
+technical responsibility. This is because the decisions on scheduling releases can be tied to business strategy from a
+revenue or portfolio management perspective.</p></section><section><h3 id="what-is-deployment">What is Deployment<a class="anchor" href="#what-is-deployment"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h3><p>Deployment involves moving software from one controlled environment to another. <strong>An environment is a subset of IT
 infrastructure used for a particular purpose</strong>. The most common environments are:</p><ul>
 <li><strong>Development</strong>. Commonly referred to as <em>dev</em>, this is where developers build the code.</li>
 <li><strong>Integration</strong>. Here, the new code is combined and validated that it works with existing code.</li>
@@ -514,11 +518,7 @@ infrastructure used for a particular purpose</strong>. The most common environme
 organization and customer requirements.</li>
 <li><strong>Staging</strong>. This environment is used to test the software using real data to validate it is ready for use.</li>
 <li><strong>Production</strong>. Commonly referred to as prod, this is where the software is made available to users.</li>
-</ul></section><section><h3 id="what-is-software-release">What is Software Release<a class="anchor" href="#what-is-software-release"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h3><p>A release is <strong>a collection of one or more new or changed services or service components deployed into the live
-environment as a result of one or more changes</strong></p><p>In other words, a release makes services and features available to users. More often than not,
-<a href="https://www.bmc.com/blogs/devops-release-management/">release management</a> is more of a business responsibility than a
-technical responsibility. This is because the decisions on scheduling releases can be tied to business strategy from a
-revenue or portfolio management perspective.</p></section></section>
+</ul></section></section>
 <section><h2 id="github-action">GitHub Action<a class="anchor" href="#github-action"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h2><section><h3 id="why-should-we-pin-our-github-actions-by-commit-hash">Why Should We Pin Our GitHub Actions by commit-hash<a class="anchor" href="#why-should-we-pin-our-github-actions-by-commit-hash"><span class="anchor-icon" data-pagefind-ignore="">#</span></a></h3><p>Supply chain attacks are not something new; we have heard about them extensively, and the maximum we can do is mitigate
 them as best as we can. However, it is crucial to acknowledge that these types of attacks will always exist. With that
 in mind, it is important to understand all the attack vectors and take the necessary steps to secure our environment.</p><p>One of the initiatives planned by the Node.js Security WG (Working Group) for 2023 is to enhance the OSSF Scorecard.
@@ -612,11 +612,11 @@ function backToTop() {
         hover:bg-[var(--toc-btn-hover)] active:bg-[var(--toc-btn-active)] py-2
     "><div class="transition w-5 h-5 shrink-0 rounded-lg text-xs flex items-center justify-center font-bold ml-4"><div class="transition w-2 h-2 rounded-[0.1875rem] bg-[var(--toc-badge-bg)]"></div></div><div class="transition text-sm text-50">Patterns for Low-Risk Releases</div></a><a href="#deploying-vs-releasing" class="px-2 flex gap-2 relative transition w-full min-h-9 rounded-xl
         hover:bg-[var(--toc-btn-hover)] active:bg-[var(--toc-btn-active)] py-2
-    "><div class="transition w-5 h-5 shrink-0 rounded-lg text-xs flex items-center justify-center font-bold bg-[var(--toc-badge-bg)] text-[var(--btn-content)]">5</div><div class="transition text-sm text-50">Deploying v.s. Releasing</div></a><a href="#what-is-deployment" class="px-2 flex gap-2 relative transition w-full min-h-9 rounded-xl
+    "><div class="transition w-5 h-5 shrink-0 rounded-lg text-xs flex items-center justify-center font-bold bg-[var(--toc-badge-bg)] text-[var(--btn-content)]">5</div><div class="transition text-sm text-50">Deploying v.s. Releasing</div></a><a href="#what-is-software-release" class="px-2 flex gap-2 relative transition w-full min-h-9 rounded-xl
         hover:bg-[var(--toc-btn-hover)] active:bg-[var(--toc-btn-active)] py-2
-    "><div class="transition w-5 h-5 shrink-0 rounded-lg text-xs flex items-center justify-center font-bold ml-4"><div class="transition w-2 h-2 rounded-[0.1875rem] bg-[var(--toc-badge-bg)]"></div></div><div class="transition text-sm text-50">What is Deployment</div></a><a href="#what-is-software-release" class="px-2 flex gap-2 relative transition w-full min-h-9 rounded-xl
+    "><div class="transition w-5 h-5 shrink-0 rounded-lg text-xs flex items-center justify-center font-bold ml-4"><div class="transition w-2 h-2 rounded-[0.1875rem] bg-[var(--toc-badge-bg)]"></div></div><div class="transition text-sm text-50">What is Software Release</div></a><a href="#what-is-deployment" class="px-2 flex gap-2 relative transition w-full min-h-9 rounded-xl
         hover:bg-[var(--toc-btn-hover)] active:bg-[var(--toc-btn-active)] py-2
-    "><div class="transition w-5 h-5 shrink-0 rounded-lg text-xs flex items-center justify-center font-bold ml-4"><div class="transition w-2 h-2 rounded-[0.1875rem] bg-[var(--toc-badge-bg)]"></div></div><div class="transition text-sm text-50">What is Software Release</div></a><a href="#github-action" class="px-2 flex gap-2 relative transition w-full min-h-9 rounded-xl
+    "><div class="transition w-5 h-5 shrink-0 rounded-lg text-xs flex items-center justify-center font-bold ml-4"><div class="transition w-2 h-2 rounded-[0.1875rem] bg-[var(--toc-badge-bg)]"></div></div><div class="transition text-sm text-50">What is Deployment</div></a><a href="#github-action" class="px-2 flex gap-2 relative transition w-full min-h-9 rounded-xl
         hover:bg-[var(--toc-btn-hover)] active:bg-[var(--toc-btn-active)] py-2
     "><div class="transition w-5 h-5 shrink-0 rounded-lg text-xs flex items-center justify-center font-bold bg-[var(--toc-badge-bg)] text-[var(--btn-content)]">6</div><div class="transition text-sm text-50">GitHub Action</div></a><a href="#why-should-we-pin-our-github-actions-by-commit-hash" class="px-2 flex gap-2 relative transition w-full min-h-9 rounded-xl
         hover:bg-[var(--toc-btn-hover)] active:bg-[var(--toc-btn-active)] py-2

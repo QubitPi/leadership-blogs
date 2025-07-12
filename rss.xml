@@ -550,6 +550,13 @@ cause analysis and restore service in the case of an incident. Furthermore, beca
 process so frequently, we’re forced to simplify and automate it which further reduces risk.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Deploying v.s. Releasing&lt;/h2&gt;
+&lt;h3&gt;What is Software Release&lt;/h3&gt;
+&lt;p&gt;A release is &lt;strong&gt;a collection of one or more new or changed services or service components deployed into the live
+environment as a result of one or more changes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In other words, a release makes services and features available to users. More often than not,
+&lt;a href=&quot;https://www.bmc.com/blogs/devops-release-management/&quot;&gt;release management&lt;/a&gt; is more of a business responsibility than a
+technical responsibility. This is because the decisions on scheduling releases can be tied to business strategy from a
+revenue or portfolio management perspective.&lt;/p&gt;
 &lt;h3&gt;What is Deployment&lt;/h3&gt;
 &lt;p&gt;Deployment involves moving software from one controlled environment to another. &lt;strong&gt;An environment is a subset of IT
 infrastructure used for a particular purpose&lt;/strong&gt;. The most common environments are:&lt;/p&gt;
@@ -561,13 +568,6 @@ organization and customer requirements.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Staging&lt;/strong&gt;. This environment is used to test the software using real data to validate it is ready for use.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Production&lt;/strong&gt;. Commonly referred to as prod, this is where the software is made available to users.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;What is Software Release&lt;/h3&gt;
-&lt;p&gt;A release is &lt;strong&gt;a collection of one or more new or changed services or service components deployed into the live
-environment as a result of one or more changes&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In other words, a release makes services and features available to users. More often than not,
-&lt;a href=&quot;https://www.bmc.com/blogs/devops-release-management/&quot;&gt;release management&lt;/a&gt; is more of a business responsibility than a
-technical responsibility. This is because the decisions on scheduling releases can be tied to business strategy from a
-revenue or portfolio management perspective.&lt;/p&gt;
 &lt;h2&gt;GitHub Action&lt;/h2&gt;
 &lt;h3&gt;Why Should We Pin Our GitHub Actions by commit-hash&lt;/h3&gt;
 &lt;p&gt;Supply chain attacks are not something new; we have heard about them extensively, and the maximum we can do is mitigate
