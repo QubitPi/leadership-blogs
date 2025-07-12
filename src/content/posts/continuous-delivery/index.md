@@ -2,15 +2,14 @@
 title: Continuous Delivery
 published: 2022-08-31
 updated: 2025-07-12
-description: continuousdelivery.com
+description: |
+  Continuous delivery is an approach where teams release quality products frequently and predictably from source code
+  repository to production in an automated fashion.
 image: cover.png
 tags: [Technology]
 category: English
 draft: false 
 ---
-
-Continuous delivery is an approach where teams release quality products frequently and predictably from source code
-repository to production in an automated fashion.
 
 What is Continuous Delivery
 ---------------------------
