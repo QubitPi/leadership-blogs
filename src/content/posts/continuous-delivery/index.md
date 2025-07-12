@@ -1234,6 +1234,5 @@ To generate real-time badge on image build status, we could use an
 [approach](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge)
 that GitHub supports out-of-the-box.
 
-
 [Contexts]: https://docs.github.com/en/actions/learn-github-actions/contexts
 [Events that trigger workflows]: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch
