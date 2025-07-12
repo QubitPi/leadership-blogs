@@ -568,6 +568,28 @@ infrastructure used for a particular purpose__. The most common environments are
 - __Staging__. This environment is used to test the software using real data to validate it is ready for use.
 - __Production__. Commonly referred to as prod, this is where the software is made available to users.
 
+#### Trunk-Based Development
+
+Trunk-based development is a version control management practice where developers merge small, frequent updates to a
+core "trunk" or main branch. Since it streamlines merging and integration phases, it helps achieve CI/CD and increases
+software delivery and organizational performance.
+
+In the early days of software development, programmers didn't have the luxury of modern version control systems. Rather,
+they developed two versions of their software concurrently as a means of tracking changes and reversing them if
+necessary. Over time, this process proved to be labor-intensive, costly, and inefficient.
+
+As version control systems matured, various development styles emerged, enabling programmers to find bugs more easily,
+code in parallel with their colleagues, and accelerate release cadence. Today, most programmers leverage one of two
+development models to deliver quality software
+
+1. Gitflow
+2. trunk-based development
+
+Gitflow, which was popularized first, is a stricter development model where only certain individuals can approve changes
+to the main code. This maintains code quality and minimizes the number of bugs. Trunk-based development is a more open
+model since all developers have access to the main code. This enables teams to iterate quickly and implement
+[CI/CD](https://www.atlassian.com/continuous-delivery).
+
 GitHub Action
 -------------
 
