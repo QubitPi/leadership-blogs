@@ -775,6 +775,253 @@ jobs:
 &lt;p&gt;&lt;img src=&quot;./img/3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;There are open-source tools like &lt;a href=&quot;https://www.stepsecurity.io/&quot;&gt;StepSecurity&lt;/a&gt; that can assist us in addressing these
 concerns. It generates automated pull requests for our codebase based on the configuration specified on their website.&lt;/p&gt;
+&lt;h3&gt;Using a GitHub Action Matrix to Define Variations for Each Job&lt;/h3&gt;
+&lt;p&gt;A matrix strategy lets you use variables in a single job definition to automatically create multiple job runs that are
+based on the combinations of the variables. For example, you can use a matrix strategy to test your code in multiple
+versions of a language or on multiple operating systems.&lt;/p&gt;
+&lt;h4&gt;Using a Matrix Strategy&lt;/h4&gt;
+&lt;p&gt;Use &lt;code&gt;jobs.&amp;lt;job_id&amp;gt;.strategy.matrix&lt;/code&gt; to define a matrix of different job configurations. Within your matrix, define one
+or more variables followed by an array of values. For example, the following matrix has a variable called &lt;code&gt;version&lt;/code&gt; with
+the value &lt;code&gt;[10, 12, 14]&lt;/code&gt; and a variable called os with the value &lt;code&gt;[ubuntu-latest, windows-latest]&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;jobs:
+  example_matrix:
+    strategy:
+      matrix:
+        version: [10, 12, 14]
+        os: [ubuntu-latest, windows-latest]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A job will run for each possible combination of the variables. In this example, the workflow will run six jobs, one for
+each combination of the &lt;code&gt;os&lt;/code&gt; and &lt;code&gt;version&lt;/code&gt; variables.&lt;/p&gt;
+&lt;p&gt;By default, GitHub will maximize the number of jobs run in parallel depending on runner availability. The &lt;strong&gt;order of the
+variables in the matrix determines the order in which the jobs are created&lt;/strong&gt;. The first variable you define will be the
+first job that is created in your workflow run. For example, the above matrix will create the jobs in the following
+order:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;{version: 10, os: ubuntu-latest}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{version: 10, os: windows-latest}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{version: 12, os: ubuntu-latest}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{version: 12, os: windows-latest}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{version: 14, os: ubuntu-latest}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{version: 14, os: windows-latest}&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A matrix will generate a maximum of &lt;strong&gt;256&lt;/strong&gt; jobs per workflow run. This limit applies to both GitHub-hosted and
+self-hosted runners.&lt;/p&gt;
+&lt;p&gt;The variables that you define become properties in the matrix context, and you can reference the property in other areas
+of your workflow file. In this example, you can use &lt;code&gt;matrix.version&lt;/code&gt; and &lt;code&gt;matrix.os&lt;/code&gt; to access the current value of
+version and os that the job is using. For more information, see &quot;&lt;a href=&quot;https://docs.github.com/en/actions/learn-github-actions/contexts&quot;&gt;Contexts&lt;/a&gt;.&quot;&lt;/p&gt;
+&lt;h4&gt;Example: Using a Single-Dimension Matrix&lt;/h4&gt;
+&lt;p&gt;You can specify a single variable to create a single-dimension matrix.&lt;/p&gt;
+&lt;p&gt;For example, the following workflow defines the variable version with the values &lt;code&gt;[10, 12, 14]&lt;/code&gt;. The workflow will run
+three jobs, one for each value in the variable. Each job will access the version value through the &lt;code&gt;matrix.version&lt;/code&gt;
+context and pass the value as &lt;code&gt;node-version&lt;/code&gt; to the actions/setup-node action.&lt;/p&gt;
+&lt;h4&gt;Example: Using a Multi-dimension Matrix&lt;/h4&gt;
+&lt;p&gt;You can specify multiple variables to create a multi-dimensional matrix. A job will run for each possible combination of
+the variables.&lt;/p&gt;
+&lt;p&gt;For example, the following workflow specifies two variables:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Two operating systems specified in the &lt;code&gt;os&lt;/code&gt; variable&lt;/li&gt;
+&lt;li&gt;Three Node.js versions specified in the &lt;code&gt;version&lt;/code&gt; variable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The workflow will run six jobs, one for each combination of the &lt;code&gt;os&lt;/code&gt; and &lt;code&gt;version&lt;/code&gt; variables. Each job will set the
+&lt;code&gt;runs-on&lt;/code&gt; value to the current &lt;code&gt;os&lt;/code&gt; value and will pass the current version value to the &lt;code&gt;actions/setup-node&lt;/code&gt; action.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;jobs:
+  example_matrix:
+    strategy:
+      matrix:
+        os: [ubuntu-22.04, ubuntu-20.04]
+        version: [10, 12, 14]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020  # v4.4.0
+        with:
+          node-version: ${{ matrix.version }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Example: Using Contexts to Create Matrices&lt;/h4&gt;
+&lt;p&gt;You can use contexts to create matrices. For more information about contexts, see &quot;&lt;a href=&quot;https://docs.github.com/en/actions/learn-github-actions/contexts&quot;&gt;Contexts&lt;/a&gt;.&quot;&lt;/p&gt;
+&lt;p&gt;For example, the following workflow triggers on the &lt;code&gt;repository_dispatch&lt;/code&gt; event and uses information from the event
+payload to build the matrix. When a repository dispatch event is created with a payload like the one below, the matrix
+&lt;code&gt;version&lt;/code&gt; variable will have a value of &lt;code&gt;[12, 14, 16]&lt;/code&gt;. For more information about the &lt;code&gt;repository_dispatch&lt;/code&gt; trigger,
+see &quot;&lt;a href=&quot;https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch&quot;&gt;Events that trigger workflows&lt;/a&gt;.&quot;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{
+    &quot;event_type&quot;: &quot;test&quot;,
+    &quot;client_payload&quot;: {
+        &quot;versions&quot;: [12, 14, 16]
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;on:
+  repository_dispatch:
+    types:
+      - test
+
+jobs:
+  example_matrix:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        version: ${{ github.event.client_payload.versions }}
+    steps:
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020  # v4.4.0
+        with:
+          node-version: ${{ matrix.version }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Expanding or adding matrix configurations&lt;/h4&gt;
+&lt;p&gt;Use &lt;code&gt;jobs.&amp;lt;job_id&amp;gt;.strategy.matrix.include&lt;/code&gt; to expand existing matrix configurations or to add new configurations. The
+value of include is a list of objects.&lt;/p&gt;
+&lt;p&gt;For each object in the &lt;code&gt;include&lt;/code&gt; list, the key:value pairs in the object will be added to each of the matrix
+combinations if none of the key:value pairs overwrite any of the original matrix values. If the object cannot be added
+to any of the matrix combinations, a new matrix combination will be created instead. Note that the original matrix
+values will not be overwritten, but added matrix values can be overwritten.&lt;/p&gt;
+&lt;p&gt;For example, this matrix:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;strategy:
+  matrix:
+    fruit: [apple, pear]
+    animal: [cat, dog]
+    include:
+      - color: green
+      - color: pink
+        animal: cat
+      - fruit: apple
+        shape: circle
+      - fruit: banana
+      - fruit: banana
+        animal: cat
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;will result in six jobs with the following matrix combinations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;{fruit: apple, animal: cat, color: pink, shape: circle}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{fruit: apple, animal: dog, color: green, shape: circle}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{fruit: pear, animal: cat, color: pink}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{fruit: pear, animal: dog, color: green}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{fruit: banana}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{fruit: banana, animal: cat}&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;following this logic:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;{color: green}&lt;/code&gt; is added to all of the original matrix combinations because it can be added without overwriting any
+part of the original combinations.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{color: pink, animal: cat}&lt;/code&gt; adds &lt;code&gt;color:pink&lt;/code&gt; only to the original matrix combinations that include &lt;code&gt;animal: cat&lt;/code&gt;.
+This overwrites the color: green that was added by the previous include entry.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{fruit: apple, shape: circle}&lt;/code&gt; adds shape: circle only to the original matrix combinations that include
+&lt;code&gt;fruit: apple&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{fruit: banana}&lt;/code&gt; cannot be added to any original matrix combination without overwriting a value, so it is added as an
+additional matrix combination.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;{fruit: banana, animal: cat}&lt;/code&gt; cannot be added to any original matrix combination without overwriting a value, so it
+is added as an additional matrix combination. It does not add to the &lt;code&gt;{fruit: banana}&lt;/code&gt; matrix combination because that
+combination was not one of the original matrix combinations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This looks like kinda &quot;what&apos;re we doing here???&quot;. But let us just look at the following examples which make it more
+clear.&lt;/p&gt;
+&lt;p&gt;The following workflow will run six jobs, one for each combination of &lt;code&gt;os&lt;/code&gt; and node. When the job for the os value of
+&lt;code&gt;windows-latest&lt;/code&gt; and node value of &lt;code&gt;16&lt;/code&gt; runs, an additional variable called &lt;code&gt;npm&lt;/code&gt; with the value of &lt;code&gt;6&lt;/code&gt; will be included
+in the job.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;jobs:
+  example_matrix:
+    strategy:
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+        node: [12, 14, 16]
+        include:
+          - os: windows-latest
+            node: 16
+            npm: 6
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020  # v4.4.0
+        with:
+          node-version: ${{ matrix.node }}
+      - if: ${{ matrix.npm }}
+        run: npm install -g npm@${{ matrix.npm }}
+      - run: npm --version
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This matrix will run 10 jobs, one for each combination of &lt;code&gt;os&lt;/code&gt; and &lt;code&gt;version&lt;/code&gt; in the matrix, plus a job for the &lt;code&gt;os&lt;/code&gt;
+value of &lt;code&gt;windows-latest&lt;/code&gt; and version value of &lt;code&gt;17&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;jobs:
+  example_matrix:
+    strategy:
+      matrix:
+        os: [macos-latest, windows-latest, ubuntu-latest]
+        version: [12, 14, 16]
+        include:
+          - os: windows-latest
+            version: 17
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you don&apos;t specify any matrix variables, all configurations under &lt;code&gt;include&lt;/code&gt; will run. For example, the following
+workflow would run two jobs, one for each &lt;code&gt;include&lt;/code&gt; entry. This lets you take advantage of the matrix strategy without
+having a fully populated matrix.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;jobs:
+  includes_only:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - site: &quot;production&quot;
+            datacenter: &quot;site-a&quot;
+          - site: &quot;staging&quot;
+            datacenter: &quot;site-b&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Excluding Matrix Configurations&lt;/h4&gt;
+&lt;p&gt;To remove specific configurations defined in the matrix, use &lt;code&gt;jobs.&amp;lt;job_id&amp;gt;.strategy.matrix.exclude&lt;/code&gt;. An excluded
+configuration only has to be a partial match for it to be excluded. For example, the following workflow will run nine
+jobs: one job for each of the 12 configurations, minus the one excluded job that matches
+&lt;code&gt;{os: macos-latest, version: 12, environment: production}&lt;/code&gt;, and the two excluded jobs that match
+&lt;code&gt;{os: windows-latest, version: 16}&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;strategy:
+  matrix:
+    os: [macos-latest, windows-latest]
+    version: [12, 14, 16]
+    environment: [staging, production]
+    exclude:
+      - os: macos-latest
+        version: 12
+        environment: production
+      - os: windows-latest
+        version: 16
+runs-on: ${{ matrix.os }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Note: All &lt;code&gt;include&lt;/code&gt; combinations are processed after &lt;code&gt;exclude&lt;/code&gt;. This allows you to use &lt;code&gt;include&lt;/code&gt; to add back
+combinations that were previously excluded.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;Handling Failures&lt;/h4&gt;
+&lt;p&gt;You can control how job failures are handled with &lt;code&gt;jobs.&amp;lt;job_id&amp;gt;.strategy.fail-fast&lt;/code&gt; and
+&lt;code&gt;jobs.&amp;lt;job_id&amp;gt;.continue-on-error&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;jobs.&amp;lt;job_id&amp;gt;.strategy.fail-fast&lt;/code&gt; applies to the entire matrix. If &lt;code&gt;jobs.&amp;lt;job_id&amp;gt;.strategy.fail-fast&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt;,
+GitHub will cancel all in-progress and queued jobs in the matrix if any job in the matrix fails. This property defaults
+to &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;jobs.&amp;lt;job_id&amp;gt;.continue-on-error&lt;/code&gt; applies to a single job. If &lt;code&gt;jobs.&amp;lt;job_id&amp;gt;.continue-on-error&lt;/code&gt; is &lt;code&gt;true&lt;/code&gt;, other jobs in
+the matrix will continue running even if the job with &lt;code&gt;jobs.&amp;lt;job_id&amp;gt;.continue-on-error: true&lt;/code&gt; fails.&lt;/p&gt;
+&lt;p&gt;You can use &lt;code&gt;jobs.&amp;lt;job_id&amp;gt;.strategy.fail-fast&lt;/code&gt; and &lt;code&gt;jobs.&amp;lt;job_id&amp;gt;.continue-on-error&lt;/code&gt; together. For example, the
+following workflow will start four jobs. For each job, continue-on-error is determined by the value of
+&lt;code&gt;matrix.experimental&lt;/code&gt;. If any of the jobs with &lt;code&gt;continue-on-error: false&lt;/code&gt; fail, all jobs that are in progress or queued
+will be cancelled. If the job with &lt;code&gt;continue-on-error: true&lt;/code&gt; fails, the other jobs will not be affected.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;jobs:
+  test:
+    runs-on: ubuntu-latest
+    continue-on-error: ${{ matrix.experimental }}
+    strategy:
+      fail-fast: true
+      matrix:
+        version: [6, 7, 8]
+        experimental: [false]
+        include:
+          - version: 9
+            experimental: true
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Configuring the Maximum Number of Concurrent Jobs&lt;/h4&gt;
+&lt;p&gt;By default, GitHub will maximize the number of jobs run in parallel depending on runner availability. To set the maximum
+number of jobs that can run simultaneously when using a &lt;code&gt;matrix&lt;/code&gt; job strategy, use
+&lt;code&gt;jobs.&amp;lt;job_id&amp;gt;.strategy.max-parallel&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For example, the following workflow will run a maximum of two jobs at a time, even if there are runners available to run
+all six jobs at once.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;jobs:
+  example_matrix:
+    strategy:
+      max-parallel: 2
+      matrix:
+        version: [10, 12, 14]
+        os: [ubuntu-latest, windows-latest]
+&lt;/code&gt;&lt;/pre&gt;
 </content:encoded></item><item><title>Social Psychology</title><link>https://leadership.qubitpi.org/posts/social-psychology/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/social-psychology/</guid><description>I study Social Psychology in order to get insights about myself. A book on Social Psychology sparked my interests on
 this field so I picked up a text book about it. The notion of &quot;Fundamental Attribution Error&quot; and its application on
 World War II German society ignited my examination on my past 30 years of life as a Chinese.
