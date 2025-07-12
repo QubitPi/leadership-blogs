@@ -546,6 +546,16 @@ The 3 key principles that enable low-risk releases are
 Deploying v.s. Releasing
 ------------------------
 
+### What is Software Release
+
+A release is __a collection of one or more new or changed services or service components deployed into the live
+environment as a result of one or more changes__
+
+In other words, a release makes services and features available to users. More often than not,
+[release management](https://www.bmc.com/blogs/devops-release-management/) is more of a business responsibility than a
+technical responsibility. This is because the decisions on scheduling releases can be tied to business strategy from a
+revenue or portfolio management perspective.
+
 ### What is Deployment
 
 Deployment involves moving software from one controlled environment to another. __An environment is a subset of IT
@@ -557,16 +567,6 @@ infrastructure used for a particular purpose__. The most common environments are
   organization and customer requirements.
 - __Staging__. This environment is used to test the software using real data to validate it is ready for use.
 - __Production__. Commonly referred to as prod, this is where the software is made available to users.
-
-### What is Software Release
-
-A release is __a collection of one or more new or changed services or service components deployed into the live
-environment as a result of one or more changes__
-
-In other words, a release makes services and features available to users. More often than not,
-[release management](https://www.bmc.com/blogs/devops-release-management/) is more of a business responsibility than a
-technical responsibility. This is because the decisions on scheduling releases can be tied to business strategy from a
-revenue or portfolio management perspective.
 
 GitHub Action
 -------------
