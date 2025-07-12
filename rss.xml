@@ -568,6 +568,24 @@ organization and customer requirements.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Staging&lt;/strong&gt;. This environment is used to test the software using real data to validate it is ready for use.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Production&lt;/strong&gt;. Commonly referred to as prod, this is where the software is made available to users.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4&gt;Trunk-Based Development&lt;/h4&gt;
+&lt;p&gt;Trunk-based development is a version control management practice where developers merge small, frequent updates to a
+core &quot;trunk&quot; or main branch. Since it streamlines merging and integration phases, it helps achieve CI/CD and increases
+software delivery and organizational performance.&lt;/p&gt;
+&lt;p&gt;In the early days of software development, programmers didn&apos;t have the luxury of modern version control systems. Rather,
+they developed two versions of their software concurrently as a means of tracking changes and reversing them if
+necessary. Over time, this process proved to be labor-intensive, costly, and inefficient.&lt;/p&gt;
+&lt;p&gt;As version control systems matured, various development styles emerged, enabling programmers to find bugs more easily,
+code in parallel with their colleagues, and accelerate release cadence. Today, most programmers leverage one of two
+development models to deliver quality software&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Gitflow&lt;/li&gt;
+&lt;li&gt;trunk-based development&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Gitflow, which was popularized first, is a stricter development model where only certain individuals can approve changes
+to the main code. This maintains code quality and minimizes the number of bugs. Trunk-based development is a more open
+model since all developers have access to the main code. This enables teams to iterate quickly and implement
+&lt;a href=&quot;https://www.atlassian.com/continuous-delivery&quot;&gt;CI/CD&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;GitHub Action&lt;/h2&gt;
 &lt;h3&gt;Why Should We Pin Our GitHub Actions by commit-hash&lt;/h3&gt;
 &lt;p&gt;Supply chain attacks are not something new; we have heard about them extensively, and the maximum we can do is mitigate
