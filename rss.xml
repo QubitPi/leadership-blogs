@@ -1228,9 +1228,9 @@ sense, we call this the &lt;em&gt;sample-average&lt;/em&gt; method for estimatin
 way to estimate action values&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
-&lt;p&gt;Q_t(a) = \mathbb{E}[R_t|A_t = a] = \frac{\text{sum of rewards when action } a \text{ taken prior to } t}{\text{number of times } a \text{ taken prior to } t} = \frac{\sum_{i = 1}^{t - 1}R_i \dot \mathbbm{1}&lt;em&gt;{A_i = a}}{\sum&lt;/em&gt;{i = 1}^{t - 1}\mathbbm{1}_{A_i = a}}&lt;/p&gt;
+&lt;p&gt;Q_t(a) = \mathbb{E}[R_t|A_t = a] = \frac{\text{sum of rewards when action } a \text{ taken prior to } t}{\text{number of times } a \text{ taken prior to } t} = \frac{\sum_{i = 1}^{t - 1}R_i \dot \mathbb{1}&lt;em&gt;{A_i = a}}{\sum&lt;/em&gt;{i = 1}^{t - 1}\mathbb{1}_{A_i = a}}&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
-&lt;p&gt;where $\mathbbm{1}&lt;em&gt;{\text{predicate}}$ denotes the random variable that is 1 if &lt;em&gt;predicate&lt;/em&gt; is true and 0 if it is not.
+&lt;p&gt;where $\mathbb{1}&lt;em&gt;{\text{predicate}}$ denotes the random variable that is 1 if &lt;em&gt;predicate&lt;/em&gt; is true and 0 if it is not.
 If action $a$ is not taken at all, i.e. the denominator is $0$, then we give $Q_t(a)$ some default value, such as $0$.
 In addition, $Q_t(a)$ should converge to $q&lt;/em&gt;*(a)$ as the denominator goes to infinity.&lt;/p&gt;
 </content:encoded></item><item><title>Continuous Delivery</title><link>https://leadership.qubitpi.org/posts/continuous-delivery/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/continuous-delivery/</guid><description>Continuous delivery is an approach where teams release quality products frequently and predictably from source code
