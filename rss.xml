@@ -1224,7 +1224,8 @@ collectively call &lt;strong&gt;action-value methods&lt;/strong&gt;. Recall that
 is selected:&lt;/p&gt;
 &lt;p&gt;:::important&lt;/p&gt;
 &lt;p&gt;The following equation assumes that the estimate value is calculated by averaging the rewards actually received. In this
-sense, we call this the &lt;em&gt;sample-average&lt;/em&gt; method for estimating action values&lt;/p&gt;
+sense, we call this the &lt;em&gt;sample-average&lt;/em&gt; method for estimating action values. &lt;em&gt;It should be noted that this is just one
+way to estimate action values&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
 &lt;p&gt;Q_t(a) = \mathbb{E}[R_t|A_t = a] = \frac{\text{sum of rewards when action } a \text{ taken prior to } t}{\text{number of times } a \text{ taken prior to } t} = \frac{\sum_{i = 1}^{t - 1}R_i \dot \mathbbm{1}&lt;em&gt;{A_i = a}}{\sum&lt;/em&gt;{i = 1}^{t - 1}\mathbbm{1}_{A_i = a}}&lt;/p&gt;
