@@ -1243,7 +1243,7 @@ way to estimate action values&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;As for the question of how the estimate might be used to selection actions, the simplest selection rule is to select the
 one with the highest estimated value, i.e. a greedy action:&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
-&lt;p&gt;A_t = argmax Q_t(a)&lt;/p&gt;
+&lt;p&gt;A_t = \argmax_a Q_t(a)&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
 </content:encoded></item><item><title>Continuous Delivery</title><link>https://leadership.qubitpi.org/posts/continuous-delivery/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/continuous-delivery/</guid><description>Continuous delivery is an approach where teams release quality products frequently and predictably from source code
 repository to production in an automated fashion.
