@@ -1220,8 +1220,15 @@ this structure can help retrieve more relevant facts for generation. This approa
 &lt;h2&gt;Reinforcement Learning&lt;/h2&gt;
 &lt;p&gt;Recall from the K-Armed Bandit Problem at the beginning of &lt;a href=&quot;#approximation-theory&quot;&gt;this post&lt;/a&gt;, we now look more closely
 at methods for estimating the values of actions and for using the estimates to make action selection decisions, which we
-collectively call &lt;strong&gt;action-value methods&lt;/strong&gt;. Recall that the true value of an action is the mean reward when that action
-is selected:&lt;/p&gt;
+collectively call &lt;strong&gt;action-value methods&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;:::note[Action-Value Methods]&lt;/p&gt;
+&lt;p&gt;There are 2 parts involved:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An estimation method&lt;/li&gt;
+&lt;li&gt;How to use the estimates to select action&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;Recall that the true value of an action is the mean reward when that action is selected:&lt;/p&gt;
 &lt;p&gt;:::important&lt;/p&gt;
 &lt;p&gt;The following equation assumes that the estimate value is calculated by averaging the rewards actually received. In this
 sense, we call this the &lt;em&gt;sample-average&lt;/em&gt; method for estimating action values. &lt;em&gt;It should be noted that this is just one
