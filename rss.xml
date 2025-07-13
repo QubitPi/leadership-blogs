@@ -1224,22 +1224,27 @@ collectively call &lt;strong&gt;action-value methods&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;:::note[Action-Value Methods]&lt;/p&gt;
 &lt;p&gt;There are 2 parts involved:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;An estimation method&lt;/li&gt;
+&lt;li&gt;An estimation method for the value of an action&lt;/li&gt;
 &lt;li&gt;How to use the estimates to select action&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;Recall that the true value of an action is the mean reward when that action is selected:&lt;/p&gt;
+&lt;p&gt;$$&lt;/p&gt;
+&lt;p&gt;Q_t(a) = \mathbb{E}[R_t|A_t = a] = \frac{\text{sum of rewards when action } a \text{ taken prior to } t}{\text{number of times } a \text{ taken prior to } t} = \frac{\sum_{i = 1}^{t - 1}R_i \dot X_{A_i = a}}{\sum_{i = 1}^{t - 1}X_{A_i = a}}&lt;/p&gt;
+&lt;p&gt;$$&lt;/p&gt;
+&lt;p&gt;where $X_{\text{predicate}}$ denotes the random variable that is 1 if &lt;em&gt;predicate&lt;/em&gt; is true and 0 if it is not.
+If action $a$ is not taken at all, i.e. the denominator is $0$, then we give $Q_t(a)$ some default value, such as $0$.
+In addition, $Q_t(a)$ should converge to $q_*(a)$ as the denominator goes to infinity.&lt;/p&gt;
 &lt;p&gt;:::important&lt;/p&gt;
-&lt;p&gt;The following equation assumes that the estimate value is calculated by averaging the rewards actually received. In this
+&lt;p&gt;The equation above assumes that the estimate value is calculated by averaging the rewards actually received. In this
 sense, we call this the &lt;em&gt;sample-average&lt;/em&gt; method for estimating action values. &lt;em&gt;It should be noted that this is just one
 way to estimate action values&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;As for the question of how the estimate might be used to selection actions, the simplest selection rule is to select the
+one with the highest estimated value, i.e. a greedy action:&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
-&lt;p&gt;Q_t(a) = \mathbb{E}[R_t|A_t = a] = \frac{\text{sum of rewards when action } a \text{ taken prior to } t}{\text{number of times } a \text{ taken prior to } t} = \frac{\sum_{i = 1}^{t - 1}R_i \dot \mathbb{1}&lt;em&gt;{A_i = a}}{\sum&lt;/em&gt;{i = 1}^{t - 1}\mathbb{1}_{A_i = a}}&lt;/p&gt;
+&lt;p&gt;A_t = argmax Q_t(a)&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
-&lt;p&gt;where $\mathbb{1}&lt;em&gt;{\text{predicate}}$ denotes the random variable that is 1 if &lt;em&gt;predicate&lt;/em&gt; is true and 0 if it is not.
-If action $a$ is not taken at all, i.e. the denominator is $0$, then we give $Q_t(a)$ some default value, such as $0$.
-In addition, $Q_t(a)$ should converge to $q&lt;/em&gt;*(a)$ as the denominator goes to infinity.&lt;/p&gt;
 </content:encoded></item><item><title>Continuous Delivery</title><link>https://leadership.qubitpi.org/posts/continuous-delivery/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/continuous-delivery/</guid><description>Continuous delivery is an approach where teams release quality products frequently and predictably from source code
 repository to production in an automated fashion.
 </description><pubDate>Wed, 31 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;What is Continuous Delivery&lt;/h2&gt;
