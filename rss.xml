@@ -1223,7 +1223,7 @@ at methods for estimating the values of actions and for using the estimates to m
 collectively call &lt;strong&gt;action-value methods&lt;/strong&gt;. Recall that the true value of an action is the mean reward when that action
 is selected:&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
-&lt;p&gt;q_*(a) = \mathbb{E}[R_t|A_t = a] = \frac{\text{sum of rewards when action } a \text{ taken prior to } t}{\text{number of times } a \text{ taken prior to } t}&lt;/p&gt;
+&lt;p&gt;q_*(a) = \mathbb{E}[R_t|A_t = a] = \frac{\text{sum of rewards when action } a \text{ taken prior to } t}{\text{number of times } a \text{ taken prior to } t} = \frac{\sum_{i = 1}^{t - 1}R_i \dot \mathbbm{1}&lt;em&gt;{A_i = a}}{\sum&lt;/em&gt;{i = 1}^{t - 1}\mathbbm{1}_{A_i = a}}&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
 </content:encoded></item><item><title>Continuous Delivery</title><link>https://leadership.qubitpi.org/posts/continuous-delivery/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/continuous-delivery/</guid><description>Continuous delivery is an approach where teams release quality products frequently and predictably from source code
 repository to production in an automated fashion.
