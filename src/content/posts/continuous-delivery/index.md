@@ -480,7 +480,7 @@ principles of a service-oriented architecture, while accepting that the new arch
 it is replacing. Over time, more and more functionality will be performed in the new architecture, and the old system
 being replaced is "strangled".
 
-![](strangler.png)
+![](img/strangler.png)
 
 ### Patterns
 
