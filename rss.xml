@@ -1668,7 +1668,7 @@ replace a monolithic architecture with a more componentized one by ensuring that
 principles of a service-oriented architecture, while accepting that the new architecture may well delegate to the system
 it is replacing. Over time, more and more functionality will be performed in the new architecture, and the old system
 being replaced is &quot;strangled&quot;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;strangler.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;img/strangler.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h3&gt;Patterns&lt;/h3&gt;
 &lt;h4&gt;The Deployment Pipeline&lt;/h4&gt;
 &lt;p&gt;The key pattern introduced in continuous delivery is the &lt;strong&gt;deployment pipeline&lt;/strong&gt;. Our goal was to make deployment to any
