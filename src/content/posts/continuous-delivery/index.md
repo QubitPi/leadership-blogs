@@ -1,7 +1,7 @@
 ---
 title: Continuous Delivery
 published: 2022-08-31
-updated: 2025-07-12
+updated: 2025-07-19
 description: |
   Continuous delivery is an approach where teams release quality products frequently and predictably from source code
   repository to production in an automated fashion.
