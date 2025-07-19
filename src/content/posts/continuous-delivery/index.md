@@ -11,6 +11,40 @@ category: English
 draft: false 
 ---
 
+For those who are getting into DevOps, build a home lab or spin up some servers on a cloud provider like DigitalOcean
+for example. Dive into
+
+- Domain/DNS zones, records
+
+  - [domain-check](https://github.com/saidutt46/domain-check) is a good tool
+
+- Load balancers
+- Learn some kind of Cloud platform - AWS is most common but GCP and Azure are also sought after. Openstack ("private
+  cloud" installed on one's own hardware) is also pretty cool but here be dragons, also it's rare to see roles looking
+  for this. The plus side is that if one has hardware to spare then is lots of the same concepts, if not terminology,
+  apply to public clouds.
+- Understand VPC, networking, security at a conceptual level (think medieval fortress, office building security). Brush
+  up on networking fundamentals. We aren't looking to be a network engineer but should have some grasp of subnetting so
+  we can read and write a route table and security groups. This comes up often in Cloud infra. Learn how to troubleshoot
+  with dig, curl, telnet, netstat, tcpdump, and netcat.
+- Ideally some Linux knowledge and bash scripting - but Windows/Powershell is also good to know, especially if looking
+  into Azure. We want to be able to read and write basic scripts.
+- Learn how to use git, or some other version control system. Code has to live somewhere and we want to know how to
+  clone repositories, branch a repo, and push commits.
+- Containerization. Start with Docker, basic bash or Python scripting skills and comfort in shell will help immensely
+  here. Kubernetes is in high demand but we first want to get a grip on containers.
+- Automation. Terraform and Ansible are both super cool but almost distinct languages unto themselves.
+- CI/CD pipelines, Jenkins, gitlab-ci, GitHub actions, etc. The principles of continuous integration and continuous
+  delivery and how that ties into software development. This is the real meat and potatoes of what DevOps traditionally
+  entails but it depends a lot on all these other pieces.
+- Web API and architecture. Not all but lots of DevOps generally revolves around supporting some kind of web
+  application. Arguably DevOps exists to support microservices running in some platform (AWS, K8s, etc.) which
+  traditionally would have been part of a monolithic server architecture.
+- etc.
+
+Also, check out https://roadmap.sh/devops and https://devops-daily.com/roadmap to see where your gaps are. In addition,
+[Hello, World!](https://hw.glich.co/) is a great resource to go with.
+
 What is Continuous Delivery
 ---------------------------
 
