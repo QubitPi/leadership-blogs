@@ -1281,7 +1281,62 @@ one with the highest estimated value, i.e. a greedy action:&lt;/p&gt;
 &lt;p&gt;$$&lt;/p&gt;
 </content:encoded></item><item><title>Continuous Delivery</title><link>https://leadership.qubitpi.org/posts/continuous-delivery/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/continuous-delivery/</guid><description>Continuous delivery is an approach where teams release quality products frequently and predictably from source code
 repository to production in an automated fashion.
-</description><pubDate>Wed, 31 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;What is Continuous Delivery&lt;/h2&gt;
+</description><pubDate>Wed, 31 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;For those who are getting into DevOps, build a home lab or spin up some servers on a cloud provider like DigitalOcean
+for example. Dive into&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Domain/DNS zones, records&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/saidutt46/domain-check&quot;&gt;domain-check&lt;/a&gt; is a good tool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Load balancers&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Learn some kind of Cloud platform - AWS is most common but GCP and Azure are also sought after. Openstack (&quot;private
+cloud&quot; installed on one&apos;s own hardware) is also pretty cool but here be dragons, also it&apos;s rare to see roles looking
+for this. The plus side is that if one has hardware to spare then is lots of the same concepts, if not terminology,
+apply to public clouds.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Understand VPC, networking, security at a conceptual level (think medieval fortress, office building security). Brush
+up on networking fundamentals. We aren&apos;t looking to be a network engineer but should have some grasp of subnetting so
+we can read and write a route table and security groups. This comes up often in Cloud infra. Learn how to troubleshoot
+with dig, curl, telnet, netstat, tcpdump, and netcat.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ideally some Linux knowledge and bash scripting - but Windows/Powershell is also good to know, especially if looking
+into Azure. We want to be able to read and write basic scripts.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Learn how to use git, or some other version control system. Code has to live somewhere and we want to know how to
+clone repositories, branch a repo, and push commits.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Containerization. Start with Docker, basic bash or Python scripting skills and comfort in shell will help immensely
+here. Kubernetes is in high demand but we first want to get a grip on containers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Automation. Terraform and Ansible are both super cool but almost distinct languages unto themselves.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CI/CD pipelines, Jenkins, gitlab-ci, GitHub actions, etc. The principles of continuous integration and continuous
+delivery and how that ties into software development. This is the real meat and potatoes of what DevOps traditionally
+entails but it depends a lot on all these other pieces.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Web API and architecture. Not all but lots of DevOps generally revolves around supporting some kind of web
+application. Arguably DevOps exists to support microservices running in some platform (AWS, K8s, etc.) which
+traditionally would have been part of a monolithic server architecture.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also, check out https://roadmap.sh/devops and https://devops-daily.com/roadmap to see where your gaps are. In addition,
+&lt;a href=&quot;https://hw.glich.co/&quot;&gt;Hello, World!&lt;/a&gt; is a great resource to go with.&lt;/p&gt;
+&lt;h2&gt;What is Continuous Delivery&lt;/h2&gt;
 &lt;p&gt;Continuous Delivery is the ability to get changes of all types - including new features, configuration changes, bug
 fixes and experiments - into production, or into the hands of users, &lt;em&gt;safely&lt;/em&gt; and &lt;em&gt;quickly&lt;/em&gt; in a &lt;em&gt;sustainable&lt;/em&gt; way.&lt;/p&gt;
 &lt;p&gt;The goal of continuous delivery is to make deployments - whether of a large-scale distributed system, a complex
