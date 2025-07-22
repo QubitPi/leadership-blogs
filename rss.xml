@@ -106,6 +106,54 @@ efficiencies. Ethical fading, however, is a people problem.&lt;/p&gt;
 a culture in which their people can work toward the short-term goals while also considering the morality, ethics and
 wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 &lt;p&gt;[^1]: Sinek, Simon (2019). &lt;a href=&quot;https://dokumen.pub/the-infinite-game.html&quot;&gt;&lt;em&gt;The Infinite Game&lt;/em&gt;&lt;/a&gt;. Portfolio. ISBN 073521350X.&lt;/p&gt;
+</content:encoded></item><item><title>George Berkeley</title><link>https://leadership.qubitpi.org/posts/berkeley/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/berkeley/</guid><description>George Berkeley was an Anglo-Irish philosopher who is regarded as the founder of &quot;immaterialism&quot;, which was later
+referred to as &quot;subjective idealism&quot;. As a leading figure in the empiricism movement, he had a profound influence on
+the views of other thinkers, especially Immanuel Kant and David Hume. Berkeley argued against Isaac Newton&apos;s doctrine
+of absolute space, time and motion in De Motu. His arguments were a notable precursor to those of Ernst Mach and
+Albert Einstein. Interest in Berkeley&apos;s ideas and works increased greatly after World War II because they tackled
+many of the issues of paramount interest to philosophy in the 20th century, such as the problems of perception, the
+difference between primary and secondary qualities, and the importance of language
+</description><pubDate>Tue, 22 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;:::tip[Berkeley&apos;s Writings]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://archive.org/details/worksofgeorgeber01berk_0&quot;&gt;The Works Of George Berkeley Vol. 1&lt;/a&gt;&lt;/em&gt;, Oxford&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://archive.org/details/worksofgeorgeber02berk_0&quot;&gt;The Works Of George Berkeley Vol. 2&lt;/a&gt;&lt;/em&gt;, Oxford&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://archive.org/details/worksofgeorgeber03berk_0&quot;&gt;The Works Of George Berkeley Vol. 3&lt;/a&gt;&lt;/em&gt;, Oxford&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://archive.org/details/worksofgeorgeber04berk_0&quot;&gt;The Works Of George Berkeley Vol. 4&lt;/a&gt;&lt;/em&gt;, Oxford&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;Of all treatises written on the subject in the eighteenth century, Berkeley&apos;s &lt;a href=&quot;https://archive.org/details/worksofgeorgeber03berk_0&quot;&gt;&lt;em&gt;Analyst&lt;/em&gt;&lt;/a&gt;, a critique of the foundations
+of calculus, which was influential in the development of mathematics, was the most sustained and penetrating critique
+of the methodology of the infinitesimal calculus. Despite its early date (1734) and the fact that it was largely ignored
+by mathematicians, this work foreshadows the foundational research of the nineteenth century, and provides a link
+between the mathematical preoccupations of the seventeenth and eighteenth centuries and those of the nineteenth.&lt;/p&gt;
+&lt;p&gt;Broadly speaking, the mathematicians of the seventeenth and eighteenth centuries - and in particular Newton, Leibniz,
+and Euler - had been more concerned with exploiting and extending the techniques of the differential and integral
+calculus than with tidying its foundations. The mathematicians of the early nineteenth century, in contrast, bent their
+efforts towards placing the calculus on an unobjectionable footing - towards chasing away the obscurities that
+surrounded such notions as &lt;em&gt;infinitesimal&lt;/em&gt;, &lt;em&gt;limit&lt;/em&gt;, and &lt;em&gt;differential&lt;/em&gt;. This project was pursued during the first
+two-thirds of the nineteenth century by such mathematicians as Gauss, Bolzano, Cauchy, Abel, Fourier, Riemann, and
+Weierstrass. Their investigations into the foundations of real analysis in turn inspired the later studies by Dedekind,
+Cantor, Frege, Peano, Peirce, Russell, and Hilbert of set-theory, logic, and the foundations of arithmetic.&lt;/p&gt;
+&lt;p&gt;Berkeley&apos;s &lt;a href=&quot;https://archive.org/details/worksofgeorgeber03berk_0&quot;&gt;&lt;em&gt;Analyst&lt;/em&gt;&lt;/a&gt; prefigures this entire development, and his philosophically- motivated criticisms of the Newtonian
+mathematics of the eighteenth century raise many issues that will loom large in the selections that follow. These issues
+may be loosely grouped under 4 headings.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;His critique of &lt;em&gt;infinitesimals&lt;/em&gt; raises not only the issue of justifying the central concepts of the calculus but
+also the more general issue of the legitimacy of the actual infinite in mathematics.&lt;/li&gt;
+&lt;li&gt;Berkeley, as befits the empiricist philosopher who wrote An essay towards a new theory of vision (1709), makes acute
+comments about the relationship between geometry, human visual perception, and the foundations of the calculus.&lt;/li&gt;
+&lt;li&gt;In numerous places Berkeley discusses the problem of the &lt;em&gt;reference&lt;/em&gt; of mathematical expressions; declaring, for
+instance, in &lt;em&gt;Of infinites&lt;/em&gt;, that &quot;This plain to me we ought to use no sign without an idea answering to it&quot;; &lt;strong&gt;one
+of his cardinal criticisms of Newton is that infinitesimals can have no empirical reference&lt;/strong&gt;. This topic of the
+reference of mathematical expressions (a topic on which Berkeley occasionally shifted his position) was to be central
+to the development of algebra during the nineteenth century&lt;/li&gt;
+&lt;li&gt;All these mathematical issues - in analysis, geometry, and algebra - are intertwined in Berkeley&apos;s thought with more
+general concerns about mathematical truth, the rigour of demonstrations, the applicability of mathematics to the
+empirical world, and the scope and limits of mathematical knowledge. Philosophers more often react to developments in
+mathematics than anticipate them, and in modern times perhaps only Descartes, Leibniz, and Kant can be said to have
+equalled Berkeley&apos;s insight into the foundations of mathematics .&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;(To be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>Continuous Delivery</title><link>https://leadership.qubitpi.org/posts/continuous-delivery/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/continuous-delivery/</guid><description>Continuous delivery is an approach where teams release quality products frequently and predictably from source code
 repository to production in an automated fashion.
 </description><pubDate>Wed, 31 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;For those who are getting into DevOps, build a home lab or spin up some servers on a cloud provider like DigitalOcean
@@ -6626,54 +6674,6 @@ not the purpose of the organisation.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;https://youtu.be/lmyZMtPVodo&quot;&gt;&quot;Great leaders are willing to sacrifice the numbers to save the people&quot;&lt;/a&gt; (Simon Sinek)&lt;/p&gt;
 &lt;/blockquote&gt;
-</content:encoded></item><item><title>George Berkeley</title><link>https://leadership.qubitpi.org/posts/berkeley/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/berkeley/</guid><description>George Berkeley was an Anglo-Irish philosopher who is regarded as the founder of &quot;immaterialism&quot;, which was later
-referred to as &quot;subjective idealism&quot;. As a leading figure in the empiricism movement, he had a profound influence on
-the views of other thinkers, especially Immanuel Kant and David Hume. Berkeley argued against Isaac Newton&apos;s doctrine
-of absolute space, time and motion in De Motu. His arguments were a notable precursor to those of Ernst Mach and
-Albert Einstein. Interest in Berkeley&apos;s ideas and works increased greatly after World War II because they tackled
-many of the issues of paramount interest to philosophy in the 20th century, such as the problems of perception, the
-difference between primary and secondary qualities, and the importance of language
-</description><pubDate>Mon, 22 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;:::tip[Berkeley&apos;s Writings]&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://archive.org/details/worksofgeorgeber01berk_0&quot;&gt;The Works Of George Berkeley Vol. 1&lt;/a&gt;&lt;/em&gt;, Oxford&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://archive.org/details/worksofgeorgeber02berk_0&quot;&gt;The Works Of George Berkeley Vol. 2&lt;/a&gt;&lt;/em&gt;, Oxford&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://archive.org/details/worksofgeorgeber03berk_0&quot;&gt;The Works Of George Berkeley Vol. 3&lt;/a&gt;&lt;/em&gt;, Oxford&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://archive.org/details/worksofgeorgeber04berk_0&quot;&gt;The Works Of George Berkeley Vol. 4&lt;/a&gt;&lt;/em&gt;, Oxford&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;:::&lt;/p&gt;
-&lt;p&gt;Of all treatises written on the subject in the eighteenth century, Berkeley&apos;s &lt;a href=&quot;https://archive.org/details/worksofgeorgeber03berk_0&quot;&gt;&lt;em&gt;Analyst&lt;/em&gt;&lt;/a&gt;, a critique of the foundations
-of calculus, which was influential in the development of mathematics, was the most sustained and penetrating critique
-of the methodology of the infinitesimal calculus. Despite its early date (1734) and the fact that it was largely ignored
-by mathematicians, this work foreshadows the foundational research of the nineteenth century, and provides a link
-between the mathematical preoccupations of the seventeenth and eighteenth centuries and those of the nineteenth.&lt;/p&gt;
-&lt;p&gt;Broadly speaking, the mathematicians of the seventeenth and eighteenth centuries - and in particular Newton, Leibniz,
-and Euler - had been more concerned with exploiting and extending the techniques of the differential and integral
-calculus than with tidying its foundations. The mathematicians of the early nineteenth century, in contrast, bent their
-efforts towards placing the calculus on an unobjectionable footing - towards chasing away the obscurities that
-surrounded such notions as &lt;em&gt;infinitesimal&lt;/em&gt;, &lt;em&gt;limit&lt;/em&gt;, and &lt;em&gt;differential&lt;/em&gt;. This project was pursued during the first
-two-thirds of the nineteenth century by such mathematicians as Gauss, Bolzano, Cauchy, Abel, Fourier, Riemann, and
-Weierstrass. Their investigations into the foundations of real analysis in turn inspired the later studies by Dedekind,
-Cantor, Frege, Peano, Peirce, Russell, and Hilbert of set-theory, logic, and the foundations of arithmetic.&lt;/p&gt;
-&lt;p&gt;Berkeley&apos;s &lt;a href=&quot;https://archive.org/details/worksofgeorgeber03berk_0&quot;&gt;&lt;em&gt;Analyst&lt;/em&gt;&lt;/a&gt; prefigures this entire development, and his philosophically- motivated criticisms of the Newtonian
-mathematics of the eighteenth century raise many issues that will loom large in the selections that follow. These issues
-may be loosely grouped under 4 headings.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;His critique of &lt;em&gt;infinitesimals&lt;/em&gt; raises not only the issue of justifying the central concepts of the calculus but
-also the more general issue of the legitimacy of the actual infinite in mathematics.&lt;/li&gt;
-&lt;li&gt;Berkeley, as befits the empiricist philosopher who wrote An essay towards a new theory of vision (1709), makes acute
-comments about the relationship between geometry, human visual perception, and the foundations of the calculus.&lt;/li&gt;
-&lt;li&gt;In numerous places Berkeley discusses the problem of the &lt;em&gt;reference&lt;/em&gt; of mathematical expressions; declaring, for
-instance, in &lt;em&gt;Of infinites&lt;/em&gt;, that &quot;This plain to me we ought to use no sign without an idea answering to it&quot;; &lt;strong&gt;one
-of his cardinal criticisms of Newton is that infinitesimals can have no empirical reference&lt;/strong&gt;. This topic of the
-reference of mathematical expressions (a topic on which Berkeley occasionally shifted his position) was to be central
-to the development of algebra during the nineteenth century&lt;/li&gt;
-&lt;li&gt;All these mathematical issues - in analysis, geometry, and algebra - are intertwined in Berkeley&apos;s thought with more
-general concerns about mathematical truth, the rigour of demonstrations, the applicability of mathematics to the
-empirical world, and the scope and limits of mathematical knowledge. Philosophers more often react to developments in
-mathematics than anticipate them, and in modern times perhaps only Descartes, Leibniz, and Kant can be said to have
-equalled Berkeley&apos;s insight into the foundations of mathematics .&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;(To be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>Managing Tech Assets - Is a Common Library a Good Idea? No</title><link>https://leadership.qubitpi.org/posts/managing-tech-assets-common-lib-or-not/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/managing-tech-assets-common-lib-or-not/</guid><description>Managing Tech Assets - Is a Common Library a Good Idea? No</description><pubDate>Wed, 17 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;A Story - A Person Created a Common Library and Then...&lt;/h2&gt;
 &lt;p&gt;&quot;Embarrassingly I introduced a &quot;common&quot; library, named as such, in a team environment a couple of decades back.
 I didn&apos;t really understand the dynamics back then of what could happen in a loosely-coordinated team setting in just a
