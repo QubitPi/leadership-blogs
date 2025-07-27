@@ -62,6 +62,9 @@ A static blog template built with [Astro](https://astro.build).
     
     ![Kokomi admonition example](./kokomi-admonition.png "Error loading kokomi-admonition.png")
 
+  - [x] [Lifted up restriction on Code block](https://github.com/QubitPi/leadership-blogs/pull/25) so that it is fully
+    aligned with [Expressive Code](https://expressive-code.com/guides/themes/#available-themes)
+
 ## 🚀 Getting Started
 
 1. Create your blog repository:
