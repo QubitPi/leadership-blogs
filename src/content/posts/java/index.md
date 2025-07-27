@@ -59,13 +59,7 @@ actions are logged to the 'java.io.serialization' logger, if enabled_".
 :::
 
 JEP 290 introduced serialization filtering to Java, allowing control over which classes can be deserialized from an
-`ObjectInputStream`. This can be achieved through pattern-based filters defined via system properties or security
-properties, or programmatically using the `ObjectInputFilter` API.
-
-#### Pattern-Based Filter (System Property Example)
-
-This example demonstrates how to set a global filter using the `jdk.serialFilter` system property to allow only classes
-within `com.example.allowed` and reject all others.
+`ObjectInputStream`. As an example, suppose we have 2 serializable classes: __AllowedClass__ and __RestrictedClass__:
 
 ```java title="AllowedClass.java"
 package com.example.allowed;
@@ -109,10 +103,24 @@ public class RestrictedClass implements Serializable {
 }
 ```
 
+To make sure `AllowedClass` can be deserialized while `RestrictedClass` cannot, we can use either
+[pattern-based filters defined via system properties](#pattern-based-filter-system-property-example) or security
+properties, or [programmatically using the `ObjectInputFilter` API]().
+
+#### Pattern-Based Filter (System Property Example)
+
+This example demonstrates how to set a global filter using the `jdk.serialFilter` system property to allow only classes
+within `com.example.allowed` and reject all others.
+
 If the JDK system property has been set with `-Djdk.serialFilter="com.example.allowed.*;!*"`, the following runtime
 should execute successfully without error for `AllowedClass` and throw exception for `RestrictedClass`:
 
 ```java
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 public static void serialize(Serializable obj, Class<? extends Serializable> clazz) {
@@ -134,5 +142,48 @@ RestrictedClass restricted = new RestrictedClass("Secret Data!");
 serialize(allowed, AllowedClass.class);       // ✅
 serialize(restricted, RestrictedClass.class); // ❌ runtime error
 ```
+
+#### Programmatic Filter (ObjectInputFilter API)
+
+This example shows how to set a filter directly on an `ObjectInputStream` using the `ObjectInputFilter` interface.
+
+```java
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputFilter;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+
+public static void serialize(Serializable obj, Class<? extends Serializable> clazz) {
+    try (ByteArrayOutputStream bos = new ByteArrayOutputStream(); ObjectOutputStream oos = new ObjectOutputStream(bos)) {
+        oos.writeObject(obj);
+
+        try (ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
+             ObjectInputStream ois = new ObjectInputStream(bis)) {
+            ois.setObjectInputFilter(info -> {
+                if (info.serialClass() != null && info.serialClass().getName().startsWith("com.example.allowed")) {
+                    return ObjectInputFilter.Status.ALLOWED;
+                }
+                return ObjectInputFilter.Status.REJECTED;
+            });
+
+            Serializable result = clazz.cast(ois.readObject());
+        }
+    } catch (IOException | ClassNotFoundException exception) {
+        throw new IllegalStateException(exception);
+    }
+}
+
+AllowedClass allowed = new AllowedClass("Hello Allowed!");
+RestrictedClass restricted = new RestrictedClass("Secret Data!");
+
+serialize(allowed, AllowedClass.class);       // ✅
+serialize(restricted, RestrictedClass.class); // ❌ runtime error
+```
+
+In this example, the `setObjectInputFilter` method is used on the `ObjectInputStream` to apply a lambda expression as
+the filter. This filter explicitly allows classes starting with `com.example.allowed` and rejects all others.
 
 (To be continued...)
