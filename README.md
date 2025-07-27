@@ -64,6 +64,7 @@ A static blog template built with [Astro](https://astro.build).
 
   - [x] [Lifted up restriction on Code block](https://github.com/QubitPi/leadership-blogs/pull/25) so that it is fully
     aligned with [Expressive Code](https://expressive-code.com/guides/themes/#available-themes)
+  - [x] [Change Code block font to Ubuntu Mono](https://github.com/QubitPi/leadership-blogs/pull/26)
 
 ## 🚀 Getting Started
 

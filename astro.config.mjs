@@ -72,7 +72,7 @@ export default defineConfig({
 				},
 			},
 			styleOverrides: {
-				codeFontFamily: "'JetBrains Mono Variable', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
+				codeFontFamily: "'Ubuntu Mono'",
 			},
 			frames: {
 				showCopyToClipboardButton: false,
