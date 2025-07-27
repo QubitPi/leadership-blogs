@@ -155,12 +155,12 @@ Java Team at Oracle, often providing deeper dives into new features and their im
 &lt;h2&gt;JDK 9&lt;/h2&gt;
 &lt;h3&gt;Serialization Filter Configuration&lt;/h3&gt;
 &lt;p&gt;:::tip[&lt;a href=&quot;https://www.oracle.com/java/technologies/javase/9-relnotes.html#JDK-8155760&quot;&gt;JDK 9 Release Notes&lt;/a&gt;]&lt;/p&gt;
-&lt;p&gt;_Serialization Filtering introduces a new mechanism which allows incoming streams of object-serialization data to be
+&lt;p&gt;&quot;&lt;em&gt;Serialization Filtering introduces a new mechanism which allows incoming streams of object-serialization data to be
 filtered in order to improve both security and robustness. Every ObjectInputStream applies a filter, if configured, to
 the stream contents during deserialization. Filters are set using either a system property or a configured security
 property. The value of the &quot;jdk.serialFilter&quot; patterns are described in
 &lt;a href=&quot;http://openjdk.java.net/jeps/290&quot;&gt;JEP 290 Serialization Filtering&lt;/a&gt; and in &lt;code&gt;&amp;lt;JRE&amp;gt;/lib/security/java.security&lt;/code&gt;. Filter
-actions are logged to the &apos;java.io.serialization&apos; logger, if enabled.&lt;/p&gt;
+actions are logged to the &apos;java.io.serialization&apos; logger, if enabled&lt;/em&gt;&quot;.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;JEP 290 introduced serialization filtering to Java, allowing control over which classes can be deserialized from an
 &lt;code&gt;ObjectInputStream&lt;/code&gt;. This can be achieved through pattern-based filters defined via system properties or security
@@ -169,10 +169,12 @@ properties, or programmatically using the &lt;code&gt;ObjectInputFilter&lt;/code
 &lt;p&gt;This example demonstrates how to set a global filter using the &lt;code&gt;jdk.serialFilter&lt;/code&gt; system property to allow only classes
 within &lt;code&gt;com.example.allowed&lt;/code&gt; and reject all others.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;package com.example.allowed;
+
+import java.io.Serial;
 import java.io.Serializable;
 
 public class AllowedClass implements Serializable {
-    private static final long serialVersionUID = 1L;
+    @Serial private static final long serialVersionUID = 1L;
     public String message;
 
     public AllowedClass(String message) {
@@ -184,6 +186,48 @@ public class AllowedClass implements Serializable {
         return &quot;AllowedClass: &quot; + message;
     }
 }
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;package com.example.restricted;
+
+import java.io.Serial;
+import java.io.Serializable;
+
+public class RestrictedClass implements Serializable {
+    @Serial private static final long serialVersionUID = 1L;
+    public String secret;
+
+    public RestrictedClass(String secret) {
+        this.secret = secret;
+    }
+
+    @Override
+    public String toString() {
+        return &quot;RestrictedClass: &quot; + secret;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If the JDK system property has been set with &lt;code&gt;-Djdk.serialFilter=&quot;com.example.allowed.*;!*&quot;&lt;/code&gt;, the following runtime
+should execute successfully without error for &lt;code&gt;AllowedClass&lt;/code&gt; and throw exception for &lt;code&gt;RestrictedClass&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import java.io.Serializable;
+
+public static void serialize(Serializable obj, Class&amp;lt;? extends Serializable&amp;gt; clazz) {
+    try (ByteArrayOutputStream bos = new ByteArrayOutputStream(); ObjectOutputStream oos = new ObjectOutputStream(bos)) {
+        oos.writeObject(obj);
+
+        try (ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
+             ObjectInputStream ois = new ObjectInputStream(bis)) {
+            Serializable result = clazz.cast(ois.readObject());
+        }
+    } catch (IOException | ClassNotFoundException exception) {
+        throw new IllegalStateException(exception);
+    }
+}
+
+AllowedClass allowed = new AllowedClass(&quot;Hello Allowed!&quot;);
+RestrictedClass restricted = new RestrictedClass(&quot;Secret Data!&quot;);
+
+serialize(allowed, AllowedClass.class);       // ✅
+serialize(restricted, RestrictedClass.class); // ❌ runtime error
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;(To be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>George Berkeley</title><link>https://leadership.qubitpi.org/posts/berkeley/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/berkeley/</guid><description>George Berkeley was an Anglo-Irish philosopher who is regarded as the founder of &quot;immaterialism&quot;, which was later
