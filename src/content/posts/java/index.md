@@ -49,12 +49,12 @@ JDK 9
 
 :::tip[[JDK 9 Release Notes](https://www.oracle.com/java/technologies/javase/9-relnotes.html#JDK-8155760)]
 
-_Serialization Filtering introduces a new mechanism which allows incoming streams of object-serialization data to be
+"_Serialization Filtering introduces a new mechanism which allows incoming streams of object-serialization data to be
 filtered in order to improve both security and robustness. Every ObjectInputStream applies a filter, if configured, to
 the stream contents during deserialization. Filters are set using either a system property or a configured security
 property. The value of the "jdk.serialFilter" patterns are described in
 [JEP 290 Serialization Filtering](http://openjdk.java.net/jeps/290) and in `<JRE>/lib/security/java.security`. Filter
-actions are logged to the 'java.io.serialization' logger, if enabled.
+actions are logged to the 'java.io.serialization' logger, if enabled_".
 
 :::
 
@@ -69,10 +69,12 @@ within `com.example.allowed` and reject all others.
 
 ```java title="AllowedClass.java"
 package com.example.allowed;
+
+import java.io.Serial;
 import java.io.Serializable;
 
 public class AllowedClass implements Serializable {
-    private static final long serialVersionUID = 1L;
+    @Serial private static final long serialVersionUID = 1L;
     public String message;
 
     public AllowedClass(String message) {
@@ -84,6 +86,53 @@ public class AllowedClass implements Serializable {
         return "AllowedClass: " + message;
     }
 }
+```
+
+```java title=RestrictedClass.java
+package com.example.restricted;
+
+import java.io.Serial;
+import java.io.Serializable;
+
+public class RestrictedClass implements Serializable {
+    @Serial private static final long serialVersionUID = 1L;
+    public String secret;
+
+    public RestrictedClass(String secret) {
+        this.secret = secret;
+    }
+
+    @Override
+    public String toString() {
+        return "RestrictedClass: " + secret;
+    }
+}
+```
+
+If the JDK system property has been set with `-Djdk.serialFilter="com.example.allowed.*;!*"`, the following runtime
+should execute successfully without error for `AllowedClass` and throw exception for `RestrictedClass`:
+
+```java
+import java.io.Serializable;
+
+public static void serialize(Serializable obj, Class<? extends Serializable> clazz) {
+    try (ByteArrayOutputStream bos = new ByteArrayOutputStream(); ObjectOutputStream oos = new ObjectOutputStream(bos)) {
+        oos.writeObject(obj);
+
+        try (ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
+             ObjectInputStream ois = new ObjectInputStream(bis)) {
+            Serializable result = clazz.cast(ois.readObject());
+        }
+    } catch (IOException | ClassNotFoundException exception) {
+        throw new IllegalStateException(exception);
+    }
+}
+
+AllowedClass allowed = new AllowedClass("Hello Allowed!");
+RestrictedClass restricted = new RestrictedClass("Secret Data!");
+
+serialize(allowed, AllowedClass.class);       // ✅
+serialize(restricted, RestrictedClass.class); // ❌ runtime error
 ```
 
 (To be continued...)
