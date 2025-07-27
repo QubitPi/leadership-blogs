@@ -147,7 +147,7 @@ serialize(restricted, RestrictedClass.class);
 
 This example shows how to set a filter directly on an `ObjectInputStream` using the `ObjectInputFilter` interface.
 
-```java
+```java {"Programmatically configure filtering":15-20} ins="serialize(allowed, AllowedClass.class);" del="serialize(restricted, RestrictedClass.class);"
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
