@@ -2,6 +2,7 @@
 title: Houston, We Have a Problem - Java is on 26 Now!
 published: 2025-07-27
 description: Holy...I'm still at 17. Let's put up a blog to keep my knowledge up-to-date.
+image: cover.png
 tags: [Technology]
 category: English
 draft: false
