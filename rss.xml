@@ -148,7 +148,8 @@ resources directly from the Java team.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.oracle.com/java/technologies/javase/jdk-relnotes-index.html&quot;&gt;JDK Release Notes&lt;/a&gt;: Oracle publishes
 detailed release notes for each JDK version, outlining all changes, including new features, enhancements, API changes,
 and deprecated or removed elements. These are the most complete and accurate source of information.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://javaalmanac.io/&quot;&gt;Java Version Almanac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://javaalmanac.io/&quot;&gt;Java Version Almanac&lt;/a&gt;: This independent resource provides a comprehensive comparison of Java
+versions and lists of changes, including added or removed methods and APIs.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://inside.java/&quot;&gt;inside.java&lt;/a&gt;: This Oracle portal offers news, views, podcasts, and newscasts directly from the
 Java Team at Oracle, often providing deeper dives into new features and their implications.&lt;/li&gt;
 &lt;/ul&gt;
