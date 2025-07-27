@@ -233,8 +233,8 @@ public static void serialize(Serializable obj, Class&amp;lt;? extends Serializab
 AllowedClass allowed = new AllowedClass(&quot;Hello Allowed!&quot;);
 RestrictedClass restricted = new RestrictedClass(&quot;Secret Data!&quot;);
 
-serialize(allowed, AllowedClass.class);    
-serialize(restricted, RestrictedClass.class);
+serialize(allowed, AllowedClass.class);       // ✅
+serialize(restricted, RestrictedClass.class); // ❌ runtime error
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4&gt;Programmatic Filter (ObjectInputFilter API)&lt;/h4&gt;
 &lt;p&gt;This example shows how to set a filter directly on an &lt;code&gt;ObjectInputStream&lt;/code&gt; using the &lt;code&gt;ObjectInputFilter&lt;/code&gt; interface.&lt;/p&gt;
