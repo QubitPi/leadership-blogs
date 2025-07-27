@@ -1,7 +1,9 @@
 ---
 title: Houston, We Have a Problem - Java is on 26 Now!
 published: 2025-07-27
-description: Holy...I'm still at 17. Let's put up a blog to keep my knowledge up-to-date.
+description: |
+  Holy... I'm still at 17. My tech portfolio has been obsolete. Let's put up a blog that shares the updates and new
+  features since JDK 9 forward.
 image: cover.png
 tags: [Technology]
 category: English
