@@ -106,6 +106,84 @@ efficiencies. Ethical fading, however, is a people problem.&lt;/p&gt;
 a culture in which their people can work toward the short-term goals while also considering the morality, ethics and
 wider impact of the decisions they make to meet those goals.&lt;/p&gt;
 &lt;p&gt;[^1]: Sinek, Simon (2019). &lt;a href=&quot;https://dokumen.pub/the-infinite-game.html&quot;&gt;&lt;em&gt;The Infinite Game&lt;/em&gt;&lt;/a&gt;. Portfolio. ISBN 073521350X.&lt;/p&gt;
+</content:encoded></item><item><title>Houston, We Have a Problem - Java is on 26 Now!</title><link>https://leadership.qubitpi.org/posts/java/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/java/</guid><description>Holy...I&apos;m still at 17. Let&apos;s put up a blog to keep my knowledge up-to-date.</description><pubDate>Sun, 27 Jul 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;:::tip[Java Resources]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.angelikalanger.com/GenericsFAQ/JavaGenericsFAQ.html&quot;&gt;Java Generics FAQs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.javapractices.com/topic/TopicAction.do?Id=15&quot;&gt;Defensive Copy&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://visualvm.github.io/&quot;&gt;VisualVM&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://openjdk.java.net/tools/svc/jconsole/&quot;&gt;jConsole&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://java-decompiler.github.io/&quot;&gt;Java Decompiler&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://querydsl.com/&quot;&gt;Querydsl&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Diagnostic Tools&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr015.html&quot;&gt;The jps Utility&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr017.html&quot;&gt;The jstat Utility&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr013.html&quot;&gt;The jinfo Utility&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr014.html&quot;&gt;The jmap Utility&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr012.html&quot;&gt;The jhat Utility&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr016.html&quot;&gt;The jstack Utility&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;h2&gt;Sources for Learning New Features among JDK Release&lt;/h2&gt;
+&lt;p&gt;The best sources to learn about new features in each major release of Java JDK are the official Oracle documentation and
+resources directly from the Java team.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.oracle.com/java/technologies/javase/jdk-relnotes-index.html&quot;&gt;JDK Release Notes&lt;/a&gt;: Oracle publishes
+detailed release notes for each JDK version, outlining all changes, including new features, enhancements, API changes,
+and deprecated or removed elements. These are the most complete and accurate source of information.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://javaalmanac.io/&quot;&gt;Java Version Almanac&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://inside.java/&quot;&gt;inside.java&lt;/a&gt;: This Oracle portal offers news, views, podcasts, and newscasts directly from the
+Java Team at Oracle, often providing deeper dives into new features and their implications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;JDK 9&lt;/h2&gt;
+&lt;h3&gt;Serialization Filter Configuration&lt;/h3&gt;
+&lt;p&gt;:::tip[&lt;a href=&quot;https://www.oracle.com/java/technologies/javase/9-relnotes.html#JDK-8155760&quot;&gt;JDK 9 Release Notes&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;_Serialization Filtering introduces a new mechanism which allows incoming streams of object-serialization data to be
+filtered in order to improve both security and robustness. Every ObjectInputStream applies a filter, if configured, to
+the stream contents during deserialization. Filters are set using either a system property or a configured security
+property. The value of the &quot;jdk.serialFilter&quot; patterns are described in
+&lt;a href=&quot;http://openjdk.java.net/jeps/290&quot;&gt;JEP 290 Serialization Filtering&lt;/a&gt; and in &lt;code&gt;&amp;lt;JRE&amp;gt;/lib/security/java.security&lt;/code&gt;. Filter
+actions are logged to the &apos;java.io.serialization&apos; logger, if enabled.&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;JEP 290 introduced serialization filtering to Java, allowing control over which classes can be deserialized from an
+&lt;code&gt;ObjectInputStream&lt;/code&gt;. This can be achieved through pattern-based filters defined via system properties or security
+properties, or programmatically using the &lt;code&gt;ObjectInputFilter&lt;/code&gt; API.&lt;/p&gt;
+&lt;h4&gt;Pattern-Based Filter (System Property Example)&lt;/h4&gt;
+&lt;p&gt;This example demonstrates how to set a global filter using the &lt;code&gt;jdk.serialFilter&lt;/code&gt; system property to allow only classes
+within &lt;code&gt;com.example.allowed&lt;/code&gt; and reject all others.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;package com.example.allowed;
+import java.io.Serializable;
+
+public class AllowedClass implements Serializable {
+    private static final long serialVersionUID = 1L;
+    public String message;
+
+    public AllowedClass(String message) {
+        this.message = message;
+    }
+
+    @Override
+    public String toString() {
+        return &quot;AllowedClass: &quot; + message;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(To be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>George Berkeley</title><link>https://leadership.qubitpi.org/posts/berkeley/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/berkeley/</guid><description>George Berkeley was an Anglo-Irish philosopher who is regarded as the founder of &quot;immaterialism&quot;, which was later
 referred to as &quot;subjective idealism&quot;. As a leading figure in the empiricism movement, he had a profound influence on
 the views of other thinkers, especially Immanuel Kant and David Hume. Berkeley argued against Isaac Newton&apos;s doctrine
