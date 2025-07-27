@@ -139,8 +139,8 @@ public static void serialize(Serializable obj, Class<? extends Serializable> cla
 AllowedClass allowed = new AllowedClass("Hello Allowed!");
 RestrictedClass restricted = new RestrictedClass("Secret Data!");
 
-serialize(allowed, AllowedClass.class);    
-serialize(restricted, RestrictedClass.class);
+serialize(allowed, AllowedClass.class);       // ✅
+serialize(restricted, RestrictedClass.class); // ❌ runtime error
 ```
 
 #### Programmatic Filter (ObjectInputFilter API)
