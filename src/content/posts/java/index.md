@@ -105,7 +105,7 @@ public class RestrictedClass implements Serializable {
 
 To make sure `AllowedClass` can be deserialized while `RestrictedClass` cannot, we can use either
 [pattern-based filters defined via system properties](#pattern-based-filter-system-property-example) or security
-properties, or [programmatically using the `ObjectInputFilter` API]().
+properties, or [programmatically using the `ObjectInputFilter` API](#programmatic-filter-objectinputfilter-api).
 
 #### Pattern-Based Filter (System Property Example)
 
@@ -115,7 +115,7 @@ within `com.example.allowed` and reject all others.
 If the JDK system property has been set with `-Djdk.serialFilter="com.example.allowed.*;!*"`, the following runtime
 should execute successfully without error for `AllowedClass` and throw exception for `RestrictedClass`:
 
-```java
+```java ins="serialize(allowed, AllowedClass.class);" del="serialize(restricted, RestrictedClass.class);"
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -139,8 +139,8 @@ public static void serialize(Serializable obj, Class<? extends Serializable> cla
 AllowedClass allowed = new AllowedClass("Hello Allowed!");
 RestrictedClass restricted = new RestrictedClass("Secret Data!");
 
-serialize(allowed, AllowedClass.class);       // ✅
-serialize(restricted, RestrictedClass.class); // ❌ runtime error
+serialize(allowed, AllowedClass.class);    
+serialize(restricted, RestrictedClass.class);
 ```
 
 #### Programmatic Filter (ObjectInputFilter API)
