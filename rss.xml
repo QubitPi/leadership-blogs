@@ -252,6 +252,7 @@ public static void serialize(Serializable obj, Class&amp;lt;? extends Serializab
 
         try (ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
              ObjectInputStream ois = new ObjectInputStream(bis)) {
+
             ois.setObjectInputFilter(info -&amp;gt; {
                 if (info.serialClass() != null &amp;amp;&amp;amp; info.serialClass().getName().startsWith(&quot;com.example.allowed&quot;)) {
                     return ObjectInputFilter.Status.ALLOWED;
