@@ -163,11 +163,7 @@ property. The value of the &quot;jdk.serialFilter&quot; patterns are described i
 actions are logged to the &apos;java.io.serialization&apos; logger, if enabled&lt;/em&gt;&quot;.&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;JEP 290 introduced serialization filtering to Java, allowing control over which classes can be deserialized from an
-&lt;code&gt;ObjectInputStream&lt;/code&gt;. This can be achieved through pattern-based filters defined via system properties or security
-properties, or programmatically using the &lt;code&gt;ObjectInputFilter&lt;/code&gt; API.&lt;/p&gt;
-&lt;h4&gt;Pattern-Based Filter (System Property Example)&lt;/h4&gt;
-&lt;p&gt;This example demonstrates how to set a global filter using the &lt;code&gt;jdk.serialFilter&lt;/code&gt; system property to allow only classes
-within &lt;code&gt;com.example.allowed&lt;/code&gt; and reject all others.&lt;/p&gt;
+&lt;code&gt;ObjectInputStream&lt;/code&gt;. As an example, suppose we have 2 serializable classes: &lt;strong&gt;AllowedClass&lt;/strong&gt; and &lt;strong&gt;RestrictedClass&lt;/strong&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;package com.example.allowed;
 
 import java.io.Serial;
@@ -206,9 +202,20 @@ public class RestrictedClass implements Serializable {
     }
 }
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To make sure &lt;code&gt;AllowedClass&lt;/code&gt; can be deserialized while &lt;code&gt;RestrictedClass&lt;/code&gt; cannot, we can use either
+&lt;a href=&quot;#pattern-based-filter-system-property-example&quot;&gt;pattern-based filters defined via system properties&lt;/a&gt; or security
+properties, or &lt;a&gt;programmatically using the &lt;code&gt;ObjectInputFilter&lt;/code&gt; API&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;Pattern-Based Filter (System Property Example)&lt;/h4&gt;
+&lt;p&gt;This example demonstrates how to set a global filter using the &lt;code&gt;jdk.serialFilter&lt;/code&gt; system property to allow only classes
+within &lt;code&gt;com.example.allowed&lt;/code&gt; and reject all others.&lt;/p&gt;
 &lt;p&gt;If the JDK system property has been set with &lt;code&gt;-Djdk.serialFilter=&quot;com.example.allowed.*;!*&quot;&lt;/code&gt;, the following runtime
 should execute successfully without error for &lt;code&gt;AllowedClass&lt;/code&gt; and throw exception for &lt;code&gt;RestrictedClass&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;import java.io.Serializable;
+&lt;pre&gt;&lt;code&gt;import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
 
 public static void serialize(Serializable obj, Class&amp;lt;? extends Serializable&amp;gt; clazz) {
     try (ByteArrayOutputStream bos = new ByteArrayOutputStream(); ObjectOutputStream oos = new ObjectOutputStream(bos)) {
@@ -229,6 +236,44 @@ RestrictedClass restricted = new RestrictedClass(&quot;Secret Data!&quot;);
 serialize(allowed, AllowedClass.class);       // ✅
 serialize(restricted, RestrictedClass.class); // ❌ runtime error
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;Programmatic Filter (ObjectInputFilter API)&lt;/h4&gt;
+&lt;p&gt;This example shows how to set a filter directly on an &lt;code&gt;ObjectInputStream&lt;/code&gt; using the &lt;code&gt;ObjectInputFilter&lt;/code&gt; interface.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputFilter;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+
+public static void serialize(Serializable obj, Class&amp;lt;? extends Serializable&amp;gt; clazz) {
+    try (ByteArrayOutputStream bos = new ByteArrayOutputStream(); ObjectOutputStream oos = new ObjectOutputStream(bos)) {
+        oos.writeObject(obj);
+
+        try (ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
+             ObjectInputStream ois = new ObjectInputStream(bis)) {
+            ois.setObjectInputFilter(info -&amp;gt; {
+                if (info.serialClass() != null &amp;amp;&amp;amp; info.serialClass().getName().startsWith(&quot;com.example.allowed&quot;)) {
+                    return ObjectInputFilter.Status.ALLOWED;
+                }
+                return ObjectInputFilter.Status.REJECTED;
+            });
+
+            Serializable result = clazz.cast(ois.readObject());
+        }
+    } catch (IOException | ClassNotFoundException exception) {
+        throw new IllegalStateException(exception);
+    }
+}
+
+AllowedClass allowed = new AllowedClass(&quot;Hello Allowed!&quot;);
+RestrictedClass restricted = new RestrictedClass(&quot;Secret Data!&quot;);
+
+serialize(allowed, AllowedClass.class);       // ✅
+serialize(restricted, RestrictedClass.class); // ❌ runtime error
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this example, the &lt;code&gt;setObjectInputFilter&lt;/code&gt; method is used on the &lt;code&gt;ObjectInputStream&lt;/code&gt; to apply a lambda expression as
+the filter. This filter explicitly allows classes starting with &lt;code&gt;com.example.allowed&lt;/code&gt; and rejects all others.&lt;/p&gt;
 &lt;p&gt;(To be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>George Berkeley</title><link>https://leadership.qubitpi.org/posts/berkeley/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/berkeley/</guid><description>George Berkeley was an Anglo-Irish philosopher who is regarded as the founder of &quot;immaterialism&quot;, which was later
 referred to as &quot;subjective idealism&quot;. As a leading figure in the empiricism movement, he had a profound influence on
