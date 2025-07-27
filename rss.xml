@@ -204,7 +204,7 @@ public class RestrictedClass implements Serializable {
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;To make sure &lt;code&gt;AllowedClass&lt;/code&gt; can be deserialized while &lt;code&gt;RestrictedClass&lt;/code&gt; cannot, we can use either
 &lt;a href=&quot;#pattern-based-filter-system-property-example&quot;&gt;pattern-based filters defined via system properties&lt;/a&gt; or security
-properties, or &lt;a&gt;programmatically using the &lt;code&gt;ObjectInputFilter&lt;/code&gt; API&lt;/a&gt;.&lt;/p&gt;
+properties, or &lt;a href=&quot;#programmatic-filter-objectinputfilter-api&quot;&gt;programmatically using the &lt;code&gt;ObjectInputFilter&lt;/code&gt; API&lt;/a&gt;.&lt;/p&gt;
 &lt;h4&gt;Pattern-Based Filter (System Property Example)&lt;/h4&gt;
 &lt;p&gt;This example demonstrates how to set a global filter using the &lt;code&gt;jdk.serialFilter&lt;/code&gt; system property to allow only classes
 within &lt;code&gt;com.example.allowed&lt;/code&gt; and reject all others.&lt;/p&gt;
@@ -233,8 +233,8 @@ public static void serialize(Serializable obj, Class&amp;lt;? extends Serializab
 AllowedClass allowed = new AllowedClass(&quot;Hello Allowed!&quot;);
 RestrictedClass restricted = new RestrictedClass(&quot;Secret Data!&quot;);
 
-serialize(allowed, AllowedClass.class);       // ✅
-serialize(restricted, RestrictedClass.class); // ❌ runtime error
+serialize(allowed, AllowedClass.class);    
+serialize(restricted, RestrictedClass.class);
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4&gt;Programmatic Filter (ObjectInputFilter API)&lt;/h4&gt;
 &lt;p&gt;This example shows how to set a filter directly on an &lt;code&gt;ObjectInputStream&lt;/code&gt; using the &lt;code&gt;ObjectInputFilter&lt;/code&gt; interface.&lt;/p&gt;
