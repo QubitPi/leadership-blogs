@@ -2562,7 +2562,8 @@ choose from, ranging across all sorts of domains. Here are a few places we can l
 &lt;p&gt;Natural Language Processing&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.openslr.org/12&quot;&gt;LibriSpeech ASR&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://huggingface.co/datasets/mozilla-foundation/common_voice_11_0&quot;&gt;Common Voice dataset&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://huggingface.co/mozilla-foundation/datasets&quot;&gt;Common Voice dataset&lt;/a&gt;: a series of crowd-sourced datasets where
+speakers record text from Wikipedia in various languages&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
