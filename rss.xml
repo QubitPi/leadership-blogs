@@ -1301,7 +1301,7 @@ filtered in order to improve both security and robustness. Every ObjectInputStre
 the stream contents during deserialization. Filters are set using either a system property or a configured security
 property. The value of the &quot;jdk.serialFilter&quot; patterns are described in
 &lt;a href=&quot;http://openjdk.java.net/jeps/290&quot;&gt;JEP 290 Serialization Filtering&lt;/a&gt; and in &lt;code&gt;&amp;lt;JRE&amp;gt;/lib/security/java.security&lt;/code&gt;. Filter
-actions are logged to the &apos;java.io.serialization&apos; logger, if enabled&lt;/em&gt;&quot;.&lt;/p&gt;
+actions are logged to the &apos;java.io.serialization&apos; logger, if enabled.&lt;/em&gt;&quot;&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;JEP 290 introduced serialization filtering to Java, allowing control over which classes can be deserialized from an
 &lt;code&gt;ObjectInputStream&lt;/code&gt;. As an example, suppose we have 2 serializable classes: &lt;strong&gt;AllowedClass&lt;/strong&gt; and &lt;strong&gt;RestrictedClass&lt;/strong&gt;:&lt;/p&gt;
@@ -1416,6 +1416,27 @@ serialize(restricted, RestrictedClass.class); // ❌ runtime error
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;In this example, the &lt;code&gt;setObjectInputFilter&lt;/code&gt; method is used on the &lt;code&gt;ObjectInputStream&lt;/code&gt; to apply a lambda expression as
 the filter. This filter explicitly allows classes starting with &lt;code&gt;com.example.allowed&lt;/code&gt; and rejects all others.&lt;/p&gt;
+&lt;h3&gt;Compact Strings&lt;/h3&gt;
+&lt;p&gt;:::tip[&lt;a href=&quot;https://www.oracle.com/java/technologies/javase/9-relnotes.html#JDK-8054307&quot;&gt;JDK 9 Release Notes&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&quot;&lt;em&gt;In JDK 9 the internal character storage of the &lt;code&gt;java.lang.String&lt;/code&gt;, &lt;code&gt;StringBuilder&lt;/code&gt; and &lt;code&gt;StringBuffer&lt;/code&gt; classes has been
+changed from a UTF-16 char array to a byte array plus a one-byte encoding-flag field. The new storage representation
+stores/encodes the characters either as ISO-8859-1/Latin-1 (one byte per character), or as UTF-16 (two bytes per
+character), based upon the contents of the string. The newly added encoding flag field indicates which encoding is used.
+This feature reduces, by 50%, the amount of space required for String objects to store the characters if the String
+object only contains single-byte/ latin-1 characters.&lt;/em&gt;&quot;&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;p&gt;Before compact strings, Java&apos;s &lt;code&gt;String&lt;/code&gt; class stored characters in a &lt;code&gt;char[]&lt;/code&gt; array, where each &lt;code&gt;char&lt;/code&gt; is 2 bytes
+(UTF-16 encoding). This meant that even strings containing only ASCII characters (which could be represented by 1 byte)
+would still consume 2 bytes per character.&lt;/p&gt;
+&lt;p&gt;With &lt;a href=&quot;https://openjdk.org/jeps/254&quot;&gt;JEP 254&lt;/a&gt;, the &lt;code&gt;String&lt;/code&gt; implementation was changed to use either the old storage
+mechanism or a &lt;code&gt;byte[]&lt;/code&gt; array plus an encoding flag. If the string contains only Latin-1 characters (characters with
+code points from 0 to 255, fitting within 1 byte), it will be stored as a &lt;code&gt;byte[]&lt;/code&gt; array, effectively using 1 byte per
+character. If it contains characters outside of Latin-1 (requiring more than 1 byte), it will revert to the
+2-byte-per-character UTF-16 representation.&lt;/p&gt;
+&lt;p&gt;The compact string optimization is transparent to the developer. We continue to use the &lt;code&gt;String&lt;/code&gt; class as before. The
+JVM automatically decides the most memory-efficient internal representation based on the characters present in the
+string. This significantly reduces the memory footprint of applications that deal extensively with ASCII or Latin-1
+based strings, which is a very common scenario.&lt;/p&gt;
 &lt;p&gt;(To be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>George Berkeley</title><link>https://leadership.qubitpi.org/posts/berkeley/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/berkeley/</guid><description>George Berkeley was an Anglo-Irish philosopher who is regarded as the founder of &quot;immaterialism&quot;, which was later
 referred to as &quot;subjective idealism&quot;. As a leading figure in the empiricism movement, he had a profound influence on
