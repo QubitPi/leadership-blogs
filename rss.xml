@@ -1438,7 +1438,7 @@ JVM automatically decides the most memory-efficient internal representation base
 string. This significantly reduces the memory footprint of applications that deal extensively with ASCII or Latin-1
 based strings, which is a very common scenario.&lt;/p&gt;
 &lt;h3&gt;Ability to Limit the Capacity of Buffers That Can Be Held in the Temporary Buffer Cache&lt;/h3&gt;
-&lt;p&gt;:::tip[&lt;a href=&quot;https://www.oracle.com/java/technologies/javase/9-relnotes.html#JDK-8147468&quot;&gt;JDK 9 Release Notes&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;:::tip[&lt;a href=&quot;https://www.oracle.com/java/technologies/javase/9-relnotes.html#JDK-8156802&quot;&gt;JDK 9 Release Notes&lt;/a&gt;]&lt;/p&gt;
 &lt;p&gt;&quot;&lt;em&gt;The system property &lt;code&gt;jdk.nio.maxCachedBufferSize&lt;/code&gt; has been introduced in JDK 9 to limit the memory used by the
 &quot;temporary buffer cache&quot;. The temporary buffer cache is a per-thread cache of direct memory used by the NIO
 implementation to support applications that do I/O with buffers backed by arrays in the java heap. The value of the
