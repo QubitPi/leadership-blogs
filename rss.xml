@@ -1437,6 +1437,31 @@ character. If it contains characters outside of Latin-1 (requiring more than 1 b
 JVM automatically decides the most memory-efficient internal representation based on the characters present in the
 string. This significantly reduces the memory footprint of applications that deal extensively with ASCII or Latin-1
 based strings, which is a very common scenario.&lt;/p&gt;
+&lt;h3&gt;Ability to Limit the Capacity of Buffers That Can Be Held in the Temporary Buffer Cache&lt;/h3&gt;
+&lt;p&gt;:::tip[&lt;a href=&quot;https://www.oracle.com/java/technologies/javase/9-relnotes.html#JDK-8147468&quot;&gt;JDK 9 Release Notes&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&quot;&lt;em&gt;The system property &lt;code&gt;jdk.nio.maxCachedBufferSize&lt;/code&gt; has been introduced in JDK 9 to limit the memory used by the
+&quot;temporary buffer cache&quot;. The temporary buffer cache is a per-thread cache of direct memory used by the NIO
+implementation to support applications that do I/O with buffers backed by arrays in the java heap. The value of the
+property is the maximum capacity of a direct buffer that can be cached. If the property is not set then no limit is put
+on the size of buffers that are cached. Applications with certain patterns of I/O usage may benefit from using this
+property. In particular if an application does I/O with large multi-megabyte buffers at startup but therefore does I/O
+with small buffers may see a benefit to using this property. Applications that do I/O using direct buffers will not see
+any benefit to using this system property.&lt;/em&gt;&quot;&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
+&lt;h4&gt;Java NIO&lt;/h4&gt;
+&lt;p&gt;Understanding &lt;strong&gt;Java NIO&lt;/strong&gt; (&lt;strong&gt;New Input/Output&lt;/strong&gt;) is crucial for building high-performance, scalable applications,
+especially those dealing with network communication or large file operations. Introduced in Java 1.4, NIO provides an
+alternative and often more efficient way to handle I/O compared to the traditional &lt;code&gt;java.io&lt;/code&gt; package. In particular&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Non-blocking IO&lt;/strong&gt;: Java NIO enables us to do non-blocking IO. For instance, a thread can ask a channel to read data
+into a buffer. While the channel reads data into the buffer, the thread can do something else. Once data is read into
+the buffer, the thread can then continue processing it. The same is true for writing data to channels.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Channels and Buffers&lt;/strong&gt;: In the standard IO API we work with byte streams and character streams. In NIO we work with
+channels and buffers. Data is always read from a channel into a buffer, or written from a buffer to a channel.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Selectors&lt;/strong&gt;: Java NIO contains the concept of &quot;selectors&quot;. A &lt;strong&gt;selector&lt;/strong&gt; is an object that can monitor multiple
+channels for events (like: connection opened, data arrived etc.). Thus, a single thread can monitor multiple channels
+for data.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;(To be continued...)&lt;/p&gt;
 </content:encoded></item><item><title>George Berkeley</title><link>https://leadership.qubitpi.org/posts/berkeley/</link><guid isPermaLink="true">https://leadership.qubitpi.org/posts/berkeley/</guid><description>George Berkeley was an Anglo-Irish philosopher who is regarded as the founder of &quot;immaterialism&quot;, which was later
 referred to as &quot;subjective idealism&quot;. As a leading figure in the empiricism movement, he had a profound influence on
