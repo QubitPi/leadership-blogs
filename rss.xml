@@ -231,9 +231,24 @@ and the physical world. In this framework, determinism is not necessarily tied t
 quantum mechanics have led to debates about determinism in these contexts. The discussions continue to be an active area
 of research, with ongoing efforts to reconcile the principles of GR with the probabilistic nature of quantum mechanics.&lt;/p&gt;
 &lt;h2&gt;Quantum Mechanics&lt;/h2&gt;
-&lt;p&gt;Since the beginning of the 20th century, quantum mechanics - the physics of the extremely small - has revealed
-previously concealed aspects of events. Before that, Newtonian physics - the physics of everyday life - dominated. Taken
-in isolation (rather than as an approximation to quantum mechanics), Newtonian physics depicts a universe in which objects move in perfectly determined ways. At the scale where humans exist and interact with the universe, Newtonian mechanics remain useful, and make relatively accurate predictions (e.g. calculating the trajectory of a bullet). But whereas in theory, absolute knowledge of the forces accelerating a bullet would produce an absolutely accurate prediction of its path, modern quantum mechanics casts reasonable doubt on this main thesis of determinism.&lt;/p&gt;
+&lt;p&gt;Before Quantum Mechanics, &lt;a href=&quot;#newtonian-mechanics-and-general-relativity&quot;&gt;Newtonian physics&lt;/a&gt; dominated. Modern quantum
+mechanics, however, casts reasonable doubt on this main thesis of determinism. Quantum mechanics is the product of a
+careful application of the scientific method, logic and empiricism. Through a large number of careful experiments
+physicists developed a rather unintuitive mental model: A particle&apos;s path cannot be specified in from its quantum
+description. &quot;Path&quot; is a classical, practical attribute in everyday life, but one that quantum particles do not possess.
+Quantum mechanics attributes probability to all possible paths and asserts the only one outcome will be observed.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;./img/feynman-paths.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The randomness in quantum mechanics derives from the quantum aspect of the model. Different experimental results are
+obtained for each individual quanta. Some (including Albert Einstein) have argued that the inability to predict any more
+than probabilities is simply due to ignorance. The idea is that, beyond the conditions and laws can be observed or
+deduced, there are also hidden factors or &quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/Hidden-variable_theory&quot;&gt;hidden variables&lt;/a&gt;&quot;
+that determine absolutely in which order photons reach the detector screen. They argue that the course of the universe
+is absolutely determined, but that humans are screened from knowledge of the determinative factors. So, they say, it
+only appears that things proceed in a probabilistic way.&lt;/p&gt;
+&lt;p&gt;:::tip&lt;/p&gt;
+&lt;p&gt;Albert Einstein insisted that, &quot;&lt;em&gt;I am convinced God does not play dice&lt;/em&gt;&quot; in a private letter to Max Born, 4 December
+1926&lt;/p&gt;
+&lt;p&gt;:::&lt;/p&gt;
 &lt;h2&gt;Cause and Effect&lt;/h2&gt;
 &lt;p&gt;This article is an overview of the Cause and Effect as the Principle of Causality, establishing one event or action as
 the direct result of another, from the following 4 perspectives:&lt;/p&gt;
