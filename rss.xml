@@ -239,7 +239,7 @@ description. &quot;Path&quot; is a classical, practical attribute in everyday li
 Quantum mechanics attributes probability to all possible paths and asserts the only one outcome will be observed.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;./img/feynman-paths.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The randomness in quantum mechanics derives from the quantum aspect of the model. Different experimental results are
-obtained for each individual quanta. Some (including Albert Einstein) have argued that the inability to predict any more
+obtained for eachook  individual quanta. Some (including Albert Einstein) have argued that the inability to predict any more
 than probabilities is simply due to ignorance. The idea is that, beyond the conditions and laws can be observed or
 deduced, there are also hidden factors or &quot;&lt;a href=&quot;https://en.wikipedia.org/wiki/Hidden-variable_theory&quot;&gt;hidden variables&lt;/a&gt;&quot;
 that determine absolutely in which order photons reach the detector screen. They argue that the course of the universe
@@ -258,7 +258,7 @@ the direct result of another, from the following 4 perspectives:&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;#span-classchinese-text%E4%B8%AD%E5%9B%BD%E9%98%B4%E9%98%B3%E5%AD%A6%E8%AF%B4span&quot;&gt;Chinese Yin-Yang&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#buddhist-philosophy&quot;&gt;Buddhism&apos;s Karma&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;Kant&apos;s Metaphysics&lt;/h2&gt;
+&lt;h3&gt;Kant&apos;s Metaphysics&lt;/h3&gt;
 &lt;p&gt;The nature of cause and effect is a concern of the subject known as metaphysics. Kant primarily discusses the concept of
 cause and effect in the &lt;strong&gt;Division One - Book II - Section III - 3.B. Second
 analogy of his &lt;a href=&quot;https://leadership.qubitpi.org/posts/kritik-der-reinen-vernunft/&quot;&gt;&lt;em&gt;Critique of Pure Reason&lt;/em&gt;&lt;/a&gt;&lt;/strong&gt;:&lt;/p&gt;
@@ -273,7 +273,7 @@ were notions prior to human understanding of the progress or evolution of the wo
 of causality. But he did not have the understanding that came with knowledge of &lt;a href=&quot;https://en.wikipedia.org/wiki/Minkowski_space#Causal_structure&quot;&gt;Minkowski geometry&lt;/a&gt; and the
 &lt;a href=&quot;https://github.com/QubitPi/general-relativity&quot;&gt;Special Theory of Relativity&lt;/a&gt;, that the notion of causality can be used as a prior foundation from which to
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Causal_structure&quot;&gt;construct notions&lt;/a&gt; of time and space[^1]&lt;/p&gt;
-&lt;h2&gt;Aristotle&apos;s (Western) Philosophy&lt;/h2&gt;
+&lt;h3&gt;Aristotle&apos;s (Western) Philosophy&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;In Book II, Chapter 3 of his work &lt;a href=&quot;https://trello.com/c/fIM7TADB&quot;&gt;&lt;em&gt;Physics&lt;/em&gt;&lt;/a&gt;&lt;/strong&gt;, Aristotle considered in how many
 senses &quot;because&quot; may answer the question &quot;why&quot;. He believes understanding a thing means knowing its &quot;how and why&quot; and
 gave the following rough classification of the causal determinants of things:&lt;/p&gt;
@@ -301,7 +301,7 @@ caused its wreck by his absence.&lt;/p&gt;
 &lt;p&gt;In addition, none of them are the causes or effects of others. For example, we may say that a man is in fine condition
 because he has been in training, or that he has been in training because of the good condition he expected as the
 result. But one is the cause as aim (Final Cause) and the other as initiating the process (Efficient Cause).&lt;/p&gt;
-&lt;h2&gt;&amp;lt;span class=&quot;chinese-text&quot;&amp;gt;中国阴阳学说&amp;lt;/span&amp;gt;&lt;/h2&gt;
+&lt;h3&gt;&amp;lt;span class=&quot;chinese-text&quot;&amp;gt;中国阴阳学说&amp;lt;/span&amp;gt;&lt;/h3&gt;
 &lt;p&gt;&amp;lt;span class=&quot;chinese-text&quot;&amp;gt;春秋战国末期，观星学有了很大的发展，对后世产生了很深远的影响。人们将星象分门别类，用星象“感应”来描述世间的种种现象
 （Theory of causality）。其中 &lt;strong&gt;《吕氏春秋》&lt;/strong&gt; 中的一段文字对此有代表性的描述:&amp;lt;/span&amp;gt;&lt;/p&gt;
 &lt;p&gt;:::note[《吕氏春秋》，有始览第一，应同篇]&lt;/p&gt;
@@ -310,7 +310,7 @@ result. But one is the cause as aim (Final Cause) and the other as initiating th
 众人以为命，安知其所？&amp;lt;/span&amp;gt;[^3]&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
 &lt;p&gt;&amp;lt;span class=&quot;chinese-text&quot;&amp;gt;除此之外，世间万物亦可划分以阴阳、五行、以及 &lt;strong&gt;《易经》&lt;/strong&gt; 中的八卦。&amp;lt;/span&amp;gt;&lt;/p&gt;
-&lt;h2&gt;Buddhist Philosophy&lt;/h2&gt;
+&lt;h3&gt;Buddhist Philosophy&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Karma&quot;&gt;Karma&lt;/a&gt; (Sanskrit: &lt;em&gt;कर्म&lt;/em&gt;) is the causality principle focusing on 1) causes, 2)
 actions, 3) effects, where it is the mind&apos;s phenomena that guide the actions that the actor performs. Buddhism trains 3)
 the actor&apos;s actions for continued and uncontrived virtuous outcomes aimed at reducing suffering. This follows the 4)
@@ -337,7 +337,7 @@ causality occurs in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Brihadara
 这和&lt;a href=&quot;https://genshin-impact.fandom.com/wiki/Nahida&quot;&gt;纳西妲的元素战技“灭净三业”&lt;/a&gt;中的“业”是一个意思&amp;lt;/span&amp;gt;（&amp;lt;span class=&quot;chinese-text&quot;&amp;gt;三业&amp;lt;/span&amp;gt; = Tri-Karma）
 &lt;img src=&quot;./nahida.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;:::&lt;/p&gt;
-&lt;h3&gt;Taoism&lt;/h3&gt;
+&lt;h4&gt;Taoism&lt;/h4&gt;
 &lt;p&gt;Karma is an important concept in Taoism. Every deed is tracked by deities and spirits. Appropriate rewards or
 retribution follow karma, just like a shadow follows a person.&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
