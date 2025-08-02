@@ -1,7 +1,7 @@
 ---
 title: Machine Learning
 published: 2025-06-05
-updated: 2025-07-28
+updated: 2025-08-02
 description: |
   Machine Learning is to me is the transcendentalization of my combined passion toward Software Engineering and Data
   Analytics. While Artificial Intelligence (AI) is a broad field encompassing the creation of machines that can perform
@@ -1394,6 +1394,42 @@ Frameworks like [LangChain make it easy to build RAG applications](https://pytho
 providing a unified interface to connect LLMs to external databases via APIs.
 [Neo4j vector index](https://neo4j.com/blog/developer/langchain-library-full-support-neo4j-vector-index/) on the
 LangChain library helps simplify the indexing process.
+
+#### RAG is Not the Final Answer
+
+People just started building RAG systems would feel like magic: retrieve the right documents and let the model generate.
+No hallucinations or hand holding, and we get clean and grounded answers. But then the cracks showed over time. RAG
+worked fine on simple questions, but when the input is longer and poorly structured, or when multi-step reasoning is
+involved, it starts to struggle. Tweaking chunk sizes or plying with hybrid search for example have been shown to
+improve the output only _slightly_.
+
+The core issue is that RAG retrieves but it doesn't reason or plan. Due to its limitations, RAG has been widely regarded
+a _starting point_, not a solution. if we are inputting real world queries, we need memory and planning. One better
+example would be to wrap RAG in a task planner instead of endless fine-tuning.
+
+For example, if we use RAG with some technical manuals and ask "explain this differently, make it easier to digest, and
+give me a class on this subject as an instructor would". That is going to be a great use case for RAG when paired with a
+strong prompt strategy and clear retrieval scope. If the technical manuals are well-structured and chunked, a RAG system
+can definitely retrieve relevant sections and reframe them into simplified, instructional content. For more dynamic
+behavior like teaching styles, adapting explanations to learner feedback, or building a step-by-step curriculum,
+however, we would likely benefit from layering in agentic behavior or an instructional persona agent on top of RAG.
+That's where combining memory, reasoning, and planning starts to elevate the experience beyond static retrieval.
+[Googles Notebook LM](https://notebooklm.google.com/) would be a good playground to demonstrate this.
+
+This is not RAG's fault, because __"RAG cannot plan" is like saying Elasticsearch or Google search cannot plan. These
+are information retrieval systems, they are not supposed to plan anything but to retrieve information__. If we want
+planning capabilities, we should add agents and that is a very different level of complexity. Therefore people
+interested in exploring this direction is recommended checking out
+[_Building Business-Ready Generative AI Systems_](https://github.com/Denis2054/Building-Business-Ready-Generative-AI-Systems).
+It goes deep into combining RAG with agentic design, memory, and reasoning flows basically everything that starts where
+traditional RAG ends.
+
+::tip
+
+At the end of the day, RAG should be a component of agentic frameworks that we use to get our system to reply
+appropriately beyond the information retrieval. __Planning would be a true AI feature, LLMs are not it__
+
+:::
 
 #### GraphRAG
 
